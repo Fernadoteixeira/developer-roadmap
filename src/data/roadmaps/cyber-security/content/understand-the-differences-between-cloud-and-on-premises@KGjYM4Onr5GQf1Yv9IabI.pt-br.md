@@ -1,0 +1,8 @@
+# Entenda as diferenças entre nuvem e local
+
+A computação em nuvem envolve o uso de servidores remotos hospedados na Internet para armazenar, gerenciar e processar dados, em vez de um servidor local ou computador pessoal. Ele oferece escalabilidade, flexibilidade e, muitas vezes, custos iniciais mais baixos. Os usuários podem acessar recursos sob demanda e pagar pelo que usam. As soluções em nuvem fornecem acesso remoto mais fácil e atualizações automáticas, mas podem levantar questões de segurança e conformidade dos dados. No local (ou local) refere-se à instalação e execução de software em computadores e servidores localizados nas instalações físicas de uma organização. Esta abordagem oferece um controle mais direto sobre dados e sistemas, desempenho potencialmente melhor para determinadas aplicações e pode atender a requisitos regulatórios específicos. No entanto, normalmente requer maior investimento inicial, manutenção contínua e pode ser menos escalável do que as soluções em nuvem. Muitas organizações agora adotam abordagens híbridas, combinando soluções em nuvem e locais para equilibrar suas necessidades específicas de controle, economia e flexibilidade.
+
+Saiba mais sobre os seguintes recursos:
+
+- [@article@O que são data centers locais versus computação em nuvem?](https://www.hpe.com/uk/en/what-is/on-premises-vs-cloud.html)
+- [@video@On Premise vs Cloud: A computação em nuvem é o futuro?](https://www.youtube.com/watch?v=FuPh2o-GMDA)
