@@ -1,0 +1,5 @@
+# Forçar tipo de conteúdo
+
+> Sempre force o cabeçalho `Content-Type` a ser definido para o tipo MIME relevante.
+
+Forçar o tipo de conteúdo para segurança da API é importante porque garante que o cliente e o servidor estejam se comunicando em um formato mutuamente acordado para os dados que estão sendo transmitidos. Isso pode evitar ataques como falsificação ou injeção de conteúdo, em que um invasor tenta enganar o servidor para que processe conteúdo malicioso, fingindo que é de um tipo de conteúdo diferente. Ao forçar o tipo de conteúdo para um formato específico, o servidor pode validar se os dados que está recebendo são legítimos e seguros para processamento. Além disso, forçar o tipo de conteúdo pode ajudar a evitar certos tipos de erros de análise que poderiam ser explorados por invasores.

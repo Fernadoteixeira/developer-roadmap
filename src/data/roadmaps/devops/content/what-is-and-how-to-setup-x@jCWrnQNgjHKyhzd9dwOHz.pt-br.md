@@ -1,9 +1,10 @@
-# Configuração **\_\_\_\_**
+# Configurando **\_\_\_\_**
 
 Aprenda como configurar:
 
-- Proxy Reverso
-- Balanceador de Carga
-- Firewall
-- Servidor de Cache
+- Proxy de encaminhamento
+- Proxy reverso
+- Balanceador de carga
+-Firewall
+- Servidor de cache
 - Servidor Web
