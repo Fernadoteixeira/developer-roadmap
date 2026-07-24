@@ -81,3 +81,27 @@ export async function translateTextWithDLX(
 
   throw new Error(`Failed to translate text after ${maxRetries} attempts.`);
 }
+
+export async function translateTextWithGTX(
+  text: string,
+  targetLang: string = 'pt',
+): Promise<string> {
+  if (!text || text.trim() === '') {
+    return text;
+  }
+
+  const url = `https://translate.googleapis.com/translate_a/single?client=gtx&sl=auto&tl=${targetLang}&dt=t&q=${encodeURIComponent(text)}`;
+  const response = await fetch(url);
+
+  if (!response.ok) {
+    throw new Error(`GTX API error (${response.status}): ${await response.text()}`);
+  }
+
+  const json = (await response.json()) as any[];
+  if (Array.isArray(json) && Array.isArray(json[0])) {
+    return json[0].map((item: any) => item[0] || '').join('');
+  }
+
+  throw new Error('Invalid GTX response format');
+}
+

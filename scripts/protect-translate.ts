@@ -1,10 +1,10 @@
 import * as fs from 'fs';
 import * as path from 'path';
-import { translateTextWithDLX } from './dlx-translate';
+import { translateTextWithDLX, translateTextWithGTX } from './dlx-translate';
 
 const args = process.argv.slice(2);
 const sourceFile = args[0];
-const engine = args[1] || 'dlx';
+const engine = args[1] || 'gtx';
 
 if (!sourceFile) {
   console.error('Usage: node node_modules/tsx/dist/cli.mjs scripts/protect-translate.ts <source-file> [engine]');
@@ -55,6 +55,7 @@ async function runTranslation() {
 
     const CHUNK_CHAR_LIMIT = 1500;
     let currentBatch = '';
+    const delayMs = engine === 'gtx' ? 100 : 500;
 
     for (let i = 0; i < paragraphs.length; i++) {
       const p = paragraphs[i];
@@ -64,8 +65,7 @@ async function runTranslation() {
           const translated = await translateChunk(currentBatch, engine);
           translatedParagraphs.push(translated);
           currentBatch = '';
-          // Pace requests to respect DLX / DeepL rate limit
-          await new Promise((res) => setTimeout(res, 1500));
+          await new Promise((res) => setTimeout(res, delayMs));
         }
         translatedParagraphs.push(p);
         continue;
@@ -76,8 +76,7 @@ async function runTranslation() {
           const translated = await translateChunk(currentBatch, engine);
           translatedParagraphs.push(translated);
           currentBatch = '';
-          // Pace requests to respect DLX / DeepL rate limit
-          await new Promise((res) => setTimeout(res, 1500));
+          await new Promise((res) => setTimeout(res, delayMs));
         }
       }
 
@@ -99,11 +98,10 @@ async function runTranslation() {
     // Write translated file directly
     fs.writeFileSync(targetFile, translatedContent, 'utf-8');
 
-    console.log(`[DLX Translator] Successfully translated: ${targetFile}`);
-    process.exit(0);
+    console.log(`[Translator] Successfully translated: ${targetFile}`);
   } catch (error) {
-    console.error(`[DLX Translator Error] Failed for ${sourceFile}:`, error);
-    process.exit(1);
+    console.error(`[Translator Error] Failed for ${sourceFile}:`, error);
+    process.exitCode = 1;
   }
 }
 
@@ -114,15 +112,23 @@ async function translateChunk(text: string, selectedEngine: string): Promise<str
   }
 
   if (selectedEngine === 'dlx') {
-    return await translateTextWithDLX(text, {
-      endpoint: 'http://localhost:1188/translate',
-      targetLang: 'PT',
-      maxRetries: 10,
-      retryDelayMs: 10000,
-    });
+    try {
+      return await translateTextWithDLX(text, {
+        endpoint: 'http://localhost:1188/translate',
+        targetLang: 'PT',
+        maxRetries: 1,
+        retryDelayMs: 1000,
+      });
+    } catch (err) {
+      console.warn(`[DLX Fallback] DLX failed/rate-limited. Falling back to GTX engine...`);
+      return await translateTextWithGTX(text, 'pt');
+    }
+  } else if (selectedEngine === 'gtx') {
+    return await translateTextWithGTX(text, 'pt');
   } else {
     throw new Error(`Unsupported engine: ${selectedEngine}`);
   }
 }
 
 runTranslation();
+
