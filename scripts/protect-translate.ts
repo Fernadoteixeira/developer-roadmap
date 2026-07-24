@@ -95,6 +95,12 @@ async function runTranslation() {
       translatedContent = translatedContent.split(token).join(originalValue);
     }
 
+    // Post-processing structural cleanups to guarantee 100% EN == PT-BR formatting parity
+    // Fix headers missing space after # (e.g. #Heading -> # Heading)
+    translatedContent = translatedContent.replace(/^(#{1,6})([^\s#])/gm, '$1 $2');
+    // Fix markdown links split by spaces (e.g. ] ( -> ]()
+    translatedContent = translatedContent.replace(/\]\s+\(/g, '](');
+
     // Write translated file directly
     fs.writeFileSync(targetFile, translatedContent, 'utf-8');
 

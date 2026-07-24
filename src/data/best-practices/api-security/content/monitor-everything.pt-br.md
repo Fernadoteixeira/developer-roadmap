@@ -1,0 +1,7 @@
+# Monitore tudo
+
+> Use agentes para monitorar todas as solicitações, respostas e erros.
+
+O uso de agentes para monitorar todas as solicitações, respostas e erros permite o monitoramento e a detecção em tempo real de qualquer atividade anormal ou ataques potenciais. Esses agentes podem ser configurados para rastrear métricas como tempos de resposta, taxas de erro e padrões de uso, o que pode ajudar a identificar quaisquer anomalias que possam ser indicativas de um ataque. Ao monitorar todas as solicitações e respostas, os agentes podem fornecer visibilidade do comportamento da API, o que pode ajudar a identificar possíveis vulnerabilidades ou pontos fracos de segurança. Além disso, os agentes podem ser usados ​​para registrar e analisar todos os dados que fluem pela API, o que pode ser útil para fins de depuração e auditoria.
+
+Para usar agentes para monitoramento, uma solução de monitoramento dedicada pode ser implantada juntamente com a API. Esta solução pode ser configurada para capturar dados de todas as solicitações e respostas e analisar os dados em busca de quaisquer anomalias ou problemas. Os agentes podem ser implementados usando diversas ferramentas e tecnologias de monitoramento, como agentes para monitoramento de desempenho de aplicativos (APM), monitoramento de log e monitoramento de rede. Os agentes devem ser configurados para fornecer alertas em tempo real às equipes de segurança caso seja detectada alguma atividade suspeita, permitindo a tomada de medidas imediatas.

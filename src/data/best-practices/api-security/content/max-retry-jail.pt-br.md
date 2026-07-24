@@ -1,0 +1,7 @@
+# Max Novas Tentativas/Prisão no Login
+
+> Os recursos "Max Retry" e "jail" são comumente usados ​​em mecanismos de login para aumentar a segurança e evitar ataques de força bruta.
+
+**Max Retry:** O recurso "Max Retry" limita o número de tentativas de login que um usuário pode fazer dentro de um período de tempo especificado. Após um certo número de tentativas de login malsucedidas, o usuário fica bloqueado em sua conta por um período de tempo especificado, normalmente vários minutos ou horas. Isso ajuda a evitar ataques de força bruta, em que um invasor tenta adivinhar a senha de um usuário fazendo repetidas tentativas de login. Ao limitar o número de tentativas, o sistema pode retardar ou impedir tais ataques.
+
+**Prisão:** O recurso "prisão" envolve o bloqueio de endereços IP ou contas de usuário que excederam o número máximo de tentativas de login malsucedidas em um determinado período de tempo. Os endereços IP ou contas de usuário bloqueadas são impedidos de tentar novos logins por um período de tempo especificado, normalmente vários minutos ou horas. Isso ajuda a prevenir ataques de força bruta e também fornece um mecanismo para impedir que usuários mal-intencionados tentem repetidamente acessar uma conta ou sistema.
