@@ -10,7 +10,7 @@ param(
     [string]$Engine = "dlx"
 )
 
-$ErrorActionPreference = "Stop"
+$ErrorActionPreference = "Continue"
 
 $StateDir = ".translation-state"
 $ManifestPath = Join-Path $StateDir "manifest.jsonl"
@@ -35,14 +35,22 @@ if ($Directory) {
 }
 
 if ($Resume) {
-    $Entries = $Entries | Where-Object { $_.status -eq "pending" }
+    # Filter out already completed files
+    $CompletedSources = @{}
+    if (Test-Path $CompletedPath) {
+        Get-Content $CompletedPath | ForEach-Object {
+            $item = $_ | ConvertFrom-Json
+            $CompletedSources[$item.source] = $true
+        }
+    }
+    $Entries = $Entries | Where-Object { -not $CompletedSources.ContainsKey($_.source) }
 }
 
 $ProcessedCount = 0
 
 foreach ($Entry in $Entries) {
     if ($Limit -gt 0 -and $ProcessedCount -ge $Limit) {
-        Write-Host "Limit of $Limit reached. Stopping."
+        Write-Host "Limit of $Limit reached. Stopping." -ForegroundColor Yellow
         break
     }
 
@@ -52,7 +60,7 @@ foreach ($Entry in $Entries) {
     if ((Test-Path $Entry.target) -and -not $Force) {
         $SourceHash = (Get-FileHash $Entry.source -Algorithm SHA256).Hash.ToLower()
         if ("sha256:$SourceHash" -eq $Entry.sourceHash) {
-            Write-Host "  -> Skipping (already translated). Use -Force to override." -ForegroundColor Yellow
+            Write-Host "  -> Skipping (already translated)." -ForegroundColor Yellow
             continue
         } else {
             Write-Host "  -> Source hash changed. Retranslating..." -ForegroundColor Cyan
@@ -79,10 +87,13 @@ foreach ($Entry in $Entries) {
             $Entry | ConvertTo-Json -Compress | Add-Content $CompletedPath
             Write-Host "  -> Success." -ForegroundColor Green
         } else {
-            throw "Process exited with code $LASTEXITCODE"
+            Write-Host "  -> Failed with exit code $LASTEXITCODE" -ForegroundColor Red
+            $Entry | Add-Member -NotePropertyName "status" -NotePropertyValue "failed" -Force
+            $Entry | Add-Member -NotePropertyName "finishedAt" -NotePropertyValue (Get-Date -Format "o") -Force
+            $Entry | ConvertTo-Json -Compress | Add-Content $FailedPath
         }
     } catch {
-        Write-Error "  -> Failed: $_"
+        Write-Host "  -> Failed: $_" -ForegroundColor Red
         $Entry | Add-Member -NotePropertyName "status" -NotePropertyValue "failed" -Force
         $Entry | Add-Member -NotePropertyName "error" -NotePropertyValue $_.ToString() -Force
         $Entry | Add-Member -NotePropertyName "finishedAt" -NotePropertyValue (Get-Date -Format "o") -Force
@@ -90,6 +101,7 @@ foreach ($Entry in $Entries) {
     }
 
     $ProcessedCount++
+    Start-Sleep -Seconds 1
 }
 
-Write-Host "Batch run complete. Processed $ProcessedCount files."
+Write-Host "Batch run complete. Processed $ProcessedCount files." -ForegroundColor Green

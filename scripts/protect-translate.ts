@@ -65,7 +65,7 @@ async function runTranslation() {
           translatedParagraphs.push(translated);
           currentBatch = '';
           // Pace requests to respect DLX / DeepL rate limit
-          await new Promise((res) => setTimeout(res, 1200));
+          await new Promise((res) => setTimeout(res, 1500));
         }
         translatedParagraphs.push(p);
         continue;
@@ -77,7 +77,7 @@ async function runTranslation() {
           translatedParagraphs.push(translated);
           currentBatch = '';
           // Pace requests to respect DLX / DeepL rate limit
-          await new Promise((res) => setTimeout(res, 1200));
+          await new Promise((res) => setTimeout(res, 1500));
         }
       }
 
@@ -117,8 +117,8 @@ async function translateChunk(text: string, selectedEngine: string): Promise<str
     return await translateTextWithDLX(text, {
       endpoint: 'http://localhost:1188/translate',
       targetLang: 'PT',
-      maxRetries: 8,
-      retryDelayMs: 5000,
+      maxRetries: 10,
+      retryDelayMs: 10000,
     });
   } else {
     throw new Error(`Unsupported engine: ${selectedEngine}`);
