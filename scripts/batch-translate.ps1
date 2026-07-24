@@ -2,11 +2,12 @@
 
 param(
     [string]$Roadmap = "",
+    [string]$Directory = "",
     [int]$Limit = 0,
     [switch]$Resume,
     [switch]$Force,
     [switch]$DryRun,
-    [string]$Engine = "ollama"
+    [string]$Engine = "dlx"
 )
 
 $ErrorActionPreference = "Stop"
@@ -17,8 +18,8 @@ $CompletedPath = Join-Path $StateDir "completed.jsonl"
 $FailedPath = Join-Path $StateDir "failed.jsonl"
 
 if (-not (Test-Path $ManifestPath)) {
-    Write-Error "Manifest not found. Run inventory-markdown.ps1 first."
-    exit 1
+    Write-Host "Manifest not found. Running inventory-markdown.ps1..." -ForegroundColor Yellow
+    powershell -ExecutionPolicy Bypass -File scripts/inventory-markdown.ps1
 }
 
 $Lines = Get-Content $ManifestPath
@@ -26,6 +27,11 @@ $Entries = $Lines | ForEach-Object { $_ | ConvertFrom-Json }
 
 if ($Roadmap) {
     $Entries = $Entries | Where-Object { $_.source -match "^src/data/roadmaps/$Roadmap/" }
+}
+
+if ($Directory) {
+    $DirectoryNormalized = $Directory -replace '\\', '/'
+    $Entries = $Entries | Where-Object { $_.source -like "$DirectoryNormalized*" }
 }
 
 if ($Resume) {
@@ -46,7 +52,7 @@ foreach ($Entry in $Entries) {
     if ((Test-Path $Entry.target) -and -not $Force) {
         $SourceHash = (Get-FileHash $Entry.source -Algorithm SHA256).Hash.ToLower()
         if ("sha256:$SourceHash" -eq $Entry.sourceHash) {
-            Write-Host "  -> Skipping (already translated and source hasn't changed). Use -Force to override." -ForegroundColor Yellow
+            Write-Host "  -> Skipping (already translated). Use -Force to override." -ForegroundColor Yellow
             continue
         } else {
             Write-Host "  -> Source hash changed. Retranslating..." -ForegroundColor Cyan
@@ -64,8 +70,8 @@ foreach ($Entry in $Entries) {
     $Entry | Add-Member -NotePropertyName "engine" -NotePropertyValue $Engine -Force
 
     try {
-        # Call the token-safe translation wrapper
-        npx.cmd tsx scripts/protect-translate.ts "$($Entry.source)" $Engine
+        # Call the token-safe DLX translation wrapper
+        node node_modules/tsx/dist/cli.mjs scripts/protect-translate.ts "$($Entry.source)" $Engine
         
         if ($LASTEXITCODE -eq 0) {
             $Entry | Add-Member -NotePropertyName "status" -NotePropertyValue "completed" -Force

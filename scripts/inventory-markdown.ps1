@@ -1,17 +1,19 @@
 # scripts/inventory-markdown.ps1
 
+param(
+    [string]$ContentRoot = "src\data"
+)
+
 $ErrorActionPreference = "Stop"
 
 $StateDir = ".translation-state"
 $ManifestPath = Join-Path $StateDir "manifest.jsonl"
-$ContentRoot = "src\data\roadmaps"
 
 if (-not (Test-Path $StateDir)) {
     New-Item -ItemType Directory -Force -Path $StateDir | Out-Null
 }
 
 $Files = Get-ChildItem -Path $ContentRoot -Filter "*.md" -Recurse | Where-Object {
-    $_.FullName -match "\\content\\" -and 
     $_.Name -notmatch "pt-br\.md$" -and 
     $_.Name -notmatch "pt-BR\.md$" -and
     $_.FullName -notmatch "node_modules"
@@ -35,8 +37,8 @@ foreach ($File in $Files) {
         source = $RelativePath
         target = $TargetRelativePath
         sourceHash = "sha256:$HashString"
-        engine = "ollama"
-        model = "translategemma:latest"
+        engine = "dlx"
+        model = "deepl-free"
         status = "pending"
         attempts = 0
     }
@@ -48,4 +50,3 @@ foreach ($File in $Files) {
 
 [System.IO.File]::WriteAllLines((Resolve-Path -Path ".").Path + "\" + $ManifestPath, $Lines)
 Write-Host "Inventory complete. $Count files written to $ManifestPath"
-

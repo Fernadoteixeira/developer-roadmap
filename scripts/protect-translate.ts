@@ -7,7 +7,7 @@ const sourceFile = args[0];
 const engine = args[1] || 'dlx';
 
 if (!sourceFile) {
-  console.error('Usage: npx tsx protect-translate.ts <source-file> [engine]');
+  console.error('Usage: node node_modules/tsx/dist/cli.mjs scripts/protect-translate.ts <source-file> [engine]');
   process.exit(1);
 }
 
@@ -17,7 +17,6 @@ if (!fs.existsSync(sourceFile)) {
 }
 
 const targetFile = sourceFile.replace(/\.md$/, '.pt-br.md');
-const tmpSource = `${sourceFile}.tmp.source.md`;
 
 async function runTranslation() {
   try {
@@ -54,7 +53,7 @@ async function runTranslation() {
     const paragraphs = content.split(/(\r?\n\r?\n)/);
     const translatedParagraphs: string[] = [];
 
-    const CHUNK_CHAR_LIMIT = 2000;
+    const CHUNK_CHAR_LIMIT = 1500;
     let currentBatch = '';
 
     for (let i = 0; i < paragraphs.length; i++) {
@@ -65,6 +64,8 @@ async function runTranslation() {
           const translated = await translateChunk(currentBatch, engine);
           translatedParagraphs.push(translated);
           currentBatch = '';
+          // Pace requests to respect DLX / DeepL rate limit
+          await new Promise((res) => setTimeout(res, 1200));
         }
         translatedParagraphs.push(p);
         continue;
@@ -75,6 +76,8 @@ async function runTranslation() {
           const translated = await translateChunk(currentBatch, engine);
           translatedParagraphs.push(translated);
           currentBatch = '';
+          // Pace requests to respect DLX / DeepL rate limit
+          await new Promise((res) => setTimeout(res, 1200));
         }
       }
 
@@ -114,6 +117,8 @@ async function translateChunk(text: string, selectedEngine: string): Promise<str
     return await translateTextWithDLX(text, {
       endpoint: 'http://localhost:1188/translate',
       targetLang: 'PT',
+      maxRetries: 8,
+      retryDelayMs: 5000,
     });
   } else {
     throw new Error(`Unsupported engine: ${selectedEngine}`);
