@@ -1,0 +1,3 @@
+# Problemas potenciais
+
+Ser proativo em relação a possíveis problemas de desempenho, segurança e escalabilidade pode economizar tempo e esforço significativos, além de garantir que seu código seja otimizado para crescimento e adaptabilidade. Para ter certeza de que você está abordando essas questões durante a revisão, considere as seguintes dicas: analise a complexidade de quaisquer algoritmos usados, garanta o gerenciamento adequado da memória, valide as entradas do usuário e planeje melhorias futuras. Ao manter esses fatores em mente, você pode contribuir efetivamente para a construção de uma solução de software estável e eficiente.
