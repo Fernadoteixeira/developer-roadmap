@@ -1,0 +1,5 @@
+# Use sistemas IDS/IPS
+
+> Utilize sistemas IDS e/ou IPS para detectar e bloquear ataques.
+
+Sistemas de detecção de intrusões (IDS) e sistemas de prevenção de intrusões (IPS) podem ser usados ​​para detectar e bloquear ataques. Esses sistemas podem ser configurados para monitorar todo o tráfego de entrada e saída e detectar qualquer atividade suspeita. Caso seja detectada alguma atividade suspeita, os sistemas podem ser configurados para bloquear o tráfego, impedindo o sucesso do ataque. Os sistemas IDS e IPS podem ser implementados usando várias ferramentas e tecnologias, como sistemas de detecção de intrusão de rede (NIDS), sistemas de detecção de intrusão baseados em host (HIDS) e sistemas de prevenção de intrusão de rede (NIPS). Esses sistemas podem ser implantados juntamente com a API e configurados para monitorar todo o tráfego de entrada e saída. Os sistemas podem ser configurados para fornecer alertas em tempo real às equipes de segurança caso seja detectada alguma atividade suspeita, permitindo a tomada de medidas imediatas.

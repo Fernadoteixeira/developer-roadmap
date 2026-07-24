@@ -1,0 +1,5 @@
+# Serviço em servidores
+
+> Servidores são efêmeros, você não se importa com eles. Você só se preocupa com o serviço como um todo.
+
+Se um único servidor morrer, isso não deverá ser uma grande preocupação para você. É aqui que entra o benefício real da AWS em comparação com o uso de servidores físicos. Normalmente, se um servidor físico morre, há pânico. Com a AWS, você não se importa, porque o escalonamento automático lhe dará uma nova instância em breve. A Netflix deu vários passos adiante com seu [exército símio](http://techblog.netflix.com/2011/07/netflix-simian-army.html), onde eles têm coisas como [Chaos Monkey](https://github.com/netflix/chaosmonkey), que matará instâncias aleatórias em produção (eles também têm Chaos Gorilla para matar AZs e ouvi rumores de um Chaos Kong para matar regiões...). A questão é que os servidores falharão, mas isso não deve importar no seu aplicativo.

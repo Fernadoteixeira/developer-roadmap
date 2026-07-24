@@ -1,0 +1,5 @@
+# Usar VPC
+
+Configurar uma VPC parece uma dor no início, mas quando você começa a brincar com ela, é surpreendentemente fácil de configurar e começar. Ele fornece todos os tipos de recursos extras em relação ao EC2 que valem o tempo extra necessário para configurar uma VPC. Primeiro, você pode controlar o tráfego no nível da rede usando ACLs, pode modificar o tamanho da instância, grupos de segurança, etc., sem precisar encerrar uma instância. Você pode especificar regras de firewall de saída (não é possível controlar o tráfego de saída do EC2 normal). Mas o mais importante é que você tem sua própria sub-rede privada, onde suas instâncias são completamente isoladas de todas as outras, o que adiciona uma camada extra de proteção.
+
+Se você estiver interessado nos detalhes internos da VPC, recomendo assistir [Um dia na vida de bilhões de pacotes](http://www.youtube.com/watch?v=Zd5hsL-JNY4) ([Slides](https://www.slideshare.net/AmazonWebServices/a-day-in-the-life-of-a-billion-packets-cpn401-aws-reinvent-2013)).

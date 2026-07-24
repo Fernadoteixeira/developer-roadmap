@@ -1,0 +1,5 @@
+# Informações de registros
+
+> Armazene informações extras em seus logs.
+
+As linhas de log normalmente têm informações como carimbo de data/hora, pid, etc. Você provavelmente também desejará adicionar ID de instância, região, zona de disponibilidade e ambiente (preparação, produção, etc.), pois isso ajudará consideravelmente na depuração. Você pode obter essas informações no [serviço de metadados de instância](http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/AESDG-chapter-instancedata.html). O método que uso é capturar essas informações como parte de meus scripts de inicialização e armazená-las em arquivos no sistema de arquivos (/env/az,/env/region, etc). Dessa forma, não estou constantemente consultando informações no serviço de metadados. Você deve certificar-se de que essas informações sejam atualizadas corretamente quando suas instâncias forem reinicializadas, pois você não deseja salvar uma AMI e manter os mesmos dados, pois eles estarão incorretos.

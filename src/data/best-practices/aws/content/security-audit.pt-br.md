@@ -1,0 +1,5 @@
+# Auditoria de segurança
+
+> Configure auditoria de segurança automatizada.
+
+É importante acompanhar as alterações nas configurações de segurança da sua infraestrutura. Uma maneira de fazer isso é primeiro configurar uma função de auditor de segurança ([modelo JSON](https://gist.github.com/bigsnarfdude/d0758b4fd335085623be)), que dará a qualquer pessoa atribuída a essa função acesso somente leitura a quaisquer configurações relacionadas à segurança em sua conta. Você pode então usar este [script Python fantástico](https://gist.github.com/jlevy/cce1b44fc24f94599d0a4b3e613cc15d), que examinará todos os itens da sua conta e produzirá uma saída canônica mostrando sua configuração. Você configura um cronjob em algum lugar para executar esse script e compara sua saída com a saída da execução anterior. Quaisquer diferenças mostrarão exatamente o que foi alterado na sua configuração de segurança. É útil configurar isso e receber por e-mail a diferença de quaisquer alterações. (Fonte: Detecção de Intrusão na Nuvem - [Apresentação](https://awsmedia.s3.amazonaws.com/SEC402.pdf))

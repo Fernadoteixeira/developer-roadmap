@@ -1,0 +1,5 @@
+# Alertas de cobrança
+
+> Configure alertas de faturamento granulares.
+
+Você deve sempre ter pelo menos um alerta de cobrança configurado, mas isso só será informado mensalmente quando você exceder seu limite. Se você deseja detectar o faturamento descontrolado antecipadamente, precisa de uma abordagem mais refinada. A forma como faço isso é configurar um alerta para meu uso esperado a cada semana. Portanto, o alerta da primeira semana para, digamos, US$ 1.000, o segundo para US$ 2.000, o terceiro para US$ 3.000, etc. Se o alarme da semana 2 disparar antes do dia 14/15 do mês, então sei que provavelmente algo está errado. Para um controle ainda mais refinado, você pode configurar isso para cada serviço individual, para saber instantaneamente qual serviço está causando o problema. Isso pode ser útil se o uso de um serviço for bastante estável mês a mês, mas outro for mais irregular. Tenha alertas semanais individuais para o constante, mas apenas um alerta geral para o mais errático. Se tudo estiver estável, provavelmente isso é um exagero, pois olhar para o CloudWatch informará rapidamente qual serviço está causando o problema.

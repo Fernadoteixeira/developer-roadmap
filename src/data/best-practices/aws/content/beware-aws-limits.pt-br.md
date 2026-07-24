@@ -1,0 +1,5 @@
+# Cuidado com os limites da AWS
+
+> Esteja ciente dos limites do serviço AWS antes de implantar.
+
+Vários limites de serviço são aplicados e não são destacados até que você esteja realmente tentando implantar seu aplicativo e receber a notificação de erro. Esses limites podem ser facilmente aumentados fazendo uma solicitação ao suporte da AWS, mas isso pode envolver um tempo de resposta significativo (de alguns minutos a alguns dias, com base na experiência anterior), durante o qual você não conseguirá concluir a implantação. Alguns dias antes da implantação, você deve consultar a página de limites de serviço para ver se acha que vai ultrapassar algum deles e fazer sua solicitação de suporte com antecedência. Você precisará fazer uma solicitação separada para cada departamento onde precisar aumentar o limite. Também vale ressaltar que alguns limites são globais, enquanto outros são por região.

@@ -1,0 +1,5 @@
+# Verificações de integridade do ELB
+
+> Use a verificação de integridade do ELB em vez das verificações de integridade do EC2.
+
+Esta é uma opção de configuração ao criar seu grupo de escalonamento, você pode especificar se deseja usar as verificações padrão do EC2 (a instância está conectada à rede) ou usar sua verificação de integridade do ELB. A verificação de integridade do ELB oferece muito mais flexibilidade. Se sua verificação de integridade falhar e a instância for retirada do pool de balanceamento de carga, você sempre vai querer que essa instância seja eliminada pelo escalonamento automático e uma nova tome seu lugar. Se você não configurar seu grupo de escalonamento para usar as verificações ELB, isso não acontecerá necessariamente. A [documentação da AWS sobre como adicionar a verificação de integridade](https://docs.aws.amazon.com/autoscaling/ec2/userguide/as-add-elb-healthcheck.html) contém todas as informações necessárias para configurar isso.
