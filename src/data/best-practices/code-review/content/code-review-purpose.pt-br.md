@@ -1,0 +1,9 @@
+# Entendimento Comum
+
+A revisão de código não é apenas uma tarefa para cumprir prazos, mas uma prática crucial para manter a qualidade do código, compartilhar conhecimento e prevenir erros. Garantir que todos os membros da equipe entendam os objetivos e benefícios das revisões de código é vital para promover um ambiente colaborativo e de suporte. Para conseguir isso, considere as seguintes dicas:
+
+- Comunique os objetivos: Descreva claramente os objetivos principais das revisões de código durante as reuniões da equipe, enfatizando o foco na qualidade, no compartilhamento de conhecimento e na melhoria contínua.
+- Estabeleça uma política de revisão de código: Crie uma política bem documentada descrevendo o processo de revisão de código, os resultados desejados e as expectativas. Certifique-se de que todos na equipe tenham acesso e entendam.
+- Estabeleça um tom positivo: Construa uma cultura de feedback e aprendizado construtivos, onde os membros da equipe se sintam confortáveis ​​para discutir e oferecer sugestões de melhorias no código. Incentive o diálogo aberto e a participação ativa.
+- Incentive dúvidas: Ofereça suporte aos membros da equipe que possam ser novos no processo de revisão de código ou que precisem de esclarecimentos. Incentive-os a fazer perguntas, não importa quão simples ou complexas, e envolva desenvolvedores seniores que possam fornecer orientação e contexto.
+- Reforce o valor: compartilhe regularmente os sucessos e benefícios derivados do processo de revisão de código, destacando a melhoria da qualidade do código, detecção mais rápida de erros e colaboração em equipe. Isso ajuda todos a compreender o valor e a finalidade das revisões de código, o que resulta em uma equipe mais engajada e produtiva.

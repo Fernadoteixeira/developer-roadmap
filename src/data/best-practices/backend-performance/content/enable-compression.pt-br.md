@@ -1,0 +1,3 @@
+# Habilitando compactação para respostas
+
+A otimização do desempenho de back-end de aplicativos da Web geralmente exige a ativação da compactação para respostas. Métodos de compactação, como Gzip ou Brotli, reduzem o tamanho dos dados transmitidos entre o servidor e o cliente. Isso resulta em uma transferência de dados mais rápida, minimizando o tempo de carregamento da página web e melhorando a experiência do usuário. Por exemplo, se uma página da web tiver tamanho de 100 KB, a aplicação da compactação pode reduzi-la para 30 KB. Isso significa menos dados para download e, portanto, tempos de carregamento mais rápidos. Portanto, habilitar a compactação para respostas é fundamental para tornar os aplicativos Web mais eficientes e responsivos.

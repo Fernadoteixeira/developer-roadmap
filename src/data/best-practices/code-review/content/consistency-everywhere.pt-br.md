@@ -1,0 +1,3 @@
+# Mantenha-se consistente
+
+A consistência é vital porque garante que seu código se integre perfeitamente ao restante do projeto e mantenha uma estrutura coerente que seja fácil de entender e manter. Também garante que o sistema permaneça estável e confiável ao longo do tempo à medida que evolui. Para obter consistência, recomendamos as seguintes dicas: familiarize-se com os padrões e convenções de design do projeto, considere o impacto das mudanças em todo o sistema, trabalhe em estreita colaboração com outros membros da equipe para garantir o alinhamento e sempre priorize a consistência e a facilidade de manutenção em vez de otimizações temporárias ou atalhos. Agora, vamos nos aprofundar nessas dicas para ajudá-lo a se tornar um revisor de código melhor.

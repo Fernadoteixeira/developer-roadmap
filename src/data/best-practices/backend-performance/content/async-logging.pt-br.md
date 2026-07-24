@@ -1,0 +1,3 @@
+# Mecanismos de registro assíncrono
+
+Para otimizar o desempenho de backend em aplicações web, a implementação de mecanismos de registro assíncronos torna-se crucial. Diminui a sobrecarga de registro, acelerando assim o fluxo de execução de um aplicativo. Por exemplo, a aplicação não precisa esperar que os dados de registro sejam gravados no disco, pois a tarefa de gravação é executada em segundo plano, permitindo que as próximas instruções sejam executadas sem interrupção. Isso também evita filas desnecessárias de tarefas, aumentando assim o rendimento geral das operações de back-end. A ferramenta de código aberto da Netflix chamada ‘Zuul’ exibe esse conceito onde eles usam registro assíncrono para obter escalabilidade em alto tráfego.

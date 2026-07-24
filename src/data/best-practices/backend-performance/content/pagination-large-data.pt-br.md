@@ -1,0 +1,3 @@
+# Paginação eficiente para grandes conjuntos de dados
+
+O desempenho de back-end em aplicativos da web pode ser significativamente melhorado com paginação eficiente para grandes conjuntos de dados. Quando os dados carregados em um aplicativo são bastante extensos, a execução de consultas simples sem paginação pode retardar os tempos de resposta, produzindo uma experiência adversa ao usuário. Através da paginação, os aplicativos podem entregar dados em partes menores e gerenciáveis, reduzindo a quantidade de dados transferidos em cada solicitação e, assim, aumentando a velocidade e o desempenho do back-end. Por exemplo, em vez de recuperar um milhão de registros de uma vez, o aplicativo recupera blocos de 50 ou 100 por vez, melhorando drasticamente o desempenho.

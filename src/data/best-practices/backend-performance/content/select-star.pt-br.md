@@ -1,0 +1,3 @@
+# Otimização de dados: evite consultas Select \* e busque apenas colunas obrigatórias
+
+A eficiência no back-end de aplicativos da web pode ser significativamente melhorada por meio de consultas cuidadosas aos dados. Ao evitar o uso de consultas "Select _" e, em vez disso, buscar apenas as colunas necessárias, você reduz a carga e a tensão no banco de dados. Isto pode não apenas acelerar o tempo de resposta, mas também reduzir o uso de armazenamento, melhorando assim o desempenho geral. Para ilustrar, considere um grande banco de dados com centenas de colunas; usar "Select _" buscaria todos esses dados desnecessariamente quando você só precisasse de dados de três ou quatro colunas. Esta seleção inteligente contribui imensamente para um desempenho de back-end mais ideal.

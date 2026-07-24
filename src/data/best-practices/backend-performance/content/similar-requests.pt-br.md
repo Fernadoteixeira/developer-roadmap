@@ -1,0 +1,3 @@
+# Minimizando despesas gerais por meio do processamento em lote
+
+A capacidade do backend de uma aplicação web de processar grandes volumes de dados de forma rápida e eficiente desempenha um papel crucial no seu desempenho. Agrupar solicitações semelhantes em lote, em vez de processá-las individualmente, reduz consideravelmente a sobrecarga de transferência de dados. Isso ocorre porque minimiza o número de viagens de ida e volta ou interações entre o cliente e o servidor para obter uma resposta. Por exemplo, em uma aplicação de comércio eletrônico, em vez de recuperar cada detalhe do produto individualmente, o lote reúne todos os detalhes do produto em uma única solicitação, o que melhora os tempos de resposta e o desempenho geral.

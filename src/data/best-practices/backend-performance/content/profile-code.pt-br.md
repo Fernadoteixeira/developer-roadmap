@@ -1,0 +1,3 @@
+# Identificando gargalos de desempenho por meio de criação de perfil de código
+
+O desempenho eficaz do back-end de uma aplicação web depende muito do bom funcionamento de seu código. Criação de perfil é o processo de monitoramento do comportamento do seu código, incluindo a frequência e duração das chamadas de função. Isso permite a identificação de gargalos de desempenho – partes específicas do código que impedem o desempenho ideal. Por exemplo, uma função que requer um poder de processamento significativo e torna o aplicativo lento pode ser revelada por meio do perfil de código. Ao identificar e resolver esses gargalos, o desempenho do backend pode ser drasticamente melhorado, levando a tempos de resposta mais rápidos e a uma experiência de usuário aprimorada.

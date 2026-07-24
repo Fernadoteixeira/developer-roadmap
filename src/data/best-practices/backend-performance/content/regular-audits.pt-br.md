@@ -1,0 +1,3 @@
+# Auditoria regular e atualização de medidas de segurança
+
+Proteger o back-end do seu aplicativo da web é fundamental para manter o desempenho máximo. Se um sistema for comprometido devido a medidas de segurança desatualizadas, os hackers poderão aproveitar esse acesso para interromper o desempenho do site. Por exemplo, um invasor pode implantar um ataque DDoS, tornando o serviço lento ou completamente indisponível. Ao realizar auditorias regulares e atualizações das medidas de segurança, possíveis vulnerabilidades podem ser identificadas e resolvidas antes que se transformem em problemas maiores que afetem o desempenho. Essa abordagem proativa oferece suporte à operação estável, garante acesso tranquilo aos usuários e promove o desempenho geral do back-end.
