@@ -1,0 +1,3 @@
+## Aprendizado profundo
+
+O aprendizado profundo é um subconjunto do aprendizado de máquina que lida com algoritmos inspirados na estrutura e função do cérebro, chamados de redes neurais artificiais. A aprendizagem profunda é uma tecnologia fundamental por trás dos carros sem condutor, permitindo-lhes reconhecer um sinal de stop ou distinguir um pedestre de um poste de luz. É a chave para o controle de voz em dispositivos de consumo, como telefones, tablets, TVs e alto-falantes viva-voz. O aprendizado profundo está recebendo muita atenção ultimamente e por um bom motivo. É alcançar resultados que antes não eram possíveis.

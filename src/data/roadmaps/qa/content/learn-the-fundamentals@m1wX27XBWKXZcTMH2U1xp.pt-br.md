@@ -1,0 +1,7 @@
+# Noções básicas de controle de qualidade
+
+A frase “adequado para uso ou finalidade” resume qualidade, que é incrivelmente difícil de definir. Tudo se resume a atender aos requisitos e expectativas do consumidor em termos de utilidade, design, confiabilidade, durabilidade e preço do produto.
+
+Garantia nada mais é do que uma declaração confiante feita sobre um bem ou serviço. É a garantia de que um bom resultado é garantido para um bem ou serviço. Oferece uma garantia de que o produto funcionará perfeitamente de acordo com as expectativas ou necessidades.
+
+Garantia de qualidade (QA), também conhecida como teste de controle de qualidade, é uma atividade para garantir que uma organização forneça o melhor produto ou serviço aos clientes. O teste de controle de qualidade de um software envolve o teste de desempenho, adaptabilidade e funcionalidade. No entanto, a garantia da qualidade do software vai além da qualidade do software; também compreende o processo de qualidade usado para desenvolvimento, teste e lançamento de produtos de software. O controle de qualidade depende do ciclo de desenvolvimento de software, que inclui o gerenciamento de requisitos de software, design, codificação, teste e lançamento.

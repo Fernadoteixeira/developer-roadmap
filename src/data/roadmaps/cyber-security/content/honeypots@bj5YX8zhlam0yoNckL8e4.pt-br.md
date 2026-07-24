@@ -1,0 +1,8 @@
+# Potes de mel
+
+Honeypots são sistemas ou redes chamariz projetados para atrair e detectar tentativas de acesso não autorizado por cibercriminosos. Esses recursos intencionalmente vulneráveis ​​imitam alvos legítimos, permitindo que os profissionais de segurança estudem técnicas de ataque, reúnam informações sobre ameaças e desviem os invasores dos sistemas críticos reais. Os honeypots podem variar desde sistemas de baixa interação que simulam serviços básicos até sistemas de alta interação que replicam ambientes de rede inteiros. Eles servem vários propósitos em segurança cibernética: sistemas de alerta precoce para detectar novos vetores de ataque, ferramentas de pesquisa para compreender o comportamento do invasor e desvios para desperdiçar o tempo e os recursos dos hackers. No entanto, a implantação de honeypots requer uma consideração cuidadosa, pois podem introduzir riscos se não forem devidamente isolados dos ambientes de produção. Honeypots avançados podem incorporar aprendizado de máquina para se adaptar às ameaças em evolução e fornecer iscas mais convincentes. Embora os honeypots sejam ferramentas poderosas para defesa proativa, eles devem fazer parte de uma estratégia de segurança abrangente, e não de uma solução autônoma.
+
+Saiba mais com os seguintes recursos:
+
+- [@video@O que é um Honeypot?](https://www.youtube.com/watch?v=FtR9sFJlkSA)
+- [@article@Como os Honeypots ajudam na segurança](https://www.kaspersky.com/resource-center/threats/what-is-a-honeypot)

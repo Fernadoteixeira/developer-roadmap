@@ -1,0 +1,8 @@
+# Híbrido
+
+A arquitetura de nuvem híbrida combina elementos de ambientes de nuvem pública e privada, permitindo que as organizações aproveitem os benefícios de cada um, mantendo a flexibilidade e o controle. Esse modelo permite que as empresas mantenham dados confidenciais e aplicativos críticos em uma nuvem privada ou infraestrutura local, enquanto utilizam recursos de nuvem pública para operações menos confidenciais ou para lidar com picos de demanda. Do ponto de vista da segurança cibernética, as nuvens híbridas apresentam desafios e oportunidades únicos. Eles exigem gerenciamento cuidadoso do fluxo de dados entre ambientes, gerenciamento robusto de identidade e acesso em diversas plataformas e políticas de segurança consistentes. A complexidade das configurações híbridas pode aumentar a superfície de ataque, necessitando de ferramentas e práticas de segurança avançadas, como corretores de segurança de acesso à nuvem (CASBs) e autenticação multifator. No entanto, as nuvens híbridas também oferecem vantagens como a capacidade de implementar requisitos de residência de dados e manter maior controle sobre ativos críticos. A segurança eficaz em ambientes híbridos exige uma abordagem holística, abrangendo ferramentas de segurança nativas da nuvem, medidas de segurança tradicionais e uma governação forte para garantir uma proteção perfeita em todos os componentes da infraestrutura.
+
+Saiba mais com os seguintes recursos:
+
+- [@video@O que é nuvem híbrida?](https://www.youtube.com/watch?v=3kGFBBy3Lyg)
+- [@article@O que é uma nuvem híbrida?](https://cloud.google.com/learn/what-is-hybrid-cloud)

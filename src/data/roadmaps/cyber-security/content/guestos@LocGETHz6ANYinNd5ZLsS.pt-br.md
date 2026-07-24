@@ -1,0 +1,8 @@
+# GuestOS
+
+Um sistema operacional convidado (sistema operacional convidado) refere-se a um sistema operacional executado em um ambiente de máquina virtual (VM), gerenciado por um hipervisor ou monitor de máquina virtual. Na tecnologia de virtualização, o sistema operacional convidado opera como se estivesse sendo executado em hardware físico dedicado, mas na verdade compartilha recursos com o sistema host e potencialmente com outros sistemas convidados. Este conceito é crucial na segurança cibernética por vários motivos. Permite o isolamento de sistemas, permitindo ambientes de teste seguros para análise de malware ou avaliações de vulnerabilidades. Os sistemas operacionais convidados podem ser rapidamente implantados, clonados ou redefinidos, facilitando a rápida resposta e recuperação de incidentes. No entanto, eles também introduzem novas considerações de segurança, como vulnerabilidades potenciais na camada do hipervisor, ataques de escape em que o malware invade a VM e problemas de contenção de recursos. Configurar, corrigir e monitorar adequadamente sistemas operacionais convidados é essencial para manter uma infraestrutura virtualizada segura, equilibrando os benefícios da flexibilidade e do isolamento com a necessidade de medidas de segurança robustas.
+
+Saiba mais com os seguintes recursos:
+
+- [@article@O que é um sistema operacional convidado?](https://www.techtarget.com/searchitoperations/definition/guest-OS-guest-operating-system)
+- [@article@Sistema operacional convidado](https://nordvpn.com/cybersecurity/glossary/guest-operating-system/?srsltid=AfmBOop0L-VFCtuYvEBQgHy7dCIa3sfzNVa-Zn6l0SniAYDpftfOgH7N)

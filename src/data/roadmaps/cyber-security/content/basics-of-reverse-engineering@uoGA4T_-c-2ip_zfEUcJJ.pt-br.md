@@ -1,0 +1,8 @@
+# Noções básicas de engenharia reversa
+
+Engenharia reversa é o processo de desconstruir um sistema, software ou hardware para compreender seu funcionamento interno, design e funcionalidade sem ter acesso ao seu código-fonte ou documentação original. Na segurança cibernética, a engenharia reversa é frequentemente usada para analisar vulnerabilidades de malware ou software para descobrir como eles operam, permitindo que os profissionais de segurança desenvolvam defesas, patches ou métodos de detecção. Isso envolve quebrar o código binário, desmontá-lo em código de máquina e, em seguida, interpretá-lo para compreender a lógica, o comportamento e a intenção por trás do programa. A engenharia reversa também pode ser usada em hardware para investigar o design ou desempenho de um dispositivo, ou no desenvolvimento de software para compatibilidade, depuração ou aprimoramento de sistemas legados. O processo normalmente inclui análise estática, onde o código é examinado sem execução, e análise dinâmica, onde o programa é executado em um ambiente controlado para observar seu comportamento em tempo de execução. Os insights obtidos por meio da engenharia reversa são valiosos para melhorar a segurança, corrigir bugs ou adaptar sistemas para diferentes usos. No entanto, é importante estar ciente dos limites legais e éticos, pois a engenharia reversa de determinados softwares ou hardwares pode violar os direitos de propriedade intelectual.
+
+Saiba mais com os seguintes recursos:
+
+- [@curso@Engenharia Reversa para Todos!](https://0xinfection.github.io/reversing/)
+- [@video@O que é engenharia reversa?](https://www.youtube.com/watch?v=gh2RXE9BIN8)

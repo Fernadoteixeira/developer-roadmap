@@ -1,0 +1,3 @@
+# Codificação
+
+A programação é uma habilidade fundamental para cientistas de dados. Você precisa ser capaz de escrever código para manipular dados, construir modelos e implantar soluções. As linguagens de programação mais comuns usadas na ciência de dados são Python e R. Python é uma linguagem de programação de uso geral fácil de aprender e possui um grande número de bibliotecas para manipulação de dados e aprendizado de máquina. R é uma linguagem de programação e ambiente de software livre para computação estatística e gráficos. É amplamente utilizado para análise estatística e visualização de dados.

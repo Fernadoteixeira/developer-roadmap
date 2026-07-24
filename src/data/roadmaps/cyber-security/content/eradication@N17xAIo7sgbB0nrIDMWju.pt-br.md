@@ -1,0 +1,8 @@
+# Erradicação
+
+A erradicação na segurança cibernética refere-se à fase crítica da resposta a incidentes que se segue à contenção, concentrando-se na remoção completa da ameaça dos sistemas afetados. Este processo envolve a identificação e eliminação completa de todos os componentes do ataque, incluindo malware, backdoors e quaisquer alterações feitas no sistema. As equipes de segurança analisam meticulosamente os logs, realizam exames forenses e usam ferramentas especializadas para garantir que nenhum vestígio da ameaça permaneça. A erradicação pode exigir a recriação de imagens de sistemas comprometidos, correção de vulnerabilidades, atualização de software e redefinição de credenciais comprometidas. É um processo complexo e muitas vezes demorado que exige precisão para evitar reinfecções ou lacunas de segurança persistentes. A erradicação bem-sucedida é crucial para restaurar a integridade do sistema e prevenir futuros incidentes baseados no mesmo vetor de ataque. Após a erradicação, as organizações normalmente passam para a fase de recuperação, reconstruindo e fortalecendo os seus sistemas com as lições aprendidas com o incidente.
+
+Saiba mais com os seguintes recursos:
+
+- [@article@Erradicação - AWS](https://docs.aws.amazon.com/whitepapers/latest/aws-security-incident-response-guide/eradication.html)
+- [@article@O que é erradicação na segurança cibernética?](https://heimdalsecurity.com/blog/what-is-eradication-in-cybersecurity/)

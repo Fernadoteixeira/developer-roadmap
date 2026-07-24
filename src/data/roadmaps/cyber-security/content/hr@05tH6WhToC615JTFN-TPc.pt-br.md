@@ -1,0 +1,8 @@
+# Recursos Humanos (RH)
+
+Os Recursos Humanos (RH) desempenham um papel crucial nos esforços de segurança cibernética de uma organização, preenchendo a lacuna entre as pessoas e a tecnologia. O RH é responsável por desenvolver e implementar políticas que promovam uma cultura consciente da segurança, incluindo políticas de uso aceitável, treinamento de conscientização em segurança e programas de prevenção de ameaças internas. Eles gerenciam o ciclo de vida dos funcionários, desde processos seguros de integração, que incluem verificações de antecedentes e autorizações de segurança, até procedimentos de desligamento que garantem a revogação adequada dos direitos de acesso. O RH colabora com as equipes de TI e de segurança para definir funções e responsabilidades relacionadas ao acesso a dados, ajudando a aplicar o princípio do privilégio mínimo. Eles também lidam com dados confidenciais de funcionários, tornando os sistemas de RH alvos potenciais para ataques cibernéticos. Como tal, os profissionais de RH precisam de estar bem familiarizados com os regulamentos de protecção de dados e as melhores práticas para salvaguardar informações pessoais. Ao promover uma força de trabalho preocupada com a segurança e ao alinhar a gestão do capital humano com os objetivos de segurança cibernética, o RH contribui significativamente para a postura geral de segurança de uma organização.
+
+Saiba mais com os seguintes recursos:
+
+- [@article@O que é RH?](https://www.investopedia.com/terms/h/humanresources.asp)
+- [@article@O que o RH realmente faz?](https://www.lucidchart.com/blog/what-does-hr-do)

@@ -1,0 +1,3 @@
+# Introdução à análise de dados
+
+A análise de dados desempenha um papel crucial no mundo atual centrado em dados. Envolve a prática de inspecionar, limpar, transformar e modelar dados para extrair insights valiosos para a tomada de decisões. Um **Analista de Dados** é um profissional encarregado principalmente de coletar, processar e realizar análises estatísticas em grandes conjuntos de dados. Eles descobrem como os dados podem ser usados ​​para responder perguntas e resolver problemas. Com a rápida expansão dos dados nas empresas modernas, o papel do analista de dados tem evoluído muito, tornando-o um ativo significativo na estratégia de negócios e nos processos de tomada de decisão.

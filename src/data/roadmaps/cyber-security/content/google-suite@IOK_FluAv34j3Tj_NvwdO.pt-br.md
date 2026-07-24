@@ -1,0 +1,7 @@
+# Google Workspace (antigo G Suite)
+
+O Google Workspace, anteriormente conhecido como G Suite, é uma coleção de ferramentas de produtividade e colaboração baseadas na nuvem desenvolvidas pelo Google. Inclui aplicativos populares como Gmail para e-mail, Google Drive para armazenamento e compartilhamento de arquivos, Google Docs para criação e edição de documentos, Planilhas Google para planilhas e Google Meet para videoconferência. Do ponto de vista da segurança cibernética, o Google Workspace apresenta vantagens e desafios. Ele oferece recursos de segurança integrados robustos, como autenticação de dois fatores, criptografia de dados em trânsito e em repouso e proteção avançada contra ameaças. No entanto, a sua natureza baseada na nuvem significa que as organizações devem gerir cuidadosamente os controlos de acesso, as políticas de partilha de dados e a conformidade com vários regulamentos. Os profissionais de segurança devem estar atentos a possíveis ataques de phishing direcionados a contas do Google, vazamento de dados por meio de configurações de compartilhamento inadequadas e riscos associados a integrações de aplicativos de terceiros. Compreender como configurar e monitorar adequadamente o Google Workspace é crucial para manter a segurança do ambiente colaborativo de uma organização e proteger informações confidenciais armazenadas nessas ferramentas amplamente utilizadas.
+
+Saiba mais com os seguintes recursos:
+
+- [@oficial@Google Workspace](https://workspace.google.com/intl/en_uk/)

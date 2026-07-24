@@ -1,0 +1,3 @@
+# Noções básicas de aprendizado de máquina para analistas de dados
+
+Os analistas de dados estão cada vez mais envolvidos no domínio do aprendizado de máquina. Esta tecnologia emergente aproveita algoritmos, modelos estatísticos e outras ferramentas para ensinar máquinas a realizar tarefas que normalmente exigiriam inteligência humana. Isso inclui atividades como fazer previsões com base em dados, reconhecer padrões e tomar decisões. Compreender os fundamentos do aprendizado de máquina não é apenas benéfico, mas essencial, para os analistas de dados modernos que desejam permanecer competitivos em sua área.

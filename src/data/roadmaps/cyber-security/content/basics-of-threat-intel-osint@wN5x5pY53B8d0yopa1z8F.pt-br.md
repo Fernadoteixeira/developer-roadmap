@@ -1,0 +1,9 @@
+# Noções básicas de ameaças Intel, OSINT
+
+Threat Intelligence (Threat Intel) e Open-Source Intelligence (OSINT) são componentes críticos na segurança cibernética que ajudam as organizações a ficarem à frente de possíveis ameaças. Inteligência de ameaças refere-se à coleta, análise e disseminação de informações sobre ataques potenciais ou atuais direcionados a uma organização. Essa inteligência normalmente inclui detalhes sobre ameaças emergentes, padrões de ataque, endereços IP maliciosos e indicadores de comprometimento (IoCs), ajudando as equipes de segurança a antecipar, prevenir ou mitigar ataques cibernéticos. A ameaça da Intel pode ser proveniente de dados internos (como logs ou incidentes passados) e de feeds externos, e ajuda a compreender as táticas, técnicas e procedimentos (TTPs) dos adversários. OSINT, um subconjunto do Threat Intel, envolve a coleta de informações publicamente disponíveis de fontes abertas para avaliar e monitorar ameaças. Essas fontes incluem sites, mídias sociais, fóruns, artigos de notícias e outras plataformas acessíveis ao público. OSINT é frequentemente usado para reconhecimento para identificar possíveis vetores de ataque, credenciais comprometidas ou vazamentos de dados confidenciais. É também uma ferramenta valiosa para rastrear agentes de ameaças, pois eles podem deixar rastros em fóruns ou outros espaços públicos. Tanto a Threat Intel quanto a OSINT permitem que as organizações sejam mais proativas em suas estratégias de segurança cibernética, identificando vulnerabilidades, compreendendo o comportamento do invasor e implementando defesas oportunas com base em insights acionáveis.
+
+Saiba mais com os seguintes recursos:
+
+- [@oficial@OSINT Framework](https://osintframework.com/)
+- [@article@Inteligência de ameaças](https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/)
+- [@course@Open-Source Intelligence (OSINT) em 5 horas](https://www.youtube.com/watch?v=qwA6MmbeGNo&t=457s)

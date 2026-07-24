@@ -1,0 +1,8 @@
+# Protocolo de transferência de arquivos (FTP) versus protocolo de transferência segura de arquivos (SFTP)
+
+O File Transfer Protocol (FTP) e o Secure File Transfer Protocol (SFTP) são usados ​​para transferir arquivos através de redes, mas diferem significativamente em termos de segurança. FTP é um protocolo mais antigo que transmite dados em texto simples, tornando-o vulnerável a interceptação e acesso não autorizado. Normalmente usa conexões separadas para comandos e transferência de dados, operando nas portas 20 e 21. O SFTP, por outro lado, é uma versão segura que roda no protocolo SSH, criptografando credenciais de autenticação e transferências de arquivos. Ele usa uma única conexão na porta 22, proporcionando melhor compatibilidade de firewall. SFTP oferece métodos de autenticação mais fortes e verificação de integridade, tornando-o a escolha preferida para transferências seguras de arquivos em redes modernas. Embora o FTP seja mais simples e possa ser mais rápido em alguns cenários, a falta de criptografia integrada o torna inadequado para a transmissão de informações confidenciais, levando muitas organizações a adotarem o SFTP ou outras alternativas seguras para proteger seus dados durante o trânsito.
+
+Saiba mais com os seguintes recursos:
+
+- [@article@FTP definido e explicado](https://www.fortinet.com/resources/cyberglossary/file-transfer-protocol-ftp-meaning)
+- [@video@Como usar comandos SFTP](https://www.youtube.com/watch?v=22lBJIfO9qQ)

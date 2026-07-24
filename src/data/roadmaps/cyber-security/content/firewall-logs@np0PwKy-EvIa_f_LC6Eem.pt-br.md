@@ -1,0 +1,8 @@
+# Registros de firewall
+
+Os logs de firewall são registros detalhados de tráfego de rede e eventos de segurança capturados por dispositivos de firewall. Esses logs fornecem informações cruciais sobre tentativas de conexão, tráfego permitido e bloqueado e possíveis incidentes de segurança. Eles normalmente incluem dados como endereços IP de origem e destino, portas, protocolos, carimbos de data/hora e a ação realizada pelo firewall. Os profissionais de segurança analisam esses logs para monitorar a atividade da rede, detectar padrões incomuns, investigar violações de segurança e garantir a conformidade com as políticas. Os logs de firewall são essenciais para solucionar problemas de rede, otimizar regras de segurança e conduzir análises forenses após um incidente. No entanto, o volume de dados de log gerados pode ser esmagador, exigindo o uso de ferramentas de gerenciamento de log e sistemas de gerenciamento de eventos e informações de segurança (SIEM) para processar, correlacionar e obter insights acionáveis ​​de maneira eficaz a partir dos logs. A revisão e análise regulares dos logs do firewall são práticas críticas para manter uma postura de segurança robusta e responder prontamente a possíveis ameaças.
+
+Saiba mais com os seguintes recursos:
+
+- [@article@O que é registro de firewall e por que é importante?](https://cybriant.com/what-is-firewall-logging-and-why-is-it-important/)
+- [@video@Revisando registros de firewall](https://www.youtube.com/watch?v=XiJ30f8V_T4)
