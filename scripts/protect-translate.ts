@@ -1,85 +1,123 @@
 import * as fs from 'fs';
 import * as path from 'path';
-import { execSync } from 'child_process';
+import { translateTextWithDLX } from './dlx-translate';
 
 const args = process.argv.slice(2);
 const sourceFile = args[0];
-const engine = args[1] || 'ollama';
+const engine = args[1] || 'dlx';
 
 if (!sourceFile) {
-  console.error('Usage: tsx protect-translate.ts <source-file> [engine]');
+  console.error('Usage: npx tsx protect-translate.ts <source-file> [engine]');
+  process.exit(1);
+}
+
+if (!fs.existsSync(sourceFile)) {
+  console.error(`Source file not found: ${sourceFile}`);
   process.exit(1);
 }
 
 const targetFile = sourceFile.replace(/\.md$/, '.pt-br.md');
 const tmpSource = `${sourceFile}.tmp.source.md`;
-const tmpTarget = `${sourceFile}.tmp.source.pt-br.md`;
 
-try {
-  let content = fs.readFileSync(sourceFile, 'utf-8');
+async function runTranslation() {
+  try {
+    let content = fs.readFileSync(sourceFile, 'utf-8');
 
-  const tokens = new Map<string, string>();
-  let tokenCounter = 1;
+    const tokens = new Map<string, string>();
+    let tokenCounter = 1;
 
-  const tokenize = (match: string) => {
-    const token = `__PROTECTED_BLOCK_${String(tokenCounter++).padStart(4, '0')}__`;
-    tokens.set(token, match);
-    return token;
-  };
+    const tokenize = (match: string) => {
+      const token = `__PROTECTED_BLOCK_${String(tokenCounter++).padStart(5, '0')}__`;
+      tokens.set(token, match);
+      return token;
+    };
 
-  // Protect frontmatter
-  content = content.replace(/^---\n[\s\S]*?\n---\n/, tokenize);
+    // 1. Protect YAML frontmatter
+    content = content.replace(/^---\r?\n[\s\S]*?\r?\n---\r?\n?/, tokenize);
 
-  // Protect fenced code blocks
-  content = content.replace(/```[\s\S]*?```/g, tokenize);
+    // 2. Protect fenced code blocks
+    content = content.replace(/```[\s\S]*?```/g, tokenize);
 
-  // Protect inline code
-  content = content.replace(/`[^`\n]+`/g, tokenize);
+    // 3. Protect inline code
+    content = content.replace(/`[^`\r\n]+`/g, tokenize);
 
-  // Protect URLs in standard markdown links
-  content = content.replace(
-    /\]\(([^)]+)\)/g,
-    (match, url) => `](${tokenize(url)})`,
-  );
+    // 4. Protect image tags completely
+    content = content.replace(/!\[.*?\]\(.*?\)/g, tokenize);
 
-  // Protect image tags completely
-  content = content.replace(/!\[.*?\]\(.*?\)/g, tokenize);
+    // 5. Protect URLs in standard markdown links
+    content = content.replace(
+      /\]\(([^)]+)\)/g,
+      (match, url) => `](${tokenize(url)})`,
+    );
 
-  // Write tokenized content to a temp file
-  fs.writeFileSync(tmpSource, content);
+    // Split tokenized content into paragraphs to avoid huge single API payloads
+    const paragraphs = content.split(/(\r?\n\r?\n)/);
+    const translatedParagraphs: string[] = [];
 
-  // Call Python translate script
-  const scriptPath =
-    'C:\\Users\\fjuni\\.gemini\\config\\skills\\translation\\scripts\\translate_doc.py';
-  console.log(`Running translation via ${engine}...`);
-  execSync(
-    `python ${scriptPath} -f "${tmpSource}" -o "${tmpTarget}" -e ${engine}`,
-    { stdio: 'inherit' },
-  );
+    const CHUNK_CHAR_LIMIT = 2000;
+    let currentBatch = '';
 
-  if (!fs.existsSync(tmpTarget)) {
-    throw new Error('Translation failed to produce output file.');
+    for (let i = 0; i < paragraphs.length; i++) {
+      const p = paragraphs[i];
+      // If it's a delimiter (\n\n), keep it directly
+      if (/^\r?\n\r?\n$/.test(p)) {
+        if (currentBatch.length > 0) {
+          const translated = await translateChunk(currentBatch, engine);
+          translatedParagraphs.push(translated);
+          currentBatch = '';
+        }
+        translatedParagraphs.push(p);
+        continue;
+      }
+
+      if (currentBatch.length + p.length > CHUNK_CHAR_LIMIT) {
+        if (currentBatch.length > 0) {
+          const translated = await translateChunk(currentBatch, engine);
+          translatedParagraphs.push(translated);
+          currentBatch = '';
+        }
+      }
+
+      currentBatch += p;
+    }
+
+    if (currentBatch.length > 0) {
+      const translated = await translateChunk(currentBatch, engine);
+      translatedParagraphs.push(translated);
+    }
+
+    let translatedContent = translatedParagraphs.join('');
+
+    // Restore tokens
+    for (const [token, originalValue] of tokens.entries()) {
+      translatedContent = translatedContent.split(token).join(originalValue);
+    }
+
+    // Write translated file directly
+    fs.writeFileSync(targetFile, translatedContent, 'utf-8');
+
+    console.log(`[DLX Translator] Successfully translated: ${targetFile}`);
+    process.exit(0);
+  } catch (error) {
+    console.error(`[DLX Translator Error] Failed for ${sourceFile}:`, error);
+    process.exit(1);
   }
-
-  // Read back and restore tokens
-  let translatedContent = fs.readFileSync(tmpTarget, 'utf-8');
-  for (const [token, originalValue] of tokens.entries()) {
-    translatedContent = translatedContent.split(token).join(originalValue);
-  }
-
-  const finalTmpFile = `${sourceFile}.tmp.pt-br.md`;
-  fs.writeFileSync(finalTmpFile, translatedContent);
-
-  // Atomic rename
-  fs.renameSync(finalTmpFile, targetFile);
-
-  // Cleanup tmp files
-  if (fs.existsSync(tmpSource)) fs.unlinkSync(tmpSource);
-  if (fs.existsSync(tmpTarget)) fs.unlinkSync(tmpTarget);
-
-  console.log(`Successfully translated and restored: ${targetFile}`);
-  process.exit(0);
-} catch (error) {
-  console.error('Translation Error:', error);
-  process.exit(1);
 }
+
+async function translateChunk(text: string, selectedEngine: string): Promise<string> {
+  // If the text only consists of protected tokens or whitespace, skip API call
+  if (/^(__PROTECTED_BLOCK_\d+__|\s)*$/.test(text)) {
+    return text;
+  }
+
+  if (selectedEngine === 'dlx') {
+    return await translateTextWithDLX(text, {
+      endpoint: 'http://localhost:1188/translate',
+      targetLang: 'PT',
+    });
+  } else {
+    throw new Error(`Unsupported engine: ${selectedEngine}`);
+  }
+}
+
+runTranslation();
