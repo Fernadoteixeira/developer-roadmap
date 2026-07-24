@@ -1,0 +1,3 @@
+# webpagetest.org
+
+Webpagetest.org é uma ferramenta de teste de desempenho de sites que permite aos usuários testar o tempo de carregamento e o desempenho das páginas da web. Ele fornece muitas informações sobre o carregamento da página, incluindo tempo de carregamento, índice de velocidade e visualização da tira de filme do carregamento da página, bem como um detalhamento dos componentes da página e seus tempos de carregamento. Ele também permite testes em vários locais e navegadores. Os resultados do teste podem ser compartilhados e comparados com outros. É amplamente utilizado por desenvolvedores, profissionais de marketing e proprietários de sites para melhorar o desempenho e a experiência do usuário em seus sites.
