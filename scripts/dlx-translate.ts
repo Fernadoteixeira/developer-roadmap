@@ -11,8 +11,8 @@ export async function translateTextWithDLX(
 ): Promise<string> {
   const endpoint = options.endpoint || 'http://localhost:1188/translate';
   const targetLang = options.targetLang || 'PT';
-  const maxRetries = options.maxRetries ?? 5;
-  let retryDelay = options.retryDelayMs ?? 3000;
+  const maxRetries = options.maxRetries ?? 8;
+  let retryDelay = options.retryDelayMs ?? 10000;
 
   if (!text || text.trim() === '') {
     return text;
@@ -33,10 +33,10 @@ export async function translateTextWithDLX(
 
       if (response.status === 429) {
         console.warn(
-          `[DLX 429 Rate Limit] Attempt ${attempt}/${maxRetries}. Waiting ${retryDelay}ms before retry...`,
+          `[DLX 429 Rate Limit] DeepL IP limit reached. Attempt ${attempt}/${maxRetries}. Waiting ${Math.round(retryDelay / 1000)}s...`,
         );
         await new Promise((resolve) => setTimeout(resolve, retryDelay));
-        retryDelay *= 1.5;
+        retryDelay = Math.min(retryDelay * 1.5, 60000); // cap max delay at 60s
         continue;
       }
 
@@ -57,10 +57,10 @@ export async function translateTextWithDLX(
         return json.data;
       } else if (json.code === 429) {
         console.warn(
-          `[DLX 429 Payload] Attempt ${attempt}/${maxRetries}: ${json.message}. Waiting ${retryDelay}ms...`,
+          `[DLX 429 Payload] Attempt ${attempt}/${maxRetries}: ${json.message}. Waiting ${Math.round(retryDelay / 1000)}s...`,
         );
         await new Promise((resolve) => setTimeout(resolve, retryDelay));
-        retryDelay *= 1.5;
+        retryDelay = Math.min(retryDelay * 1.5, 60000);
         continue;
       } else {
         throw new Error(
@@ -72,10 +72,10 @@ export async function translateTextWithDLX(
         throw err;
       }
       console.warn(
-        `[DLX Connection Warning] Attempt ${attempt}/${maxRetries} failed: ${err.message}. Retrying in ${retryDelay}ms...`,
+        `[DLX Connection Warning] Attempt ${attempt}/${maxRetries} failed: ${err.message}. Retrying in ${Math.round(retryDelay / 1000)}s...`,
       );
       await new Promise((resolve) => setTimeout(resolve, retryDelay));
-      retryDelay *= 1.5;
+      retryDelay = Math.min(retryDelay * 1.5, 60000);
     }
   }
 
