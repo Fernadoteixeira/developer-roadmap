@@ -42,9 +42,7 @@ export async function translateTextWithDLX(
 
       if (!response.ok) {
         const errorText = await response.text();
-        throw new Error(
-          `DLX API error (${response.status}): ${errorText}`,
-        );
+        throw new Error(`DLX API error (${response.status}): ${errorText}`);
       }
 
       const json = (await response.json()) as {
@@ -94,7 +92,9 @@ export async function translateTextWithGTX(
   const response = await fetch(url);
 
   if (!response.ok) {
-    throw new Error(`GTX API error (${response.status}): ${await response.text()}`);
+    throw new Error(
+      `GTX API error (${response.status}): ${await response.text()}`,
+    );
   }
 
   const json = (await response.json()) as any[];
@@ -104,4 +104,3 @@ export async function translateTextWithGTX(
 
   throw new Error('Invalid GTX response format');
 }
-

@@ -7,7 +7,9 @@ const sourceFile = args[0];
 const engine = args[1] || 'gtx';
 
 if (!sourceFile) {
-  console.error('Usage: node node_modules/tsx/dist/cli.mjs scripts/protect-translate.ts <source-file> [engine]');
+  console.error(
+    'Usage: node node_modules/tsx/dist/cli.mjs scripts/protect-translate.ts <source-file> [engine]',
+  );
   process.exit(1);
 }
 
@@ -97,7 +99,10 @@ async function runTranslation() {
 
     // Post-processing structural cleanups to guarantee 100% EN == PT-BR formatting parity
     // Fix headers missing space after # (e.g. #Heading -> # Heading)
-    translatedContent = translatedContent.replace(/^(#{1,6})([^\s#])/gm, '$1 $2');
+    translatedContent = translatedContent.replace(
+      /^(#{1,6})([^\s#])/gm,
+      '$1 $2',
+    );
     // Fix markdown links split by spaces (e.g. ] ( -> ]()
     translatedContent = translatedContent.replace(/\]\s+\(/g, '](');
 
@@ -111,7 +116,10 @@ async function runTranslation() {
   }
 }
 
-async function translateChunk(text: string, selectedEngine: string): Promise<string> {
+async function translateChunk(
+  text: string,
+  selectedEngine: string,
+): Promise<string> {
   // If the text only consists of protected tokens or whitespace, skip API call
   if (/^(__PROTECTED_BLOCK_\d+__|\s)*$/.test(text)) {
     return text;
@@ -126,7 +134,9 @@ async function translateChunk(text: string, selectedEngine: string): Promise<str
         retryDelayMs: 1000,
       });
     } catch (err) {
-      console.warn(`[DLX Fallback] DLX failed/rate-limited. Falling back to GTX engine...`);
+      console.warn(
+        `[DLX Fallback] DLX failed/rate-limited. Falling back to GTX engine...`,
+      );
       return await translateTextWithGTX(text, 'pt');
     }
   } else if (selectedEngine === 'gtx') {
@@ -137,4 +147,3 @@ async function translateChunk(text: string, selectedEngine: string): Promise<str
 }
 
 runTranslation();
-

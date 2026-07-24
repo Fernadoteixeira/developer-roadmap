@@ -8,7 +8,11 @@ function findPtBrFiles(dir: string, fileList: string[] = []): string[] {
     const filePath = path.join(dir, file);
     const stat = fs.statSync(filePath);
     if (stat.isDirectory()) {
-      if (file !== 'node_modules' && file !== '.git' && file !== '.translation-state') {
+      if (
+        file !== 'node_modules' &&
+        file !== '.git' &&
+        file !== '.translation-state'
+      ) {
         findPtBrFiles(filePath, fileList);
       }
     } else if (file.endsWith('.pt-br.md')) {

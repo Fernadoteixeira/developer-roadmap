@@ -34,7 +34,7 @@ Estas são as habilidades do cientista de dados abordadas no artigo:
 - Proficiência em programação com **Python, R e SQL**
 - Manipulação e análise de dados, incluindo **disputação de dados** e **análise exploratória de dados**
 - Domínio de **aprendizado de máquina** e **técnicas de IA**
-- Fortes bases estatísticas e **matemáticas** ****
+- Fortes bases estatísticas e **matemáticas** \*\*\*\*
 - Familiaridade com **tecnologias de big data**
 - Engenharia de dados para infraestrutura e **pipelines ETL**
 - Experiência em **visualização de dados** com ferramentas como **Plotly** e **D3.js**

@@ -44,7 +44,9 @@ export function extractMetrics(content: string): StructuralMetrics {
   // 2. Headings
   const headingMatches = body.match(/^#{1,6}\s+.*$/gm);
   if (headingMatches) {
-    metrics.headings = headingMatches.map((h) => h.match(/^(#{1,6})/)?.[1] || '#');
+    metrics.headings = headingMatches.map(
+      (h) => h.match(/^(#{1,6})/)?.[1] || '#',
+    );
   }
 
   // 3. Bullet points & list items
@@ -155,7 +157,10 @@ export function compareFiles(sourcePath: string, targetPath: string) {
     diffs.push(`Link URLs mismatch`);
   }
 
-  if (sourceMetrics.frontmatterKeys.join(',') !== targetMetrics.frontmatterKeys.join(',')) {
+  if (
+    sourceMetrics.frontmatterKeys.join(',') !==
+    targetMetrics.frontmatterKeys.join(',')
+  ) {
     diffs.push(`Frontmatter keys mismatch`);
   }
 
