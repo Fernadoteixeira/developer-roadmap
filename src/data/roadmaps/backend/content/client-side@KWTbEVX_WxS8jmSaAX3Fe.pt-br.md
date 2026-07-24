@@ -1,0 +1,8 @@
+# Cache do lado do cliente
+
+O cache do lado do cliente é uma técnica em que navegadores da web ou aplicativos armazenam dados localmente no dispositivo do usuário para melhorar o desempenho e reduzir a carga do servidor. Envolve salvar cópias de páginas da web, imagens, scripts e outros recursos no sistema do cliente para acesso mais rápido nas visitas subsequentes. Os navegadores modernos implementam vários mecanismos de cache, incluindo cache HTTP (usando cabeçalhos como Cache-Control e ETag), service workers para funcionalidade offline e APIs de armazenamento local. O cache do lado do cliente reduz significativamente o tráfego de rede e os tempos de carregamento, melhorando a experiência do usuário, especialmente em conexões mais lentas. No entanto, requer uma gestão cuidadosa para equilibrar o melhor desempenho com a necessidade de conteúdo atualizado. Os desenvolvedores devem implementar estratégias apropriadas de invalidação de cache e considerar técnicas de bloqueio de cache para atualizações críticas. O cache eficaz do lado do cliente é crucial para a criação de aplicativos Web responsivos e eficientes, ao mesmo tempo que minimiza o uso de recursos do servidor.
+
+Visite os seguintes recursos para saber mais:
+
+- [@article@Cache do lado do cliente](https://redis.io/docs/latest/develop/use/client-side-caching/)
+- [@video@Tudo o que você precisa saber sobre cache HTTP](https://www.youtube.com/watch?v=HiBDZgTNpXY)
