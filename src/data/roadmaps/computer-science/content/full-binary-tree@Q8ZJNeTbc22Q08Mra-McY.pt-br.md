@@ -4,4 +4,4 @@ Uma árvore binária completa é um tipo especial de árvore binária em que cad
 
 Visite os seguintes recursos para saber mais:
 
-- [@artigo@Árvore Binária Completa](https://www.programiz.com/dsa/full-binary-tree)
+- [@article@Árvore Binária Completa](https://www.programiz.com/dsa/full-binary-tree)

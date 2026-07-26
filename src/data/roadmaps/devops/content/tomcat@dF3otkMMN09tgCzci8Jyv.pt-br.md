@@ -4,6 +4,6 @@ Apache Tomcat é um servidor web de código aberto e contêiner de servlet que i
 
 Visite os seguintes recursos para saber mais:
 
-- [@oficial@Site do Tomcat](https://tomcat.apache.org/)
+- [@official@Site do Tomcat](https://tomcat.apache.org/)
 - [@official@Documentação do Tomcat](https://tomcat.apache.org/tomcat-10.0-doc/index.html)
 - [@video@Tutorial completo do Apache Tomcat](https://www.youtube.com/watch?v=rElJIPRw5iM)

@@ -4,5 +4,5 @@ SOAR (Security Orchestration, Automation, and Response) é um conjunto de soluç
 
 Saiba mais com os seguintes recursos:
 
-- [@artigo@O que é SOAR?](https://www.paloaltonetworks.co.uk/cyberpedia/what-is-soar)
+- [@article@O que é SOAR?](https://www.paloaltonetworks.co.uk/cyberpedia/what-is-soar)
 - [@video@O que é SOAR (Segurança, Orquestração, Automação e Resposta)](https://www.youtube.com/watch?v=k7ju95jDxFA)

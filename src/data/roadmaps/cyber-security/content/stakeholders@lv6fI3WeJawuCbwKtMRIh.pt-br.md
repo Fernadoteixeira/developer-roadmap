@@ -6,4 +6,4 @@ Visite os seguintes recursos para saber mais:
 
 - [@official@NIST Publicação sobre Engenharia de Sistemas Seguros Confiáveis](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-160v1r1.pdf)
 - [@course@Sala TryHackMe sobre governança e regulamentação cibernética](https://tryhackme.com/r/room/cybergovernanceregulation)
-- [@oficial@Glossário do NIST](https://csrc.nist.gov/glossary/term/stakeholder)
+- [@official@Glossário do NIST](https://csrc.nist.gov/glossary/term/stakeholder)

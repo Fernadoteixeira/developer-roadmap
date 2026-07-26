@@ -5,4 +5,4 @@ HTTP (Hypertext Transfer Protocol) e HTTPS (HTTP Secure) são protocolos fundame
 Saiba mais com os seguintes recursos:
 
 - [@article@Uma visão geral do HTTP](https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview)
-- [@artigo@O que é HTTPS?](https://www.cloudflare.com/en-gb/learning/ssl/what-is-https/)
+- [@article@O que é HTTPS?](https://www.cloudflare.com/en-gb/learning/ssl/what-is-https/)

@@ -5,7 +5,7 @@ React é a biblioteca JavaScript front-end mais popular para construção de int
 Visite os seguintes recursos para saber mais:
 
 - [@roadmap@Visit Roteiro de reação dedicado](https://roadmap.sh/react)
-- [@oficial@React](https://react.dev/)
+- [@official@React](https://react.dev/)
 - [@official@Introdução ao React](https://react.dev/learn/tutorial-tic-tac-toe)
 - [@video@React JS Course para iniciantes](https://www.youtube.com/watch?v=nTeuhbP7wdE)
 - [@video@React Course - Tutorial para iniciantes do React](https://www.youtube.com/watch?v=bMknfKXIFA8)

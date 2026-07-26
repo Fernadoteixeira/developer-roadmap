@@ -5,6 +5,6 @@ Microsoft SQL Server (MS SQL) é um sistema de gerenciamento de banco de dados r
 Visite os seguintes recursos para saber mais:
 
 - [@roadmap@Visit Roteiro SQL Dedicado](https://roadmap.sh/sql)
-- [@oficial@MS SQL](https://www.microsoft.com/en-ca/sql-server/)
+- [@official@MS SQL](https://www.microsoft.com/en-ca/sql-server/)
 - [@article@Tutoriais para SQL Server](https://docs.microsoft.com/en-us/sql/sql-server/tutorials-for-sql-server-2016?view=sql-server-ver15)
 - [@video@Tutorial do SQL Server para iniciantes](https://www.youtube.com/watch?v=-EPMOaV7h_Q)

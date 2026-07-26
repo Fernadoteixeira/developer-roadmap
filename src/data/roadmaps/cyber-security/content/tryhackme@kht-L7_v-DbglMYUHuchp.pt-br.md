@@ -4,5 +4,5 @@ TryHackMe é uma plataforma online projetada para treinamento e aprendizagem em 
 
 Saiba mais com os seguintes recursos:
 
-- [@oficial@TryHackMe](https://tryhackme.com/)
+- [@official@TryHackMe](https://tryhackme.com/)
 - [@video@Comece sua carreira em segurança cibernética com TryHackMe](https://www.youtube.com/watch?v=HPF8y_gDP7w)

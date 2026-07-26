@@ -4,8 +4,8 @@ O Speedy Web Compiler (SWC) é um compilador JavaScript/TypeScript rápido e ext
 
 Visite os seguintes recursos para saber mais:
 
-- [@oficial@SWC Site](https://swc.rs/)
-- [@oficial@Documentação SWC](https://swc.rs/docs/)
+- [@official@SWC Site](https://swc.rs/)
+- [@official@Documentação SWC](https://swc.rs/docs/)
 - [@video@Introdução ao Speedy Web Compiler](https://www.youtube.com/watch?v=RXQlPpbdn_E)
 - [@article@Por que SWC é o futuro das ferramentas JavaScript](https://dev.to/somelink/why-swc-is-the-future-of-javascript-tooling)
 - [@feed@Explore as principais postagens sobre SWC](https://app.daily.dev/tags/swc?ref=roadmapsh)

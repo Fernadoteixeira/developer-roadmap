@@ -4,7 +4,7 @@ A Vercel é um provedor de nuvem front-end que fornece a infraestrutura para con
 
 Visite os seguintes recursos para saber mais:
 
-- [@oficial@Vercel](https://vercel.com/)
+- [@official@Vercel](https://vercel.com/)
 - [@official@Vercel Docs](https://vercel.com/docs)
 - [@video@Vercel: Passo a passo do produto](https://www.youtube.com/watch?v=sPmat30SE4k)
 - [@feed@Explore as principais postagens sobre Vercel](https://app.daily.dev/tags/vercel?ref=roadmapsh)

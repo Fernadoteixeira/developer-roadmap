@@ -5,4 +5,4 @@ Ao focar na análise de dados, compreender os principais conceitos estatísticos
 Saiba mais com os seguintes recursos:
 
 - [@article@Como calcular a média](https://support.microsoft.com/en-gb/office/calculate-the-average-of-a-group-of-numbers-e158ef61-421c-4839-8290-34d7b1e68283#:~:text=Average%20This%20is%20the%20arithmetic,by%206%2C%20which%20is%205.)
-- [@artigo@Fórmula Média](https://www.cuemath.com/average-formula/)
+- [@article@Fórmula Média](https://www.cuemath.com/average-formula/)

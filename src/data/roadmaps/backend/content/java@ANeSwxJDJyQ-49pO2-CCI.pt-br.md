@@ -5,7 +5,7 @@ Java é uma linguagem de programação orientada a objetos de alto nível, conhe
 Visite os seguintes recursos para saber mais:
 
 - [@roadmap@Visite o roteiro Java dedicado](https://roadmap.sh/java)
-- [@oficial@Java Site](https://www.java.com/)
+- [@official@Java Site](https://www.java.com/)
 - [@article@W3 Schools Tutoriais](https://www.w3schools.com/java/)
 - [@video@Curso completo de Java](https://www.youtube.com/watch?v=xk4_1vDrzzo)
 - [@feed@Explore as principais postagens sobre Java](https://app.daily.dev/tags/java?ref=roadmapsh)

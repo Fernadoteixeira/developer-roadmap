@@ -6,5 +6,5 @@ Visite os seguintes recursos para saber mais:
 
 - [@article@Human in the Loop · Agentes Cloudflare](https://developers.cloudflare.com/agents/concepts/human-in-the-loop/)
 - [@article@O que é Human-in-the-Loop: um guia](https://logifusion.com/what-is-human-in-the-loop-htil/)
-- [@artigo@Human-in-the-Loop ML](https://docs.aws.amazon.com/sagemaker/latest/dg/sms-human-review-workflow.html)
+- [@article@Human-in-the-Loop ML](https://docs.aws.amazon.com/sagemaker/latest/dg/sms-human-review-workflow.html)
 - [@article@A importância do feedback humano na IA (Blog Hugging Face)](https://huggingface.co/blog/rlhf)

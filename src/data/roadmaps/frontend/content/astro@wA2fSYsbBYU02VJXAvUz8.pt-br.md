@@ -4,6 +4,6 @@ Astro é um moderno gerador de sites estáticos (SSG) e estrutura da web projeta
 
 Visite os seguintes recursos para saber mais:
 
-- [@oficial@Astro Site](https://astro.build/)
-- [@artigo@O que é Astro?](https://www.contentful.com/blog/what-is-astro/)
+- [@official@Astro Site](https://astro.build/)
+- [@article@O que é Astro?](https://www.contentful.com/blog/what-is-astro/)
 - [@course@Astro Web Framework Crash Course](https://www.youtube.com/watch?v=e-hTm5VmofI)

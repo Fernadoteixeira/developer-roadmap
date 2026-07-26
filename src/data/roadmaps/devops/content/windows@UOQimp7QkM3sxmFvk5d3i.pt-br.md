@@ -4,7 +4,7 @@ Windows é uma série de sistemas operacionais desenvolvidos pela Microsoft, amp
 
 Visite os seguintes recursos para saber mais:
 
-- [@oficial@Microsoft Windows](http://microsoft.com/windows)
-- [@oficial@Documentação do Windows para desenvolvedores](https://learn.microsoft.com/en-us/windows/)
+- [@official@Microsoft Windows](http://microsoft.com/windows)
+- [@official@Documentação do Windows para desenvolvedores](https://learn.microsoft.com/en-us/windows/)
 - [@video@40 comandos do Windows que você PRECISA conhecer](https://www.youtube.com/watch?v=Jfvg3CS1X3A&)
 - [@feed@Explore as principais postagens sobre o Windows](https://app.daily.dev/tags/windows?ref=roadmapsh)

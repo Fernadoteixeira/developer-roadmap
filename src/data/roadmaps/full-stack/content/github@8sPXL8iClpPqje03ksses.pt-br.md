@@ -4,7 +4,7 @@ GitHub é um provedor de hospedagem na Internet para desenvolvimento de software
 
 Visite os seguintes recursos para saber mais:
 
-- [@oficial@GitHub](https://github.com)
+- [@official@GitHub](https://github.com)
 - [@official@Documentação do GitHub](https://docs.github.com/en/get-started/quickstart)
 - [@article@Como usar o Git em uma equipe de desenvolvimento profissional](https://ooloo.io/project/github-flow)
 - [@video@O que é GitHub?](https://www.youtube.com/watch?v=w3jLJU7DT5E)

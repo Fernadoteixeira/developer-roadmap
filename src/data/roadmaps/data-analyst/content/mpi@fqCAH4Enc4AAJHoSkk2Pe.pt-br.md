@@ -5,4 +5,4 @@ Message Passing Interface (MPI) é uma técnica pioneira no domínio mais amplo 
 Saiba mais com os seguintes recursos:
 
 - [@official@Fórum de interface de passagem de mensagens](https://www.mpi-forum.org/)
-- [@artigo@Microsoft MPI](https://learn.microsoft.com/en-us/message-passing-interface/microsoft-mpi)
+- [@article@Microsoft MPI](https://learn.microsoft.com/en-us/message-passing-interface/microsoft-mpi)

@@ -6,5 +6,5 @@ O OWASP Top 10 é um relatório atualizado regularmente que descreve questões d
 
 Visite os seguintes recursos para saber mais:
 
-- [@oficial@OWASP Top 10](https://owasp.org/www-project-top-ten/)
+- [@official@OWASP Top 10](https://owasp.org/www-project-top-ten/)
 - [@article@Qual é o Top 10 do OWASP?](https://www.cloudflare.com/learning/security/threats/owasp-top-10/)

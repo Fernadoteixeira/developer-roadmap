@@ -5,4 +5,4 @@ LDAP (Lightweight Directory Access Protocol) é um protocolo de aplicação padr
 Saiba mais com os seguintes recursos:
 
 - [@article@O que é LDAP e como funciona?](https://www.okta.com/uk/identity-101/what-is-ldap/)
-- [@vídeo@O que é LDAP](https://www.youtube.com/watch?v=vy3e6ekuqqg)
+- [@video@O que é LDAP](https://www.youtube.com/watch?v=vy3e6ekuqqg)

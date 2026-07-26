@@ -5,8 +5,8 @@ TypeScript é uma linguagem de programação fortemente tipada e orientada a obj
 Visite os seguintes recursos para saber mais:
 
 - [@roadmap@Visit Roteiro TypeScript Dedicado](https://roadmap.sh/typescript)
-- [@oficial@Site TypeScript](https://www.typescriptlang.org/)
-- [@oficial@TypeScript Playground](https://www.typescriptlang.org/play)
+- [@official@Site TypeScript](https://www.typescriptlang.org/)
+- [@official@TypeScript Playground](https://www.typescriptlang.org/play)
 - [@official@Manual TypeScript](https://www.typescriptlang.org/docs/handbook/intro.html)
 - [@video@TypeScript para iniciantes](https://www.youtube.com/watch?v=BwuLxPH8IDs)
 - [@feed@Explore as principais postagens sobre TypeScript](https://app.daily.dev/tags/typescript?ref=roadmapsh)

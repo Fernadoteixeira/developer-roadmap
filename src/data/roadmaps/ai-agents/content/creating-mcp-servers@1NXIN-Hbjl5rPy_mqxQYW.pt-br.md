@@ -4,5 +4,5 @@ Um servidor MCP armazena e compartilha dados de conversas para agentes de IA, us
 
 Visite os seguintes recursos para obter mais informações:
 
-- [Especificação do Protocolo de Contexto do Modelo (MCP)](https://www.anthropic.com/news/model-context-protocol)
-- [Como construir e hospedar seus próprios servidores MCP em etapas fáceis?](https://collabnix.com/how-to-build-and-host-your-own-mcp-servers-in-easy-steps/)
+- [@official@Especificação do Protocolo de Contexto do Modelo (MCP)](https://www.anthropic.com/news/model-context-protocol)
+- [@article@Como construir e hospedar seus próprios servidores MCP em etapas fáceis?](https://collabnix.com/how-to-build-and-host-your-own-mcp-servers-in-easy-steps/)

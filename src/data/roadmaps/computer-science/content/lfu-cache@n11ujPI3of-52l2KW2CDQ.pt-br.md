@@ -5,4 +5,4 @@ LFU Cache é uma estrutura de dados que armazena pares de valores-chave. Possui 
 Visite os seguintes recursos para saber mais:
 
 - [@article@Implementação de cache menos usado (LFU)](https://www.geeksforgeeks.org/least-frequently-used-lfu-cache-implementation/)
-- [@artigo@1117. Estrutura de dados - Cache LFU](https://jojozhuang.github.io/algorithm/data-structure-lfu-cache/)
+- [@article@1117. Estrutura de dados - Cache LFU](https://jojozhuang.github.io/algorithm/data-structure-lfu-cache/)

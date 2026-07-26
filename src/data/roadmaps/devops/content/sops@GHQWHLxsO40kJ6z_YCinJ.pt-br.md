@@ -4,5 +4,5 @@ SOPS (Secrets OPerationS) é uma ferramenta de código aberto para gerenciar e c
 
 Visite os seguintes recursos para saber mais:
 
-- [@oficial@SOPs Site](https://getsops.io)
+- [@official@SOPs Site](https://getsops.io)
 - [@opensource@getsops/sops](https://github.com/getsops/sops)

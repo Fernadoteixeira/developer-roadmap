@@ -4,8 +4,8 @@ O algoritmo Rabin-Karp é um algoritmo de busca de strings que usa hashing para 
 
 Visite os seguintes recursos para saber mais:
 
-- [@curso@Algoritmo Rabin Karps](https://www.coursera.org/lecture/data-structures/rabin-karps-algorithm-c0Qkw)
-- [@curso@Otimização: Pré-computação](https://www.coursera.org/learn/data-structures/lecture/nYrc8/optimization-precomputation)
+- [@course@Algoritmo Rabin Karps](https://www.coursera.org/lecture/data-structures/rabin-karps-algorithm-c0Qkw)
+- [@course@Otimização: Pré-computação](https://www.coursera.org/learn/data-structures/lecture/nYrc8/optimization-precomputation)
 - [@course@Optimization: Implementação e Análise](https://www.coursera.org/learn/data-structures/lecture/h4ZLc/optimization-implementation-and-analysis)
 - [@video@Aula 9: Duplicação de Tabela, Karp-Rabin](https://www.youtube.com/watch?v=BRO7mVIFt08&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=9)
 - [@video@Rolling Hashes, Análise Amortizada](https://www.youtube.com/watch?v=w6nuXg0BISo&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=33)

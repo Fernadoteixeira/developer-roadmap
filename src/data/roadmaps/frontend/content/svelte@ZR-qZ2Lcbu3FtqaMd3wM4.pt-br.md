@@ -4,7 +4,7 @@ Svelte é uma estrutura JavaScript moderna para construção de interfaces de us
 
 Visite os seguintes recursos para saber mais:
 
-- [@oficial@Site Svelte](https://svelte.dev/)
+- [@official@Site Svelte](https://svelte.dev/)
 - [@course@Svelte Lista de reprodução do curso para iniciantes](https://www.youtube.com/playlist?list=PL4cUxeGkcC9hlbrVO_2QFVqVPhlZmz7tO)
 - [@article@Tudo sobre Svelte, a estrutura da Web muito amada e orientada pelo estado](https://thenewstack.io/all-about-svelte-the-much-loved-state-driven-web-framework/)
 - [@article@Svelte e o futuro do desenvolvimento front-end](https://thenewstack.io/svelte-and-the-future-of-front-end-development/)

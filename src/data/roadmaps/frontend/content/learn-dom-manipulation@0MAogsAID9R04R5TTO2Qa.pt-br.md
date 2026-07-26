@@ -4,7 +4,7 @@ O Document Object Model (DOM) é uma interface de programação construída para
 
 Visite os seguintes recursos para saber mais:
 
-- [@artigo@Árvore DOM](https://javascript.info/dom-nodes)
+- [@article@Árvore DOM](https://javascript.info/dom-nodes)
 - [@article@Aprenda o HTML DOM com exercícios - CodeGuage](https://www.codeguage.com/courses/js/html-dom-introduction)
 - [@video@O que é DOM, Shadow DOM e Virtual DOM?](https://www.youtube.com/watch?v=7Tok22qxPzQ)
 - [@video@Curso intensivo de DOM JavaScript](https://www.youtube.com/watch?v=0ik6X4DJKCc)

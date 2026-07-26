@@ -4,7 +4,7 @@ CSS Framework que fornece classes CSS atômicas para ajudá-lo a estilizar compo
 
 Visite os seguintes recursos para saber mais:
 
-- [@oficial@Tailwind CSS](https://tailwindcss.com)
+- [@official@Tailwind CSS](https://tailwindcss.com)
 - [@video@Tailwind Curso completo de CSS para iniciantes](https://www.youtube.com/watch?v=lCxcTsOHrjo)
 - [@video@Tailwind Curso intensivo de CSS](https://www.youtube.com/watch?v=UBOj6rqRUME)
 - [@video@Você deve usar Tailwind CSS?](https://www.youtube.com/watch?v=hdGsFpZ0J2E)

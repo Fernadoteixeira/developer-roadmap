@@ -4,5 +4,5 @@ Dplyr é um kit de ferramentas poderoso e popular para manipulação de dados em
 
 Saiba mais com os seguintes recursos:
 
-- [@oficial@dplyr](https://dplyr.tidyverse.org/)
+- [@official@dplyr](https://dplyr.tidyverse.org/)
 - [@video@Dplyr Essentials](https://www.youtube.com/watch?v=Gvhkp-Yw65U)

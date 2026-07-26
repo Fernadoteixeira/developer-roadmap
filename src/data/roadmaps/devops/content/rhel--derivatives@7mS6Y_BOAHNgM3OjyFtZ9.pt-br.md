@@ -4,7 +4,7 @@ Red Hat Enterprise Linux (RHEL) é uma distribuição popular do sistema operaci
 
 Visite os seguintes recursos para saber mais:
 
-- [@oficial@site do Red Hat Enterprise Linux](https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux)
-- [@documentação@RHEL](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/)
+- [@official@site do Red Hat Enterprise Linux](https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux)
+- [@official@Documentação do RHEL](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/)
 - [@video@O que é Red Hat Enterprise Linux?](https://www.youtube.com/watch?v=HEBvdSI0wGQ)
 - [@article@Aprenda Linux 101](https://developer.ibm.com/series/learn-linux-101/)

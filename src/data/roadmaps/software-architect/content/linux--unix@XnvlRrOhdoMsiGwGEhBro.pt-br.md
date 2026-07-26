@@ -6,7 +6,7 @@ Visite os seguintes recursos para saber mais:
 
 - [@roadmap@Visit Roteiro Linux Dedicado](https://roadmap.sh/linux)
 - [@video@Sistema operacional Linux - Curso intensivo](https://www.youtube.com/watch?v=ROjZy1WbCIA)
-- [@artigo@Tutorial Unix e Linux](https://www.tutorialspoint.com/unix/index.htm)
+- [@article@Tutorial Unix e Linux](https://www.tutorialspoint.com/unix/index.htm)
 - [@article@Linux Básico](https://dev.to/rudrakshi99/linux-basics-2onj)
-- [@curso@Coursera - Cursos Unix](https://www.coursera.org/courses?query=unix)
+- [@course@Coursera - Cursos Unix](https://www.coursera.org/courses?query=unix)
 - [@feed@Explore as principais postagens sobre Linux](https://app.daily.dev/tags/linux?ref=roadmapsh)

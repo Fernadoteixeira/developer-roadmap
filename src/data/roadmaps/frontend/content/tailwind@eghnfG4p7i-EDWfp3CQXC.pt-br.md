@@ -4,8 +4,8 @@ Tailwind CSS é uma estrutura CSS utilitária que fornece classes utilitárias d
 
 Visite os seguintes recursos para saber mais:
 
-- [@oficial@Tailwind Site](https://tailwindcss.com)
-- [@oficial@Playground Online](https://play.tailwindcss.com)
+- [@official@Tailwind Site](https://tailwindcss.com)
+- [@official@Playground Online](https://play.tailwindcss.com)
 - [@course@Tailwind Curso completo de CSS para iniciantes](https://www.youtube.com/watch?v=lCxcTsOHrjo)
 - [@video@Você deve usar Tailwind CSS?](https://www.youtube.com/watch?v=hdGsFpZ0J2E)
 - [@video@ Screencasts oficiais](https://www.youtube.com/c/TailwindLabs/videos)

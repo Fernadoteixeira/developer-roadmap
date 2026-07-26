@@ -4,7 +4,7 @@ Arquitetura Orientada a Serviços (SOA) é um padrão de arquitetura onde compon
 
 Visite os seguintes recursos para saber mais:
 
-- [@artigo@O que é SOA?](https://aws.amazon.com/what-is/service-oriented-architecture/)
+- [@article@O que é SOA?](https://aws.amazon.com/what-is/service-oriented-architecture/)
 - [@article@Reference Architecture Foundation para Arquitetura Orientada a Serviços](http://docs.oasis-open.org/soa-rm/soa-ra/v1.0/soa-ra.html)
 - [@video@Arquitetura Orientada a Serviços (SOA) Simplificada](https://www.youtube.com/watch?v=PA9RjHI463g)
 - [@feed@Explore as principais postagens sobre Arquitetura](https://app.daily.dev/tags/architecture?ref=roadmapsh)

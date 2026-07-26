@@ -4,6 +4,6 @@ Secure Sockets Layer (SSL) e Transport Layer Security (TLS) são protocolos crip
 
 Visite os seguintes recursos para saber mais:
 
-- [@artigo@Wikipedia - SSL/TLS](https://en.wikipedia.org/wiki/Transport_Layer_Security)
+- [@article@Wikipedia - SSL/TLS](https://en.wikipedia.org/wiki/Transport_Layer_Security)
 - [@article@Cloudflare - O que é SSL?](https://www.cloudflare.com/learning/ssl/what-is-ssl/)
 - [@video@SSL, TLS, HTTPS explicado](https://www.youtube.com/watch?v=j9QmMEWmcfo)

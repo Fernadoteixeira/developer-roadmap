@@ -6,4 +6,4 @@ Ao tomar decisões, avalie diversas opções para garantir uma análise completa
 
 Visite os seguintes recursos para saber mais:
 
-- [@artigo@Tomada de decisão - Wikipedia](https://en.wikipedia.org/wiki/Decision-making)
+- [@article@Tomada de decisão - Wikipedia](https://en.wikipedia.org/wiki/Decision-making)

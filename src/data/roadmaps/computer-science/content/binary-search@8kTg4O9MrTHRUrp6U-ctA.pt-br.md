@@ -5,7 +5,7 @@ A pesquisa binária é um algoritmo de pesquisa que encontra a posição de um v
 Visite os seguintes recursos para saber mais:
 
 - [@article@Pesquisa binária - Khan Academy](https://www.khanacademy.org/computing/computer-science/algorithms/binary-search/a/binary-search)
-- [@artigo@Pesquisa binária](https://www.topcoder.com/thrive/articles/Binary%20Search)
+- [@article@Pesquisa binária](https://www.topcoder.com/thrive/articles/Binary%20Search)
 - [@video@Pesquisa binária em 4 minutos](https://www.youtube.com/watch?v=fDKIpRe8GW4&feature=youtu.be)
 - [@video@Pesquisa binária - CS50](https://www.youtube.com/watch?v=D5SrAga1pno)
 - [@feed@Explore as principais postagens sobre pesquisa binária](https://app.daily.dev/tags/binary-search?ref=roadmapsh)

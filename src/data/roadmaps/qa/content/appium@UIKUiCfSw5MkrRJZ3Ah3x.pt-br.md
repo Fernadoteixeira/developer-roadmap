@@ -4,7 +4,7 @@ Appium é uma estrutura de código aberto que permite que os QAs conduzam testes
 
 Visite os seguintes recursos para saber mais:
 
-- [@oficial@Appium](https://appium.io/)
+- [@official@Appium](https://appium.io/)
 - [@official@Documentação do Appium](https://appium.io/docs/en/2.0/intro/)
 - [@article@Appium Tutorial para testes de aplicativos móveis](https://www.browserstack.com/guide/appium-tutorial-for-testing)
 - [@opensource@Appium testes de exemplo no Github](https://github.com/appium/appium/tree/1.x/sample-code)

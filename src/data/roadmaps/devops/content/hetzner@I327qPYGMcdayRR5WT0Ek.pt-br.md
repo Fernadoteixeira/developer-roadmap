@@ -4,6 +4,6 @@ Hetzner é uma empresa alemã de hospedagem na web e operadora de data center co
 
 Visite os seguintes recursos para saber mais sobre a Hetzner:
 
-- [@oficial@Hetzner Site](https://www.hetzner.com/)
+- [@official@Hetzner Site](https://www.hetzner.com/)
 - [@article@Como configurar o servidor Hetzner Cloud para hospedar seus sites](https://runcloud.io/blog/hetzner)
 - [@video@Coolify Curso intensivo | Autohost 101](https://www.youtube.com/watch?v=taJlPG82Ucw)

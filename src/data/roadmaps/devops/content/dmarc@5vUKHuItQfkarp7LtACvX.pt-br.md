@@ -4,6 +4,6 @@ DMARC (Autenticação, Relatório e Conformidade de Mensagens Baseadas em Domín
 
 Visite os seguintes recursos para saber mais:
 
-- [@oficial@DMARC](https://dmarc.org/)
+- [@official@DMARC](https://dmarc.org/)
 - [@video@O que é DMARC: segurança de e-mail que você precisa conhecer](https://www.youtube.com/watch?v=zLxJLKf-ua8)
 - [@feed@Explore as principais postagens sobre segurança](https://app.daily.dev/tags/security?ref=roadmapsh)

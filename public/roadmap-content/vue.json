@@ -366,7 +366,7 @@
   },
   "3ftwRjQ9e1-qDT9BV53zr": {
     "title": "v-for",
-    "description": "The `v-for` directive is used to render an HTML element, a block of elements, or even a component based on an array, an object, or a set number of times. When using this directive it is important to assign a unique key to each item to avoid issues and improve performance. This directive follows the `item in items` syntax.\n\nExample\n-------\n\n    <script setup>\n      import { ref } from 'vue';\n      const foods = ref([\n        {id: 1, name: \"apple\"},\n        {id: 2, name: \"pear\"},\n        {id: 3, name: \"pizza\"}\n      ]);\n    </script>\n    \n    <template>\n      <p v-for=\"food in foods\" :key=\"food.id\">{{ food.name }}</p>\n    </template>\n    \n\nVisit the following resources to learn more:",
+    "description": "The `v-for` directive is used to render an HTML element, a block of elements, or even a component based on an array, an object, or a set number of times. When using this directive it is important to assign a unique key to each item to avoid issues and improve performance. This directive follows the `item in items` syntax.\n\nExample\n-------\n\n    <script setup>\n      import { ref } from 'vue';\n      const foods = ref([\n        { id: 1, name: 'apple' },\n        { id: 2, name: 'pear' },\n        { id: 3, name: 'pizza' },\n      ]);\n    </script>\n    \n    <template>\n      <p v-for=\"food in foods\" :key=\"food.id\">{{ food.name }}</p>\n    </template>\n    \n\nVisit the following resources to learn more:",
     "links": [
       {
         "title": "v-for Documentation",
@@ -393,7 +393,7 @@
   },
   "cuM9q9vYy8JpZPGeBffd1": {
     "title": "v-bind",
-    "description": "The `v-bind` directive dynamically binds an HTML attribute to data. The shorthand for this directive is `:`\n\nExample\n-------\n\n    <script setup>\n      import { ref } from 'vue';\n      const image_url = ref(\"path/to/image.png\")\n    </script>\n    \n    <template>\n      <img :src=\"image_url\" />\n    </template>\n    \n\nVisit the following resources for more information:",
+    "description": "The `v-bind` directive dynamically binds an HTML attribute to data. The shorthand for this directive is `:`\n\nExample\n-------\n\n    <script setup>\n      import { ref } from 'vue';\n      const image_url = ref('path/to/image.png');\n    </script>\n    \n    <template>\n      <img :src=\"image_url\" />\n    </template>\n    \n\nVisit the following resources for more information:",
     "links": [
       {
         "title": "v-bind Documentation",
@@ -426,7 +426,7 @@
   },
   "5k9CrbzhNy9iiS6ez2UE6": {
     "title": "v-once",
-    "description": "The `v-once` directive makes an HTML element render only once, skipping every future update.\n\nExample\n-------\n\n    <script setup>\n      import { ref } from 'vue';\n      const input = ref(\"Some Text\");\n    </script>\n    \n    <template>\n      <input v-model=\"input\">\n      <p v-once>{{ input }}</p>\n    </template>\n    \n\nIn this example the **p** element will not change its text even if the input variable is changed through the **input** element.\n\nVisit the following resources to learn more:",
+    "description": "The `v-once` directive makes an HTML element render only once, skipping every future update.\n\nExample\n-------\n\n    <script setup>\n      import { ref } from 'vue';\n      const input = ref('Some Text');\n    </script>\n    \n    <template>\n      <input v-model=\"input\" />\n      <p v-once>{{ input }}</p>\n    </template>\n    \n\nIn this example the **p** element will not change its text even if the input variable is changed through the **input** element.\n\nVisit the following resources to learn more:",
     "links": [
       {
         "title": "v-once Documentation",
@@ -437,7 +437,7 @@
   },
   "mlsrhioiEkqnRIL6O3hNa": {
     "title": "v-pre",
-    "description": "The `v-pre` directive makes an element render its content as-is, skipping its compilation. The most common use case is when displaying raw mustache syntax.\n\nExample\n-------\n\n    <script setup>\n      import { ref } from 'vue';\n      const text = ref(\"Some Text\")\n    </script>\n    \n    <template>\n      <p v-pre >{{ text }}</p>\n    </template>\n    \n\nThe **p** element will display: `{{ text }}` and not `Some Text` because the compilation is skipped.\n\nVisit the following resources to learn more:",
+    "description": "The `v-pre` directive makes an element render its content as-is, skipping its compilation. The most common use case is when displaying raw mustache syntax.\n\nExample\n-------\n\n    <script setup>\n      import { ref } from 'vue';\n      const text = ref('Some Text');\n    </script>\n    \n    <template>\n      <p v-pre>{{ text }}</p>\n    </template>\n    \n\nThe **p** element will display: `{{ text }}` and not `Some Text` because the compilation is skipped.\n\nVisit the following resources to learn more:",
     "links": [
       {
         "title": "v-pre Documentation",
@@ -448,7 +448,7 @@
   },
   "RrSekP8Ub01coegMwLP6a": {
     "title": "v-cloak",
-    "description": "The v-cloak directive is used to prevent the uncompiled Vue template from being visible while the Vue instance is still loading. It temporarily hides the content until Vue has finished compiling the template. The v-cloak directive remains until the component instance is mounted.\n\n    <div v-cloak>\n      {{ message }}\n    </div>\n    \n\nCombined with CSS, you can hide elements with v-cloak until they are ready.\n\n    [v-cloak] {\n      display: none;\n    }\n    \n\nThe `<div>` will not be visible until the compilation is done.\n\nVisit the following resources to learn more:",
+    "description": "The v-cloak directive is used to prevent the uncompiled Vue template from being visible while the Vue instance is still loading. It temporarily hides the content until Vue has finished compiling the template. The v-cloak directive remains until the component instance is mounted.\n\n    <div v-cloak>{{ message }}</div>\n    \n\nCombined with CSS, you can hide elements with v-cloak until they are ready.\n\n    [v-cloak] {\n      display: none;\n    }\n    \n\nThe `<div>` will not be visible until the compilation is done.\n\nVisit the following resources to learn more:",
     "links": [
       {
         "title": "v-cloak Documentation",

@@ -5,4 +5,4 @@ Excel é uma ferramenta poderosa utilizada por analistas de dados em todo o mund
 Saiba mais com os seguintes recursos:
 
 - [@article@W3Schools - Excel](https://www.w3schools.com/excel/index.php)
-- [@curso@Curso de Microsoft Excel](https://support.microsoft.com/en-us/office/excel-video-training-9bc05390-e94c-46af-a5b3-d7c22f6990bb)
+- [@course@Curso de Microsoft Excel](https://support.microsoft.com/en-us/office/excel-video-training-9bc05390-e94c-46af-a5b3-d7c22f6990bb)

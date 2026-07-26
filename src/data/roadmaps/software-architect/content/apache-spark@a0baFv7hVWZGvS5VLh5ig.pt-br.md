@@ -4,5 +4,5 @@ Apache Spark é um mecanismo multilíngue para execução de engenharia de dados
 
 Visite os seguintes recursos para saber mais:
 
-- [@oficial@Apache Spark](https://spark.apache.org/)
+- [@official@Apache Spark](https://spark.apache.org/)
 - [@feed@Explore as principais postagens sobre o Apache](https://app.daily.dev/tags/apache?ref=roadmapsh)

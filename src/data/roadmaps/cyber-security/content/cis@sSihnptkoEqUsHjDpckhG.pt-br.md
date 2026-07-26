@@ -4,5 +4,5 @@ O **Center for Internet Security (CIS)** é uma organização sem fins lucrativo
 
 Saiba mais com os seguintes recursos:
 
-- [@oficial@CIS](https://www.cisecurity.org/)
+- [@official@CIS](https://www.cisecurity.org/)
 - [@video@CIS Visão geral](https://www.youtube.com/watch?v=f-Z7h5dI6uQ)

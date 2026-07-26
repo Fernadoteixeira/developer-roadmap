@@ -4,7 +4,7 @@ GitLab é uma plataforma DevOps baseada na web que fornece uma solução complet
 
 Visite os seguintes recursos para saber mais:
 
-- [@oficial@GitLab Site](https://gitlab.com/)
+- [@official@GitLab Site](https://gitlab.com/)
 - [@official@Documentação do GitLab](https://docs.gitlab.com/)
 - [@article@Development: Conecte o git ao GitLab para pequenos projetos](https://thenewstack.io/development-connect-git-to-gitlab-for-small-projects/)
 - [@feed@Explore as principais postagens sobre o GitLab](https://app.daily.dev/tags/gitlab?ref=roadmapsh)

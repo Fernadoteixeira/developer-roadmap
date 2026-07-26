@@ -4,5 +4,5 @@
 
 Saiba mais com os seguintes recursos
 
-- [@artigo@nslookup](https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/nslookup)
+- [@article@nslookup](https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/nslookup)
 - [@video@O que é Nslookup?](https://www.youtube.com/watch?v=n6pT8lbyhog)

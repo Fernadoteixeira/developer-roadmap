@@ -9,4 +9,4 @@ A função REPLACE é usada para substituir parte de uma sequência de texto por
 Saiba mais com os seguintes recursos:
 
 - [@article@Replace Function](https://support.microsoft.com/en-us/office/replace-function-8d799074-2425-4a8a-84bc-82472868878a)
-- [@artigo@Função Substituta](https://support.microsoft.com/en-us/office/substitute-function-6434944e-a904-4336-a9b0-1e58df3bc332)
+- [@article@Função Substituta](https://support.microsoft.com/en-us/office/substitute-function-6434944e-a904-4336-a9b0-1e58df3bc332)

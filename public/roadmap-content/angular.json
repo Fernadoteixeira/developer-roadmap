@@ -1047,7 +1047,7 @@
   },
   "dbAS-hN1hoCsNJhkxXcGq": {
     "title": "Configuration",
-    "description": "The configuration of routes in an Angular application involves defining route mappings in an array and providing these routes to the Angular router.\n\n### Example routes:\n\n    const appRoutes: Routes = [\n      { path: 'custom-path', component: CustomComponet },\n      { path: 'custom-path/:id', component: CustomDetailComponet, data: { title: 'Details component' } },\n      { path: '', redirectTo: '/heroes', pathMatch: 'full'},\n      { path: '**', component: PageNotFoundComponent }\n    ];\n    \n\n*   `'custom-path'`: defining a new url route.\n*   `'custom-path/:id'` defining _**id**_ parameter.\n*   `''` (empty path): instantiate a component without the need for defining a new url route.\n*   `'**'`: for undefined paths.\n*   The `data` property in the second route is a place to store arbitrary data associated with this specific route.\n\nVisit the following resources to learn more:",
+    "description": "The configuration of routes in an Angular application involves defining route mappings in an array and providing these routes to the Angular router.\n\n### Example routes:\n\n    const appRoutes: Routes = [\n      { path: 'custom-path', component: CustomComponet },\n      {\n        path: 'custom-path/:id',\n        component: CustomDetailComponet,\n        data: { title: 'Details component' },\n      },\n      { path: '', redirectTo: '/heroes', pathMatch: 'full' },\n      { path: '**', component: PageNotFoundComponent },\n    ];\n    \n\n*   `'custom-path'`: defining a new url route.\n*   `'custom-path/:id'` defining _**id**_ parameter.\n*   `''` (empty path): instantiate a component without the need for defining a new url route.\n*   `'**'`: for undefined paths.\n*   The `data` property in the second route is a place to store arbitrary data associated with this specific route.\n\nVisit the following resources to learn more:",
     "links": [
       {
         "title": "Router reference - Configuration",
@@ -1767,32 +1767,6 @@
         "title": "Angular Course with NgRx - Building Angular Project From Scratch",
         "url": "https://www.youtube.com/watch?v=vcfZ0EQpYTA",
         "type": "video"
-      }
-    ]
-  },
-  "rgPUcSKxG9DvXicLfC2Ay": {
-    "title": "Elf",
-    "description": "Elf is a reactive immutable state management solution built on top of RxJS. It uses custom RxJS operators to query the state and pure functions to update it. Elf encourages simplicity. It saves you the hassle of creating boilerplate code and offers powerful tools with a moderate learning curve, suitable for experienced and inexperienced developers alike.\n\nVisit the following resources to learn more:",
-    "links": [
-      {
-        "title": "Elf",
-        "url": "https://github.com/ngneat/elf",
-        "type": "opensource"
-      },
-      {
-        "title": "Elf NG Router Store",
-        "url": "https://github.com/ngneat/elf-ng-router-store",
-        "type": "opensource"
-      },
-      {
-        "title": "What is Elf?",
-        "url": "https://ngneat.github.io/elf/",
-        "type": "article"
-      },
-      {
-        "title": "Case Study: Elf",
-        "url": "https://medium.com/@gronichomer/case-study-elf-%EF%B8%8F%EF%B8%8F-part-1-fe5e87c31c89",
-        "type": "article"
       }
     ]
   },

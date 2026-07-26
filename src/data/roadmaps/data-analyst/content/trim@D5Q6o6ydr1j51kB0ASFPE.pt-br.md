@@ -4,5 +4,5 @@ Trim é considerada uma função básica, mas vital no âmbito da análise de da
 
 Saiba mais com os seguintes recursos:
 
-- [@artigo@Função TRIM](https://corporatefinanceinstitute.com/resources/excel/trim-function/)
-- [@artigo@Função TRIM do Excel](https://support.microsoft.com/en-gb/office/trim-function-410388fa-c5df-49c6-b16c-9e5630b479f9)
+- [@article@Função TRIM](https://corporatefinanceinstitute.com/resources/excel/trim-function/)
+- [@article@Função TRIM do Excel](https://support.microsoft.com/en-gb/office/trim-function-410388fa-c5df-49c6-b16c-9e5630b479f9)

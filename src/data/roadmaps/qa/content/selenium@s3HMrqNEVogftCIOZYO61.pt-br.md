@@ -4,6 +4,6 @@ Selenium é uma ferramenta de código aberto que automatiza navegadores da web. 
 
 Visite os seguintes recursos para saber mais:
 
-- [@oficial@Selenium](https://www.selenium.dev/)
-- [@artigo@Tutorial Selenium](https://www.browserstack.com/selenium)
+- [@official@Selenium](https://www.selenium.dev/)
+- [@article@Tutorial Selenium](https://www.browserstack.com/selenium)
 - [@feed@Explore as principais postagens sobre Selenium](https://app.daily.dev/tags/selenium?ref=roadmapsh)

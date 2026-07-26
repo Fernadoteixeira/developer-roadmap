@@ -4,5 +4,5 @@ OpenBSD é um sistema operacional gratuito e de código aberto semelhante ao Uni
 
 Visite os seguintes recursos para saber mais:
 
-- [@oficial@OpenBSD](https://www.openbsd.org/)
+- [@official@OpenBSD](https://www.openbsd.org/)
 - [@video@Instalando o OpenBSD no iMac G3 mais rápido](https://www.youtube.com/watch?v=-7gSMEsF3Q0)

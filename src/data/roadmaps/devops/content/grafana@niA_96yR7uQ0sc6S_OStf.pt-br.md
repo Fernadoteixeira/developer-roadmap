@@ -4,7 +4,7 @@ Grafana é um aplicativo da web de análise e visualização interativa de códi
 
 Visite os seguintes recursos para saber mais:
 
-- [@oficial@Grafana](https://grafana.com/)
+- [@official@Grafana](https://grafana.com/)
 - [@official@Grafana Webinars e vídeos](https://grafana.com/videos/)
 - [@video@Monitoramento de Servidor // Tutorial Prometheus e Grafana](https://www.youtube.com/watch?v=9TJx7QTrTyo)
 - [@feed@Explore as principais postagens sobre Grafana](https://app.daily.dev/tags/grafana?ref=roadmapsh)

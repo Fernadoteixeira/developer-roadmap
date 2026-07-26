@@ -5,7 +5,7 @@ Python é uma linguagem de programação bem conhecida, que é ao mesmo tempo um
 Visite os seguintes recursos para saber mais:
 
 - [@roadmap@Visit Roteiro Python Dedicado](https://roadmap.sh/python)
-- [@oficial@Python](https://www.python.org/)
+- [@official@Python](https://www.python.org/)
 - [@official@Introdução ao Python](https://www.python.org/about/gettingstarted/)
 - [@article@Automate as coisas chatas](https://automatetheboringstuff.com/)
 - [@article@Python princípios - Noções básicas de Python](https://pythonprinciples.com/)

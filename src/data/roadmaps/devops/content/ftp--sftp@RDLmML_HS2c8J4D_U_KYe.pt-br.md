@@ -6,5 +6,5 @@ O SFTP (SSH File Transfer Protocol) é um protocolo de transferência de arquivo
 
 Visite os seguintes recursos para obter mais informações:
 
-- [@artigo@FTP vs SFTP vs FTPS](https://www.fortinet.com/resources/cyberglossary/file-transfer-protocol-ftp-meaning)
-- [@artigo@O que é SFTP?](https://www.kiteworks.com/risk-compliance-glossary/sftp/)
+- [@article@FTP vs SFTP vs FTPS](https://www.fortinet.com/resources/cyberglossary/file-transfer-protocol-ftp-meaning)
+- [@article@O que é SFTP?](https://www.kiteworks.com/risk-compliance-glossary/sftp/)

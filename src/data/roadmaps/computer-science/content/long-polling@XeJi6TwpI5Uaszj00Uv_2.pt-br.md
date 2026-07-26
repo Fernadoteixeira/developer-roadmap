@@ -4,5 +4,5 @@ Long polling é uma técnica usada para implementar a funcionalidade push do ser
 
 Visite os seguintes recursos para saber mais:
 
-- [@artigo@Enquete Longa](https://javascript.info/long-polling)
+- [@article@Enquete Longa](https://javascript.info/long-polling)
 - [@article@O que são Long-Polling, Websockets, Server-Sent Events (SSE) e Comet?](https://stackoverflow.com/questions/11077857/what-are-long-polling-websockets-server-sent-events-sse-and-comet)

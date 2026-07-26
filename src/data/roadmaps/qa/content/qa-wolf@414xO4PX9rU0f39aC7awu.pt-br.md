@@ -4,7 +4,7 @@ QA Wolf é uma plataforma e serviço híbrido que ajuda as equipes de software a
 
 Visite os seguintes recursos para saber mais:
 
-- [@oficial@QA Wolf](https://www.qawolf.com/)
+- [@official@QA Wolf](https://www.qawolf.com/)
 - [@official@QA Wolf Docs](https://app.qawolf.com/docs/why-qa-wolf)
 - [@article@Introdução ao QA Wolf](https://app.qawolf.com/docs/create-a-test)
 - [@video@QA Wolf Tutorial](https://www.youtube.com/watch?v=BRxVu0De-4k&list=PL33T95M59Kkg1zKCU5NHc2g2XYXOs3-DU)

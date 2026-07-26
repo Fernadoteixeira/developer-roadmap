@@ -5,6 +5,6 @@ openllmetry é uma pequena biblioteca Python que facilita observar o que seu age
 Visite os seguintes recursos para saber mais:
 
 - [@official@OpenTelemetry Documentação](https://www.traceloop.com/blog/openllmetry)
-- [@oficial@O que é OpenLLMetry? - traceloop](https://www.traceloop.com/docs/openllmetry/introduction)
+- [@official@O que é OpenLLMetry? - traceloop](https://www.traceloop.com/docs/openllmetry/introduction)
 - [@official@Use Traceloop com Python](https://www.traceloop.com/docs/openllmetry/getting-started-python)
 - [@opensource@traceloop/openllmetry](https://github.com/traceloop/openllmetry)

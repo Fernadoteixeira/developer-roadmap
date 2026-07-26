@@ -4,6 +4,6 @@ Eleventy (11ty) é um gerador de site estático simples de usar, fácil de perso
 
 Visite os seguintes recursos para saber mais:
 
-- [@oficial@Eleventy](https://www.11ty.dev/)
+- [@official@Eleventy](https://www.11ty.dev/)
 - [@official@Uma coleção de 11 iniciadores, projetos, plug-ins e recursos](https://11ty.rocks/)
 - [@video@Introdução ao Eleventy](https://www.youtube.com/watch?v=-dM6AmNmMFA)

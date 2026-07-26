@@ -4,7 +4,7 @@ Papertrail é um serviço de gerenciamento de log hospedado na nuvem que simplif
 
 Visite os seguintes recursos para saber mais:
 
-- [@oficial@Papertrail Site](https://www.papertrail.com/)
+- [@official@Papertrail Site](https://www.papertrail.com/)
 - [@official@Papertrail Guias](https://www.papertrail.com/solution/guides/)
-- [@oficial@Papertrail Blog](https://www.papertrail.com/blog/)
+- [@official@Papertrail Blog](https://www.papertrail.com/blog/)
 - [@video@Visão geral do SolarWinds Papertrail](https://www.youtube.com/watch?v=gFFtrzoQEfI)

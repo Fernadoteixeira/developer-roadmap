@@ -4,5 +4,5 @@ A solução de problemas é uma abordagem sistemática de solução de problemas
 
 Saiba mais com os seguintes recursos:
 
-- [@artigo@Resolução de problemas](https://www.techtarget.com/searchsecurity/info/problemsolve)
+- [@article@Resolução de problemas](https://www.techtarget.com/searchsecurity/info/problemsolve)
 - [@video@Etapas para solução de problemas de rede](https://www.youtube.com/watch?v=1i3XdhC2ZAs)

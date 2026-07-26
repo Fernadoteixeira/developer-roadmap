@@ -5,5 +5,5 @@ A metodologia Block, Element, Modifier (comumente chamada de BEM) é uma conven�
 Visite os seguintes recursos para saber mais:
 
 - [@official@BEM Site Oficial](https://en.bem.info)
-- [@oficial@Documentação BEM](https://en.bem.info/methodology/quick-start)
+- [@official@Documentação BEM](https://en.bem.info/methodology/quick-start)
 - [@article@5 razões para usar a notação BEM](https://www.elpassion.com/blog/5-reasons-to-use-bem-a)

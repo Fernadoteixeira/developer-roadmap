@@ -4,5 +4,5 @@ CREST é um organismo de acreditação e certificação sem fins lucrativos que 
 
 Saiba mais com os seguintes recursos:
 
-- [@oficial@Certificações CREST](https://www.crest-approved.org/skills-certifications-careers/crest-certifications/)
+- [@official@Certificações CREST](https://www.crest-approved.org/skills-certifications-careers/crest-certifications/)
 - [@video@Uma breve visão geral do CREST](https://www.youtube.com/watch?v=Cci5qrv8fHY)

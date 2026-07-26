@@ -4,4 +4,4 @@ Consultoria e coaching proativos são essenciais para evitar o agravamento de pr
 
 Visite os seguintes recursos para saber mais:
 
-- [@artigo@Wikipedia](https://en.wikipedia.org/wiki/Consulting)
+- [@article@Wikipedia](https://en.wikipedia.org/wiki/Consulting)

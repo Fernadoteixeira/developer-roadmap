@@ -4,6 +4,6 @@ Amazon Neptune é um serviço de banco de dados gráfico totalmente gerenciado f
 
 Saiba mais com os seguintes recursos:
 
-- [@oficial@AWS Neptune](https://aws.amazon.com/neptune/)
+- [@official@AWS Neptune](https://aws.amazon.com/neptune/)
 - [@article@Configurando o banco de dados Amazon Neptune Graph](https://cliffordedsouza.medium.com/setting-up-amazon-neptune-graph-database-2b73512a7388)
 - [@video@Introdução ao Neptune Serverless](https://www.youtube.com/watch?v=b04-jjM9t4g)

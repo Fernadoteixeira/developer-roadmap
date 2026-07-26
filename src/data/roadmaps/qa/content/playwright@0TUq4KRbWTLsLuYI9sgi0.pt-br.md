@@ -4,5 +4,5 @@ Playwright é uma biblioteca de automação de testes de código aberto desenvol
 
 Visite os seguintes recursos para saber mais:
 
-- [@oficial@site do dramaturgo](https://playwright.dev/)
+- [@official@site do dramaturgo](https://playwright.dev/)
 - [@article@Playwright Tutorial: Aprenda noções básicas e configuração](https://www.browserstack.com/guide/playwright-tutorial)

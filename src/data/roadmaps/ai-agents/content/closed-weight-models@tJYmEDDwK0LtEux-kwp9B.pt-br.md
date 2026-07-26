@@ -4,8 +4,8 @@ Modelos de peso fechado são sistemas de IA cujos parâmetros treinados—os nú
 
 Visite os seguintes recursos para obter mais informações:
 
-- [@artigo@LLMs de Código Aberto vs Modelos de LLM de Código Fechado](https://hatchworks.com/blog/gen-ai/open-source-vs-closed-llms-guide/)
-- [@artigo@Comparação de LLMs de Código Aberto vs LLMs de Código Fechado em 2024](https://blog.spheron.network/choosing-the-right-llm-2024-comparison-of-open-source-vs-closed-source-llms)
-- [@oficial@GPT-4 da OpenAI](https://openai.com/gpt-4)
-- [@oficial@Claude](https://www.anthropic.com/claude)
-- [@oficial@Gemini](https://deepmind.google/technologies/gemini/)
+- [@article@LLMs de Código Aberto vs Modelos de LLM de Código Fechado](https://hatchworks.com/blog/gen-ai/open-source-vs-closed-llms-guide/)
+- [@article@Comparação de LLMs de Código Aberto vs LLMs de Código Fechado em 2024](https://blog.spheron.network/choosing-the-right-llm-2024-comparison-of-open-source-vs-closed-source-llms)
+- [@official@GPT-4 da OpenAI](https://openai.com/gpt-4)
+- [@official@Claude](https://www.anthropic.com/claude)
+- [@official@Gemini](https://deepmind.google/technologies/gemini/)

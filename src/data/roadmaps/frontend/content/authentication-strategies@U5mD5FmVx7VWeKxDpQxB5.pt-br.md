@@ -6,7 +6,7 @@ Estratégias de autenticação são métodos ou técnicas utilizadas para verifi
 - Autenticação baseada em sessão
 - Autenticação baseada em token
 - Autenticação JWT
-  -OAuth
+- OAuth
 - SSO
 
 Você não precisa necessariamente aprender tudo isso, como implementar e os detalhes desde o início. Mas é importante saber o que são e como funcionam. Isso o ajudará a tomar melhores decisões ao escolher uma estratégia de autenticação para seu aplicativo.

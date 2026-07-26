@@ -4,5 +4,5 @@ Qwik é uma estrutura front-end de código aberto projetada para desempenho idea
 
 Saiba mais com os seguintes recursos:
 
-- [@oficial@Qwik Site](https://qwik.dev)
+- [@official@Qwik Site](https://qwik.dev)
 - [@video@Qwik - O primeiro framework JavaScript O(1) do mundo?](https://www.youtube.com/watch?v=x2eF3YLiNhY)

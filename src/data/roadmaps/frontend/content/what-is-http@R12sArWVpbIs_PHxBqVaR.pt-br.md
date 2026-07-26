@@ -5,6 +5,6 @@ HTTP (Hypertext Transfer Protocol) é a base da comunicação de dados na World 
 Visite os seguintes recursos para saber mais:
 
 - [@article@Tudo o que você precisa saber sobre HTTP](https://cs.fyi/guide/http-in-depth)
-- [@artigo@O que é HTTP?](https://www.cloudflare.com/en-gb/learning/ddos/glossary/hypertext-transfer-protocol-http/)
+- [@article@O que é HTTP?](https://www.cloudflare.com/en-gb/learning/ddos/glossary/hypertext-transfer-protocol-http/)
 - [@article@Como funciona o HTTPS](https://howhttps.works)
 - [@article@HTTP/3 agora é um padrão: por que usá-lo e como começar](https://thenewstack.io/http-3-is-now-a-standard-why-use-it-and-how-to-get-started/)

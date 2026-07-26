@@ -4,5 +4,5 @@ A certificação Cisco Certified Network Associate (CCNA) é uma certificação 
 
 Saiba mais com os seguintes recursos:
 
-- [@oficial@Certificação CCNA](https://www.cisco.com/site/us/en/learn/training-certifications/certifications/enterprise/ccna/index.html)
+- [@official@Certificação CCNA](https://www.cisco.com/site/us/en/learn/training-certifications/certifications/enterprise/ccna/index.html)
 - [@video@Curso CCNA gratuito do Network Chuck](https://www.youtube.com/playlist?list=PLIhvC56v63IJVXv0GJcl9vO5Z6znCVb1P)

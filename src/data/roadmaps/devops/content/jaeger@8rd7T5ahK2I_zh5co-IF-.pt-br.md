@@ -4,6 +4,6 @@ Jaeger é um sistema de rastreamento distribuído de ponta a ponta de código ab
 
 Visite os seguintes recursos para saber mais:
 
-- [@oficial@Jaeger](https://www.jaegertracing.io/)
+- [@official@Jaeger](https://www.jaegertracing.io/)
 - [@official@Jaeger Documentação](https://www.jaegertracing.io/docs/1.37/)
 - [@opensource@jaegertracing/jaeger](https://github.com/jaegertracing/jaeger)

@@ -4,6 +4,6 @@ Os fornecedores de nuvem oferecem uma camada de APIs para abstrair a infraestrut
 
 Visite os seguintes recursos para saber mais:
 
-- [@artigo@Fornecedor de Serviços em Nuvem](https://www.techtarget.com/searchitchannel/definition/cloud-service-provider-cloud-provider)
-- [@artigo@O que são Fornecedores de Nuvem?](https://www.redhat.com/en/topics/cloud-computing/what-are-cloud-providers)
+- [@article@Fornecedor de Serviços em Nuvem](https://www.techtarget.com/searchitchannel/definition/cloud-service-provider-cloud-provider)
+- [@article@O que são Fornecedores de Nuvem?](https://www.redhat.com/en/topics/cloud-computing/what-are-cloud-providers)
 - [@feed@Explore os principais posts sobre Nuvem](https://app.daily.dev/tags/cloud?ref=roadmapsh)

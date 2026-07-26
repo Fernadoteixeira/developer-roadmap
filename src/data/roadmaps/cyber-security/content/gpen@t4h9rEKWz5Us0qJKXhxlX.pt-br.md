@@ -4,5 +4,5 @@ A certificação GIAC Penetration Tester (GPEN) é uma credencial de nível avan
 
 Saiba mais com os seguintes recursos:
 
-- [@oficial@Certificação GPEN](https://www.giac.org/certifications/penetration-tester-gpen/)
+- [@official@Certificação GPEN](https://www.giac.org/certifications/penetration-tester-gpen/)
 - [@article@O que é a Certificação GPEN?](https://hackernoon.com/what-is-the-giac-penetration-tester-gpen-certification)

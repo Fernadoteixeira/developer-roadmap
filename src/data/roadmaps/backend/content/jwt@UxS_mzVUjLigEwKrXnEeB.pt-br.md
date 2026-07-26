@@ -5,6 +5,6 @@ JWT (JSON Web Token) é um padrão aberto para transmissão segura de informaç�
 Visite os seguintes recursos para saber mais:
 
 - [@official@jwt.io Site](https://jwt.io/)
-- [@artigo@O que é JWT?](https://www.akana.com/blog/what-is-jwt)
+- [@article@O que é JWT?](https://www.akana.com/blog/what-is-jwt)
 - [@video@O que é JWT e por que você deve usar JWT](https://www.youtube.com/watch?v=7Q17ubqLfaM)
 - [@feed@Explore as principais postagens sobre JWT](https://app.daily.dev/tags/jwt?ref=roadmapsh)

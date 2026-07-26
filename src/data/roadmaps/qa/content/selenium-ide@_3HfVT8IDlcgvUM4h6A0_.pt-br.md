@@ -6,6 +6,6 @@ O próprio Selenium é uma ferramenta de teste automatizada de código aberto us
 
 Visite os seguintes recursos para saber mais:
 
-- [@oficial@Selenium IDE](https://www.selenium.dev/selenium-ide/)
+- [@official@Selenium IDE](https://www.selenium.dev/selenium-ide/)
 - [@article@Selenium IDE Tutorial](https://www.softwaretestinghelp.com/selenium-ide-script-selenium-tutorial-3/)
 - [@feed@Explore as principais postagens sobre Selenium](https://app.daily.dev/tags/selenium?ref=roadmapsh)

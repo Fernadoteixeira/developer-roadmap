@@ -6,6 +6,6 @@ Visite os seguintes recursos para saber mais:
 
 - [@article@Cloudflare - O que é SSL?](https://www.cloudflare.com/learning/ssl/what-is-ssl/)
 - [@article@Cloudflare - O que é TLS?](https://www.cloudflare.com/en-gb/learning/ssl/transport-layer-security-tls/)
-- [@artigo@Wikipedia - SSL/TLS](https://en.wikipedia.org/wiki/Transport_Layer_Security)
+- [@article@Wikipedia - SSL/TLS](https://en.wikipedia.org/wiki/Transport_Layer_Security)
 - [@video@SSH vs SSL vs TLS](https://www.youtube.com/watch?v=k3rFFLmQCuY)
 - [@video@SSL/TLS explicado em 7 minutos](https://www.youtube.com/watch?v=67Kfsmy_frM)

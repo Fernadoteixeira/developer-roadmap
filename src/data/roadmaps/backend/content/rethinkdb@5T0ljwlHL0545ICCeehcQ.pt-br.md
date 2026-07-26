@@ -4,5 +4,5 @@ RethinkDB é um banco de dados NoSQL distribuído e de código aberto projetado 
 
 Saiba mais com os seguintes recursos:
 
-- [@oficial@RethinkDB Site](https://rethinkdb.com/)
+- [@official@RethinkDB Site](https://rethinkdb.com/)
 - [@course@RethinkDB Curso intensivo](https://www.youtube.com/watch?v=pW3PFtchHDc)

@@ -15,6 +15,6 @@ Essas ferramentas permitem que os designers criem layouts complexos e responsivo
 Visite os seguintes recursos para saber mais:
 
 - [@article@Aprenda e pratique Flexbox](https://flexboxfroggy.com/)
-- [@artigo@Modelo The Box](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/The_box_model)
+- [@article@Modelo The Box](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/The_box_model)
 - [@article@Aprenda Grade CSS - Curso](https://cssgrid.io/)
 - [@article@Finalmente entre na grade com o módulo CSS Grid Layout](https://thenewstack.io/get-grid-last-css-grid-template-markup/)

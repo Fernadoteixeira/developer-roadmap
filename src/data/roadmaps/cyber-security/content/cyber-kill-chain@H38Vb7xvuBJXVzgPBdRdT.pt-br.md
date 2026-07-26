@@ -4,5 +4,5 @@ A **Cyber ​​Kill Chain** é um modelo desenvolvido pela Lockheed Martin, uma
 
 Saiba mais com os seguintes recursos:
 
-- [@oficial@Cyber Kill Chain](https://www.lockheedmartin.com/en-us/capabilities/cyber/cyber-kill-chain.html)
+- [@official@Cyber Kill Chain](https://www.lockheedmartin.com/en-us/capabilities/cyber/cyber-kill-chain.html)
 - [@video@Aprenda a cadeia de mortes cibernéticas](https://www.youtube.com/watch?v=oCUrkc_0tmw)

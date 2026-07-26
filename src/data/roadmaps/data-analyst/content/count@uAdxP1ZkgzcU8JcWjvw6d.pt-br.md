@@ -4,5 +4,5 @@ A função Contagem na análise de dados é uma das tarefas mais fundamentais qu
 
 Saiba mais com os seguintes recursos:
 
-- [@artigo@COUNT Função](https://support.microsoft.com/en-gb/office/count-function-a59cd7fc-b623-4d93-87a4-d23bf411294c)
+- [@article@COUNT Função](https://support.microsoft.com/en-gb/office/count-function-a59cd7fc-b623-4d93-87a4-d23bf411294c)
 - [@video@Como contar células no Microsoft Excel (funções COUNT, COUNTA, COUNTIF, COUNTIFS)](https://www.youtube.com/watch?v=5RFLncJuMng)

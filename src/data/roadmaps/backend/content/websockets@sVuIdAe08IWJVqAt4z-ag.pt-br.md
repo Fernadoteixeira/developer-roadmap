@@ -5,6 +5,6 @@ WebSockets fornecem um protocolo para comunicação full-duplex em tempo real en
 Visite os seguintes recursos para saber mais:
 
 - [@official@Socket.io Biblioteca Comunicação bidirecional e de baixa latência para todas as plataformas](https://socket.io/)
-- [@artigo@Introdução aos WebSockets](https://www.tutorialspoint.com/websockets/index.htm)
+- [@article@Introdução aos WebSockets](https://www.tutorialspoint.com/websockets/index.htm)
 - [@video@Um guia para iniciantes em WebSockets](https://www.youtube.com/watch?v=8ARodQ4Wlf4)
 - [@video@Como funcionam os soquetes da Web](https://www.youtube.com/watch?v=G0_e02DdH7I)

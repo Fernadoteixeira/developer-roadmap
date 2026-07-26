@@ -4,6 +4,6 @@ VirtualBox é um software de virtualização gratuito e de código aberto desenv
 
 Saiba mais com os seguintes recursos:
 
-- [@oficial@VirtualBox](https://www.virtualbox.org/)
+- [@official@VirtualBox](https://www.virtualbox.org/)
 - [@official@Documentação do VirtualBox](https://www.virtualbox.org/wiki/Documentation)
 - [@video@Como usar o VirtualBox](https://www.youtube.com/watch?v=nvdnQX9UkMY)

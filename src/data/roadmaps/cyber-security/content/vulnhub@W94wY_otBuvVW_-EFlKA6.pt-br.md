@@ -4,5 +4,5 @@ VulnHub é uma plataforma online que fornece uma coleção de máquinas virtuais
 
 Saiba mais com os seguintes recursos:
 
-- [@oficial@Vulnhub](https://www.vulnhub.com/)
+- [@official@Vulnhub](https://www.vulnhub.com/)
 - [@article@Um guia para iniciantes no Vulnhub](https://medium.com/@gavinloughridge/a-beginners-guide-to-vulnhub-part-1-52b06466635d)

@@ -21,8 +21,7 @@ const config: PlaywrightTestConfig = {
     ? [['html', { open: 'never' }], ['github']]
     : [['html', { open: 'on-failure' }]],
   use: {
-    actionTimeout: 10 * 1000,
-    baseURL: process.env.PLAYWRIGHT_TEST_BASE_URL || 'http://localhost:3000',
+    baseURL: process.env.PLAYWRIGHT_TEST_BASE_URL || 'http://127.0.0.1:3000',
     trace: 'on-first-retry',
     screenshot: 'only-on-failure',
     video: 'on-first-retry',
@@ -42,8 +41,8 @@ const config: PlaywrightTestConfig = {
     },
   ],
   webServer: {
-    command: 'pnpm dev',
-    url: 'http://localhost:3000',
+    command: 'pnpm preview -- --port 3000 --host 127.0.0.1',
+    url: 'http://127.0.0.1:3000',
     reuseExistingServer: !process.env.CI,
     timeout: 120 * 1000,
   },

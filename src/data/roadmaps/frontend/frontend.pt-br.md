@@ -3,93 +3,80 @@ renderer: 'editor'
 jsonUrl: '/jsons/roadmaps/frontend.json'
 pdfUrl: '/pdfs/roadmaps/frontend.pdf'
 order: 1
-briefTitle: 'Frontend'
-briefDescription: 'Step by step guide to becoming a frontend developer in 2025'
-title: 'Frontend Developer'
-description: 'Step by step guide to becoming a modern frontend developer in 2025'
+briefTitle: 'Desenvolvedor Frontend'
+briefDescription: 'Guia passo a passo para se tornar um desenvolvedor frontend em 2025'
+title: 'Desenvolvedor Frontend'
+description: 'Guia passo a passo para se tornar um desenvolvedor frontend moderno em 2025'
 hasTopics: true
 partner:
-  description: 'Get the latest Frontend news from our sister site'
+  description: 'Receba as últimas notícias de Frontend em nosso site parceiro'
   link: 'https://thenewstack.io/?utm_source=roadmap.sh&utm_medium=Referral&utm_campaign=Alert'
   linkText: 'TheNewStack.io'
 question:
-  title: 'What is a Frontend Developer?'
+  title: 'O que é um Desenvolvedor Frontend?'
   description: |
-    A frontend developer is a professional who uses HTML, CSS, and JavaScript to design and build the visual and interactive elements of websites and applications that users engage with directly. They ensure the interface is responsive, accessible, and visually appealing. Every feature you see and interact with on a website (like buttons, menus, and animations) is created by a frontend developer.
+    Um desenvolvedor frontend é o profissional que utiliza HTML, CSS e JavaScript para projetar e construir os elementos visuais e interativos de sites e aplicativos com os quais os usuários interagem diretamente. Eles garantem que a interface seja responsiva, acessível e visualmente atraente. Cada recurso que você vê e com o qual interage em um site (como botões, menus e animações) é criado por um desenvolvedor frontend.
 
-    ## What is the role of a Frontend Developer?
+    ## Qual é o papel de um Desenvolvedor Frontend?
 
-    While this is not a complete frontend developer job description, the following can be considered as a great introduction to the role of a frontend developer: you'll be responsible for creating the user interface of a website to ensure it looks good and is easy to use, with great focus on design principles and user experience. You'll be working closely with designers, back-end developers, and project managers to make sure the final product meets the client's needs and provides the best possible experience for the end-users.
+    Embora esta não seja uma descrição completa de cargo de desenvolvedor frontend, o seguinte pode ser considerado como uma ótima introdução ao papel: você será responsável por criar a interface do usuário de um site para garantir que ela seja atraente e fácil de usar, com grande foco nos princípios de design e na experiência do usuário. Você trabalhará em estreita colaboração com designers, desenvolvedores backend e gerentes de projeto para garantir que o produto final atenda às necessidades do cliente e forneça a melhor experiência possível para os usuários finais.
 
-    ## Which languages are used for Frontend Development?
+    ## Quais linguagens são usadas no Desenvolvimento Frontend?
 
-    The easy part about the frontend development role is that there aren’t that many options to choose from when it comes to [frontend languages](https://roadmap.sh/frontend/languages) and [technologies](https://roadmap.sh/frontend/technologies) (unlike with backend development).
+    A parte simples sobre a função de desenvolvimento frontend é que não há tantas opções por onde escolher no que diz respeito a [linguagens frontend](https://roadmap.sh/frontend/languages) e [tecnologias](https://roadmap.sh/frontend/technologies) (ao contrário do desenvolvimento backend).
 
-    As a frontend developer, you’ll be working with the following technologies:
+    Como desenvolvedor frontend, você trabalhará com as seguintes tecnologias:
 
-    - **HTML**: The markup language used to create the skeleton of the page. All the information you want to show on a webpage will be laid out through HTML.
-    - **CSS**: The Cascading Style Sheet language allows you to adjust the way in which the HTML elements are rendered, improving the visuals of your webpage.
-    - **JavaScript**: This is the de facto programming language for frontend development, and it allows you to add dynamism to your websites/web apps. There is an alternative known as TypeScript, which is a strongly typed superset of JavaScript that you can use instead. However, in that scenario, you’d have to set up a transpiler to translate your code into JavaScript before being able to run it in the browser.
+    - **HTML**: A linguagem de marcação usada para criar o esqueleto da página. Toda a informação que você deseja mostrar em uma página web será estruturada através do HTML.
+    - **CSS**: A linguagem Cascading Style Sheet permite ajustar a forma como os elementos HTML são renderizados, melhorando o visual da sua página web.
+    - **JavaScript**: É a linguagem de programação de fato para desenvolvimento frontend e permite adicionar dinamismo aos seus sites/aplicativos web. Existe uma alternativa conhecida como TypeScript, que é um superconjunto fortemente tipado de JavaScript que você pode usar em seu lugar. No entanto, nesse cenário, você precisará configurar um transpilador para traduzir seu código em JavaScript antes de poder executá-lo no navegador.
 
-    ## What skills are required for a Frontend developer?
+    ## Quais habilidades são necessárias para um desenvolvedor Frontend?
 
-    The main skills required to become a frontend developer are HTML, CSS, and JavaScript. The rest are also important, but without those three basic ones, you can’t apply any of the others.
+    As principais habilidades necessárias para se tornar um desenvolvedor frontend são HTML, CSS e JavaScript. O restante também é importante, mas sem essas três básicas, você não conseguirá aplicar nenhuma das outras.
 
-    The full list of [frontend developer skills](https://roadmap.sh/frontend/developer-skills) you should look into if you’re hoping to up your game is the following:
+    A lista completa de [habilidades de desenvolvedor frontend](https://roadmap.sh/frontend/developer-skills) que você deve explorar se deseja evoluir na carreira é a seguinte:
 
-    **1. Understanding the core technologies**: HTML, CSS & JavaScript.  
-    **2. Understanding accessibility**: Knowing how it can affect your users' experience.  
-    **3. Version control systems**: Be familiar with tools like Git.  
-    **4. Responsive design**: Implementing designs that adapt to different devices and screen sizes.  
-    **5. User experience (UX)**: Understanding the basics of UX principles.  
-    **6. SEO**: Knowing how search engine optimization works and how you can leverage it in your code.  
-    **7. RESTful APIs**: Understanding the basics of RESTful APIs and how to consume them.  
-    **8. Testing and debugging**: Implementing testing practices and debugging effectively.  
-    **9. Dev tools**: Master the browser’s developer tools for inspecting, debugging, and optimizing code.  
-    **10. Frameworks**: Having a go-to frontend framework (like React or Vue) and understanding others at a high level.  
-    **11. Web performance**: Understanding web performance optimizations and core web vitals.  
-    **12. TypeScript**: Understanding how TypeScript works and when to use it.
+    **1. Compreender as tecnologias essenciais**: HTML, CSS e JavaScript.  
+    **2. Compreender acessibilidade**: Saber como isso afeta a experiência dos seus usuários.  
+    **3. Sistemas de controle de versão**: Estar familiarizado com ferramentas como Git.  
+    **4. Design responsivo**: Implementar designs que se adaptem a diferentes dispositivos e tamanhos de tela.  
+    **5. Experiência do usuário (UX)**: Entender os conceitos básicos dos princípios de UX.  
+    **6. SEO**: Saber como funciona a otimização para motores de busca e como você pode aproveitá-la em seu código.  
+    **7. APIs RESTful**: Compreender o funcionamento básico de APIs RESTful e como consumi-las.  
+    **8. Testes e depuração**: Implementar práticas de testes e depurar de forma eficaz.  
+    **9. Dev tools**: Dominar as ferramentas do desenvolvedor do navegador para inspecionar, depurar e otimizar código.  
+    **10. Frameworks**: Ter um framework frontend de preferência (como React ou Vue) e entender outros em alto nível.  
+    **11. Desempenho web**: Compreender otimizações de desempenho web e os core web vitals.  
+    **12. TypeScript**: Compreender como o TypeScript funciona e quando utilizá-lo.
 
-    Covering these basic skills will prepare you for any type of [frontend developer interview questions](https://roadmap.sh/questions/frontend) you might encounter in the future and will enhance your current role.
+    Dominar essas habilidades básicas irá preparar você para qualquer tipo de [perguntas de entrevista para desenvolvedor frontend](https://roadmap.sh/questions/frontend) que você possa encontrar no futuro e aprimorará sua atuação profissional.
 
 dimensions:
   width: 968
   height: 2775
 schema:
-  headline: 'Frontend Developer Roadmap: What is Frontend Development?'
-  description: 'Learn what Frontend Development is, what frontend developers do and how to become a modern frontend developer using our community-driven roadmap.'
+  headline: 'Roadmap de Desenvolvedor Frontend: O que é Desenvolvimento Frontend?'
+  description: 'Aprenda o que é Desenvolvimento Frontend, o que fazem os desenvolvedores frontend e como se tornar um desenvolvedor frontend moderno usando nosso roadmap orientado pela comunidade.'
   imageUrl: 'https://roadmap.sh/roadmaps/frontend.png'
   datePublished: '2023-01-05'
   dateModified: '2023-01-20'
 seo:
-  title: 'Frontend Developer Roadmap: What is Frontend Development?'
-  description: 'Learn what Frontend Development is, what frontend developers do and how to become a modern frontend developer using our community-driven roadmap.'
+  title: 'Roadmap de Desenvolvedor Frontend: O que é Desenvolvimento Frontend?'
+  description: 'Aprenda o que é Desenvolvimento Frontend, o que fazem os desenvolvedores frontend e como se tornar um desenvolvedor frontend moderno usando nosso roadmap orientado pela comunidade.'
   keywords:
     - 'javascript roadmap 2024'
     - 'frontend roadmap 2024'
     - 'frontend developer roadmap 2024'
-    - 'guide to becoming a developer'
-    - 'guide to becoming a frontend developer'
-    - 'frontend developer'
-    - 'frontend engineer'
-    - 'frontend skills'
-    - 'frontend development'
-    - 'javascript developer'
-    - 'frontend development skills'
-    - 'frontend development skills test'
-    - 'frontend roadmap'
-    - 'frontend engineer roadmap'
-    - 'frontend developer roadmap'
-    - 'become a frontend developer'
-    - 'frontend developer career path'
-    - 'javascript developer'
-    - 'modern javascript developer'
-    - 'node developer'
-    - 'skills for frontend development'
-    - 'learn frontend development'
-    - 'what is frontend development'
-    - 'frontend developer quiz'
-    - 'frontend developer interview questions'
+    - 'guia para se tornar um desenvolvedor'
+    - 'guia para se tornar um desenvolvedor frontend'
+    - 'desenvolvedor frontend'
+    - 'engenheiro frontend'
+    - 'habilidades frontend'
+    - 'desenvolvimento frontend'
+    - 'desenvolvedor javascript'
+    - 'roadmap frontend'
+    - 'como se tornar um desenvolvedor frontend'
 relatedRoadmaps:
   - 'full-stack'
   - 'javascript'

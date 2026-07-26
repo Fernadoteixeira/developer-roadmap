@@ -4,7 +4,7 @@ Ferramentas de construção são utilitários de software projetados para automa
 
 Visite os seguintes recursos para saber mais:
 
-- [@oficial@Webpack Site](https://webpack.js.org/)
-- [@oficial@Vite Site](https://vitejs.dev)
-- [@oficial@Site de encomendas](https://parceljs.org/)
+- [@official@Webpack Site](https://webpack.js.org/)
+- [@official@Vite Site](https://vitejs.dev)
+- [@official@Site de encomendas](https://parceljs.org/)
 - [@feed@Explore as principais postagens sobre ferramentas](https://app.daily.dev/tags/tools?ref=roadmapsh)

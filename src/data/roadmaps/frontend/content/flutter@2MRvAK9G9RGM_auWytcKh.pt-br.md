@@ -5,8 +5,8 @@ Flutter é um kit de desenvolvimento de software de UI de código aberto criado 
 Visite os seguintes recursos para saber mais:
 
 - [@roadmap@Visit roteiro dedicado do Flutter](https://roadmap.sh/flutter)
-- [@oficial@Site Flutter](https://flutter.dev)
-- [@oficial@Flutter para desktop](https://flutter.dev/multi-platform/desktop)
+- [@official@Site Flutter](https://flutter.dev)
+- [@official@Flutter para desktop](https://flutter.dev/multi-platform/desktop)
 - [@course@Flutter curso para iniciantes](https://www.youtube.com/watch?v=VPvVD8t02U8)
 - [@article@12 maneiras de o Flutter agilizar o desenvolvimento de aplicativos](https://thenewstack.io/12-ways-flutter-streamlines-app-development/)
 - [@feed@Explore as principais postagens sobre Flutter](https://app.daily.dev/tags/flutter?ref=roadmapsh)

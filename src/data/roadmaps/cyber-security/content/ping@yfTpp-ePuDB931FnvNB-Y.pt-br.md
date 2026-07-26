@@ -4,5 +4,5 @@
 
 Saiba mais com os seguintes recursos:
 
-- [@artigo@O que é ping?](https://www.solarwinds.com/resources/it-glossary/ping)
+- [@article@O que é ping?](https://www.solarwinds.com/resources/it-glossary/ping)
 - [@video@Ping comando explicado](https://www.youtube.com/watch?v=7sv5pL-XgSg)

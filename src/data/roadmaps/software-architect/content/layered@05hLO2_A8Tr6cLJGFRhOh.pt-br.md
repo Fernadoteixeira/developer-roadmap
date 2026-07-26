@@ -4,4 +4,4 @@ Arquitetura em camadas é um padrão de design de software onde um aplicativo é
 
 Visite os seguintes recursos para saber mais:
 
-- [@artigo@Wikipedia](https://en.wikipedia.org/wiki/Layered_architecture)
+- [@article@Wikipedia](https://en.wikipedia.org/wiki/Layered_architecture)

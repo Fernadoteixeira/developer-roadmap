@@ -6,7 +6,7 @@ Entrega Contínua é um método de engenharia de software no qual uma equipe des
 
 Visite os seguintes recursos para saber mais:
 
-- [@artigo@O que é CI/CD? Integração Contínua e Entrega Contínua](https://www.guru99.com/continuous-integration.html)
+- [@article@O que é CI/CD? Integração Contínua e Entrega Contínua](https://www.guru99.com/continuous-integration.html)
 - [@article@Integração Contínua versus Entrega versus Implantação](https://www.guru99.com/continuous-integration-vs-delivery-vs-deployment.html)
 - [@article@CI/CD Pipeline: Aprenda com o exemplo](https://www.guru99.com/ci-cd-pipeline.html)
 - [@feed@Explore as principais postagens sobre controle de qualidade](https://app.daily.dev/tags/qa?ref=roadmapsh)

@@ -5,8 +5,8 @@ GraphQL é uma linguagem de consulta e tempo de execução para APIs, desenvolvi
 Visite os seguintes recursos para saber mais:
 
 - [@roadmap@visit Roteiro GraphQL dedicado](https://roadmap.sh/graphql)
-- [@oficial@Introdução ao GraphQL](https://graphql.org/learn/)
+- [@official@Introdução ao GraphQL](https://graphql.org/learn/)
 - [@video@GraphQL Curso para Iniciantes](https://www.youtube.com/watch?v=ed8SzALpx1Q)
-- [@artigo@Introdução ao GraphQL](https://thenewstack.io/introduction-to-graphql/)
+- [@article@Introdução ao GraphQL](https://thenewstack.io/introduction-to-graphql/)
 - [@article@Como executar uma consulta GraphQL simples](https://thenewstack.io/how-to-execute-a-simple-graphql-query/)
 - [@feed@Explore as principais postagens sobre GraphQL](https://app.daily.dev/tags/graphql?ref=roadmapsh)

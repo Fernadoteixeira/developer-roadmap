@@ -4,7 +4,7 @@ Sass (Syntacticly Awesome Style Sheets) é uma linguagem de extensão CSS madura
 
 Visite os seguintes recursos para saber mais:
 
-- [@oficial@Site Sass](https://sass-lang.com/)
-- [@oficial@Online Sass Playground](https://sass-lang.com/playground/)
+- [@official@Site Sass](https://sass-lang.com/)
+- [@official@Online Sass Playground](https://sass-lang.com/playground/)
 - [@video@Sass Tutorial para iniciantes](https://www.youtube.com/watch?v=_a5j7KoflTs)
 - [@video@Sass, BEM e design responsivo](https://www.youtube.com/watch?v=jfMHA8SqUL4)

@@ -4,6 +4,6 @@ A execução de operações CRUD em arquivos envolve a criação de novos arquiv
 
 Saiba mais com os seguintes recursos:
 
-- [@artigo@O que é CRUD?](https://www.crowdstrike.com/cybersecurity-101/observability/crud/)
+- [@article@O que é CRUD?](https://www.crowdstrike.com/cybersecurity-101/observability/crud/)
 - [@article@Operações CRUD](https://www.freecodecamp.org/news/crud-operations-explained/)
 - [@video@O que é CRUD?](https://www.youtube.com/watch?v=iNkspbIfcic)

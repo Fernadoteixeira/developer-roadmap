@@ -10,5 +10,5 @@ Locust é uma ferramenta de teste de desempenho fácil de usar, programável e e
 
 Visite os seguintes recursos para saber mais:
 
-- [@oficial@Locust](https://locust.io/)
+- [@official@Locust](https://locust.io/)
 - [@video@Aprenda Locust](https://www.youtube.com/playlist?list=PLJ9A48W0kpRKMCzJARCObgJs3SinOewp5)

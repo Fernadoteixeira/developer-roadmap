@@ -5,4 +5,4 @@ Syslog é um protocolo padrão usado para registro de mensagens em sistemas de c
 Saiba mais com os seguintes recursos:
 
 - [@article@O que é syslog?](https://www.solarwinds.com/resources/it-glossary/syslog)
-- [@vídeo@CCNA grátis | Syslog](https://www.youtube.com/watch?v=RaQPSKQ4J5A)
+- [@video@CCNA grátis | Syslog](https://www.youtube.com/watch?v=RaQPSKQ4J5A)

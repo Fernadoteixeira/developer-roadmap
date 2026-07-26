@@ -4,7 +4,7 @@ SolidJS é uma biblioteca JavaScript declarativa, eficiente e flexível para con
 
 Visite os seguintes recursos para saber mais:
 
-- [@oficial@Site do SolidJS](https://www.solidjs.com/)
-- [@oficial@SolidJS Tutorial](https://www.solidjs.com/tutorial/introduction_basics)
+- [@official@Site do SolidJS](https://www.solidjs.com/)
+- [@official@SolidJS Tutorial](https://www.solidjs.com/tutorial/introduction_basics)
 - [@video@SolidJS em 100 segundos](https://www.youtube.com/watch?v=hw3Bx5vxKl0)
 - [@feed@Explore as principais postagens sobre JavaScript](https://app.daily.dev/tags/javascript?ref=roadmapsh)

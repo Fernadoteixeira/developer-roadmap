@@ -4,7 +4,7 @@ Os sistemas de controle de versão/controle de origem permitem que os desenvolve
 
 Visite os seguintes recursos para saber mais:
 
-- [@oficial@Git](https://git-scm.com/)
-- [@oficial@Mercurial](https://www.mercurial-scm.org/)
+- [@official@Git](https://git-scm.com/)
+- [@official@Mercurial](https://www.mercurial-scm.org/)
 - [@article@O que é controle de versão?](https://www.atlassian.com/git/tutorials/what-is-version-control)
 - [@feed@Explore as principais postagens sobre controle de qualidade](https://app.daily.dev/tags/qa?ref=roadmapsh)

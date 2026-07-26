@@ -6,4 +6,4 @@ Visite os seguintes recursos para saber mais:
 
 - [@article@Explaining Tokens — o idioma e a moeda da IA](https://blogs.nvidia.com/blog/ai-tokens-explained/)
 - [@article@O que são tokens de IA?](https://methodshop.com/what-are-ai-tokens/)
-- [@artigo@Pricing - OpenAI](https://openai.com/api/pricing/)
+- [@article@Pricing - OpenAI](https://openai.com/api/pricing/)

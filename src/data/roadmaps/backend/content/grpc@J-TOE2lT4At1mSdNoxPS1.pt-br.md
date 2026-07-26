@@ -4,7 +4,7 @@ gRPC é uma estrutura RPC universal de código aberto e de alto desempenho, RPC 
 
 Visite os seguintes recursos para saber mais:
 
-- [@oficial@gRPC Site](https://grpc.io/)
+- [@official@gRPC Site](https://grpc.io/)
 - [@article@O que é GRPC?](https://www.wallarm.com/what/the-concept-of-grpc)
 - [@video@O que é GRPC?](https://www.youtube.com/watch?v=hVrwuMnCtok)
 - [@feed@Explore as principais postagens sobre gRPC](https://app.daily.dev/tags/grpc?ref=roadmapsh)

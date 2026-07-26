@@ -4,5 +4,5 @@ POP3 (porta 110) ou POP3s (porta 995) significa The Post Office Protocol. É um 
 
 Visite os seguintes recursos para saber mais:
 
-- [@artigo@O que é POP3?](https://www.techtarget.com/whatis/definition/POP3-Post-Office-Protocol-3)
+- [@article@O que é POP3?](https://www.techtarget.com/whatis/definition/POP3-Post-Office-Protocol-3)
 - [@video@O que são POP3, IMAP e SMTP?](https://www.youtube.com/watch?v=gLNOVbcyWbI)

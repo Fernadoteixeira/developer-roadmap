@@ -4,5 +4,5 @@ O Certified Information Systems Security Professional (CISSP) é uma certificaç
 
 Saiba mais com os seguintes recursos:
 
-- [@oficial@Certificação CISSP](https://www.isc2.org/certifications/cissp)
+- [@official@Certificação CISSP](https://www.isc2.org/certifications/cissp)
 - [@video@CISSP Curso de Certificação](https://www.youtube.com/watch?v=M1_v5HBVHWo)

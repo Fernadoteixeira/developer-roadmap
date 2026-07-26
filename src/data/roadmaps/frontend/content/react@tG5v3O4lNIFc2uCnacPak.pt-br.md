@@ -5,6 +5,6 @@ React é uma biblioteca JavaScript de código aberto para construção de interf
 Visite os seguintes recursos para saber mais:
 
 - [@roadmap@Visit Roteiro de reação dedicado](https://roadmap.sh/react)
-- [@oficial@React Site](https://react.dev)
+- [@official@React Site](https://react.dev)
 - [@course@Curso para desenvolvedores Full Stack React](https://www.youtube.com/watch?v=Bvwq_S0n2pk)
 - [@feed@Explore as principais postagens sobre React](https://app.daily.dev/tags/react?ref=roadmapsh)

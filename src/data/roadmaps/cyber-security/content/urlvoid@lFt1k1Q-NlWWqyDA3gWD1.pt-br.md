@@ -4,5 +4,5 @@ UrlVoid é um serviço online que avalia e analisa sites para avaliar sua segura
 
 Visite os seguintes recursos para saber mais:
 
-- [@oficial@UrlVoid](https://www.urlvoid.com/)
+- [@official@UrlVoid](https://www.urlvoid.com/)
 - [@video@Como verificar um link suspeito sem clicar nele](https://www.youtube.com/watch?v=C1D0tNnTDe4)

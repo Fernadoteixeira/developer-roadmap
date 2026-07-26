@@ -5,7 +5,7 @@ PostgreSQL é um sistema de gerenciamento de banco de dados relacional (RDBMS) a
 Visite os seguintes recursos para saber mais:
 
 - [@roadmap@Visit Roteiro dedicado do DBA PostgreSQL](https://roadmap.sh/postgresql-dba)
-- [@oficial@Site Oficial](https://www.postgresql.org/)
+- [@official@Site Oficial](https://www.postgresql.org/)
 - [@article@Aprenda PostgreSQL - Tutorial completo para iniciantes](https://www.postgresqltutorial.com/)
 - [@video@PostgreSQL em 100 segundos](https://www.youtube.com/watch?v=n2Fluyr3lbc)
 - [@video@Postgres tutorial para iniciantes](https://www.youtube.com/watch?v=SpfIwlAYaKk)

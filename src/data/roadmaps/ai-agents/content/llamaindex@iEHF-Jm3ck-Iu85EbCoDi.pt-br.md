@@ -6,7 +6,7 @@ Visite os seguintes recursos para saber mais:
 
 - [@official@LlamaIndex](https://llamaindex.ai/)
 - [@official@LlamaIndex Documentação](https://docs.smith.langchain.com/)
-- [@oficial@O que é LlamaIndex.TS](https://ts.llamaindex.ai/docs/llamaindex)
+- [@official@O que é LlamaIndex.TS](https://ts.llamaindex.ai/docs/llamaindex)
 - [@opensource@run-llama/llama_index](https://github.com/run-llama/llama_index)
-- [@artigo@O que é LlamaIndex? -IBM](https://www.ibm.com/think/topics/llamaindex)
+- [@article@O que é LlamaIndex? -IBM](https://www.ibm.com/think/topics/llamaindex)
 - [@article@LlamaIndex - Rosto Abraçado](https://huggingface.co/llamaindex)

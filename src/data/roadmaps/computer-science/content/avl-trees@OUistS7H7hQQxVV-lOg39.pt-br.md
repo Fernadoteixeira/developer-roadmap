@@ -10,4 +10,4 @@ Visite os seguintes recursos para saber mais:
 - [@video@MIT Árvores AVL / Classificação AVL](https://www.youtube.com/watch?v=FNeL18KsWPc&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=6)
 - [@course@Árvores AVL](https://www.coursera.org/learn/data-structures/lecture/Qq5E0/avl-trees)
 - [@course@AVL Implementação da árvore](https://www.coursera.org/learn/data-structures/lecture/PKEBC/avl-tree-implementation)
-- [@curso@Dividir e mesclar](https://www.coursera.org/learn/data-structures/lecture/22BgE/split-and-merge)
+- [@course@Dividir e mesclar](https://www.coursera.org/learn/data-structures/lecture/22BgE/split-and-merge)

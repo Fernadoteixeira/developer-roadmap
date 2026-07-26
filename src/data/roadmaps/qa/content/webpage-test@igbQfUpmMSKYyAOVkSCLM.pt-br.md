@@ -6,4 +6,4 @@ Cada teste pode ser executado em diferentes locais ao redor do mundo, em navegad
 
 Visite os seguintes recursos para saber mais:
 
-- [@oficial@WebPageTest](https://www.webpagetest.org/)
+- [@official@WebPageTest](https://www.webpagetest.org/)

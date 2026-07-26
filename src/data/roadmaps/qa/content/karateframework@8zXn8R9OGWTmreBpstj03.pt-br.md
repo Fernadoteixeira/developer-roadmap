@@ -8,6 +8,6 @@ Também existe uma API Java para aqueles que preferem integrar programaticamente
 
 Visite os seguintes recursos para saber mais:
 
-- [@oficial@Karate Framework](https://www.karatelabs.io/)
+- [@official@Karate Framework](https://www.karatelabs.io/)
 - [@opensource@karate arquitetura](https://github.com/karatelabs/karate/blob/master/karate-core/src/test/resources/karate-map.jpg?raw=true)
 - [@video@karatê para iniciante](https://www.youtube.com/watch?v=1f6xtJpRx4k&list=PLhW3qG5bs-L-y5Q1zDXJAur1JNZVFB534)

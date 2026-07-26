@@ -5,4 +5,4 @@ As Redes Neurais desempenham um papel fundamental no cenário do aprendizado pro
 Saiba mais com os seguintes recursos:
 
 - [@article@O que é uma rede neural?](https://aws.amazon.com/what-is/neural-network/)
-- [@artigo@Explicado: Redes Neurais](https://news.mit.edu/2017/explained-neural-networks-deep-learning-0414)
+- [@article@Explicado: Redes Neurais](https://news.mit.edu/2017/explained-neural-networks-deep-learning-0414)

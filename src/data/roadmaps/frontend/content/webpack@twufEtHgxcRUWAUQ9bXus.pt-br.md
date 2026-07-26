@@ -4,7 +4,7 @@ Webpack é um popular empacotador de módulo JavaScript de código aberto que tr
 
 Visite os seguintes recursos para saber mais:
 
-- [@oficial@Webpack](https://webpack.js.org/)
+- [@official@Webpack](https://webpack.js.org/)
 - [@official@Introdução ao Webpack](https://webpack.js.org/guides/getting-started/)
 - [@article@Um guia completo para Webpack 5](https://www.valentinog.com/blog/webpack)
 - [@feed@Explore as principais postagens sobre o Webpack](https://app.daily.dev/tags/webpack?ref=roadmapsh)

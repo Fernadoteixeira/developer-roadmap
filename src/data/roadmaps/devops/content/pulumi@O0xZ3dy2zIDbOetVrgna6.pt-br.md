@@ -4,6 +4,6 @@ Pulumi é uma plataforma de infraestrutura como código (IaC) de código aberto 
 
 Visite os seguintes recursos para saber mais:
 
-- [@oficial@Pulumi Site](https://www.pulumi.com/)
+- [@official@Pulumi Site](https://www.pulumi.com/)
 - [@video@Pulumi em três minutos](https://www.youtube.com/watch?v=Q8tw6YTD3ac)
 - [@feed@Explore as principais postagens sobre Pulumi](https://app.daily.dev/tags/pulumi?ref=roadmapsh)

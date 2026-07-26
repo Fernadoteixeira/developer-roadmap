@@ -4,6 +4,6 @@ O TensorFlow, desenvolvido pela Google Brain Team, tornou-se uma ferramenta cruc
 
 Saiba mais com os seguintes recursos:
 
-- [@oficial@Tensorflow](https://www.tensorflow.org/)
+- [@official@Tensorflow](https://www.tensorflow.org/)
 - [@official@Documentação do Tensorflow](https://www.tensorflow.org/learn)
 - [@video@Tensorflow em 100 segundos](https://www.youtube.com/watch?v=i8NETqtGHms)

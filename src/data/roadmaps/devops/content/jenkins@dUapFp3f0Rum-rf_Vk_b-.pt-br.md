@@ -4,7 +4,7 @@ Jenkins é um servidor de automação de código aberto amplamente utilizado par
 
 Visite os seguintes recursos para saber mais:
 
-- [@oficial@Jenkins Site](https://www.jenkins.io/)
+- [@official@Jenkins Site](https://www.jenkins.io/)
 - [@official@Jenkins Guia de primeiros passos](https://www.jenkins.io/doc/pipeline/tour/getting-started/)
-- [@vídeo@Aprenda Jenkins! Curso completo de Jenkins - Zero a Herói](https://www.youtube.com/watch?v=6YZvp2GwT0A)
+- [@video@Aprenda Jenkins! Curso completo de Jenkins - Zero a Herói](https://www.youtube.com/watch?v=6YZvp2GwT0A)
 - [@feed@Explore as principais postagens sobre Jenkins](https://app.daily.dev/tags/jenkins?ref=roadmapsh)

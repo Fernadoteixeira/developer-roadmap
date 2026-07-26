@@ -5,6 +5,6 @@ TLS (Transport Layer Security) é um protocolo criptográfico que fornece privac
 Visite os seguintes recursos para saber mais:
 
 - [@article@O que é TLS e como funciona? - Sociedade da Internet](https://www.internetsociety.org/deploy360/tls/basics/)
-- [@artigo@O que é TLS (Segurança da Camada de Transporte)? - Cloudflare](https://www.cloudflare.com/learning/ssl/transport-layer-security-tls/)
-- [@vídeo@SSL e HTTPS](https://www.youtube.com/watch?v=S2iBR2ZlZf0)
+- [@article@O que é TLS (Segurança da Camada de Transporte)? - Cloudflare](https://www.cloudflare.com/learning/ssl/transport-layer-security-tls/)
+- [@video@SSL e HTTPS](https://www.youtube.com/watch?v=S2iBR2ZlZf0)
 - [@video@SSL/TLS - Cristina Formaini](https://www.youtube.com/watch?v=Rp3iZUvXWlM)

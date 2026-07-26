@@ -4,5 +4,5 @@ O Amazon SES (Simple Email Service) é um serviço de e-mail baseado em nuvem es
 
 Visite os seguintes recursos para saber mais:
 
-- [@oficial@Amazon AWS SES](https://aws.amazon.com/ses/)
+- [@official@Amazon AWS SES](https://aws.amazon.com/ses/)
 - [@video@Envio de formulário de contato com AWS SES](https://www.youtube.com/watch?v=HiHflLTqiwU)

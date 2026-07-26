@@ -4,5 +4,5 @@ Um Firewall é um dispositivo de segurança de rede que monitora e filtra o trá
 
 Visite os seguintes recursos para saber mais:
 
-- [@artigo@O que é um Firewall? - Cloudflare](https://www.cloudflare.com/learning/security/what-is-a-firewall/)
-- [@artigo@Firewall - Cisco](https://www.cisco.com/site/us/en/learn/topics/security/what-is-a-firewall.html)
+- [@article@O que é um Firewall? - Cloudflare](https://www.cloudflare.com/learning/security/what-is-a-firewall/)
+- [@article@Firewall - Cisco](https://www.cisco.com/site/us/en/learn/topics/security/what-is-a-firewall.html)

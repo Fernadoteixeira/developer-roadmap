@@ -4,6 +4,6 @@ Artifactory é uma solução universal de DevOps para hospedar, gerenciar e dist
 
 Visite os seguintes recursos para saber mais:
 
-- [@site@Artifactory Website](https://jfrog.com/artifactory/)
+- [@official@Artifactory Website](https://jfrog.com/artifactory/)
 - [@video@Principais características do JFrog Artifactory em 5 minutos](https://www.youtube.com/watch?v=ZCNOtVj7bow)
 - [@feed@Explore posts sobre o Artifactory](https://app.daily.dev/tags/artifactory?ref=roadmapsh)

@@ -4,7 +4,7 @@ Ruby é uma linguagem de programação dinâmica e orientada a objetos conhecida
 
 Visite os seguintes recursos para saber mais:
 
-- [@oficial@Ruby Site](https://www.ruby-lang.org/en/)
+- [@official@Ruby Site](https://www.ruby-lang.org/en/)
 - [@official@Aprenda Ruby em 20 minutos](https://www.ruby-lang.org/en/documentation/quickstart/)
 - [@video@Curso intensivo de programação em Ruby](https://www.youtube.com/watch?v=w9yNsTAp-Mg)
 - [@feed@Explore as principais postagens sobre Ruby](https://app.daily.dev/tags/ruby?ref=roadmapsh)

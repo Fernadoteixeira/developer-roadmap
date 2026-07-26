@@ -4,7 +4,7 @@ C# (pronuncia-se C-sharp) é uma linguagem de programação moderna e orientada 
 
 Visite os seguintes recursos para saber mais:
 
-- [@oficial@C# Tour](https://learn.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/)
+- [@official@C# Tour](https://learn.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/)
 - [@course@C# Caminho de aprendizagem](https://docs.microsoft.com/en-us/learn/paths/csharp-first-steps/?WT.mc_id=dotnet-35129-website)
 - [@article@C# em escolas W3](https://www.w3schools.com/cs/index.php)
 - [@video@Aprenda Programação C# – Curso Completo com Miniprojetos](https://www.youtube.com/watch?v=YrtFtdTTfv0)

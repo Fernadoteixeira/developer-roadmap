@@ -5,6 +5,6 @@ Aprenda como configurar:
 - Proxy de encaminhamento
 - Proxy reverso
 - Balanceador de carga
-  -Firewall
+- Firewall
 - Servidor de cache
 - Servidor Web

@@ -5,4 +5,4 @@ Como analista de dados, compreender vários algoritmos de aprendizado de máquin
 Saiba mais com os seguintes recursos:
 
 - [@article@O que são classificadores Naïve Bayes?](https://www.ibm.com/topics/naive-bayes)
-- [@artigo@Naive Bayes](https://scikit-learn.org/stable/modules/naive_bayes.html)
+- [@article@Naive Bayes](https://scikit-learn.org/stable/modules/naive_bayes.html)

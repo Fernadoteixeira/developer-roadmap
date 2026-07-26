@@ -4,6 +4,6 @@ Parcel é um empacotador de aplicativos da web sem configuração que simplifica
 
 Visite os seguintes recursos para saber mais:
 
-- [@oficial@Site de encomendas](https://parceljs.org/plugin-system/bundler/)
+- [@official@Site de encomendas](https://parceljs.org/plugin-system/bundler/)
 - [@video@Como construir um aplicativo Web com Parcel.js](https://www.youtube.com/watch?v=R02ehdTzi3I)
 - [@feed@Explore as principais postagens sobre Desenvolvimento Web](https://app.daily.dev/tags/webdev?ref=roadmapsh)

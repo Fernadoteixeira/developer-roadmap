@@ -4,7 +4,7 @@ Apache CouchDB é um banco de dados NoSQL orientado a documentos de código aber
 
 Visite os seguintes recursos para saber mais:
 
-- [@oficial@CouchDB](https://couchdb.apache.org/)
+- [@official@CouchDB](https://couchdb.apache.org/)
 - [@official@CouchDB Documentação](https://docs.couchdb.org/en/stable/)
 - [@video@O que é CouchDB?](https://www.youtube.com/watch?v=Mru4sHzIfSA)
 - [@feed@Explore as principais postagens sobre o CouchDB](https://app.daily.dev/tags/couchdb?ref=roadmapsh)

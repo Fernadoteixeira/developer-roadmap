@@ -9,9 +9,9 @@
 Visite os seguintes recursos para saber mais:
 
 - [@roadmap@Visite o roteiro Java dedicado](https://roadmap.sh/java)
-- [@oficial@Scala](https://www.scala-lang.org/)
-- [@documentação@Scala](https://docs.scala-lang.org/)
-- [@oficial@Kotlin](https://kotlinlang.org/)
+- [@official@Scala](https://www.scala-lang.org/)
+- [@official@Documentação do Scala](https://docs.scala-lang.org/)
+- [@official@Kotlin](https://kotlinlang.org/)
 - [@official@Documentação Kotlin](https://kotlinlang.org/docs/home.html)
-- [@oficial@Java](https://www.java.com/)
+- [@official@Java](https://www.java.com/)
 - [@feed@Explore as principais postagens sobre Java](https://app.daily.dev/tags/java?ref=roadmapsh)

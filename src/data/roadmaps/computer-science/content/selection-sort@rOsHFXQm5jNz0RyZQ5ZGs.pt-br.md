@@ -6,4 +6,4 @@ Visite os seguintes recursos para saber mais:
 
 - [@article@Selection Sort](https://en.wikipedia.org/wiki/Selection_sort)
 - [@video@Selection Classificar em 3 minutos](https://www.youtube.com/watch?v=g-PGLbMth_g)
-- [@curso@Classificação de seleção](https://www.coursera.org/lecture/algorithms-part1/selection-UQxFT)
+- [@course@Classificação de seleção](https://www.coursera.org/lecture/algorithms-part1/selection-UQxFT)

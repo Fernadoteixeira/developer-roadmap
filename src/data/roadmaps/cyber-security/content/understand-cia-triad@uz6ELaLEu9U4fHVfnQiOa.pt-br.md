@@ -4,5 +4,5 @@ A Tríade da CIA é um modelo fundamental em segurança da informação que defi
 
 Saiba mais com os seguintes recursos:
 
-- [@artigo@A Tríade da CIA](https://www.fortinet.com/resources/cyberglossary/cia-triad)
+- [@article@A Tríade da CIA](https://www.fortinet.com/resources/cyberglossary/cia-triad)
 - [@video@A Tríade da CIA - Professor Messer](https://www.youtube.com/watch?v=SBcDGb9l6yo)

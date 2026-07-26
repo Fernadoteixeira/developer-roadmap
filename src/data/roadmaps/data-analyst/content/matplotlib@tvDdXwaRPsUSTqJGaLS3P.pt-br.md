@@ -4,5 +4,5 @@ Para um analista de dados, compreender os dados e ser capaz de representá-los d
 
 Saiba mais com os seguintes recursos:
 
-- [@oficial@Matplotlib](https://matplotlib.org/)
+- [@official@Matplotlib](https://matplotlib.org/)
 - [@video@Aprenda Matplotlib em 6 minutos](https://www.youtube.com/watch?v=nzKy9GY12yo)

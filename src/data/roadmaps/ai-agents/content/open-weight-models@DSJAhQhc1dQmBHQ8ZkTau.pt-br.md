@@ -4,7 +4,7 @@ Modelos de peso aberto são redes neurais cujos parâmetros treinados, também c
 
 Visite os seguintes recursos para saber mais:
 
-- [@oficial@BLOOM BigScience](https://bigscience.huggingface.co/)
+- [@official@BLOOM BigScience](https://bigscience.huggingface.co/)
 - [@official@Falcon LLM – Instituto de Inovação Tecnológica (TII)](https://falconllm.tii.ae/)
 - [@official@Llama 2 – Anúncio Oficial do Meta](https://ai.meta.com/llama/)
 - [@official@Hugging Face – Open LLM Leaderboard (Principais modelos abertos)](https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard)

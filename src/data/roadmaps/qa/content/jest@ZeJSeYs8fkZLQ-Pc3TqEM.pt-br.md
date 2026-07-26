@@ -5,7 +5,7 @@ Funciona com projetos utilizando: Babel, TypeScript, Node, React, Angular, Vue e
 
 Visite os seguintes recursos para saber mais:
 
-- [@oficial@Jest](https://jestjs.io/)
+- [@official@Jest](https://jestjs.io/)
 - [@official@Jest Documentação](https://jestjs.io/docs/getting-started)
 - [@video@Jest Curso intensivo - Teste unitário em JavaScript](https://www.youtube.com/watch?v=7r4xVDI2vho)
 - [@feed@Explore as principais postagens sobre Jest](https://app.daily.dev/tags/jest?ref=roadmapsh)

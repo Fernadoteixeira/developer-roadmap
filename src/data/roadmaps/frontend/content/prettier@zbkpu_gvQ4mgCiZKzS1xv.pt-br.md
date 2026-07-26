@@ -4,6 +4,6 @@ Prettier é um formatador de código opinativo que oferece suporte a várias lin
 
 Visite os seguintes recursos para saber mais:
 
-- [@oficial@site mais bonito](https://prettier.io)
-- [@oficial@Por que mais bonito](https://prettier.io/docs/en/why-prettier.html)
+- [@official@site mais bonito](https://prettier.io)
+- [@official@Por que mais bonito](https://prettier.io/docs/en/why-prettier.html)
 - [@video@Como configurar o Prettier](https://www.youtube.com/watch?v=DqfQ4DPnRqI)

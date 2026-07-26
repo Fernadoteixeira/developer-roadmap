@@ -5,4 +5,4 @@ As codificações de caracteres são uma forma de representar caracteres como n�
 Visite os seguintes recursos para saber mais:
 
 - [@article@É preciso saber sobre codificações de caracteres](https://www.joelonsoftware.com/2003/10/08/the-absolute-minimum-every-software-developer-absolutely-positively-must-know-about-unicode-and-character-sets-no-excuses/)
-- [@artigo@Codificação de caracteres](https://cs.lmu.edu/~ray/notes/charenc/)
+- [@article@Codificação de caracteres](https://cs.lmu.edu/~ray/notes/charenc/)

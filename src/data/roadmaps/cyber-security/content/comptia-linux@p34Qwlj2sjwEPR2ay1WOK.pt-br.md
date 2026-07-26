@@ -4,5 +4,5 @@ A certificação CompTIA Linux+ é uma certificação básica destinada a indiv�
 
 Saiba mais com os seguintes recursos:
 
-- [@oficial@CompTIA Linux+](https://www.comptia.org/certifications/linux)
+- [@official@CompTIA Linux+](https://www.comptia.org/certifications/linux)
 - [@video@Linux+ Preparação para Exame](https://www.youtube.com/watch?v=niPWk7tgD2Q&list=PL78ppT-_wOmuwT9idLvuoKOn6UYurFKCp)

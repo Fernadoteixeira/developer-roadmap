@@ -6,8 +6,8 @@ Visite os seguintes recursos para saber mais:
 
 - [@official@jwt.io](https://jwt.io/)
 - [@official@Introdução aos JSON Web Tokens](https://jwt.io/introduction)
-- [@artigo@O que é JWT?](https://www.akana.com/blog/what-is-jwt)
+- [@article@O que é JWT?](https://www.akana.com/blog/what-is-jwt)
 - [@video@O que é JWT e por que você deve usar JWT](https://www.youtube.com/watch?v=7Q17ubqLfaM)
-- [@vídeo@O que é JWT? Explicação do token da Web JSON](https://www.youtube.com/watch?v=926mknSW9Lo)
+- [@video@O que é JWT? Explicação do token da Web JSON](https://www.youtube.com/watch?v=926mknSW9Lo)
 - [@video@Tutorial de autenticação JWT - Node.js](https://www.youtube.com/watch?v=mbsmsi7l3r4)
 - [@feed@Explore as principais postagens sobre JWT](https://app.daily.dev/tags/jwt?ref=roadmapsh)

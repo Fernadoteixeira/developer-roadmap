@@ -4,7 +4,7 @@ NGINX é um servidor web de código aberto de alto desempenho, proxy reverso e b
 
 Visite os seguintes recursos para saber mais:
 
-- [@oficial@Nginx](https://nginx.org/)
+- [@official@Nginx](https://nginx.org/)
 - [@video@NGINX explicado em 100 segundos](https://www.youtube.com/watch?v=JKxlsvZXG7c)
 - [@article@Configuração básica do NGINX no Ubuntu: guia para uma veiculação de site funcional e segura](https://swissmade.host/en/blog/basic-nginx-setup-ubuntu-guide-to-a-functional-and-secure-website-serving)
 - [@feed@Explore as principais postagens sobre Nginx](https://app.daily.dev/tags/nginx?ref=roadmapsh)

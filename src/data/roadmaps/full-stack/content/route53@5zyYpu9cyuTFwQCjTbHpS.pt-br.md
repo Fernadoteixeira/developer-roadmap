@@ -5,6 +5,6 @@ Route53 é o serviço de sistema de nomes de domínio (DNS) da AWS que desempenh
 Visite os seguintes recursos para saber mais:
 
 - [@official@Route53](https://aws.amazon.com/route53/)
-- [@vídeo@Amazon Route 53](https://www.youtube.com/watch?v=RGWgfhZByAI)
+- [@video@Amazon Route 53](https://www.youtube.com/watch?v=RGWgfhZByAI)
 - [@video@Nome de domínio AWS Route 53](https://www.youtube.com/watch?v=jDz4j_kkyLA)
 - [@video@DNS com AWS Route 53](https://www.youtube.com/watch?v=yRIY7BJohfo&t=2s)

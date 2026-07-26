@@ -8,5 +8,5 @@ Um Sistema de Gerenciamento de Documentos (DMS) é uma solução de software que
 
 Visite os seguintes recursos para saber mais:
 
-- [@artigo@DMS](https://www.opentext.com/products/documentum-content-management)
+- [@article@DMS](https://www.opentext.com/products/documentum-content-management)
 - [@article@EMC Softwares](https://www.spiceworks.com/collaboration/content-collaboration/articles/top-10-enterprise-content-management-software-systems/)

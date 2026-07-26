@@ -5,9 +5,9 @@ Terraform é uma ferramenta de infraestrutura como código (IaC) de código aber
 Visite os seguintes recursos para saber mais:
 
 - [@roadmap@Visit Roteiro dedicado do Terraform](https://roadmap.sh/terraform)
-- [@oficial@Terraform Site](https://www.terraform.io/)
-- [@oficial@Documentação do Terraform](https://www.terraform.io/docs)
-- [@oficial@Terraform CDK](https://www.terraform.io/cdktf)
-- [@oficial@Tutoriais do Terraform](https://learn.hashicorp.com/terraform)
+- [@official@Terraform Site](https://www.terraform.io/)
+- [@official@Documentação do Terraform](https://www.terraform.io/docs)
+- [@official@Terraform CDK](https://www.terraform.io/cdktf)
+- [@official@Tutoriais do Terraform](https://learn.hashicorp.com/terraform)
 - [@video@Introdução ao vídeo Terraform](https://www.youtube.com/watch?v=h970ZBgKINg&ab_channel=HashiCorp)
 - [@feed@Explore as principais postagens sobre o Terraform](https://app.daily.dev/tags/terraform?ref=roadmapsh)

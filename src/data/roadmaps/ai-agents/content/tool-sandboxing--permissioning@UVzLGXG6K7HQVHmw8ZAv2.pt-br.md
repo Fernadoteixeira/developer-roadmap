@@ -4,6 +4,6 @@ O sandboxing de ferramentas mantém o agente de IA dentro de uma zona segura ond
 
 Visite os seguintes recursos para saber mais:
 
-- [@artigo@AI Sandbox | Tecnologia da Informação da Universidade de Harvard](https://www.huit.harvard.edu/ai-sandbox)
+- [@article@AI Sandbox | Tecnologia da Informação da Universidade de Harvard](https://www.huit.harvard.edu/ai-sandbox)
 - [@article@Como configurar sandboxes de IA para maximizar a adoção](https://medium.com/@emilholmegaard/how-to-set-up-ai-sandboxes-to-maximize-adoption-without-compromising-ethics-and-values-637c70626130)
 - [@article@Sandboxes para IA - Iniciativa Datasphere](https://www.thedatasphere.org/datasphere-publish/sandboxes-for-ai/)

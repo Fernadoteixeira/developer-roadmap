@@ -5,6 +5,6 @@ OWASP ou Open Web Application Security Project é uma comunidade online que prod
 Visite os seguintes recursos para saber mais:
 
 - [@opensource@OWASP Lista de verificação de testes de segurança de aplicativos da Web](https://github.com/0xRadi/OWASP-Web-Checklist)
-- [@artigo@Wikipedia - OWASP](https://en.wikipedia.org/wiki/OWASP)
+- [@article@Wikipedia - OWASP](https://en.wikipedia.org/wiki/OWASP)
 - [@article@OWASP 10 principais riscos de segurança](https://sucuri.net/guides/owasp-top-10-security-vulnerabilities-2021/)
 - [@article@OWASP Cheatsheets](https://cheatsheetseries.owasp.org/cheatsheets/AJAX_Security_Cheat_Sheet.html)

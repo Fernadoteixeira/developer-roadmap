@@ -4,6 +4,6 @@ O Amazon DynamoDB é um serviço de banco de dados NoSQL totalmente gerenciado e
 
 Saiba mais com os seguintes recursos:
 
-- [@oficial@AWS DynamoDB](https://aws.amazon.com/dynamodb/)
+- [@official@AWS DynamoDB](https://aws.amazon.com/dynamodb/)
 - [@video@AWS DynamoDB Tutorial para iniciantes](https://www.youtube.com/watch?v=2k2GINpO308)
 - [@feed@daily.dev Feed do AWS DynamoDB](https://app.daily.dev/tags/aws-dynamodb)

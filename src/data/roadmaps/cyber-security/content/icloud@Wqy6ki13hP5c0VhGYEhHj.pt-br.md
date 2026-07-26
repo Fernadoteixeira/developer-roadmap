@@ -4,4 +4,4 @@ iCloud é um serviço de armazenamento e computação em nuvem fornecido pela Ap
 
 Saiba mais com os seguintes recursos:
 
-- [@oficial@iCloud](https://www.icloud.com/)
+- [@official@iCloud](https://www.icloud.com/)

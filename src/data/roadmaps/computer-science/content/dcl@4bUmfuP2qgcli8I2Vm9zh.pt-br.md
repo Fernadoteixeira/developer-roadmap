@@ -4,4 +4,4 @@ DCL inclui comandos como GRANT e REVOKE que tratam principalmente dos direitos, 
 
 Visite os seguintes recursos para saber mais:
 
-- [@artigo@DCL](https://en.wikipedia.org/wiki/Data_Control_Language)
+- [@article@DCL](https://en.wikipedia.org/wiki/Data_Control_Language)

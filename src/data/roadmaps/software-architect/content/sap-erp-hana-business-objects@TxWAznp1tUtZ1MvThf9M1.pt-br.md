@@ -4,4 +4,4 @@ SAP (Sistemas, Aplicativos e Produtos em Processamento de Dados) é um fornecedo
 
 Visite os seguintes recursos para saber mais:
 
-- [@oficial@SAP](https://www.sap.com/)
+- [@official@SAP](https://www.sap.com/)

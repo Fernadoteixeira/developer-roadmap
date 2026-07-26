@@ -4,7 +4,7 @@ HashiCorp Vault √© uma ferramenta projetada para gerenciar segredos com seguran√
 
 Visite os seguintes recursos para saber mais:
 
-- [@oficial@HashiCorp Vault](https://www.vaultproject.io/)
+- [@official@HashiCorp Vault](https://www.vaultproject.io/)
 - [@opensource@hashicorp/vault](https://github.com/hashicorp/vault)
 - [@video@HashiCorp Vault explicado em 180 segundos](https://www.youtube.com/watch?v=nG8fCdWkLzc)
 - [@video@HashiCorp Vault Tutorial para iniciantes](https://www.youtube.com/watch?v=ae72pKpXe-s)

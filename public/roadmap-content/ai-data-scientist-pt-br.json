@@ -1,441 +1,461 @@
 {
   "aStaDENn5PhEa-cFvNzXa": {
-    "title": "TRADUZIDO_Mathematics",
-    "description": "Mathematics is the foundation of AI and Data Science. It is essential to have a good understanding of mathematics to excel in these fields.",
+    "title": "Matemática",
+    "description": "A matemática é a base da IA ​​e da ciência de dados. É essencial ter um bom conhecimento de matemática para se destacar nessas áreas.",
     "links": [
       {
-        "title": "TRADUZIDO_Mathematics for Machine Learning",
+        "title": "Matemática para aprendizado de máquina",
         "url": "https://imp.i384100.net/baqMYv",
         "type": "article"
       },
       {
-        "title": "TRADUZIDO_Algebra and Differential Calculus",
+        "title": "Álgebra e Cálculo Diferencial",
         "url": "https://imp.i384100.net/LX5M7M",
         "type": "article"
       }
     ]
   },
   "4WZL_fzJ3cZdWLLDoWN8D": {
-    "title": "TRADUZIDO_Statistics",
-    "description": "Statistics is the science of collecting, analyzing, interpreting, presenting, and organizing data. It is a branch of mathematics that deals with the collection, analysis, interpretation, presentation, and organization of data. It is used in a wide range of fields, including science, engineering, medicine, and social science. Statistics is used to make informed decisions, to predict future events, and to test hypotheses. It is also used to summarize data, to describe relationships between variables, and to make inferences about populations based on samples.\n\nLearn more from the resources given on the roadmap.",
+    "title": "Estatísticas",
+    "description": "Estatística é a ciência de coletar, analisar, interpretar, apresentar e organizar dados. É um ramo da matemática que trata da coleta, análise, interpretação, apresentação e organização de dados. É usado em uma ampla variedade de campos, incluindo ciência, engenharia, medicina e ciências sociais. A estatística é usada para tomar decisões informadas, prever eventos futuros e testar hipóteses. Também é usado para resumir dados, descrever relações entre variáveis ​​e fazer inferências sobre populações com base em amostras.\n\nAprenda mais com os recursos fornecidos no roteiro.",
     "links": []
   },
   "gWMvD83hVXeTmCuHGIiOL": {
-    "title": "TRADUZIDO_Linear Algebra, Calculus, Mathematical Analysis",
+    "title": "Aprenda Álgebra, Cálculo, Análise Matemática",
     "description": "",
     "links": [
       {
-        "title": "TRADUZIDO_Mathematics for Machine Learning Specialization",
+        "title": "Especialização em Matemática para Aprendizado de Máquina",
         "url": "https://imp.i384100.net/baqMYv",
         "type": "article"
       },
       {
-        "title": "TRADUZIDO_Explore top posts about Math",
+        "title": "Explore as principais postagens sobre matemática",
         "url": "https://app.daily.dev/tags/math?ref=roadmapsh",
         "type": "article"
       },
       {
-        "title": "TRADUZIDO_Linear Algebra Youtube Course",
+        "title": "Curso de Álgebra Linear no Youtube",
         "url": "https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab",
         "type": "video"
       }
     ]
   },
   "mwPJh33MEUQ4Co_LiVEOb": {
-    "title": "TRADUZIDO_Differential Calculus ",
+    "title": "Cálculo Diferencial",
     "description": "",
     "links": [
       {
-        "title": "TRADUZIDO_Algebra and Differential Calculus for Data Science",
+        "title": "Álgebra e Cálculo Diferencial para Ciência de Dados",
         "url": "https://imp.i384100.net/LX5M7M",
         "type": "article"
       },
       {
-        "title": "TRADUZIDO_Calculus Youtube Course",
+        "title": "Curso de Cálculo no Youtube",
         "url": "https://www.youtube.com/playlist?list=PLZHQObOWTQDMsr9K-rj53DwVRMYO3t5Yr",
         "type": "video"
       }
     ]
   },
   "Y9YJdARIRqqCBCy3GVYdA": {
-    "title": "TRADUZIDO_Statistics, CLT",
+    "title": "Estatísticas, CLT",
     "description": "",
     "links": [
       {
-        "title": "TRADUZIDO_Introduction to Statistics",
+        "title": "Introdução à Estatística",
         "url": "https://imp.i384100.net/3eRv4v",
         "type": "article"
       }
     ]
   },
   "XJXIkWVDIrPJ-bVIvX0ZO": {
-    "title": "TRADUZIDO_Hypothesis Testing",
+    "title": "Teste de hipótese",
     "description": "",
     "links": [
       {
-        "title": "TRADUZIDO_Introduction to Statistical Analysis: Hypothesis Testing",
+        "title": "Introdução à Análise Estatística: Teste de Hipóteses",
         "url": "https://imp.i384100.net/vN0JAA",
         "type": "article"
       },
       {
-        "title": "TRADUZIDO_Explore top posts about Testing",
+        "title": "Explore as principais postagens sobre testes",
         "url": "https://app.daily.dev/tags/testing?ref=roadmapsh",
         "type": "article"
       }
     ]
   },
   "jxJtwbiCvxHqmkWkE7zdx": {
-    "title": "TRADUZIDO_Probability and Sampling",
+    "title": "Probabilidade e Amostragem",
     "description": "",
     "links": [
       {
-        "title": "TRADUZIDO_Probability and Statistics: To p or not to p?",
+        "title": "Probabilidade e Estatística: P ou não p?",
         "url": "https://imp.i384100.net/daDM6Q",
         "type": "article"
       },
       {
-        "title": "TRADUZIDO_Explore top posts about Statistics",
+        "title": "Explore as principais postagens sobre estatísticas",
         "url": "https://app.daily.dev/tags/statistics?ref=roadmapsh",
         "type": "article"
       }
     ]
   },
   "mJq9b50MJM9o9dLhx40iN": {
-    "title": "TRADUZIDO_AB Testing",
+    "title": "Teste AB",
     "description": "",
     "links": [
       {
-        "title": "TRADUZIDO_Practitioner’s Guide to Statistical Tests",
+        "title": "Guia do profissional para testes estatísticos",
         "url": "https://vkteam.medium.com/practitioners-guide-to-statistical-tests-ed2d580ef04f#1e3b",
         "type": "article"
       },
       {
-        "title": "TRADUZIDO_Step by Step Process for Planning an A/B Test",
+        "title": "Processo passo a passo para planejar um teste A/B",
         "url": "https://medium.com/data-science/step-by-step-for-planning-an-a-b-test-ef3c93143c0b",
         "type": "article"
       },
       {
-        "title": "TRADUZIDO_Explore top posts about A/B Testing",
+        "title": "Explore as principais postagens sobre testes A/B",
         "url": "https://app.daily.dev/tags/ab-testing?ref=roadmapsh",
         "type": "article"
       }
     ]
   },
   "v68nwX914qCwHDSwY_ZhG": {
-    "title": "TRADUZIDO_Increasing Test Sensitivity",
+    "title": "Aumentando a sensibilidade do teste",
     "description": "",
     "links": [
       {
-        "title": "TRADUZIDO_Minimum Detectable Effect (MDE)",
+        "title": "Efeito Mínimo Detectável (MDE)",
         "url": "https://splitmetrics.com/resources/minimum-detectable-effect-mde/",
         "type": "article"
       },
       {
-        "title": "TRADUZIDO_Improving the Sensitivity of Online Controlled Experiments: Case Studies at Netflix",
+        "title": "Melhorando a sensibilidade de experimentos controlados on-line: estudos de caso na Netflix",
         "url": "https://kdd.org/kdd2016/papers/files/adp0945-xieA.pdf",
         "type": "article"
       },
       {
-        "title": "TRADUZIDO_Improving the Sensitivity of Online Controlled Experiments by Utilizing Pre-Experiment Data",
+        "title": "Melhorando a sensibilidade de experimentos controlados on-line utilizando dados pré-experimentais",
         "url": "https://exp-platform.com/Documents/2013-02-CUPED-ImprovingSensitivityOfControlledExperiments.pdf",
         "type": "article"
       },
       {
-        "title": "TRADUZIDO_How Booking.com increases the power of online experiments with CUPED",
+        "title": "Como Booking.com aumenta o poder das experiências online com CUPED",
         "url": "https://booking.ai/how-booking-com-increases-the-power-of-online-experiments-with-cuped-995d186fff1d",
         "type": "article"
       },
       {
-        "title": "TRADUZIDO_Improving Experimental Power through Control Using Predictions as Covariate — CUPAC",
+        "title": "Melhorando o poder experimental por meio do controle usando previsões como covariáveis — CUPAC",
         "url": "https://doordash.engineering/2020/06/08/improving-experimental-power-through-control-using-predictions-as-covariate-cupac/",
         "type": "article"
       },
       {
-        "title": "TRADUZIDO_Improving the Sensitivity of Online Controlled Experiments: Case Studies at Netflix",
+        "title": "Melhorando a sensibilidade de experimentos controlados on-line: estudos de caso na Netflix",
         "url": "https://www.researchgate.net/publication/305997925_Improving_the_Sensitivity_of_Online_Controlled_Experiments_Case_Studies_at_Netflix",
         "type": "article"
       }
     ]
   },
   "n2JFGwFxTuOviW6kHO1Uv": {
-    "title": "TRADUZIDO_Ratio Metrics",
+    "title": "Métricas de proporção",
     "description": "",
     "links": [
       {
-        "title": "TRADUZIDO_Applying the Delta Method in Metric Analytics: A Practical Guide with Novel Ideas",
+        "title": "Aplicando o método Delta em Metric Analytics: um guia prático com ideias inovadoras",
         "url": "https://arxiv.org/pdf/1803.06336.pdf",
         "type": "article"
       },
       {
-        "title": "TRADUZIDO_Approximations for Mean and Variance of a Ratio",
+        "title": "Aproximações para Média e Variância de uma Razão",
         "url": "https://www.stat.cmu.edu/~hseltman/files/ratio.pdf",
         "type": "article"
       }
     ]
   },
   "Gd2egqKZPnbPW1W2jw4j8": {
-    "title": "TRADUZIDO_Econometrics",
-    "description": "Econometrics is the application of statistical methods to economic data. It is a branch of economics that aims to give empirical content to economic relations. More precisely, it is \"the quantitative analysis of actual economic phenomena based on the concurrent development of theory and observation, related by appropriate methods of inference.\" Econometrics can be described as something that allows economists \"to sift through mountains of data to extract simple relationships.\"",
+    "title": "Econometria",
+    "description": "Econometria é a aplicação de métodos estatísticos a dados econômicos. É um ramo da economia que visa dar conteúdo empírico às relações económicas. Mais precisamente, é “a análise quantitativa dos fenómenos económicos reais baseada no desenvolvimento simultâneo da teoria e da observação, relacionadas por métodos apropriados de inferência”. A econometria pode ser descrita como algo que permite aos economistas “peneirar montanhas de dados para extrair relações simples”.",
     "links": []
   },
   "y6xXsc-uSAmRDnNuyhqH2": {
-    "title": "TRADUZIDO_Pre-requisites of Econometrics",
+    "title": "Pré-requisitos de Econometria",
     "description": "",
     "links": [
       {
-        "title": "TRADUZIDO_10 Fundamental Theorems for Econometrics",
+        "title": "10 Teoremas Fundamentais para Econometria",
         "url": "https://bookdown.org/ts_robinson1994/10EconometricTheorems/",
         "type": "article"
       }
     ]
   },
   "h19k9Fn5XPh3_pKEC8Ftp": {
-    "title": "TRADUZIDO_Regression, Timeseries, Fitting Distributions",
+    "title": "Regressões, séries temporais, distribuições de ajuste",
     "description": "",
     "links": [
       {
-        "title": "TRADUZIDO_Blockchain.com Data Scientist TakeHome Test",
+        "title": "Blockchain.com Teste para levar para casa do cientista de dados",
         "url": "https://github.com/stalkermustang/bcdc_ds_takehome",
         "type": "opensource"
       },
       {
-        "title": "TRADUZIDO_10 Fundamental Theorems for Econometrics",
+        "title": "10 Teoremas Fundamentais para Econometria",
         "url": "https://bookdown.org/ts_robinson1994/10EconometricTheorems/",
         "type": "article"
       },
       {
-        "title": "TRADUZIDO_Dougherty Intro to Econometrics 4th edition",
+        "title": "Dougherty Introdução à Econometria 4ª edição",
         "url": "https://www.academia.edu/33062577/Dougherty_Intro_to_Econometrics_4th_ed_small",
         "type": "article"
       },
       {
-        "title": "TRADUZIDO_Econometrics: Methods and Applications",
+        "title": "Econometria: Métodos e Aplicações",
         "url": "https://imp.i384100.net/k0krYL",
         "type": "article"
       },
       {
-        "title": "TRADUZIDO_Kaggle - Learn Time Series",
+        "title": "Kaggle - Aprenda séries temporais",
         "url": "https://www.kaggle.com/learn/time-series",
         "type": "article"
       },
       {
-        "title": "TRADUZIDO_Time series Basics : Exploring traditional TS",
+        "title": "Noções básicas de séries temporais: explorando TS tradicional",
         "url": "https://www.kaggle.com/code/jagangupta/time-series-basics-exploring-traditional-ts#Hierarchical-time-series",
         "type": "article"
       },
       {
-        "title": "TRADUZIDO_How to Create an ARIMA Model for Time Series Forecasting in Python",
+        "title": "Como criar um modelo ARIMA para previsão de séries temporais em Python",
         "url": "https://machinelearningmastery.com/arima-for-time-series-forecasting-with-python",
         "type": "article"
       },
       {
-        "title": "TRADUZIDO_11 Classical Time Series Forecasting Methods in Python",
+        "title": "11 Métodos clássicos de previsão de séries temporais em Python",
         "url": "https://machinelearningmastery.com/time-series-forecasting-methods-in-python-cheat-sheet/",
         "type": "article"
       },
       {
-        "title": "TRADUZIDO_Linear Regression for Business Statistics",
+        "title": "Regressão Linear para Estatísticas Empresariais",
         "url": "https://imp.i384100.net/9g97Ke",
         "type": "article"
       }
     ]
   },
   "XLDWuSt4tI4gnmqMFdpmy": {
-    "title": "TRADUZIDO_Coding",
-    "description": "Programming is a fundamental skill for data scientists. You need to be able to write code to manipulate data, build models, and deploy solutions. The most common programming languages used in data science are Python and R. Python is a general-purpose programming language that is easy to learn and has a large number of libraries for data manipulation and machine learning. R is a programming language and free software environment for statistical computing and graphics. It is widely used for statistical analysis and data visualization.",
+    "title": "Codificação",
+    "description": "A programação é uma habilidade fundamental para cientistas de dados. Você precisa ser capaz de escrever código para manipular dados, construir modelos e implantar soluções. As linguagens de programação mais comuns usadas na ciência de dados são Python e R. Python é uma linguagem de programação de uso geral fácil de aprender e possui um grande número de bibliotecas para manipulação de dados e aprendizado de máquina. R é uma linguagem de programação e ambiente de software livre para computação estatística e gráficos. É amplamente utilizado para análise estatística e visualização de dados.",
     "links": []
   },
   "MVrAqizgkoAs2aghN8TgV": {
-    "title": "TRADUZIDO_Learn Python Programming Language",
+    "title": "Píton",
     "description": "",
     "links": [
       {
-        "title": "TRADUZIDO_Kaggle — Python",
+        "title": "Kaggle — Python",
         "url": "https://www.kaggle.com/learn/python",
         "type": "article"
       },
       {
-        "title": "TRADUZIDO_Google's Python Class",
+        "title": "Classe Python do Google",
         "url": "https://developers.google.com/edu/python",
         "type": "article"
       },
       {
-        "title": "TRADUZIDO_Explore top posts about Python",
+        "title": "Explore as principais postagens sobre Python",
         "url": "https://app.daily.dev/tags/python?ref=roadmapsh",
         "type": "article"
       }
     ]
   },
   "StBCykpzpM4g9PRFeSNXa": {
-    "title": "TRADUZIDO_Data Structures and Algorithms (Python)",
+    "title": "Estruturas de dados e algoritmos",
     "description": "",
     "links": [
       {
-        "title": "TRADUZIDO_Learn Algorithms",
+        "title": "Aprenda Algoritmos",
         "url": "https://leetcode.com/explore/learn/",
         "type": "article"
       },
       {
-        "title": "TRADUZIDO_Leetcode - Study Plans",
+        "title": "Leetcode - Planos de estudo",
         "url": "https://leetcode.com/studyplan/",
         "type": "article"
       },
       {
-        "title": "TRADUZIDO_Algorithms Specialization",
+        "title": "Especialização em Algoritmos",
         "url": "https://imp.i384100.net/5gqv4n",
         "type": "article"
       }
     ]
   },
   "Im0tXXn3GC-FUq2aMHgwm": {
-    "title": "TRADUZIDO_Learn SQL",
+    "title": "SQL",
     "description": "",
     "links": [
       {
-        "title": "TRADUZIDO_SQL Tutorial",
+        "title": "SQL Tutorial",
         "url": "https://www.sqltutorial.org/",
         "type": "article"
       },
       {
-        "title": "TRADUZIDO_Explore top posts about SQL",
+        "title": "Explore as principais postagens sobre SQL",
         "url": "https://app.daily.dev/tags/sql?ref=roadmapsh",
         "type": "article"
       }
     ]
   },
   "l1027SBZxTHKzqWw98Ee-": {
-    "title": "TRADUZIDO_Exploratory Data Analysis",
-    "description": "Exploratory Data Analysis (EDA) is an approach to analyzing data sets to summarize their main characteristics, often with visual methods. EDA is used to understand what the data can tell us beyond the formal modeling or hypothesis testing task. It is a crucial step in the data analysis process.",
+    "title": "Análise Exploratória de Dados",
+    "description": "A Análise Exploratória de Dados (EDA) é uma abordagem para analisar conjuntos de dados para resumir suas principais características, geralmente com métodos visuais. A EDA é usada para entender o que os dados podem nos dizer além da modelagem formal ou da tarefa de teste de hipóteses. É uma etapa crucial no processo de análise de dados.",
     "links": []
   },
   "JaN8YhMeN3whAe2TCXvw9": {
-    "title": "TRADUZIDO_Data understanding, Data Analysis and Visualization",
+    "title": "Compreensão, análise e visualização de dados",
     "description": "",
     "links": [
       {
-        "title": "TRADUZIDO_Exploratory Data Analysis With Python and Pandas",
+        "title": "Análise exploratória de dados com Python e Pandas",
         "url": "https://imp.i384100.net/AWAv4R",
         "type": "article"
       },
       {
-        "title": "TRADUZIDO_Exploratory Data Analysis for Machine Learning",
+        "title": "Análise Exploratória de Dados para Aprendizado de Máquina",
         "url": "https://imp.i384100.net/GmQMLE",
         "type": "article"
       },
       {
-        "title": "TRADUZIDO_Exploratory Data Analysis with Seaborn",
+        "title": "Exploratory Data Analysis with Seaborn",
         "url": "https://imp.i384100.net/ZQmMgR",
         "type": "article"
       }
     ]
   },
   "kBdt_t2SvVsY3blfubWIz": {
-    "title": "TRADUZIDO_Machine Learning",
-    "description": "Machine learning is a field of artificial intelligence that uses statistical techniques to give computer systems the ability to \"learn\" (e.g., progressively improve performance on a specific task) from data, without being explicitly programmed. The name machine learning was coined in 1959 by Arthur Samuel. Evolved from the study of pattern recognition and computational learning theory in artificial intelligence, machine learning explores the study and construction of algorithms that can learn from and make predictions on data – such algorithms overcome following strictly static program instructions by making data-driven predictions or decisions, through building a model from sample inputs. Machine learning is employed in a range of computing tasks where designing and programming explicit algorithms with good performance is difficult or infeasible; example applications include email filtering, detection of network intruders, and computer vision.\n\nLearn more from the following resources:",
+    "title": "Aprendizado de máquina",
+    "description": "O aprendizado de máquina é um campo da inteligência artificial que utiliza técnicas estatísticas para dar aos sistemas de computador a capacidade de \"aprender\" (por exemplo, melhorar progressivamente o desempenho em uma tarefa específica) a partir de dados, sem ser explicitamente programado. O nome aprendizado de máquina foi cunhado em 1959 por Arthur Samuel. Desenvolvido a partir do estudo do reconhecimento de padrões e da teoria da aprendizagem computacional em inteligência artificial, o aprendizado de máquina explora o estudo e a construção de algoritmos que podem aprender e fazer previsões sobre dados – tais algoritmos superam o cumprimento de instruções de programa estritamente estáticas, fazendo previsões ou decisões baseadas em dados, através da construção de um modelo a partir de entradas de amostra. O aprendizado de máquina é empregado em uma série de tarefas de computação onde projetar e programar algoritmos explícitos com bom desempenho é difícil ou inviável; exemplos de aplicações incluem filtragem de e-mail, detecção de invasores de rede e visão computacional.\n\nSaiba mais com os seguintes recursos:",
     "links": [
       {
-        "title": "TRADUZIDO_Advantages and Disadvantages of AI",
+        "title": "Vantagens e Desvantagens da IA",
         "url": "https://medium.com/@laners.org/advantages-and-disadvantages-of-artificial-intelligence-cd6e42819b20",
         "type": "article"
       },
       {
-        "title": "TRADUZIDO_Reinforcement Learning 101",
+        "title": "Aprendizado por Reforço 101",
         "url": "https://medium.com/towards-data-science/reinforcement-learning-101-e24b50e1d292",
         "type": "article"
       },
       {
-        "title": "TRADUZIDO_Understanding AUC-ROC Curve",
+        "title": "Compreendendo a curva AUC-ROC",
         "url": "https://medium.com/towards-data-science/understanding-auc-roc-curve-68b2303cc9c5",
         "type": "article"
       }
     ]
   },
   "FdBih8tlGPPy97YWq463y": {
-    "title": "TRADUZIDO_Classic ML (Sup., Unsup.), Advanced ML (Ensembles, NNs)",
+    "title": "ML clássico/avançado",
     "description": "",
     "links": [
       {
-        "title": "TRADUZIDO_Repository of notes, code and notebooks in Python for the book Pattern Recognition and Machine Learning by Christopher Bishop",
+        "title": "Repositório de notas, códigos e notebooks em Python para o livro Pattern Recognition and Machine Learning de Christopher Bishop",
         "url": "https://github.com/gerdm/prml",
         "type": "opensource"
       },
       {
-        "title": "TRADUZIDO_Open Machine Learning Course",
+        "title": "Curso de aprendizado de máquina aberto",
         "url": "https://mlcourse.ai/book/topic01/topic01_intro.html",
         "type": "article"
       },
       {
-        "title": "TRADUZIDO_Coursera: Machine Learning Specialization",
+        "title": "Coursera: Especialização em aprendizado de máquina",
         "url": "https://imp.i384100.net/oqGkrg",
         "type": "article"
       },
       {
-        "title": "TRADUZIDO_Pattern Recognition and Machine Learning by Christopher Bishop",
+        "title": "Reconhecimento de padrões e aprendizado de máquina por Christopher Bishop",
         "url": "https://www.microsoft.com/en-us/research/uploads/prod/2006/01/Bishop-Pattern-Recognition-and-Machine-Learning-2006.pdf",
         "type": "article"
       },
       {
-        "title": "TRADUZIDO_Explore top posts about Machine Learning",
+        "title": "Explore as principais postagens sobre aprendizado de máquina",
         "url": "https://app.daily.dev/tags/machine-learning?ref=roadmapsh",
         "type": "article"
       }
     ]
   },
   "cjvVLN0XjrKPn6o20oMmc": {
-    "title": "TRADUZIDO_Deep Learning",
-    "description": "Deep Learning\n-------------\n\nDeep learning is a subset of machine learning that deals with algorithms inspired by the structure and function of the brain called artificial neural networks. Deep learning is a key technology behind driverless cars, enabling them to recognize a stop sign, or to distinguish a pedestrian from a lamppost. It is the key to voice control in consumer devices like phones, tablets, TVs, and hands-free speakers. Deep learning is getting lots of attention lately and for good reason. It’s achieving results that were not possible before.",
+    "title": "Deep Learning",
+    "description": "Aprendizado profundo\n--------------------\n\nO aprendizado profundo é um subconjunto do aprendizado de máquina que lida com algoritmos inspirados na estrutura e função do cérebro, chamados de redes neurais artificiais. A aprendizagem profunda é uma tecnologia fundamental por trás dos carros sem condutor, permitindo-lhes reconhecer um sinal de stop ou distinguir um pedestre de um poste de luz. É a chave para o controle de voz em dispositivos de consumo, como telefones, tablets, TVs e alto-falantes viva-voz. O aprendizado profundo está recebendo muita atenção ultimamente e por um bom motivo. É alcançar resultados que antes não eram possíveis.",
     "links": []
   },
   "eOFoGKveaHaBm_6ppJUtA": {
-    "title": "TRADUZIDO_Fully Connected, CNN, RNN, LSTM, Transformers, TL",
+    "title": "NN, CNN, RNN, LSTM totalmente conectados, transformadores, aprendizagem por transferência",
     "description": "",
     "links": [
       {
-        "title": "TRADUZIDO_The Illustrated Transformer",
+        "title": "O Transformador Ilustrado",
         "url": "https://jalammar.github.io/illustrated-transformer/",
         "type": "article"
       },
       {
-        "title": "TRADUZIDO_Attention is All you Need",
+        "title": "Atenção é tudo que você precisa",
         "url": "https://arxiv.org/pdf/1706.03762.pdf",
         "type": "article"
       },
       {
-        "title": "TRADUZIDO_Deep Learning Book",
+        "title": "Livro de aprendizagem profunda",
         "url": "https://www.deeplearningbook.org/",
         "type": "article"
       },
       {
-        "title": "TRADUZIDO_Deep Learning Specialization",
+        "title": "Especialização em Aprendizado Profundo",
         "url": "https://imp.i384100.net/Wq9MV3",
         "type": "article"
       }
     ]
   },
   "Qa85hEVe2kz62k9Pj4QCA": {
-    "title": "TRADUZIDO_MLOps",
-    "description": "MLOps is a practice for collaboration and communication between data scientists and operations professionals to help manage production ML lifecycle. It is a set of best practices that aims to automate the ML lifecycle, including training, deployment, and monitoring. MLOps helps organizations to scale ML models and deliver business value faster.",
+    "title": "MLOps",
+    "description": "MLOps é uma prática de colaboração e comunicação entre cientistas de dados e profissionais de operações para ajudar a gerenciar o ciclo de vida de ML de produção. É um conjunto de práticas recomendadas que visa automatizar o ciclo de vida do ML, incluindo treinamento, implantação e monitoramento. O MLOps ajuda as organizações a dimensionar modelos de ML e agregar valor comercial com mais rapidez.",
     "links": []
   },
   "uPzzUpI0--7OWDfNeBIjt": {
-    "title": "TRADUZIDO_Deployment Models, CI/CD",
+    "title": "MLOps",
     "description": "",
     "links": [
       {
-        "title": "TRADUZIDO_Machine Learning Engineering for Production (MLOps) Specialization",
+        "title": "Especialização em Engenharia de Aprendizado de Máquina para Produção (MLOps)",
         "url": "https://imp.i384100.net/nLA5mx",
         "type": "article"
       },
       {
-        "title": "TRADUZIDO_Full Stack Deep Learning",
+        "title": "Full Stack Deep Learning",
         "url": "https://fullstackdeeplearning.com/course/2022/",
         "type": "article"
       },
       {
-        "title": "TRADUZIDO_Explore top posts about CI/CD",
+        "title": "Explore as principais postagens sobre CI/CD",
         "url": "https://app.daily.dev/tags/cicd?ref=roadmapsh",
         "type": "article"
       }
     ]
+  },
+  "SWEAVNGiQp5sTm3NWp4n5": {
+    "title": "AI Engineering",
+    "description": "",
+    "links": []
+  },
+  "u7jmgvZYpKSzu9t7e0ACh": {
+    "title": "Prompt Engineering, LLMs, RAG, Agents, Fine-tuning",
+    "description": "",
+    "links": []
+  },
+  "ILGi2zpuyTGfkyZjua9jv": {
+    "title": "Vibe Coding",
+    "description": "",
+    "links": []
+  },
+  "zX4rhaEsjEuRAWWY83Sae": {
+    "title": "AI Coding Assitants, AI App Builders",
+    "description": "",
+    "links": []
   }
 }

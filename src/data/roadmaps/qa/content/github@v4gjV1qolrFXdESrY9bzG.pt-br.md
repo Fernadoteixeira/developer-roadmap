@@ -5,7 +5,7 @@ GitHub é um provedor de hospedagem na Internet para desenvolvimento de software
 Visite os seguintes recursos para saber mais:
 
 - [@roadmap@Visit Roteiro dedicado do Github](https://roadmap.sh/git-github)
-- [@oficial@GitHub](https://github.com)
+- [@official@GitHub](https://github.com)
 - [@official@Documentação do GitHub](https://docs.github.com/en/get-started/quickstart)
 - [@video@O que é GitHub?](https://www.youtube.com/watch?v=w3jLJU7DT5E)
 - [@video@Git vs. GitHub: Qual a diferença?](https://www.youtube.com/watch?v=wpISo9TNjfU)

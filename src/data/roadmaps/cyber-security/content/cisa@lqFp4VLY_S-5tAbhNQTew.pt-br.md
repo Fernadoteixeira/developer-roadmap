@@ -6,5 +6,5 @@ A CISA foi criada pela Associação de Auditoria e Controle de Sistemas de Infor
 
 Saiba mais com os seguintes recursos:
 
-- [@oficial@CISA](https://www.isaca.org/credentialing/cisa)
+- [@official@CISA](https://www.isaca.org/credentialing/cisa)
 - [@article@O que é um Auditor Certificado de Sistemas de Informação?](https://www.investopedia.com/terms/c/certified-information-systems-auditor.asp)

@@ -4,7 +4,7 @@ O principal recurso do VirusTotal é a verificação múltipla usando mais de 70
 
 Visite os seguintes recursos para saber mais:
 
-- [@oficial@VirusTotal](https://www.virustotal.com)
+- [@official@VirusTotal](https://www.virustotal.com)
 - [@official@Como funciona o VirusTotal](https://docs.virustotal.com/docs/how-it-works)
 - [@article@@Definição de VirusTotal da CISA](https://www.cisa.gov/resources-tools/services/virustotal)
 - [@video@Interface VirusTotal Intelligence passo a passo](https://www.youtube.com/watch?v=WoHVM8pCfsQ)

@@ -4,7 +4,7 @@ Nginx é um servidor web de código aberto de alto desempenho e um servidor prox
 
 Visite os seguintes recursos para saber mais:
 
-- [@oficial@Nginx Site](https://nginx.org/)
+- [@official@Nginx Site](https://nginx.org/)
 - [@video@NGINX explicado em 100 segundos](https://www.youtube.com/watch?v=JKxlsvZXG7c)
 - [@video@NGINX Tutorial para iniciantes](https://www.youtube.com/watch?v=9t9Mp0BGnyI)
 - [@feed@Explore as principais postagens sobre Nginx](https://app.daily.dev/tags/nginx?ref=roadmapsh)

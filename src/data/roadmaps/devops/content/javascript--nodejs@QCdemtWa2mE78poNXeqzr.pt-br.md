@@ -7,6 +7,6 @@ Visite os seguintes recursos para saber mais:
 - [@roadmap@Visit Roteiro JavaScript Dedicado](https://roadmap.sh/javascript)
 - [@article@W3Schools – Tutorial de JavaScript](https://www.w3schools.com/js/)
 - [@article@O tutorial de JavaScript moderno](https://javascript.info/)
-- [@artigo@O que é NPM?](https://www.w3schools.com/nodejs/nodejs_npm.asp)
+- [@article@O que é NPM?](https://www.w3schools.com/nodejs/nodejs_npm.asp)
 - [@video@Curso intensivo de JavaScript para iniciantes](https://youtu.be/hdI2bqOjy3c)
 - [@feed@Explore as principais postagens sobre JavaScript](https://app.daily.dev/tags/javascript?ref=roadmapsh)

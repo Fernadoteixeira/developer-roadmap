@@ -4,6 +4,6 @@ ARP é um protocolo usado pelo Internet Protocol (IP) para mapear um endereço I
 
 Saiba mais com os seguintes recursos:
 
-- [@artigo@ARP - Wikipédia](https://en.wikipedia.org/wiki/Address_Resolution_Protocol)
+- [@article@ARP - Wikipédia](https://en.wikipedia.org/wiki/Address_Resolution_Protocol)
 - [@video@ARP explicado](https://www.youtube.com/watch?v=cn8Zxh9bPio)
 - [@article@O que é protocolo de resolução de endereço?](https://www.fortinet.com/resources/cyberglossary/what-is-arp)

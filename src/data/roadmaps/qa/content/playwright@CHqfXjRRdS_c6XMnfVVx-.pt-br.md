@@ -4,5 +4,5 @@ O Playwright Test foi criado especificamente para acomodar as necessidades de te
 
 Visite os seguintes recursos para saber mais:
 
-- [@oficial@Dramaturgo](https://playwright.dev/)
+- [@official@Dramaturgo](https://playwright.dev/)
 - [@article@Playwright Tutorial: Aprenda noções básicas e configuração](https://www.browserstack.com/guide/playwright-tutorial)

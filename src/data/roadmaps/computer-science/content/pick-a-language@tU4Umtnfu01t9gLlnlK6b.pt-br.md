@@ -14,7 +14,7 @@ Visite os seguintes recursos para saber mais:
 - [@article@Aprenda C++ - Ponto de tutoriais](https://www.tutorialspoint.com/cplusplus/index.htm)
 - [@video@Curso de Programação C++ - Iniciante ao Avançado](https://www.youtube.com/watch?v=8jLOx1hD3_o)
 - [@video@C++ Tutorial para Iniciantes - Curso Completo](https://www.youtube.com/watch?v=vLnPwxZdW4Y)
-- [@artigo@Aprenda C - W3Schools](https://www.w3schools.com/c/)
+- [@article@Aprenda C - W3Schools](https://www.w3schools.com/c/)
 - [@article@Aprenda C - Ponto de tutoriais](https://www.tutorialspoint.com/cprogramming/index.htm)
 - [@video@C Tutorial de programação para iniciantes](https://www.youtube.com/watch?v=KJgsSFOSQv0)
 - [@video@Aprenda Programação C com Dr. Chuck](https://www.youtube.com/watch?v=j-_s8f5K30I)

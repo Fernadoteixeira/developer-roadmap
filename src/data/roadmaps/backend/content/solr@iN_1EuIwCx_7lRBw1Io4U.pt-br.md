@@ -5,6 +5,6 @@ Solr é uma plataforma de pesquisa de código aberto altamente escalável constr
 Visite os seguintes recursos para saber mais:
 
 - [@article@Site Solr](https://solr.apache.org/)
-- [@artigo@Documentação Solr](https://solr.apache.org/resources.html#documentation)
+- [@article@Documentação Solr](https://solr.apache.org/resources.html#documentation)
 - [@opensource@Solr no Github](https://github.com/apache/solr)
 - [@video@Apache Solr vs Diferenças do Elasticsearch](https://www.youtube.com/watch?v=MMWBdSdbu5k)

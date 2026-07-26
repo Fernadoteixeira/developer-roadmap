@@ -4,6 +4,6 @@ Next.js é uma estrutura de código aberto baseada em React para a construção 
 
 Visite os seguintes recursos para saber mais:
 
-- [@oficial@Site Oficial](https://nextjs.org/)
+- [@official@Site Oficial](https://nextjs.org/)
 - [@video@Next.js para iniciantes - Curso completo no canal freeCodeCamp no YouTube](https://youtu.be/1WmNXEVia8I)
 - [@feed@Explore as principais postagens sobre JavaScript](https://app.daily.dev/tags/javascript?ref=roadmapsh)

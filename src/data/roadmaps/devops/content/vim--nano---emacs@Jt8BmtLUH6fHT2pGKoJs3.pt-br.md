@@ -10,9 +10,9 @@ Editores de texto são ferramentas de software usadas para criar, editar e geren
 
 Visite os seguintes recursos para saber mais:
 
-- [@oficial@Vim](https://www.vim.org)
-- [@oficial@GNU Nano](https://www.nano-editor.org/)
-- [@oficial@GNU Emacs](https://www.gnu.org/software/emacs/)
+- [@official@Vim](https://www.vim.org)
+- [@official@GNU Nano](https://www.nano-editor.org/)
+- [@official@GNU Emacs](https://www.gnu.org/software/emacs/)
 - [@article@Vim Adventures](https://vim-adventures.com/)
 - [@video@Vim Tutorial para iniciantes](https://www.youtube.com/watch?v=RZ4p-saaQkc)
 - [@video@Linux Crash Course - nano](https://www.youtube.com/watch?v=DLeATFgGM-A)

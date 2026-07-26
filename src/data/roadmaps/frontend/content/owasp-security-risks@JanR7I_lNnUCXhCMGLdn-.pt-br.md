@@ -4,7 +4,7 @@ OWASP (Open Web Application Security Project) identifica e classifica os riscos 
 
 Visite os seguintes recursos para saber mais:
 
-- [@oficial@Site OWASP](https://owasp.org/)
+- [@official@Site OWASP](https://owasp.org/)
 - [@opensource@OWASP Lista de verificação de testes de segurança de aplicativos da Web](https://github.com/0xRadi/OWASP-Web-Checklist)
 - [@official@OWASP Cheatsheets](https://cheatsheetseries.owasp.org/cheatsheets/AJAX_Security_Cheat_Sheet.html)
 - [@article@OWASP Top 10: Um guia para as piores vulnerabilidades de software](https://thenewstack.io/owasp-top-10-a-guide-to-the-worst-software-vulnerabilities/)

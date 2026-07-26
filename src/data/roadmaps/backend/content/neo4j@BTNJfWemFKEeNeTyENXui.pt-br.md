@@ -4,7 +4,7 @@ Neo4j é um banco de dados gráfico de código aberto altamente popular, projeta
 
 Visite os seguintes recursos para saber mais:
 
-- [@oficial@Neo4j Site](https://neo4j.com)
+- [@official@Neo4j Site](https://neo4j.com)
 - [@video@Neo4j em 100 segundos](https://www.youtube.com/watch?v=T6L9EoBy8Zk)
 - [@video@Curso Neo4j para iniciantes](https://www.youtube.com/watch?v=_IgbB24scLI)
 - [@feed@Explore as principais postagens sobre desenvolvimento de back-end](https://app.daily.dev/tags/backend?ref=roadmapsh)

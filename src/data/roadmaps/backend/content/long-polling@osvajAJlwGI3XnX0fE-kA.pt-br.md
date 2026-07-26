@@ -4,5 +4,5 @@ A pesquisa longa é uma técnica em que o cliente pesquisa o servidor em busca d
 
 Saiba mais com os seguintes recursos:
 
-- [@artigo@Enquete Longa](https://javascript.info/long-polling)
+- [@article@Enquete Longa](https://javascript.info/long-polling)
 - [@video@O que é pesquisa longa?](https://www.youtube.com/watch?v=LD0_-uIsnOE)

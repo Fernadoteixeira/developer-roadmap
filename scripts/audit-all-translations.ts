@@ -53,8 +53,11 @@ function runFullAudit() {
   console.log(`Structural Differences Found:     ${diffCount}`);
 
   if (issues.length > 0) {
-    console.log('\nIssues Found:');
-    console.log(JSON.stringify(issues, null, 2));
+    console.error('\n❌ Structural Audit Failed - Issues Found:');
+    console.error(JSON.stringify(issues, null, 2));
+    process.exit(1);
+  } else {
+    console.log('\n✅ Structural Audit Passed - 100% Parity!');
   }
 }
 

@@ -5,4 +5,4 @@ DomainKeys é um método de autenticação de e-mail projetado para verificar o 
 Visite os seguintes recursos para saber mais:
 
 - [@article@DomainKeys e-mail identificado](https://www.brainkart.com/article/DomainKeys-Identified-Mail_8493/)
-- [@vídeo@O que é DKIM? Correio identificado por DomainKeys](https://www.youtube.com/watch?v=IBhO0akhMlQ)
+- [@video@O que é DKIM? Correio identificado por DomainKeys](https://www.youtube.com/watch?v=IBhO0akhMlQ)

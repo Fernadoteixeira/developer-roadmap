@@ -4,4 +4,4 @@ A pesquisa linear é um algoritmo muito simples usado para pesquisar um valor em
 
 Visite os seguintes recursos para saber mais:
 
-- [@artigo@Pesquisa Linear](https://www.programiz.com/dsa/linear-search)
+- [@article@Pesquisa Linear](https://www.programiz.com/dsa/linear-search)

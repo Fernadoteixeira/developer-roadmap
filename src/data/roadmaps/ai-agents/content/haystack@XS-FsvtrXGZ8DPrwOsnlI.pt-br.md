@@ -4,6 +4,6 @@ Haystack é uma estrutura Python de código aberto que ajuda você a criar agent
 
 Visite os seguintes recursos para saber mais:
 
-- [@oficial@Palheiro](https://haystack.deepset.ai/)
+- [@official@Palheiro](https://haystack.deepset.ai/)
 - [@official@Haystack Visão geral](https://docs.haystack.deepset.ai/docs/intro)
 - [@opensource@deepset-ai/haystack](https://github.com/deepset-ai/haystack)

@@ -4,5 +4,5 @@ O Sentry rastreia o desempenho do seu software, medindo métricas como taxa de t
 
 Visite os seguintes recursos para saber mais:
 
-- [@oficial@Sentry](https://sentry.io)
+- [@official@Sentry](https://sentry.io)
 - [@official@Sentry Documentação](https://docs.sentry.io/)

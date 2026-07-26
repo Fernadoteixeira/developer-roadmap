@@ -4,7 +4,7 @@ OWASP ou Open Web Application Security Project é uma comunidade online que prod
 
 Visite os seguintes recursos para saber mais:
 
-- [@oficial@Site OWASP](https://owasp.org/)
+- [@official@Site OWASP](https://owasp.org/)
 - [@opensource@OWASP Padrão de verificação de segurança de aplicativos](https://github.com/OWASP/ASVS)
 - [@article@OWASP 10 principais riscos de segurança](https://cheatsheetseries.owasp.org/IndexTopTen.html)
 - [@article@OWASP Cheatsheets](https://cheatsheetseries.owasp.org/cheatsheets/AJAX_Security_Cheat_Sheet.html)

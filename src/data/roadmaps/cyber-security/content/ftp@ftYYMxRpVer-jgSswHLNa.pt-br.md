@@ -7,5 +7,5 @@ O FTP opera em um modelo cliente-servidor, onde um computador atua como cliente 
 Saiba mais com os seguintes recursos:
 
 - [@article@Protocolo de transferência de arquivos](https://en.wikipedia.org/wiki/File_Transfer_Protocol)
-- [@vídeo@O que é FTP?](https://www.youtube.com/watch?v=HI0Oh4NJqcI)
+- [@video@O que é FTP?](https://www.youtube.com/watch?v=HI0Oh4NJqcI)
 - [@article@FTP significado e usos](https://www.investopedia.com/terms/f/ftp-file-transfer-protocol.asp)

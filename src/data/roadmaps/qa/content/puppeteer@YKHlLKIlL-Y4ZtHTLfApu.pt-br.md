@@ -4,5 +4,5 @@ Puppeteer é uma biblioteca Node que fornece uma API de alto nível para control
 
 Visite os seguintes recursos para saber mais:
 
-- [@oficial@Puppetter](https://developer.chrome.com/docs/puppeteer/)
+- [@official@Puppetter](https://developer.chrome.com/docs/puppeteer/)
 - [@feed@Explore as principais postagens sobre rastreamento](https://app.daily.dev/tags/crawling?ref=roadmapsh)

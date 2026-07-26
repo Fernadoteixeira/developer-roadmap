@@ -4,7 +4,7 @@ A computação sem servidor é um modelo de computação em nuvem onde os desenv
 
 Visite os seguintes recursos para saber mais:
 
-- [@artigo@Serverless](https://www.ibm.com/cloud/learn/serverless)
+- [@article@Serverless](https://www.ibm.com/cloud/learn/serverless)
 - [@article@AWS Serviços](https://aws.amazon.com/serverless/)
 - [@video@Computação sem servidor em 100 segundos](https://www.youtube.com/watch?v=W_VV2Fx32_Y&ab_channel=Fireship)
 - [@feed@Explore as principais postagens sobre Serverless](https://app.daily.dev/tags/serverless?ref=roadmapsh)

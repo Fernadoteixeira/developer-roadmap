@@ -4,8 +4,8 @@ HTTPS (Hypertext Transfer Protocol Secure) é uma extensão do HTTP projetada pa
 
 Visite os seguintes recursos para saber mais:
 
-- [@artigo@O que é HTTPS?](https://www.cloudflare.com/en-gb/learning/ssl/what-is-https/)
+- [@article@O que é HTTPS?](https://www.cloudflare.com/en-gb/learning/ssl/what-is-https/)
 - [@article@Por que HTTPS é importante](https://developers.google.com/web/fundamentals/security/encrypt-in-transit/why-https)
 - [@article@Como funciona o HTTPS (quadrinhos)](https://howhttps.works/)
 - [@article@HTTPS explicado com pombos-correio](https://baida.dev/articles/https-explained-with-carrier-pigeons)
-- [@vídeo@HTTP vs HTTPS](https://www.youtube.com/watch?v=nOmT_5hqgPk)
+- [@video@HTTP vs HTTPS](https://www.youtube.com/watch?v=nOmT_5hqgPk)

@@ -8,4 +8,4 @@ As árvores binárias são árvores 2-árias, com fator de ramificação = 2
 
 Visite os seguintes recursos para saber mais:
 
-- [@artigo@Árvore K-Ary](https://en.wikipedia.org/wiki/K-ary_tree)
+- [@article@Árvore K-Ary](https://en.wikipedia.org/wiki/K-ary_tree)

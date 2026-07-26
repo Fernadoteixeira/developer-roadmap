@@ -6,5 +6,5 @@ Visite os seguintes recursos para saber mais:
 
 - [@article@Guia completo de empacotadores de módulos JavaScript](https://snipcart.com/blog/javascript-module-bundler)
 - [@official@Rollup Bundler](https://rollupjs.org/)
-- [@oficial@Webpack Site](https://webpack.js.org/)
+- [@official@Webpack Site](https://webpack.js.org/)
 - [@video@Module Bundlers explicado](https://www.youtube.com/watch?v=5IG4UmULyoA)

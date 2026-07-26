@@ -4,7 +4,7 @@ GitLab oferece um serviço CI/CD que pode ser usado como uma oferta SaaS ou auto
 
 Visite os seguintes recursos para saber mais:
 
-- [@oficial@GitLab](https://gitlab.com/)
+- [@official@GitLab](https://gitlab.com/)
 - [@official@Documentação do GitLab](https://docs.gitlab.com/)
 - [@official@Introdução ao GitLab CI](https://docs.gitlab.com/ee/ci/quick_start/)
 - [@official@Aprenda tutoriais do GitLab](https://docs.gitlab.com/ee/tutorials/)

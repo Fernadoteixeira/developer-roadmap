@@ -8,7 +8,7 @@
 
 Saiba mais com os seguintes recursos:
 
-- [@artigo@De Conhecido para Desconhecido](https://securitysandman.com/2025/01/06/from-known-to-unknown-shifting-cybersecurity-to-proactive-ai-detection/)
+- [@article@De Conhecido para Desconhecido](https://securitysandman.com/2025/01/06/from-known-to-unknown-shifting-cybersecurity-to-proactive-ai-detection/)
 - [@article@Capturando todas as ameaças - Conhecidas, Desconhecidas e Desconhecidas Desconhecidas](https://www.scworld.com/perspective/catching-all-threats-known-unknown-and-unknown-unknown-before-they-can-harm-you)
 - [@video@Detectando ameaças conhecidas](https://www.youtube.com/watch?v=hOaHDVMQ9_s)
 - [@video@Como lidar com ameaças desconhecidas](https://www.youtube.com/watch?v=CH4tX_MVLh0)

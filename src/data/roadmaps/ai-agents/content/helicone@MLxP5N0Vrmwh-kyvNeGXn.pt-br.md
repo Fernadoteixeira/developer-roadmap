@@ -4,6 +4,6 @@ Helicone é uma ferramenta de código aberto que ajuda você a observar e entend
 
 Visite os seguintes recursos para saber mais:
 
-- [@oficial@Helicone](https://www.helicone.ai/)
+- [@official@Helicone](https://www.helicone.ai/)
 - [@official@Helicone OSS LLM Observabilidade](https://docs.helicone.ai/getting-started/quick-start)
 - [@opensource@Helicone/helicone](https://github.com/Helicone/helicone)

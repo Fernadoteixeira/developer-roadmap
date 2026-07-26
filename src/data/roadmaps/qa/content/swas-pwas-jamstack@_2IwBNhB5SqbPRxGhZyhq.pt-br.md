@@ -17,7 +17,7 @@ Jamstack elimina a necessidade de lógica de negócios para ditar a experiência
 
 Visite os seguintes recursos para saber mais:
 
-- [@artigo@SWA](https://www.staticapps.org/)
-- [@artigo@PWA](https://web.dev/progressive-web-apps/)
-- [@oficial@Jamstack](https://jamstack.org/)
+- [@article@SWA](https://www.staticapps.org/)
+- [@article@PWA](https://web.dev/progressive-web-apps/)
+- [@official@Jamstack](https://jamstack.org/)
 - [@feed@Explore as principais postagens sobre JAMstack](https://app.daily.dev/tags/jamstack?ref=roadmapsh)

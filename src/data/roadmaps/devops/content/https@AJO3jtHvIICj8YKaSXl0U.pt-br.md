@@ -4,7 +4,7 @@ HTTPS (Hypertext Transfer Protocol Secure) é a versão segura do HTTP, criptogr
 
 Visite os seguintes recursos para saber mais:
 
-- [@artigo@O que é HTTPS?](https://www.cloudflare.com/en-gb/learning/ssl/what-is-https/)
+- [@article@O que é HTTPS?](https://www.cloudflare.com/en-gb/learning/ssl/what-is-https/)
 - [@article@Por que HTTPS é importante](https://developers.google.com/web/fundamentals/security/encrypt-in-transit/why-https)
 - [@article@Ativando HTTPS em seus servidores](https://developers.google.com/web/fundamentals/security/encrypt-in-transit/enable-https)
 - [@article@Como funciona o HTTPS (quadrinhos)](https://howhttps.works/)

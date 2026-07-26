@@ -4,5 +4,5 @@ Box é um serviço popular de armazenamento em nuvem que fornece a indivíduos e
 
 Saiba mais com os seguintes recursos:
 
-- [@oficial@Caixa](https://www.box.com/en-gb/home)
+- [@official@Caixa](https://www.box.com/en-gb/home)
 - [@video@Box Revisão de armazenamento em nuvem 2024](https://www.youtube.com/watch?v=ktNDLO1T96c)

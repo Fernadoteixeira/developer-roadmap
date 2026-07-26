@@ -4,5 +4,5 @@ CQRS (Segregação de Responsabilidade para Consultas de Comando) é um padrão 
 
 Visite os seguintes recursos para saber mais:
 
-- [@artigo@CQRS](https://martinfowler.com/bliki/CQRS.html)
-- [@artigo@Introdução ao CQRS](https://learn.microsoft.com/en-us/azure/architecture/patterns/cqrs)
+- [@article@CQRS](https://martinfowler.com/bliki/CQRS.html)
+- [@article@Introdução ao CQRS](https://learn.microsoft.com/en-us/azure/architecture/patterns/cqrs)

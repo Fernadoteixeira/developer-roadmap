@@ -4,7 +4,7 @@ O e-mail está emergindo como um dos serviços mais valiosos da Internet atualme
 
 Visite os seguintes recursos para saber mais:
 
-- [@artigo@O que é SMTP? - Cloudflare](https://www.cloudflare.com/learning/email-security/what-is-smtp)
-- [@artigo@SMTP - Wikipédia](https://en.wikipedia.org/wiki/Simple_Mail_Transfer_Protocol)
+- [@article@O que é SMTP? - Cloudflare](https://www.cloudflare.com/learning/email-security/what-is-smtp)
+- [@article@SMTP - Wikipédia](https://en.wikipedia.org/wiki/Simple_Mail_Transfer_Protocol)
 - [@video@O que é SMTP e como funciona?](https://www.youtube.com/watch?v=iUhDT3ZtWS0)
 - [@feed@Explore as principais postagens sobre Serverless](https://app.daily.dev/tags/serverless?ref=roadmapsh)

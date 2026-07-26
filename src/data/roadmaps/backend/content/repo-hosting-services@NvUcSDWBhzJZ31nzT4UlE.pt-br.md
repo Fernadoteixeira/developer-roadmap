@@ -4,6 +4,6 @@ Os serviços de hospedagem de repositórios são plataformas que fornecem ferram
 
 Visite os seguintes recursos para saber mais:
 
-- [@oficial@GitHub](https://github.com)
-- [@oficial@GitLab](https://about.gitlab.com/)
-- [@oficial@BitBucket](https://bitbucket.org/product/guides/getting-started/overview)
+- [@official@GitHub](https://github.com)
+- [@official@GitLab](https://about.gitlab.com/)
+- [@official@BitBucket](https://bitbucket.org/product/guides/getting-started/overview)

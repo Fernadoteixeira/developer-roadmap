@@ -4,5 +4,5 @@ CompTIA A+ é uma certificação básica para profissionais de TI que se concent
 
 Saiba mais com os seguintes recursos:
 
-- [@oficial@CompTIA A+](https://www.comptia.org/certifications/a)
+- [@official@CompTIA A+](https://www.comptia.org/certifications/a)
 - [@video@Curso CompTIA A+](https://www.youtube.com/watch?v=1CZXXNKAY5o)

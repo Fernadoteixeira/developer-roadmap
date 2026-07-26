@@ -4,5 +4,5 @@
 
 Saiba mais com os seguintes recursos:
 
-- [@oficial@NIST](https://www.nist.gov/)
-- [@artigo@O que é NIST?](https://www.encryptionconsulting.com/education-center/nist/)
+- [@official@NIST](https://www.nist.gov/)
+- [@article@O que é NIST?](https://www.encryptionconsulting.com/education-center/nist/)

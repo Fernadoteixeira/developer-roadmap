@@ -519,7 +519,7 @@
   },
   "S9wTlkbv9-R6dohhZ47hs": {
     "title": "Reading Files",
-    "description": "Reading files is a common task in PHP and it provides a range of functions for this purpose. You can use the `fopen()` function with the 'r' mode to open a file for reading. The `fgets()` function lets you read a file line by line, while `fread()` reads a specified number of bytes. For reading the entire file in one go, use `file_get_contents()`. Remember to always close the file after you're done with `fclose()`.\n\nHere's a small example using `fgets()`:\n\n    $file = fopen(\"example.txt\", \"r\"); \n    if ($file) {\n        while (($line = fgets($file)) !== false) {\n            echo $line;\n        }\n        fclose($file);\n    } else {\n        echo 'Error opening file';\n    }\n    \n\nVisit the following resources to learn more:",
+    "description": "Reading files is a common task in PHP and it provides a range of functions for this purpose. You can use the `fopen()` function with the 'r' mode to open a file for reading. The `fgets()` function lets you read a file line by line, while `fread()` reads a specified number of bytes. For reading the entire file in one go, use `file_get_contents()`. Remember to always close the file after you're done with `fclose()`.\n\nHere's a small example using `fgets()`:\n\n    $file = fopen(\"example.txt\", \"r\");\n    if ($file) {\n        while (($line = fgets($file)) !== false) {\n            echo $line;\n        }\n        fclose($file);\n    } else {\n        echo 'Error opening file';\n    }\n    \n\nVisit the following resources to learn more:",
     "links": [
       {
         "title": "Filesystem Operations",
@@ -574,7 +574,7 @@
   },
   "tn_iIfaJZVtPK6vFds7FH": {
     "title": "HTTP Methods",
-    "description": "PHP allows for handling HTTP methods, which are a way of defining the action to be performed on the resource identified by a given URL. In PHP, the $\\_SERVER superglobal array can be used to identify the HTTP method of a specific request, typically a GET, POST, PUT, DELETE or HEAD. For example, to identify if a request is a POST request, you can use `if ($_SERVER['REQUEST_METHOD'] == 'POST') { // your code here }`. More advanced handling can be done by utilizing built-in PHP libraries or third-party packages.\n\nVisit the following resources to learn more:",
+    "description": "PHP allows for handling HTTP methods, which are a way of defining the action to be performed on the resource identified by a given URL. In PHP, the $\\_SERVER superglobal array can be used to identify the HTTP method of a specific request, typically a GET, POST, PUT, DELETE or HEAD. For example, to identify if a request is a POST request, you can use `if ($\\_SERVER['REQUEST_METHOD'] == 'POST') { // your code here }`. More advanced handling can be done by utilizing built-in PHP libraries or third-party packages.\n\nVisit the following resources to learn more:",
     "links": [
       {
         "title": "HTTP Methods",
@@ -585,7 +585,7 @@
   },
   "GFYGFVfxkOoPI5mI4zSt1": {
     "title": "$_GET",
-    "description": "$\\_GET is a pre-defined array in PHP, that's used to collect form-data sent through HTTP GET method. It's useful whenever you need to process or interact with data that has been passed in via a URL's query string. For an example if you have a form with a GET method, you can get the values of the form elements through this global $\\_GET array. Here’s an example:\n\n    <form method=\"get\" action=\"test.php\">\n      Name: <input type=\"text\" name=\"fname\">\n      <input type=\"submit\">\n    </form>\n    \n\nUsing $\\_GET in `test.php`, you can fetch the 'fname' value from the URL:\n\n    echo \"Name is: \" . $_GET['fname'];\n    \n\nVisit the following resources to learn more:",
+    "description": "$\\_GET is a pre-defined array in PHP, that's used to collect form-data sent through HTTP GET method. It's useful whenever you need to process or interact with data that has been passed in via a URL's query string. For an example if you have a form with a GET method, you can get the values of the form elements through this global $\\_GET array. Here’s an example:\n\n    <form method=\"get\" action=\"test.php\">\n      Name: <input type=\"text\" name=\"fname\" />\n      <input type=\"submit\" />\n    </form>\n    \n\nUsing $\\_GET in `test.php`, you can fetch the 'fname' value from the URL:\n\n    echo \"Name is: \" . $_GET['fname'];\n    \n\nVisit the following resources to learn more:",
     "links": [
       {
         "title": "$_GET",
@@ -618,7 +618,7 @@
   },
   "7Ja2at_N9tRTlvSGahrqn": {
     "title": "$_SERVER",
-    "description": "The `$_SERVER` is a superglobal in PHP, holding information about headers, paths, and script locations. $\\_SERVER is an associative array containing server variables created by the web server. This can include specific environmental configurations, the server signature, your PHP script's paths and details, client data, and the active request/response sequence. Among its many uses, `$_SERVER['REMOTE_ADDR']` can help get the visitor's IP while `$_SERVER['HTTP_USER_AGENT']` offers information about their browser. Don't forget to sanitize the content before use to prevent security exploits.\n\nHere's an easy code sample that prints the client's IP:\n\n    echo 'Your IP is: ' . $_SERVER['REMOTE_ADDR'];\n    \n\nVisit the following resources to learn more:",
+    "description": "The `$_SERVER` is a superglobal in PHP, holding information about headers, paths, and script locations. $\\_SERVER is an associative array containing server variables created by the web server. This can include specific environmental configurations, the server signature, your PHP script's paths and details, client data, and the active request/response sequence. Among its many uses, `$\\_SERVER['REMOTE_ADDR']`can help get the visitor's IP while`$\\_SERVER['HTTP_USER_AGENT']` offers information about their browser. Don't forget to sanitize the content before use to prevent security exploits.\n\nHere's an easy code sample that prints the client's IP:\n\n    echo 'Your IP is: ' . $_SERVER['REMOTE_ADDR'];\n    \n\nVisit the following resources to learn more:",
     "links": [
       {
         "title": "$_SERVER",
@@ -673,7 +673,7 @@
   },
   "qobzzgzArNHLLn9Oiqc6G": {
     "title": "Sessions",
-    "description": "Sessions provide a way to preserve certain data across subsequent accesses. Unlike a cookie, the information is not stored on the user's computer but on the server. This is particularly useful when you want to store information related to a specific user's session on your platform, like user login status or user preferences. When a session is started in PHP, a unique session ID is generated for the user. This ID is then passed and tracked through a cookie in the user's browser. To start a session, you would use the PHP function session\\_start(). To save a value in a session, you'd use the $\\_SESSION superglobal array. For example, `$_SESSION['username'] = 'John';` assigns 'John' to the session variable 'username'.\n\nVisit the following resources to learn more:",
+    "description": "Sessions provide a way to preserve certain data across subsequent accesses. Unlike a cookie, the information is not stored on the user's computer but on the server. This is particularly useful when you want to store information related to a specific user's session on your platform, like user login status or user preferences. When a session is started in PHP, a unique session ID is generated for the user. This ID is then passed and tracked through a cookie in the user's browser. To start a session, you would use the PHP function session\\_start(). To save a value in a session, you'd use the $\\_SESSION superglobal array. For example, `$\\_SESSION['username'] = 'John';` assigns 'John' to the session variable 'username'.\n\nVisit the following resources to learn more:",
     "links": [
       {
         "title": "Sessions",
@@ -750,7 +750,7 @@
   },
   "tfC1tCrbvH5J43WUpG9Yb": {
     "title": "Sanitization Techniques",
-    "description": "Sanitization Techniques is a vital part of PHP security basics, which ensures that the user-provided data is safe to be used within your script. It can prevent harmful data from being inserted into the database or being used in other ways that could potentially be dangerous to your application. It includes functions which can strip off unwanted characters from the data. For instance, the `filter_var()` function in PHP can be applied to sanitize text.\n\n    $dirty_data = \"<p>We love PHP!</p><script>alert('Virus!')</script>\";   \n    $clean_data = filter_var($dirty_data, FILTER_SANITIZE_STRING);\n    echo $clean_data;\n    \n\nVisit the following resources to learn more:",
+    "description": "Sanitization Techniques is a vital part of PHP security basics, which ensures that the user-provided data is safe to be used within your script. It can prevent harmful data from being inserted into the database or being used in other ways that could potentially be dangerous to your application. It includes functions which can strip off unwanted characters from the data. For instance, the `filter_var()` function in PHP can be applied to sanitize text.\n\n    $dirty_data = \"<p>We love PHP!</p><script>alert('Virus!')</script>\";\n    $clean_data = filter_var($dirty_data, FILTER_SANITIZE_STRING);\n    echo $clean_data;\n    \n\nVisit the following resources to learn more:",
     "links": [
       {
         "title": "Sanitization Techniques",
@@ -848,7 +848,7 @@
   },
   "oNUt1oT8pYBVvH0S2P6cb": {
     "title": "Constructor / Destructor",
-    "description": "Constructor and Destructor methods are fundamental components of Object-Oriented Programming (OOP) in PHP. A constructor is a special type of method that automatically runs upon creating an object, often used to set property values or default behaviors. On the other hand, a destructor is a method that is automatically invoked when an object is due to be destroyed, perfect for cleanup activities. Here is a basic example:\n\n    class TestClass {\n      public $value;\n    \n      // Constructor Method\n      public function __construct($val) {\n        $this->value = $val;\n      }\n    \n      // Destructor Method\n      public function __destruct() {\n        echo \"Object is being destroyed.\";\n      }\n    }\n    \n    $obj = new TestClass(\"Hello World\");\n    echo $obj->value; \n    // Displays: Hello World\n    // And when the script ends, \"Object is being destroyed.\"\n    \n\nVisit the following resources to learn more:",
+    "description": "Constructor and Destructor methods are fundamental components of Object-Oriented Programming (OOP) in PHP. A constructor is a special type of method that automatically runs upon creating an object, often used to set property values or default behaviors. On the other hand, a destructor is a method that is automatically invoked when an object is due to be destroyed, perfect for cleanup activities. Here is a basic example:\n\n    class TestClass {\n      public $value;\n    \n      // Constructor Method\n      public function __construct($val) {\n        $this->value = $val;\n      }\n    \n      // Destructor Method\n      public function __destruct() {\n        echo \"Object is being destroyed.\";\n      }\n    }\n    \n    $obj = new TestClass(\"Hello World\");\n    echo $obj->value;\n    // Displays: Hello World\n    // And when the script ends, \"Object is being destroyed.\"\n    \n\nVisit the following resources to learn more:",
     "links": [
       {
         "title": "PHP Constructors and Destructors",
@@ -881,7 +881,7 @@
   },
   "qlkpwXfOc1p7j37hrzffI": {
     "title": "Static Methods and Properties",
-    "description": "Static methods and properties in PHP belong to the class rather than an instance of the class. This means they can be accessed without creating an object of the class. A static method is declared with the static keyword and can be invoked directly using the class name followed by the scope resolution operator. Similarly, a static property is also defined with the static keyword, but cannot be accessed directly, even from within the class methods - they must be accessed through static methods. Here's a simple example:\n\n    class MyClass {\n        static $myStaticProperty = \"Hello, world\";\n    \n        static function myStaticMethod() { \n            return self::$myStaticProperty; \n        }\n    }\n    \n    echo MyClass::myStaticMethod(); \n    \n\nIn this example, we're directly accessing `myStaticMethod` from `MyClass` without an instantiation.\n\nVisit the following resources to learn more:",
+    "description": "Static methods and properties in PHP belong to the class rather than an instance of the class. This means they can be accessed without creating an object of the class. A static method is declared with the static keyword and can be invoked directly using the class name followed by the scope resolution operator. Similarly, a static property is also defined with the static keyword, but cannot be accessed directly, even from within the class methods - they must be accessed through static methods. Here's a simple example:\n\n    class MyClass {\n        static $myStaticProperty = \"Hello, world\";\n    \n        static function myStaticMethod() {\n            return self::$myStaticProperty;\n        }\n    }\n    \n    echo MyClass::myStaticMethod();\n    \n\nIn this example, we're directly accessing `myStaticMethod` from `MyClass` without an instantiation.\n\nVisit the following resources to learn more:",
     "links": [
       {
         "title": "Static Methods and Properties",
@@ -914,7 +914,7 @@
   },
   "gtq5KrghF28f5G8nuDcYQ": {
     "title": "Polymorphism",
-    "description": "Polymorphism is a core concept in object-oriented programming that PHP supports. It provides a mechanism to use one interface for different underlying forms, enabling different objects to process differently based on their data type. In PHP, polymorphism can be achieved through inheritance and interfaces. For example, you may have a parent class 'Shape' and child classes 'Circle', 'Rectangle', etc. They all can have a method 'draw' but with different implementations. It's not limited to classes; you can also use polymorphism with interfaces by implementing different classes with the same interface where each class will have different code for the same method.\n\nHere's a small sample code demonstrating the concept:\n\n    <?php\n    interface Shape {\n      public function draw();\n    }\n    \n    class Circle implements Shape {\n      public function draw() {\n        echo \"Draw a circle\";\n      }\n    }\n    \n    class Rectangle implements Shape {\n      public function draw() {\n        echo \"Draw a rectangle\";\n      }\n    }\n    \n    function drawShape(Shape $shape) {\n      $shape->draw();\n    }\n    \n    drawShape(new Circle());  \n    drawShape(new Rectangle()); \n    ?>\n    \n\nThis creates a scalable way to add more shapes, as you only need to follow the 'Shape' interface.\n\nVisit the following resources to learn more:",
+    "description": "Polymorphism is a core concept in object-oriented programming that PHP supports. It provides a mechanism to use one interface for different underlying forms, enabling different objects to process differently based on their data type. In PHP, polymorphism can be achieved through inheritance and interfaces. For example, you may have a parent class 'Shape' and child classes 'Circle', 'Rectangle', etc. They all can have a method 'draw' but with different implementations. It's not limited to classes; you can also use polymorphism with interfaces by implementing different classes with the same interface where each class will have different code for the same method.\n\nHere's a small sample code demonstrating the concept:\n\n    <?php\n    interface Shape {\n      public function draw();\n    }\n    \n    class Circle implements Shape {\n      public function draw() {\n        echo \"Draw a circle\";\n      }\n    }\n    \n    class Rectangle implements Shape {\n      public function draw() {\n        echo \"Draw a rectangle\";\n      }\n    }\n    \n    function drawShape(Shape $shape) {\n      $shape->draw();\n    }\n    \n    drawShape(new Circle());\n    drawShape(new Rectangle());\n    ?>\n    \n\nThis creates a scalable way to add more shapes, as you only need to follow the 'Shape' interface.\n\nVisit the following resources to learn more:",
     "links": [
       {
         "title": "Polymorphism",
@@ -936,7 +936,7 @@
   },
   "vu0H-TsD7hkJgOQbSRj92": {
     "title": "Interfaces",
-    "description": "Interfaces in PHP serve as a blueprint for designing classes. They ensure that a class adheres to a certain contract, all without defining how those methods should function. As PHP is not a strictly typed language, interfaces can be particularly useful in large codebases to maintain continuity and predictability. For example, in PHP, an interface 'iTemplate' could be defined with methods 'setVariable' and 'getHtml'. Any class that implements this interface must define these methods.\n\nHere is a snippet:\n\n    interface iTemplate {\n        public function setVariable($name, $var);\n        public function getHtml($template); \n    }\n    \n    class Template implements iTemplate {\n        private $vars = array();\n    \n        public function setVariable($name, $var) {\n            $this->vars[$name] = $var;\n        }\n    \n        public function getHtml($template) {\n            foreach($this->vars as $name => $value) {\n                $template = str_replace('{' . $name . '}', $value, $template);\n            }\n            return $template;\n        }\n    }\n    \n\nVisit the following resources to learn more:",
+    "description": "Interfaces in PHP serve as a blueprint for designing classes. They ensure that a class adheres to a certain contract, all without defining how those methods should function. As PHP is not a strictly typed language, interfaces can be particularly useful in large codebases to maintain continuity and predictability. For example, in PHP, an interface 'iTemplate' could be defined with methods 'setVariable' and 'getHtml'. Any class that implements this interface must define these methods.\n\nHere is a snippet:\n\n    interface iTemplate {\n        public function setVariable($name, $var);\n        public function getHtml($template);\n    }\n    \n    class Template implements iTemplate {\n        private $vars = array();\n    \n        public function setVariable($name, $var) {\n            $this->vars[$name] = $var;\n        }\n    \n        public function getHtml($template) {\n            foreach($this->vars as $name => $value) {\n                $template = str_replace('{' . $name . '}', $value, $template);\n            }\n            return $template;\n        }\n    }\n    \n\nVisit the following resources to learn more:",
     "links": [
       {
         "title": "Interfaces",
@@ -958,7 +958,7 @@
   },
   "9raJ06lKRZITbjWeLil-F": {
     "title": "Namespaces",
-    "description": "Namespaces in PHP are a way of encapsulating items so that name collisions won't occur. When your code expands, there could be a situation where classes, interfaces, functions, or constants might have the same name, causing confusion or errors. Namespaces come to the rescue by grouping these items. You declare a namespace using the keyword 'namespace' at the top of your PHP file. Every class, function, or variable under this declaration is a part of the namespace until another namespace is declared, or the file ends. It's like creating a new room in your house solely for storing sports equipment. This makes it easier to find your tennis racket, as you won't have to rummage around in a closet full of mixed items.\n\nHere's a quick example:\n\n    namespace MyNamespace\\SubNamespace; \n    function displayGreeting() {\n         echo 'Hello World!'; \n    } \n    \n\nVisit the following resources to learn more:",
+    "description": "Namespaces in PHP are a way of encapsulating items so that name collisions won't occur. When your code expands, there could be a situation where classes, interfaces, functions, or constants might have the same name, causing confusion or errors. Namespaces come to the rescue by grouping these items. You declare a namespace using the keyword 'namespace' at the top of your PHP file. Every class, function, or variable under this declaration is a part of the namespace until another namespace is declared, or the file ends. It's like creating a new room in your house solely for storing sports equipment. This makes it easier to find your tennis racket, as you won't have to rummage around in a closet full of mixed items.\n\nHere's a quick example:\n\n    namespace MyNamespace\\SubNamespace;\n    function displayGreeting() {\n         echo 'Hello World!';\n    }\n    \n\nVisit the following resources to learn more:",
     "links": [
       {
         "title": "Namespaces",
@@ -969,7 +969,7 @@
   },
   "rSXsPWto7Jeyw3Szl9pvf": {
     "title": "Magic methods",
-    "description": "PHP Magic Methods, often considered the hooks of the language, provide developers a way to change how objects will respond to particular language constructs. Magic methods are special functions that start with \"\\_\\_\" such as `__construct()`, `__destruct(), __call(), __get(), __set()` and more. They enable us to perform certain tasks automatically when specific actions occur. For example, `__construct()` executes when an object is created while `__destruct()` triggers when an object is no longer needed. Let's see the `__construct` magic method in action:\n\n    class Car {\n        public $color;\n        public function __construct($color) {\n            $this->color = $color;\n        }\n    }\n    $blueCar = new Car(\"Blue\"); // This will call the __construct() method.\n    echo $blueCar->color;  // Outputs \"Blue\".\n    \n\nVisit the following resources to learn more:",
+    "description": "PHP Magic Methods, often considered the hooks of the language, provide developers a way to change how objects will respond to particular language constructs. Magic methods are special functions that start with \"\\*\\*\" such as `**construct()`, `**destruct(), **call(), **get(), **set()`and more. They enable us to perform certain tasks automatically when specific actions occur. For example,`**construct()`executes when an object is created while`**destruct()`triggers when an object is no longer needed. Let's see the`\\_\\_construct` magic method in action:\n\n    class Car {\n        public $color;\n        public function __construct($color) {\n            $this->color = $color;\n        }\n    }\n    $blueCar = new Car(\"Blue\"); // This will call the __construct() method.\n    echo $blueCar->color;  // Outputs \"Blue\".\n    \n\nVisit the following resources to learn more:",
     "links": [
       {
         "title": "Magic Methods",
@@ -1000,26 +1000,10 @@
       }
     ]
   },
-  "zsscRQZIq5o0JZir9hlz-": {
-    "title": "Laravel",
-    "description": "Laravel is a robust, elegant PHP framework perfect for web application development, providing developers with a lot of features that boost productivity. Laravel leverages the power of PHP for handling complex tasks such as routing, sessions, caching, and authentication, making it much simpler and quicker for PHP developers to build applications. Laravel's MVC architecture promotes clean, DRY code and separates business logic from UI which significantly improves scalability as well as ease of maintenance.\n\nVisit the following resources to learn more:",
-    "links": [
-      {
-        "title": "Laravel",
-        "url": "https://laravel.com/",
-        "type": "article"
-      },
-      {
-        "title": "Laravel Installation",
-        "url": "https://laravel.com/docs/11.x/installation",
-        "type": "article"
-      },
-      {
-        "title": "Laravel Documentation",
-        "url": "https://laravel.com/docs",
-        "type": "article"
-      }
-    ]
+  "yii@zsscRQZIq5o0JZir9hlz-.md": {
+    "title": "Yii",
+    "description": "",
+    "links": []
   },
   "57VSMVePOr9qUD5x_LNdf": {
     "title": "Symfony",
@@ -1120,7 +1104,7 @@
   },
   "fSpvZ_4kGFMbFVCWhA8vn": {
     "title": "PHPCodeSniffer",
-    "description": "PHPCodeSniffer, often abbreviated as PHPCS, is a fantastic tool designed for PHP developers to maintain neat and consistent coding styles across their projects. It does this by analyzing the PHP, JavaScript, and CSS files in your project to detect deviations from a defined set of coding standards. When PHPCodeSniffer finds a violation, it flags it for fixing, thus making your codebase more readable and harmonious. Here is an example of running PHPCS:\n\n    phpcs --standard=PSR2 /path/to/your/phpfile.php \n    \n\nThis command checks your PHP file against the PSR-2 coding standard.\n\nVisit the following resources to learn more:",
+    "description": "PHPCodeSniffer, often abbreviated as PHPCS, is a fantastic tool designed for PHP developers to maintain neat and consistent coding styles across their projects. It does this by analyzing the PHP, JavaScript, and CSS files in your project to detect deviations from a defined set of coding standards. When PHPCodeSniffer finds a violation, it flags it for fixing, thus making your codebase more readable and harmonious. Here is an example of running PHPCS:\n\n    phpcs --standard=PSR2 /path/to/your/phpfile.php\n    \n\nThis command checks your PHP file against the PSR-2 coding standard.\n\nVisit the following resources to learn more:",
     "links": [
       {
         "title": "CodeSniffer Documentation",
@@ -1294,7 +1278,7 @@
   },
   "NieqZd1juaNYoZOrB7e31": {
     "title": "Opcode Caching",
-    "description": "Opcode caching is a technique that can significantly enhance the PHP performance. It works by storing precompiled script bytecode in memory, thus eliminating the need for PHP to load and parse scripts on each request. For opcode caching, OPCache extension is often used in PHP. With this, the PHP script's compiled version is stored for subsequent requests, reducing the overhead of code parsing and compiling. As a result, your applications experience faster execution and lower CPU usage.\n\nAn Example of a way to enable OPCache in your php.ini configuration file might look like:\n\n       opcache.enable=1 \n       opcache.memory_consumption=128 \n       opcache.max_accelerated_files=4000 \n       opcache.revalidate_freq=60\n    \n\nVisit the following resources to learn more:",
+    "description": "Opcode caching is a technique that can significantly enhance the PHP performance. It works by storing precompiled script bytecode in memory, thus eliminating the need for PHP to load and parse scripts on each request. For opcode caching, OPCache extension is often used in PHP. With this, the PHP script's compiled version is stored for subsequent requests, reducing the overhead of code parsing and compiling. As a result, your applications experience faster execution and lower CPU usage.\n\nAn Example of a way to enable OPCache in your php.ini configuration file might look like:\n\n       opcache.enable=1\n       opcache.memory_consumption=128\n       opcache.max_accelerated_files=4000\n       opcache.revalidate_freq=60\n    \n\nVisit the following resources to learn more:",
     "links": [
       {
         "title": "Opcode Caching",
@@ -1316,7 +1300,7 @@
   },
   "NTKUMgsKGYISIyhgOJPQn": {
     "title": "Process Control",
-    "description": "Process Control, a crucial aspect of PHP system interactions, pertains to the ability to manage child processes within larger PHP scripts. Through the Process Control Extensions, PHP can create, monitor and control these child processes efficiently. These functions help develop robust client-server systems by managing and bringing multi-threading capabilities to single-threaded PHP scripts. For instance, when creating a new child process using pcntl\\_fork() function, the return value in the parent process is the PID of the newly created child process whereas, in the child process, '0' is returned. Remember, this feature isn't enabled by default in PHP.\n\nHere's a short PHP code demonstrating Process Control:\n\n    <?php \n    $pid = pcntl_fork();\n    if ($pid == -1) {\n         die('could not fork');\n    } else if ($pid) {\n         // we are the parent\n         pcntl_wait($status); // Protect against Zombie children\n    } else {\n         // we are the child\n    }\n    ?>\n    \n\nVisit the following resources to learn more:",
+    "description": "Process Control, a crucial aspect of PHP system interactions, pertains to the ability to manage child processes within larger PHP scripts. Through the Process Control Extensions, PHP can create, monitor and control these child processes efficiently. These functions help develop robust client-server systems by managing and bringing multi-threading capabilities to single-threaded PHP scripts. For instance, when creating a new child process using pcntl\\_fork() function, the return value in the parent process is the PID of the newly created child process whereas, in the child process, '0' is returned. Remember, this feature isn't enabled by default in PHP.\n\nHere's a short PHP code demonstrating Process Control:\n\n    <?php\n    $pid = pcntl_fork();\n    if ($pid == -1) {\n         die('could not fork');\n    } else if ($pid) {\n         // we are the parent\n         pcntl_wait($status); // Protect against Zombie children\n    } else {\n         // we are the child\n    }\n    ?>\n    \n\nVisit the following resources to learn more:",
     "links": [
       {
         "title": "Process Control",

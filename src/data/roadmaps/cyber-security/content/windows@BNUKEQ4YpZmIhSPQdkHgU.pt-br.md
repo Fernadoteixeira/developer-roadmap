@@ -4,6 +4,6 @@ O Windows é o sistema operacional amplamente utilizado pela Microsoft para comp
 
 Saiba mais com os seguintes recursos:
 
-- [@oficial@Segurança do Windows](https://learn.microsoft.com/en-us/windows/security/)
+- [@official@Segurança do Windows](https://learn.microsoft.com/en-us/windows/security/)
 - [@video@Tutorial completo do Windows 11 - Um curso de 2 horas para aprender e dominar o Windows 11](https://www.youtube.com/watch?v=UKn-r3X2CLk)
 - [@feed@Explore as principais postagens sobre o Windows](https://app.daily.dev/tags/windows?ref=roadmapsh)

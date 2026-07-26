@@ -4,7 +4,7 @@ Ao trabalhar em equipe, muitas vezes você precisa de um local remoto para coloc
 
 Visite os seguintes recursos para saber mais:
 
-- [@oficial@GitHub](https://github.com)
-- [@oficial@GitLab](https://about.gitlab.com/)
-- [@oficial@BitBucket](https://bitbucket.org/product/guides/getting-started/overview)
+- [@official@GitHub](https://github.com)
+- [@official@GitLab](https://about.gitlab.com/)
+- [@official@BitBucket](https://bitbucket.org/product/guides/getting-started/overview)
 - [@video@Github vs Gitlab vs Bitbucket - Qual é melhor?](https://www.youtube.com/watch?v=FQGXIIqziQg)

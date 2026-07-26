@@ -4,6 +4,6 @@ Uma rede de computadores é um conjunto de computadores que compartilham recurso
 
 Visite os seguintes recursos para saber mais:
 
-- [@artigo@Rede - IBM](https://www.ibm.com/topics/networking)
-- [@artigo@Rede - Wikipédia](https://en.wikipedia.org/wiki/Networking)
+- [@article@Rede - IBM](https://www.ibm.com/topics/networking)
+- [@article@Rede - Wikipédia](https://en.wikipedia.org/wiki/Networking)
 - [@article@Noções básicas de rede](https://www.cisco.com/c/en/us/solutions/small-business/resource-center/networking/networking-basics.html)

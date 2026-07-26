@@ -4,5 +4,5 @@ YouTrack é um software de gerenciamento de projetos desenvolvido pela JetBrains
 
 Visite os seguintes recursos para saber mais:
 
-- [@oficial@YouTrack](https://www.jetbrains.com/youtrack/)
+- [@official@YouTrack](https://www.jetbrains.com/youtrack/)
 - [@article@YouTrack para iniciantes](https://medium.com/nerd-for-tech/youtrack-for-beginners-31e1e156fdd0)

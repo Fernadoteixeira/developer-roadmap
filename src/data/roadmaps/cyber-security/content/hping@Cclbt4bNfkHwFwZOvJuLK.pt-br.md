@@ -4,5 +4,5 @@ hping é uma ferramenta versátil e poderosa de criação de pacotes baseada em 
 
 Saiba mais com os seguintes recursos:
 
-- [@oficial@hping](https://salsa.debian.org/debian/hping3)
+- [@official@hping](https://salsa.debian.org/debian/hping3)
 - [@article@O que é hping?](https://www.okta.com/uk/identity-101/hping/)

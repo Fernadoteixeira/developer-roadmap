@@ -4,5 +4,5 @@ Listas de pulos são uma estrutura de dados que permite executar operações em 
 
 Visite os seguintes recursos para saber mais:
 
-- [@artigo@Listas de Ignorar](https://en.wikipedia.org/wiki/Skip_list)
+- [@article@Listas de Ignorar](https://en.wikipedia.org/wiki/Skip_list)
 - [@video@Randomização: pular listas](https://www.youtube.com/watch?v=2g9OSRKJuzM&index=10&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp)

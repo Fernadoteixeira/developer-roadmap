@@ -4,6 +4,6 @@ Jest é uma estrutura popular de teste de JavaScript desenvolvida pelo Facebook.
 
 Visite os seguintes recursos para saber mais:
 
-- [@oficial@Jest Site](https://jestjs.io/)
+- [@official@Jest Site](https://jestjs.io/)
 - [@video@Teste de JavaScript com Jest](https://youtu.be/IPiUDhwnZxA?si=2_lE2bDo2fRuo2CU)
 - [@feed@Explore as principais postagens sobre Jest](https://app.daily.dev/tags/jest?ref=roadmapsh)

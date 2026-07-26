@@ -4,5 +4,5 @@ Engenharia reversa é o processo de desconstruir um sistema, software ou hardwar
 
 Saiba mais com os seguintes recursos:
 
-- [@curso@Engenharia Reversa para Todos!](https://0xinfection.github.io/reversing/)
+- [@course@Engenharia Reversa para Todos!](https://0xinfection.github.io/reversing/)
 - [@video@O que é engenharia reversa?](https://www.youtube.com/watch?v=gh2RXE9BIN8)

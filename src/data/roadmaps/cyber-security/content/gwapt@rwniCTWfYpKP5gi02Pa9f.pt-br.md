@@ -4,4 +4,4 @@ A certificação GIAC Web Application Penetration Tester (GWAPT) valida a capaci
 
 Saiba mais com os seguintes recursos:
 
-- [@oficial@Certificação GWAPT](https://www.giac.org/certifications/web-application-penetration-tester-gwapt/)
+- [@official@Certificação GWAPT](https://www.giac.org/certifications/web-application-penetration-tester-gwapt/)
