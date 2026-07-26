@@ -14,10 +14,10 @@ This project serves English (`en`), Spanish (`es`) and Brazilian Portuguese (`pt
 
 ## URL contract
 
-| Locale | Home | Roadmap example |
-| --- | --- | --- |
-| English | `/` | `/frontend` |
-| Spanish | `/es` | `/es/frontend` |
+| Locale               | Home     | Roadmap example   |
+| -------------------- | -------- | ----------------- |
+| English              | `/`      | `/frontend`       |
+| Spanish              | `/es`    | `/es/frontend`    |
 | Brazilian Portuguese | `/pt-br` | `/pt-br/frontend` |
 
 English is the canonical default and does not use a prefix. Legacy routes such as `/frontend.pt-br` permanently redirect to `/pt-br/frontend`.
@@ -131,14 +131,14 @@ Set `STRICT_I18N_LINKS=1` to make Markdown link-target drift blocking. Without i
 
 The repository remains the source of truth and does not require an external service. Teams can add any of these optional OSS-compatible layers without changing the runtime contract:
 
-| Layer | Recommended option | Purpose |
-| --- | --- | --- |
-| Runtime | Astro middleware + native `Intl` | Routing, rendering and formatting |
-| Developer automation | Languine CLI or custom GitHub Actions | Detect and generate changed translations |
-| Translation management | Weblate or self-hosted Tolgee | Review, terminology and approvals |
-| Machine translation | LibreTranslate | Self-hosted translation suggestions |
-| Editor integration | inlang Sherlock | In-editor catalog management |
-| QA | Node scripts + Playwright + axe-core | Structural, visual and accessibility gates |
+| Layer                  | Recommended option                    | Purpose                                    |
+| ---------------------- | ------------------------------------- | ------------------------------------------ |
+| Runtime                | Astro middleware + native `Intl`      | Routing, rendering and formatting          |
+| Developer automation   | Languine CLI or custom GitHub Actions | Detect and generate changed translations   |
+| Translation management | Weblate or self-hosted Tolgee         | Review, terminology and approvals          |
+| Machine translation    | LibreTranslate                        | Self-hosted translation suggestions        |
+| Editor integration     | inlang Sherlock                       | In-editor catalog management               |
+| QA                     | Node scripts + Playwright + axe-core  | Structural, visual and accessibility gates |
 
 No optional translation platform should write directly to `master`. It should open a pull request so the same CI gates remain authoritative.
 

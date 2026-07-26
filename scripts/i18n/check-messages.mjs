@@ -55,7 +55,9 @@ for (const locale of locales) {
 }
 
 if (errors.length > 0) {
-  console.error(`i18n catalog validation failed with ${errors.length} error(s):`);
+  console.error(
+    `i18n catalog validation failed with ${errors.length} error(s):`,
+  );
   for (const error of errors) {
     console.error(`- ${error}`);
   }

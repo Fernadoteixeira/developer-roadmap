@@ -14,11 +14,7 @@ import { MarkFavorite } from './FeaturedItems/MarkFavorite';
 import { type RoadmapFrontmatter } from '../lib/roadmap';
 import { ShareRoadmapButton } from './ShareRoadmapButton';
 import { DownloadRoadmapButton } from './DownloadRoadmapButton';
-import {
-  createTranslator,
-  defaultLocale,
-  getLocalizedPath,
-} from '../i18n';
+import { createTranslator, defaultLocale, getLocalizedPath } from '../i18n';
 
 export interface Props {
   title: string;
@@ -75,7 +71,9 @@ const localizedRoadmapPath = href(`/${roadmapId}`);
     )
   }
 
-  <div class='relative rounded-none border bg-white px-5 pt-4 pb-0 sm:rounded-lg'>
+  <div
+    class='relative rounded-none border bg-white px-5 pt-4 pb-0 sm:rounded-lg'
+  >
     <div class='flex items-start justify-between'>
       <a
         class='inline-flex items-center justify-center rounded-md bg-gray-300 px-2 py-1.5 text-xs font-medium hover:bg-gray-400 sm:hidden sm:text-sm'
@@ -92,7 +90,9 @@ const localizedRoadmapPath = href(`/${roadmapId}`);
       >
         &larr;&nbsp;<span>&nbsp;{t('roadmap.all')}</span>
       </a>
-      <div class='relative top-0 right-0 flex items-center gap-1 sm:-top-0.5 sm:-right-2'>
+      <div
+        class='relative top-0 right-0 flex items-center gap-1 sm:-top-0.5 sm:-right-2'
+      >
         <MarkFavorite
           resourceId={roadmapId}
           resourceType='roadmap'
@@ -108,7 +108,10 @@ const localizedRoadmapPath = href(`/${roadmapId}`);
         <DownloadRoadmapButton roadmapId={roadmapId} client:idle />
         <ShareRoadmapButton
           description={description}
-          pageUrl={new URL(localizedRoadmapPath, 'https://roadmap.sh').toString()}
+          pageUrl={new URL(
+            localizedRoadmapPath,
+            'https://roadmap.sh',
+          ).toString()}
           client:idle
         />
       </div>
@@ -126,24 +129,28 @@ const localizedRoadmapPath = href(`/${roadmapId}`);
           isActive={activeTab === 'roadmap'}
           text={t('roadmap.roadmap')}
         />
-        {hasProjects && (
-          <TabLink
-            url={href(`/${roadmapId}/projects`)}
-            icon={FolderKanbanIcon}
-            text={t('roadmap.projects')}
-            isActive={activeTab === 'projects'}
-            badgeText={projectCount > 0 ? '' : t('roadmap.soon')}
-          />
-        )}
-        {hasCourses && (
-          <TabLink
-            url={href(`/${roadmapId}/courses`)}
-            icon={BookOpenIcon}
-            text={t('roadmap.courses')}
-            isActive={activeTab === 'courses'}
-            badgeText={t('badge.new')}
-          />
-        )}
+        {
+          hasProjects && (
+            <TabLink
+              url={href(`/${roadmapId}/projects`)}
+              icon={FolderKanbanIcon}
+              text={t('roadmap.projects')}
+              isActive={activeTab === 'projects'}
+              badgeText={projectCount > 0 ? '' : t('roadmap.soon')}
+            />
+          )
+        }
+        {
+          hasCourses && (
+            <TabLink
+              url={href(`/${roadmapId}/courses`)}
+              icon={BookOpenIcon}
+              text={t('roadmap.courses')}
+              isActive={activeTab === 'courses'}
+              badgeText={t('badge.new')}
+            />
+          )
+        }
       </div>
 
       <TabLink

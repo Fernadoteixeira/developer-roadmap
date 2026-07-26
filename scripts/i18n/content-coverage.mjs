@@ -15,8 +15,12 @@ function walk(directory) {
   });
 }
 
-const markdownFiles = walk(dataRoot).filter((filePath) => filePath.endsWith('.md'));
-const sourceFiles = markdownFiles.filter((filePath) => !localizedPattern.test(filePath));
+const markdownFiles = walk(dataRoot).filter((filePath) =>
+  filePath.endsWith('.md'),
+);
+const sourceFiles = markdownFiles.filter(
+  (filePath) => !localizedPattern.test(filePath),
+);
 const localeSuffixes = {
   es: '.es.md',
   'pt-BR': '.pt-br.md',

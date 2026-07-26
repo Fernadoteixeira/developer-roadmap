@@ -1,11 +1,7 @@
 ---
 import AstroIcon from './AstroIcon.astro';
 import Icon from './AstroIcon.astro';
-import {
-  createTranslator,
-  defaultLocale,
-  getLocalizedPath,
-} from '../i18n';
+import { createTranslator, defaultLocale, getLocalizedPath } from '../i18n';
 
 const locale = Astro.locals.locale || defaultLocale;
 const t = createTranslator(locale);
@@ -68,9 +64,13 @@ const href = (path: string) => getLocalizedPath(path, locale);
           <p>
             &copy; roadmap.sh
             <span class='mx-1.5'>&middot;</span>
-            <a href={href('/terms')} class='hover:text-white'>{t('footer.terms')}</a>
+            <a href={href('/terms')} class='hover:text-white'
+              >{t('footer.terms')}</a
+            >
             <span class='mx-1.5'>&middot;</span>
-            <a href={href('/privacy')} class='hover:text-white'>{t('footer.privacy')}</a>
+            <a href={href('/privacy')} class='hover:text-white'
+              >{t('footer.privacy')}</a
+            >
             <span class='mx-1.5'>&middot;</span>
             <a
               aria-label={t('footer.followLinkedIn')}

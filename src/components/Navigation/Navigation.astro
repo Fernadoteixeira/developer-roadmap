@@ -5,11 +5,7 @@ import { NavigationDropdown } from '../NavigationDropdown';
 import { RoadmapDropdownMenu } from '../RoadmapDropdownMenu/RoadmapDropdownMenu';
 import { AccountDropdown } from './AccountDropdown';
 import LanguageSwitcher from '../LanguageSwitcher.astro';
-import {
-  createTranslator,
-  defaultLocale,
-  getLocalizedPath,
-} from '../../i18n';
+import { createTranslator, defaultLocale, getLocalizedPath } from '../../i18n';
 
 const locale = Astro.locals.locale || defaultLocale;
 const t = createTranslator(locale);
@@ -106,7 +102,10 @@ const href = (path: string) => getLocalizedPath(path, locale);
       </button>
       <ul class='flex w-full flex-col items-center gap-2 md:gap-3'>
         <li>
-          <a href={href('/roadmaps')} class='text-xl hover:text-blue-300 md:text-lg'>
+          <a
+            href={href('/roadmaps')}
+            class='text-xl hover:text-blue-300 md:text-lg'
+          >
             {t('nav.roadmaps')}
           </a>
         </li>
@@ -119,23 +118,35 @@ const href = (path: string) => getLocalizedPath(path, locale);
           </a>
         </li>
         <li>
-          <a href={href('/guides')} class='text-xl hover:text-blue-300 md:text-lg'>
+          <a
+            href={href('/guides')}
+            class='text-xl hover:text-blue-300 md:text-lg'
+          >
             {t('nav.guides')}
           </a>
         </li>
         <li>
-          <a href={href('/videos')} class='text-xl hover:text-blue-300 md:text-lg'>
+          <a
+            href={href('/videos')}
+            class='text-xl hover:text-blue-300 md:text-lg'
+          >
             {t('nav.videos')}
           </a>
         </li>
 
         <li data-auth-required class='hidden'>
-          <a href={href('/account')} class='text-xl hover:text-blue-300 md:text-lg'>
+          <a
+            href={href('/account')}
+            class='text-xl hover:text-blue-300 md:text-lg'
+          >
             {t('nav.account')}
           </a>
         </li>
         <li data-auth-required class='hidden'>
-          <a href={href('/team')} class='text-xl hover:text-blue-300 md:text-lg'>
+          <a
+            href={href('/team')}
+            class='text-xl hover:text-blue-300 md:text-lg'
+          >
             {t('nav.teams')}
           </a>
         </li>

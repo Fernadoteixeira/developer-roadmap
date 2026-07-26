@@ -57,9 +57,7 @@ export const onRequest = defineMiddleware(async (context, next) => {
     return next();
   }
 
-  const legacyLocaleMatch = pathname.match(
-    /^\/(.+)\.(en|es|pt-br)\/?$/i,
-  );
+  const legacyLocaleMatch = pathname.match(/^\/(.+)\.(en|es|pt-br)\/?$/i);
 
   if (legacyLocaleMatch) {
     const [, canonicalResourcePath, legacyLocale] = legacyLocaleMatch;
@@ -85,10 +83,7 @@ export const onRequest = defineMiddleware(async (context, next) => {
   context.locals.canonicalPath = canonicalPath;
 
   const response = await next(`${canonicalPath}${search}`);
-  response.headers.set(
-    'Content-Language',
-    localeMetadata[locale].htmlLang,
-  );
+  response.headers.set('Content-Language', localeMetadata[locale].htmlLang);
   response.headers.set('X-Content-Locale', locale);
 
   return response;

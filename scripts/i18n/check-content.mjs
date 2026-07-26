@@ -70,11 +70,15 @@ for (const warning of warnings.slice(0, 50)) {
   console.warn(`warning: ${warning}`);
 }
 if (warnings.length > 50) {
-  console.warn(`warning: ${warnings.length - 50} additional link warnings omitted`);
+  console.warn(
+    `warning: ${warnings.length - 50} additional link warnings omitted`,
+  );
 }
 
 if (errors.length > 0) {
-  console.error(`Localized content validation failed with ${errors.length} error(s):`);
+  console.error(
+    `Localized content validation failed with ${errors.length} error(s):`,
+  );
   for (const error of errors) {
     console.error(`- ${error}`);
   }

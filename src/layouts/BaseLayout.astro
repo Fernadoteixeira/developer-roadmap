@@ -72,7 +72,10 @@ const currentPageAbsoluteUrl = new URL(
 ).toString();
 const canonicalUrl = givenCanonical
   ? givenCanonical.startsWith('/')
-    ? new URL(getLocalizedPath(givenCanonical, locale), 'https://roadmap.sh').toString()
+    ? new URL(
+        getLocalizedPath(givenCanonical, locale),
+        'https://roadmap.sh',
+      ).toString()
     : givenCanonical
   : currentPageAbsoluteUrl;
 const alternateLinks = getAlternateLocaleLinks(canonicalPath).map((item) => ({
