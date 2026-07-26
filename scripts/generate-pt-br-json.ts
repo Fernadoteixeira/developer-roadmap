@@ -204,8 +204,12 @@ for (const roadmapId of editorRoadmapIds) {
 }
 
 if (hasErrors) {
-  console.error('\n❌ PT-BR JSON generation failed due to missing translation files.');
+  console.error(
+    '\n❌ PT-BR JSON generation failed due to missing translation files.',
+  );
   process.exit(1);
 } else {
-  console.log('\n✅ All PT-BR JSONs compiled successfully with 0 missing translations!');
+  console.log(
+    '\n✅ All PT-BR JSONs compiled successfully with 0 missing translations!',
+  );
 }

@@ -174,7 +174,10 @@ export function compareFiles(sourcePath: string, targetPath: string) {
     );
   }
 
-  if (sourceMetrics.codeLanguages.join(',') !== targetMetrics.codeLanguages.join(',')) {
+  if (
+    sourceMetrics.codeLanguages.join(',') !==
+    targetMetrics.codeLanguages.join(',')
+  ) {
     diffs.push(
       `Code block languages mismatch: EN [${sourceMetrics.codeLanguages.join(',')}] vs PT [${targetMetrics.codeLanguages.join(',')}]`,
     );
@@ -194,7 +197,10 @@ export function compareFiles(sourcePath: string, targetPath: string) {
     diffs.push(`Link URLs mismatch`);
   }
 
-  if (sourceMetrics.linkPrefixes.join(',') !== targetMetrics.linkPrefixes.join(',')) {
+  if (
+    sourceMetrics.linkPrefixes.join(',') !==
+    targetMetrics.linkPrefixes.join(',')
+  ) {
     diffs.push(
       `Link type prefixes (@official@, @article@, etc.) mismatch: EN [${sourceMetrics.linkPrefixes.join(',')}] vs PT [${targetMetrics.linkPrefixes.join(',')}]`,
     );

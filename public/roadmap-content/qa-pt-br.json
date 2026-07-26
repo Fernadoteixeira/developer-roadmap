@@ -1947,7 +1947,7 @@
         "type": "article"
       },
       {
-        "title": "@documentação@Grafana",
+        "title": "Documentação do Grafana",
         "url": "https://grafana.com/docs/",
         "type": "article"
       },
@@ -2202,11 +2202,6 @@
         "type": "article"
       },
       {
-        "title": "@vídeo@Tutorial do Bitbucket | Bitbucket para iniciantes",
-        "url": "https://www.youtube.com/watch?v=i5T-DB8tb4A",
-        "type": "article"
-      },
-      {
         "title": "Explore as principais postagens sobre o Bitbucket",
         "url": "https://app.daily.dev/tags/bitbucket?ref=roadmapsh",
         "type": "article"
@@ -2214,6 +2209,11 @@
       {
         "title": "Como usar o Bitbucket Cloud",
         "url": "https://www.youtube.com/watch?v=M44nEyd_5To",
+        "type": "video"
+      },
+      {
+        "title": "Tutorial do Bitbucket | Bitbucket para iniciantes",
+        "url": "https://www.youtube.com/watch?v=i5T-DB8tb4A",
         "type": "video"
       }
     ]

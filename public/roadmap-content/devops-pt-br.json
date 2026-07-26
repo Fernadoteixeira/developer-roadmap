@@ -1,10 +1,10 @@
 {
   "v5FGKQc-_7NYEsWjmTEuq": {
     "title": "Aprenda uma Linguagem de Programação",
-    "description": "Não importa qual idioma você escolha, mas é importante aprender pelo menos um. Você poderá usar esse idioma para escrever scripts de automação.",
+    "description": "Não importa qual linguagem você escolha, mas é importante aprender pelo menos uma. Você poderá usar essa linguagem para escrever scripts de automação.",
     "links": [
       {
-        "title": "Guia para Escolher um Idioma para DevOps",
+        "title": "Guia para Escolher uma Linguagem para DevOps",
         "url": "https://cs.fyi/guide/programming-language-for-devops",
         "type": "article"
       }
@@ -298,7 +298,7 @@
         "type": "article"
       },
       {
-        "title": "@documentação@RHEL",
+        "title": "Documentação do RHEL",
         "url": "https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/",
         "type": "article"
       },
@@ -544,7 +544,7 @@
     "description": "PowerShell é uma estrutura de automação de tarefas e gerenciamento de configuração da Microsoft, que consiste em um shell de linha de comando e uma linguagem de script associada. Construído na estrutura .NET, o PowerShell fornece acesso total a COM e WMI, permitindo que os administradores executem tarefas administrativas em sistemas Windows locais e remotos. Ele usa cmdlets (pronuncia-se \"command-lets\") para executar ações e um sistema de pipe para encadear esses comandos. A natureza baseada em objetos do PowerShell, em oposição à saída baseada em texto, permite uma manipulação de dados mais eficiente. Com seus amplos recursos de script, suporte para aliases e integração com vários produtos da Microsoft e de terceiros, o PowerShell se tornou uma ferramenta poderosa para automatizar tarefas de administração de sistemas, gerenciar recursos de nuvem e desenvolver práticas de DevOps em ambientes centrados no Windows.\n\nSaiba mais com os seguintes recursos:",
     "links": [
       {
-        "title": "@documentação oficial@PowerShell",
+        "title": "Documentação do PowerShell",
         "url": "https://learn.microsoft.com/en-us/powershell/",
         "type": "article"
       },
@@ -1114,7 +1114,7 @@
         "type": "article"
       },
       {
-        "title": "@documentação@LXC",
+        "title": "Documentação do LXC",
         "url": "https://linuxcontainers.org/lxc/documentation/",
         "type": "article"
       },
@@ -1588,9 +1588,9 @@
         "type": "article"
       },
       {
-        "title": "@vídeo@O que é FPS? Estrutura de política do remetente explicada",
+        "title": "O que é FPS? Estrutura de política do remetente explicada",
         "url": "https://www.youtube.com/watch?v=5HG8xJ2lWuc",
-        "type": "article"
+        "type": "video"
       }
     ]
   },
@@ -1620,9 +1620,9 @@
         "type": "article"
       },
       {
-        "title": "@vídeo@O que é DKIM? Correio identificado por DomainKeys",
+        "title": "O que é DKIM? Correio identificado por DomainKeys",
         "url": "https://www.youtube.com/watch?v=IBhO0akhMlQ",
-        "type": "article"
+        "type": "video"
       }
     ]
   },
@@ -1943,6 +1943,11 @@
     "description": "Terraform é uma ferramenta de infraestrutura como código (IaC) de código aberto desenvolvida pela HashiCorp, usada para definir, provisionar e gerenciar infraestrutura local e em nuvem usando arquivos de configuração declarativos. Ele oferece suporte a vários provedores de nuvem como AWS, Azure e Google Cloud, bem como vários serviços e plataformas, permitindo a automação da infraestrutura em diversos ambientes. O gerenciamento de estado e a estrutura modular do Terraform permitem dimensionamento eficiente, capacidade de reutilização e controle de versão da infraestrutura. É amplamente utilizado para automatizar o provisionamento de infraestrutura, reduzir erros manuais e melhorar a consistência e repetibilidade da infraestrutura.\n\nVisite os seguintes recursos para saber mais:",
     "links": [
       {
+        "title": "Curso completo do Terraform",
+        "url": "https://www.youtube.com/watch?v=7xngnjfIlK4",
+        "type": "course"
+      },
+      {
         "title": "Visit Roteiro dedicado do Terraform",
         "url": "https://roadmap.sh/terraform",
         "type": "article"
@@ -1960,11 +1965,6 @@
       {
         "title": "Como dimensionar sua infraestrutura Terraform",
         "url": "https://thenewstack.io/how-to-scale-your-terraform-infrastructure/",
-        "type": "article"
-      },
-      {
-        "title": "Curso completo do Terraform",
-        "url": "https://www.youtube.com/watch?v=7xngnjfIlK4",
         "type": "article"
       },
       {
@@ -2171,14 +2171,14 @@
         "type": "article"
       },
       {
-        "title": "@vídeo@Aprenda Jenkins! Curso completo de Jenkins - Zero a Herói",
-        "url": "https://www.youtube.com/watch?v=6YZvp2GwT0A",
-        "type": "article"
-      },
-      {
         "title": "Explore as principais postagens sobre Jenkins",
         "url": "https://app.daily.dev/tags/jenkins?ref=roadmapsh",
         "type": "article"
+      },
+      {
+        "title": "Aprenda Jenkins! Curso completo de Jenkins - Zero a Herói",
+        "url": "https://www.youtube.com/watch?v=6YZvp2GwT0A",
+        "type": "video"
       }
     ]
   },
@@ -2692,11 +2692,6 @@
         "type": "article"
       },
       {
-        "title": "@vídeo@Docker Swarm | Introdução | Exemplos passo a passo",
-        "url": "https://www.youtube.com/watch?v=Xaea-XnJTJU",
-        "type": "article"
-      },
-      {
         "title": "Tutorial: Gerenciar Docker Swarm com Portainer",
         "url": "https://thenewstack.io/tutorial-manage-docker-swarm-with-portainer/",
         "type": "article"
@@ -2710,6 +2705,11 @@
         "title": "Explore as principais postagens sobre Docker",
         "url": "https://app.daily.dev/tags/docker?ref=roadmapsh",
         "type": "article"
+      },
+      {
+        "title": "Docker Swarm | Introdução | Exemplos passo a passo",
+        "url": "https://www.youtube.com/watch?v=Xaea-XnJTJU",
+        "type": "video"
       }
     ]
   },

@@ -435,13 +435,13 @@
     "description": "Fila é uma coleção linear de itens onde os itens são inseridos e removidos em uma ordem específica. A fila também é chamada de Estrutura de Dados FIFO porque segue o princípio “Primeiro a entrar, primeiro a sair”, ou seja, o item que é inserido no primeiro é o que é retirado primeiro.\n\nVisite os seguintes recursos para saber mais:",
     "links": [
       {
-        "title": "Circular Buffer - Wikipédia",
-        "url": "https://en.wikipedia.org/wiki/Circular_buffer",
-        "type": "article"
-      },
-      {
         "title": "Filas - Coursera",
         "url": "https://www.coursera.org/lecture/data-structures/queues-EShpq",
+        "type": "course"
+      },
+      {
+        "title": "Circular Buffer - Wikipédia",
+        "url": "https://en.wikipedia.org/wiki/Circular_buffer",
         "type": "article"
       },
       {
@@ -466,9 +466,9 @@
         "type": "article"
       },
       {
-        "title": "@vídeo@Tabela Hash | Estruturas de dados ilustradas",
+        "title": "Tabela Hash | Estruturas de dados ilustradas",
         "url": "https://www.youtube.com/watch?v=jalSiaIi8j4",
-        "type": "article"
+        "type": "video"
       },
       {
         "title": "Hash Table em 4 minutos",
@@ -580,14 +580,14 @@
         "type": "course"
       },
       {
-        "title": "@vídeo@Árvore | Estruturas de dados ilustradas",
-        "url": "https://www.youtube.com/watch?v=S2W3SXGPVyU",
-        "type": "article"
-      },
-      {
         "title": "Explore as principais postagens sobre programação geral",
         "url": "https://app.daily.dev/tags/general-programming?ref=roadmapsh",
         "type": "article"
+      },
+      {
+        "title": "Árvore | Estruturas de dados ilustradas",
+        "url": "https://www.youtube.com/watch?v=S2W3SXGPVyU",
+        "type": "video"
       },
       {
         "title": "Árvores de pesquisa binária - MIT",
@@ -811,6 +811,11 @@
     "description": "Heap é uma estrutura de dados baseada em árvore que segue as propriedades de uma árvore binária completa e é um Heap mínimo ou um Heap máximo.\n\nVisite os seguintes recursos para saber mais:",
     "links": [
       {
+        "title": "Fila Prioritária - Introdução",
+        "url": "https://www.coursera.org/lecture/data-structures/introduction-2OpTs",
+        "type": "course"
+      },
+      {
         "title": "Estrutura de dados Heap",
         "url": "https://www.programiz.com/dsa/heap-data-structure",
         "type": "article"
@@ -821,14 +826,9 @@
         "type": "article"
       },
       {
-        "title": "@vídeo@Heap | Estruturas de dados ilustradas",
+        "title": "Heap | Estruturas de dados ilustradas",
         "url": "https://www.youtube.com/watch?v=F_r0sJ1RqWk",
-        "type": "article"
-      },
-      {
-        "title": "Fila Prioritária - Introdução",
-        "url": "https://www.coursera.org/lecture/data-structures/introduction-2OpTs",
-        "type": "article"
+        "type": "video"
       },
       {
         "title": "Heaps e classificação de heap",
@@ -1125,11 +1125,6 @@
     "description": "O cache LRU é um cache que despeja primeiro o item usado menos recentemente. É um algoritmo de cache muito comum. Ele é usado em muitos lugares, como no cache do navegador, no cache do banco de dados e no cache do sistema operacional.\n\nVisite os seguintes recursos para saber mais:",
     "links": [
       {
-        "title": "@vídeo@LeetCode | 146 Cache LRU | C++ | Explicação",
-        "url": "https://www.youtube.com/watch?v=8-FZRAjR7qU",
-        "type": "article"
-      },
-      {
         "title": "A magia do cache LRU (100 dias de desenvolvimento do Google)",
         "url": "https://www.youtube.com/watch?v=R5ON3iwx78M",
         "type": "video"
@@ -1137,6 +1132,11 @@
       {
         "title": "Implementando LRU - Udacity",
         "url": "https://www.youtube.com/watch?v=bq6N7Ym81iI",
+        "type": "video"
+      },
+      {
+        "title": "LeetCode | 146 Cache LRU | C++ | Explicação",
+        "url": "https://www.youtube.com/watch?v=8-FZRAjR7qU",
         "type": "video"
       }
     ]
@@ -1225,13 +1225,13 @@
     "description": "A classificação por seleção é um algoritmo de classificação que seleciona o menor item não classificado na lista e o troca pelo índice 0, depois encontra o próximo menor e o coloca no índice 1 e assim por diante.\n\nVisite os seguintes recursos para saber mais:",
     "links": [
       {
-        "title": "Selection Sort",
-        "url": "https://en.wikipedia.org/wiki/Selection_sort",
-        "type": "article"
-      },
-      {
         "title": "Classificação de seleção",
         "url": "https://www.coursera.org/lecture/algorithms-part1/selection-UQxFT",
+        "type": "course"
+      },
+      {
+        "title": "Selection Sort",
+        "url": "https://en.wikipedia.org/wiki/Selection_sort",
         "type": "article"
       },
       {
@@ -1340,9 +1340,9 @@
     "description": "A travessia de pré-ordem é um algoritmo de travessia de árvore que visita primeiro o nó raiz e, em seguida, percorre recursivamente a subárvore esquerda, seguida pela subárvore direita.\n\nVisite os seguintes recursos para saber mais:",
     "links": [
       {
-        "title": "@vídeo@Árvore | Estruturas de dados ilustradas",
+        "title": "Árvore | Estruturas de dados ilustradas",
         "url": "https://www.youtube.com/watch?v=S2W3SXGPVyU",
-        "type": "article"
+        "type": "video"
       },
       {
         "title": "Pré-encomende a travessia da árvore em 3 minutos",
@@ -1361,9 +1361,9 @@
         "type": "article"
       },
       {
-        "title": "@vídeo@Árvore | Estruturas de dados ilustradas",
+        "title": "Árvore | Estruturas de dados ilustradas",
         "url": "https://www.youtube.com/watch?v=S2W3SXGPVyU",
-        "type": "article"
+        "type": "video"
       }
     ]
   },
@@ -1377,9 +1377,9 @@
         "type": "article"
       },
       {
-        "title": "@vídeo@Árvore | Estruturas de dados ilustradas",
+        "title": "Árvore | Estruturas de dados ilustradas",
         "url": "https://www.youtube.com/watch?v=S2W3SXGPVyU",
-        "type": "article"
+        "type": "video"
       }
     ]
   },
@@ -1714,19 +1714,19 @@
     "description": "O algoritmo Rabin-Karp é um algoritmo de busca de strings que usa hashing para encontrar qualquer um de um conjunto de strings padrão em um texto. Para strings de comprimento médio `n`, ele executa em tempo `O(n+m)` com espaço `O(m)`, onde `m` é o comprimento do padrão. É frequentemente usado em bioinformática para procurar padrões de DNA.\n\nVisite os seguintes recursos para saber mais:",
     "links": [
       {
-        "title": "Optimization: Implementação e Análise",
-        "url": "https://www.coursera.org/learn/data-structures/lecture/h4ZLc/optimization-implementation-and-analysis",
-        "type": "course"
-      },
-      {
         "title": "Algoritmo Rabin Karps",
         "url": "https://www.coursera.org/lecture/data-structures/rabin-karps-algorithm-c0Qkw",
-        "type": "article"
+        "type": "course"
       },
       {
         "title": "Otimização: Pré-computação",
         "url": "https://www.coursera.org/learn/data-structures/lecture/nYrc8/optimization-precomputation",
-        "type": "article"
+        "type": "course"
+      },
+      {
+        "title": "Optimization: Implementação e Análise",
+        "url": "https://www.coursera.org/learn/data-structures/lecture/h4ZLc/optimization-implementation-and-analysis",
+        "type": "course"
       },
       {
         "title": "Explore as principais postagens sobre ciência de dados",
@@ -1847,7 +1847,7 @@
       {
         "title": "Knuth-Morris Pratt",
         "url": "https://www.coursera.org/learn/algorithms-part2/lecture/TAtDr/knuth-morris-pratt",
-        "type": "article"
+        "type": "course"
       },
       {
         "title": "9.1 Algoritmo de correspondência de string Knuth-Morris-Pratt KMP",
@@ -1861,13 +1861,13 @@
     "description": "O algoritmo Boyer Moore é um algoritmo de pesquisa de string usado para encontrar o índice de uma substring em uma string. É um algoritmo muito eficiente usado em muitas aplicações. É usado em editores de texto, compiladores e muitas outras aplicações.\n\nVisite os seguintes recursos para saber mais:",
     "links": [
       {
-        "title": "Boyer-Moore String-search Algoritmo",
-        "url": "https://en.wikipedia.org/wiki/Boyer%E2%80%93Moore_string-search_algorithm",
-        "type": "article"
-      },
-      {
         "title": "Algoritmo Boyer Moore",
         "url": "https://www.coursera.org/learn/algorithms-part2/lecture/CYxOT/boyer-moore",
+        "type": "course"
+      },
+      {
+        "title": "Boyer-Moore String-search Algoritmo",
+        "url": "https://en.wikipedia.org/wiki/Boyer%E2%80%93Moore_string-search_algorithm",
         "type": "article"
       }
     ]
@@ -1877,19 +1877,19 @@
     "description": "O algoritmo Rabin-Karp é um algoritmo de busca de strings que usa hashing para encontrar qualquer um de um conjunto de strings padrão em um texto. Para strings de comprimento médio `n`, ele executa em tempo `O(n+m)` com espaço `O(m)`, onde `m` é o comprimento do padrão. É frequentemente usado em bioinformática para procurar padrões de DNA.\n\nVisite os seguintes recursos para saber mais:",
     "links": [
       {
-        "title": "Optimization: Implementação e Análise",
-        "url": "https://www.coursera.org/learn/data-structures/lecture/h4ZLc/optimization-implementation-and-analysis",
-        "type": "course"
-      },
-      {
         "title": "Algoritmo Rabin Karps",
         "url": "https://www.coursera.org/lecture/data-structures/rabin-karps-algorithm-c0Qkw",
-        "type": "article"
+        "type": "course"
       },
       {
         "title": "Otimização: Pré-computação",
         "url": "https://www.coursera.org/learn/data-structures/lecture/nYrc8/optimization-precomputation",
-        "type": "article"
+        "type": "course"
+      },
+      {
+        "title": "Optimization: Implementação e Análise",
+        "url": "https://www.coursera.org/learn/data-structures/lecture/h4ZLc/optimization-implementation-and-analysis",
+        "type": "course"
       },
       {
         "title": "Aula 9: Duplicação de Tabela, Karp-Rabin",
@@ -1929,13 +1929,13 @@
     "description": "Números de ponto flutuante são números que possuem uma vírgula decimal. Eles são usados ​​para representar números reais. Por exemplo, 3,14 é um número de ponto flutuante. 3 não é um número de ponto flutuante porque não possui ponto decimal.\n\nVisite os seguintes recursos para saber mais:",
     "links": [
       {
-        "title": "@vídeo@Por que 0,1 + 0,2! = 0,3? | Matemática de ponto flutuante",
-        "url": "https://www.youtube.com/watch?v=RIiq4tTt6rI",
-        "type": "article"
-      },
-      {
         "title": "Representação de números de ponto flutuante - 1",
         "url": "https://www.youtube.com/watch?v=ji3SfClm8TU",
+        "type": "video"
+      },
+      {
+        "title": "Por que 0,1 + 0,2! = 0,3? | Matemática de ponto flutuante",
+        "url": "https://www.youtube.com/watch?v=RIiq4tTt6rI",
         "type": "video"
       }
     ]
@@ -1982,9 +1982,9 @@
     "description": "Little Endian é uma forma de armazenar dados na memória. É o oposto do Big Endian. No Little Endian, o byte menos significativo é armazenado primeiro. No Big Endian, o byte mais significativo é armazenado primeiro.\n\nVisite os seguintes recursos para saber mais:",
     "links": [
       {
-        "title": "@vídeo@Big Endian vs Little Endian",
+        "title": "Big Endian vs Little Endian",
         "url": "https://www.youtube.com/watch?v=JrNF0KRAlyo",
-        "type": "article"
+        "type": "video"
       },
       {
         "title": "Endianness explicado com um ovo - Computerphile",
@@ -2248,11 +2248,6 @@
     "description": "A matemática é uma habilidade fundamental para a ciência da computação.\n\nVisite os seguintes recursos para saber mais:",
     "links": [
       {
-        "title": "@vídeo@Lec 1 | MIT 6.042J Matemática para Ciência da Computação, outono de 2010",
-        "url": "https://www.youtube.com/watch?v=L3LMbpZIKhQ&list=PLB7540DEDD482705B",
-        "type": "article"
-      },
-      {
         "title": "Computer Science 70, 001 - Primavera de 2015 - Matemática Discreta e Teoria das Probabilidades",
         "url": "http://www.infocobuild.com/education/audio-video-courses/computer-science/cs70-spring2015-berkeley.html",
         "type": "article"
@@ -2266,6 +2261,11 @@
         "title": "Explore as principais postagens sobre matemática",
         "url": "https://app.daily.dev/tags/math?ref=roadmapsh",
         "type": "article"
+      },
+      {
+        "title": "Lec 1 | MIT 6.042J Matemática para Ciência da Computação, outono de 2010",
+        "url": "https://www.youtube.com/watch?v=L3LMbpZIKhQ&list=PLB7540DEDD482705B",
+        "type": "video"
       },
       {
         "title": "Aritmética Inteira, Multiplicação Karatsuba",
@@ -2411,11 +2411,6 @@
         "type": "article"
       },
       {
-        "title": "@vídeo@Greedy Algs. II e introdução à integridade do NP",
-        "url": "https://youtu.be/qcGnJ47Smlo?list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&t=2939",
-        "type": "article"
-      },
-      {
         "title": "Complexidade: P, NP, NP-completude, Reduções",
         "url": "https://www.youtube.com/watch?v=eHZifpgyH_4&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=22",
         "type": "video"
@@ -2433,6 +2428,11 @@
       {
         "title": "Aula 23: Complexidade Computacional",
         "url": "https://www.youtube.com/watch?v=moPtwq_cVH8&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=24",
+        "type": "video"
+      },
+      {
+        "title": "Greedy Algs. II e introdução à integridade do NP",
+        "url": "https://youtu.be/qcGnJ47Smlo?list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&t=2939",
         "type": "video"
       }
     ]
@@ -2447,11 +2447,6 @@
         "type": "article"
       },
       {
-        "title": "@vídeo@Greedy Algs. II e introdução à integridade do NP",
-        "url": "https://youtu.be/qcGnJ47Smlo?list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&t=2939",
-        "type": "article"
-      },
-      {
         "title": "Complexidade: P, NP, NP-completude, Reduções",
         "url": "https://www.youtube.com/watch?v=eHZifpgyH_4&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=22",
         "type": "video"
@@ -2469,6 +2464,11 @@
       {
         "title": "Aula 23: Complexidade Computacional",
         "url": "https://www.youtube.com/watch?v=moPtwq_cVH8&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=24",
+        "type": "video"
+      },
+      {
+        "title": "Greedy Algs. II e introdução à integridade do NP",
+        "url": "https://youtu.be/qcGnJ47Smlo?list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&t=2939",
         "type": "video"
       }
     ]
@@ -2483,11 +2483,6 @@
         "type": "article"
       },
       {
-        "title": "@vídeo@Greedy Algs. II e introdução à integridade do NP",
-        "url": "https://youtu.be/qcGnJ47Smlo?list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&t=2939",
-        "type": "article"
-      },
-      {
         "title": "Complexidade: P, NP, NP-completude, Reduções",
         "url": "https://www.youtube.com/watch?v=eHZifpgyH_4&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=22",
         "type": "video"
@@ -2505,6 +2500,11 @@
       {
         "title": "Aula 23: Complexidade Computacional",
         "url": "https://www.youtube.com/watch?v=moPtwq_cVH8&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=24",
+        "type": "video"
+      },
+      {
+        "title": "Greedy Algs. II e introdução à integridade do NP",
+        "url": "https://youtu.be/qcGnJ47Smlo?list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&t=2939",
         "type": "video"
       },
       {
@@ -2534,11 +2534,6 @@
         "type": "article"
       },
       {
-        "title": "@vídeo@Greedy Algs. II e introdução à integridade do NP",
-        "url": "https://youtu.be/qcGnJ47Smlo?list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&t=2939",
-        "type": "article"
-      },
-      {
         "title": "Complexidade: P, NP, NP-completude, Reduções",
         "url": "https://www.youtube.com/watch?v=eHZifpgyH_4&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=22",
         "type": "video"
@@ -2556,6 +2551,11 @@
       {
         "title": "Aula 23: Complexidade Computacional",
         "url": "https://www.youtube.com/watch?v=moPtwq_cVH8&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=24",
+        "type": "video"
+      },
+      {
+        "title": "Greedy Algs. II e introdução à integridade do NP",
+        "url": "https://youtu.be/qcGnJ47Smlo?list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&t=2939",
         "type": "video"
       },
       {
@@ -2585,11 +2585,6 @@
         "type": "article"
       },
       {
-        "title": "@vídeo@Greedy Algs. II e introdução à integridade do NP",
-        "url": "https://youtu.be/qcGnJ47Smlo?list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&t=2939",
-        "type": "article"
-      },
-      {
         "title": "Complexidade: P, NP, NP-completude, Reduções",
         "url": "https://www.youtube.com/watch?v=eHZifpgyH_4&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=22",
         "type": "video"
@@ -2597,6 +2592,11 @@
       {
         "title": "P vs. NP e o Zoológico de Complexidade Computacional",
         "url": "https://www.youtube.com/watch?v=YX40hbAHx3s",
+        "type": "video"
+      },
+      {
+        "title": "Greedy Algs. II e introdução à integridade do NP",
+        "url": "https://youtu.be/qcGnJ47Smlo?list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&t=2939",
         "type": "video"
       },
       {
@@ -2772,13 +2772,13 @@
         "type": "course"
       },
       {
-        "title": "AVL Tree - Programação",
-        "url": "https://www.programiz.com/dsa/avl-tree",
-        "type": "article"
-      },
-      {
         "title": "Dividir e mesclar",
         "url": "https://www.coursera.org/learn/data-structures/lecture/22BgE/split-and-merge",
+        "type": "course"
+      },
+      {
+        "title": "AVL Tree - Programação",
+        "url": "https://www.programiz.com/dsa/avl-tree",
         "type": "article"
       },
       {
@@ -3734,9 +3734,9 @@
         "type": "article"
       },
       {
-        "title": "@vídeo@SSL e HTTPS",
+        "title": "SSL e HTTPS",
         "url": "https://www.youtube.com/watch?v=S2iBR2ZlZf0",
-        "type": "article"
+        "type": "video"
       },
       {
         "title": "SSL/TLS - Cristina Formaini",
@@ -4153,14 +4153,14 @@
         "type": "article"
       },
       {
-        "title": "@vídeo@Interrupções",
-        "url": "https://youtu.be/iKlAWIKEyuw",
-        "type": "article"
-      },
-      {
         "title": "Explore as principais postagens sobre computação",
         "url": "https://app.daily.dev/tags/computing?ref=roadmapsh",
         "type": "article"
+      },
+      {
+        "title": "Interrupções",
+        "url": "https://youtu.be/iKlAWIKEyuw",
+        "type": "video"
       }
     ]
   },
@@ -4222,11 +4222,6 @@
         "type": "article"
       },
       {
-        "title": "@vídeo@Greedy Algs. II e introdução à integridade do NP",
-        "url": "https://youtu.be/qcGnJ47Smlo?list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&t=2939",
-        "type": "article"
-      },
-      {
         "title": "Complexidade: P, NP, NP-completude, Reduções",
         "url": "https://www.youtube.com/watch?v=eHZifpgyH_4&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=22",
         "type": "video"
@@ -4244,6 +4239,11 @@
       {
         "title": "Aula 23: Complexidade Computacional",
         "url": "https://www.youtube.com/watch?v=moPtwq_cVH8&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=24",
+        "type": "video"
+      },
+      {
+        "title": "Greedy Algs. II e introdução à integridade do NP",
+        "url": "https://youtu.be/qcGnJ47Smlo?list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&t=2939",
         "type": "video"
       }
     ]

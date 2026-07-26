@@ -588,6 +588,11 @@
     "description": "Linux é um kernel de sistema operacional de código aberto semelhante ao Unix, lançado pela primeira vez por Linus Torvalds em 1991. Ele forma o núcleo de vários sistemas operacionais conhecidos como distribuições Linux. O Linux é conhecido por sua estabilidade, segurança e flexibilidade, o que o torna popular para servidores, sistemas embarcados e, cada vez mais, para uso em desktops. Ele oferece suporte a uma ampla variedade de hardware e oferece interfaces de linha de comando poderosas junto com interfaces gráficas de usuário. O Linux segue os princípios do Unix, enfatizando a modularidade e a filosofia de “fazer uma coisa e fazê-la bem”. Sua natureza de código aberto permite desenvolvimento e personalização orientados pela comunidade. Linux é amplamente utilizado em computação em nuvem, supercomputadores e dispositivos Android e é um componente fundamental da pilha de servidores web LAMP (Linux, Apache, MySQL, PHP).\n\nSaiba mais com os seguintes recursos:",
     "links": [
       {
+        "title": "Linux do zero - Cisco",
+        "url": "https://www.netacad.com/courses/os-it/ndg-linux-unhatched",
+        "type": "course"
+      },
+      {
         "title": "Visit Linux Roadmap",
         "url": "https://roadmap.sh/linux",
         "type": "article"
@@ -595,11 +600,6 @@
       {
         "title": "Linux Commands Cheat Sheet",
         "url": "https://cdn.hostinger.com/tutorials/pdf/Linux-Commands-Cheat-Sheet.pdf",
-        "type": "article"
-      },
-      {
-        "title": "Linux do zero - Cisco",
-        "url": "https://www.netacad.com/courses/os-it/ndg-linux-unhatched",
         "type": "article"
       },
       {
@@ -840,9 +840,9 @@
         "type": "article"
       },
       {
-        "title": "@vídeo@Sub-rede",
+        "title": "Sub-rede",
         "url": "https://www.youtube.com/playlist?list=PLIhvC56v63IKrRHh3gvZZBAGvsvOhwrRF",
-        "type": "article"
+        "type": "video"
       }
     ]
   },
@@ -1397,14 +1397,14 @@
         "type": "article"
       },
       {
-        "title": "@vídeo@O que é FTP?",
-        "url": "https://www.youtube.com/watch?v=HI0Oh4NJqcI",
-        "type": "article"
-      },
-      {
         "title": "FTP significado e usos",
         "url": "https://www.investopedia.com/terms/f/ftp-file-transfer-protocol.asp",
         "type": "article"
+      },
+      {
+        "title": "O que é FTP?",
+        "url": "https://www.youtube.com/watch?v=HI0Oh4NJqcI",
+        "type": "video"
       }
     ]
   },
@@ -1864,9 +1864,9 @@
         "type": "article"
       },
       {
-        "title": "@vídeo@O que é LDAP",
+        "title": "O que é LDAP",
         "url": "https://www.youtube.com/watch?v=vy3e6ekuqqg",
-        "type": "article"
+        "type": "video"
       }
     ]
   },
@@ -2013,9 +2013,9 @@
         "type": "article"
       },
       {
-        "title": "@vídeo@Digital Forense",
+        "title": "Digital Forense",
         "url": "https://www.youtube.com/watch?v=UtDWApdO8Zk",
-        "type": "article"
+        "type": "video"
       }
     ]
   },
@@ -2068,7 +2068,7 @@
       {
         "title": "Engenharia Reversa para Todos!",
         "url": "https://0xinfection.github.io/reversing/",
-        "type": "article"
+        "type": "course"
       },
       {
         "title": "O que é engenharia reversa?",
@@ -2807,9 +2807,9 @@
         "type": "article"
       },
       {
-        "title": "@vídeo@",
+        "title": "",
         "url": "https://www.youtube.com/watch?v=PsIO0gxJF3g",
-        "type": "article"
+        "type": "video"
       }
     ]
   },
@@ -3046,23 +3046,23 @@
         "type": "article"
       },
       {
-        "title": "@vídeo@Wazuh | SIEM de código aberto",
-        "url": "https://www.youtube.com/watch?v=3CaG2GI1kn0",
-        "type": "article"
-      },
-      {
-        "title": "@vídeo@Splunk | O tutorial completo para iniciantes",
-        "url": "https://www.youtube.com/playlist?list=PLY2f3p7xyMiTUbUo0A_lBFEwj6KdH0nFy",
-        "type": "article"
-      },
-      {
-        "title": "@vídeo@Elastic Security | Construa um SIEM doméstico poderoso",
-        "url": "https://www.youtube.com/watch?v=2XLzMb9oZBI",
-        "type": "article"
-      },
-      {
         "title": "SIEM explicado - Professor Messer",
         "url": "https://www.youtube.com/watch?v=JEcETdy5WxU",
+        "type": "video"
+      },
+      {
+        "title": "Wazuh | SIEM de código aberto",
+        "url": "https://www.youtube.com/watch?v=3CaG2GI1kn0",
+        "type": "video"
+      },
+      {
+        "title": "Splunk | O tutorial completo para iniciantes",
+        "url": "https://www.youtube.com/playlist?list=PLY2f3p7xyMiTUbUo0A_lBFEwj6KdH0nFy",
+        "type": "video"
+      },
+      {
+        "title": "Elastic Security | Construa um SIEM doméstico poderoso",
+        "url": "https://www.youtube.com/watch?v=2XLzMb9oZBI",
         "type": "video"
       }
     ]
@@ -3172,9 +3172,9 @@
         "type": "article"
       },
       {
-        "title": "@vídeo@CCNA grátis | Syslog",
+        "title": "CCNA grátis | Syslog",
         "url": "https://www.youtube.com/watch?v=RaQPSKQ4J5A",
-        "type": "article"
+        "type": "video"
       }
     ]
   },
@@ -4804,6 +4804,11 @@
     "description": "Amazon Web Services (AWS) é uma plataforma líder de computação em nuvem fornecida pela Amazon. Lançada em 2006, a AWS oferece uma ampla gama de serviços de TI sob demanda, como capacidade de computação, armazenamento, bancos de dados, redes e segurança, que permitem às organizações desenvolver, implantar e dimensionar aplicativos e infraestrutura de forma rápida e econômica.\n\nSaiba mais com os seguintes recursos:",
     "links": [
       {
+        "title": "Tutorial completo da AWS",
+        "url": "https://www.youtube.com/watch?v=B8i49C8fC3E",
+        "type": "course"
+      },
+      {
         "title": "Visite o roteiro dedicado da AWS",
         "url": "https://roadmap.sh/aws",
         "type": "article"
@@ -4816,11 +4821,6 @@
       {
         "title": "Como criar uma conta AWS",
         "url": "https://grapplingdev.com/tutorials/how-to-create-aws-account",
-        "type": "article"
-      },
-      {
-        "title": "Tutorial completo da AWS",
-        "url": "https://www.youtube.com/watch?v=B8i49C8fC3E",
         "type": "article"
       },
       {
@@ -4940,9 +4940,9 @@
         "type": "article"
       },
       {
-        "title": "@vídeo@Tutorial do Microsoft OneDrive",
+        "title": "Tutorial do Microsoft OneDrive",
         "url": "https://www.youtube.com/watch?v=qgw01w0iYjA",
-        "type": "article"
+        "type": "video"
       }
     ]
   },
@@ -5098,13 +5098,13 @@
         "type": "course"
       },
       {
-        "title": "Bash",
-        "url": "https://www.gnu.org/software/bash/",
-        "type": "article"
-      },
-      {
         "title": "Comece a aprender",
         "url": "https://linuxhandbook.com/bash/",
+        "type": "course"
+      },
+      {
+        "title": "Bash",
+        "url": "https://www.gnu.org/software/bash/",
         "type": "article"
       },
       {

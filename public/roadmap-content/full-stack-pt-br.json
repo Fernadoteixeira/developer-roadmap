@@ -399,11 +399,6 @@
         "type": "article"
       },
       {
-        "title": "@vídeo@O que é JWT? Explicação do token da Web JSON",
-        "url": "https://www.youtube.com/watch?v=926mknSW9Lo",
-        "type": "article"
-      },
-      {
         "title": "Explore as principais postagens sobre JWT",
         "url": "https://app.daily.dev/tags/jwt?ref=roadmapsh",
         "type": "article"
@@ -411,6 +406,11 @@
       {
         "title": "O que é JWT e por que você deve usar JWT",
         "url": "https://www.youtube.com/watch?v=7Q17ubqLfaM",
+        "type": "video"
+      },
+      {
+        "title": "O que é JWT? Explicação do token da Web JSON",
+        "url": "https://www.youtube.com/watch?v=926mknSW9Lo",
         "type": "video"
       },
       {
@@ -435,7 +435,7 @@
         "type": "article"
       },
       {
-        "title": "@documentação@Redis",
+        "title": "Documentação do Redis",
         "url": "https://redis.io/docs/latest/",
         "type": "article"
       },
@@ -466,13 +466,13 @@
     "description": "O conhecimento de UNIX é obrigatório para quase todos os tipos de desenvolvimento, já que a maioria dos códigos que você escreve provavelmente serão finalmente implantados em uma máquina UNIX/Linux. O Linux tem sido a espinha dorsal do movimento do software livre e de código aberto, fornecendo um sistema operacional simples e elegante para quase todas as suas necessidades.\n\nVisite os seguintes recursos para saber mais:",
     "links": [
       {
-        "title": "Visit Roteiro Linux Dedicado",
-        "url": "https://roadmap.sh/linux",
-        "type": "article"
-      },
-      {
         "title": "Coursera - Cursos Unix",
         "url": "https://www.coursera.org/courses?query=unix",
+        "type": "course"
+      },
+      {
+        "title": "Visit Roteiro Linux Dedicado",
+        "url": "https://roadmap.sh/linux",
         "type": "article"
       },
       {
@@ -620,9 +620,9 @@
         "type": "article"
       },
       {
-        "title": "@vídeo@Amazon Route 53",
+        "title": "Amazon Route 53",
         "url": "https://www.youtube.com/watch?v=RGWgfhZByAI",
-        "type": "article"
+        "type": "video"
       },
       {
         "title": "Nome de domínio AWS Route 53",

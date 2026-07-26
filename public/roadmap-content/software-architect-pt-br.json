@@ -1975,6 +1975,11 @@
     "description": "O conhecimento de UNIX é obrigatório para quase todos os tipos de desenvolvimento, já que a maioria dos códigos que você escreve provavelmente serão finalmente implantados em uma máquina UNIX/Linux. O Linux tem sido a espinha dorsal do movimento do software livre e de código aberto, fornecendo um sistema operacional simples e elegante para quase todas as suas necessidades.\n\nVisite os seguintes recursos para saber mais:",
     "links": [
       {
+        "title": "Coursera - Cursos Unix",
+        "url": "https://www.coursera.org/courses?query=unix",
+        "type": "course"
+      },
+      {
         "title": "Visit Roteiro Linux Dedicado",
         "url": "https://roadmap.sh/linux",
         "type": "article"
@@ -1987,11 +1992,6 @@
       {
         "title": "Linux Básico",
         "url": "https://dev.to/rudrakshi99/linux-basics-2onj",
-        "type": "article"
-      },
-      {
-        "title": "Coursera - Cursos Unix",
-        "url": "https://www.coursera.org/courses?query=unix",
         "type": "article"
       },
       {
@@ -2184,14 +2184,14 @@
         "type": "article"
       },
       {
-        "title": "@vídeo@Demonstração de BPM",
-        "url": "https://www.youtube.com/watch?v=6yn4nCWMNLI",
-        "type": "article"
-      },
-      {
         "title": "Explore as principais postagens sobre a IBM",
         "url": "https://app.daily.dev/tags/ibm?ref=roadmapsh",
         "type": "article"
+      },
+      {
+        "title": "Demonstração de BPM",
+        "url": "https://www.youtube.com/watch?v=6yn4nCWMNLI",
+        "type": "video"
       }
     ]
   },

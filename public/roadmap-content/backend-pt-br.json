@@ -1427,7 +1427,7 @@
     "description": "LXC é uma abreviatura usada para Linux Containers, que é um sistema operacional usado para executar vários sistemas Linux virtualmente em um host controlado por meio de um único kernel Linux. LXC é uma interface de espaço de usuário para recursos de contenção do kernel Linux. Por meio de uma API poderosa e ferramentas simples, ele permite que os usuários do Linux criem e gerenciem facilmente contêineres de sistemas ou aplicativos.\n\nVisite os seguintes recursos para saber mais:",
     "links": [
       {
-        "title": "@documentação@LXC",
+        "title": "Documentação do LXC",
         "url": "https://linuxcontainers.org/lxc/documentation/",
         "type": "article"
       },
@@ -1635,7 +1635,7 @@
         "type": "article"
       },
       {
-        "title": "@documentação@Redis",
+        "title": "Documentação do Redis",
         "url": "https://redis.io/docs/latest/",
         "type": "article"
       },
@@ -2037,9 +2037,9 @@
         "type": "article"
       },
       {
-        "title": "@vídeo@HTTP vs HTTPS",
+        "title": "HTTP vs HTTPS",
         "url": "https://www.youtube.com/watch?v=nOmT_5hqgPk",
-        "type": "article"
+        "type": "video"
       }
     ]
   },
@@ -2640,7 +2640,7 @@
         "type": "article"
       },
       {
-        "title": "@documentação@Redis",
+        "title": "Documentação do Redis",
         "url": "https://redis.io/docs/latest/",
         "type": "article"
       },
