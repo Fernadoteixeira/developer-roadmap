@@ -18,6 +18,12 @@ if (!topicId || !roadmapId) {
   return Astro.rewrite('/404');
 }
 
+if (!/^[a-z0-9][a-z0-9+_-]*$/i.test(roadmapId)) {
+  Astro.response.status = 400;
+  Astro.response.statusText = 'Invalid roadmap ID';
+  return new Response('Invalid roadmap ID', { status: 400 });
+}
+
 const topicPath = Array.isArray(topicId) ? topicId.join('/') : topicId;
 const pathSegments = topicPath.split('/');
 

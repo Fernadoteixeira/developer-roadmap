@@ -30,8 +30,9 @@ function hasLocalePrefix(pathname: string): boolean {
 
 function getReferrerLocale(request: Request, currentOrigin: string) {
   const referrer = request.headers.get('referer');
+  const fetchMode = request.headers.get('sec-fetch-mode');
 
-  if (!referrer || request.headers.get('sec-fetch-dest') !== 'empty') {
+  if (!referrer || fetchMode === 'navigate') {
     return null;
   }
 

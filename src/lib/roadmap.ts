@@ -101,26 +101,34 @@ function parseRoadmapPath(filePath: string): { id: string; locale: Locale } {
   };
 }
 
-function getAllRoadmapFiles(): LocalizedRoadmapFile[] {
-  const roadmapFilesMap = import.meta.glob<RoadmapFileType>(
-    '/src/data/roadmaps/*/*.md',
-    { eager: true },
-  );
+const localizedRoadmapFiles: LocalizedRoadmapFile[] = Object.values(
+  import.meta.glob<RoadmapFileType>('/src/data/roadmaps/*/*.md', {
+    eager: true,
+  }),
+).map((roadmapFile) => {
+  const parsed = parseRoadmapPath(roadmapFile.file);
+  return {
+    ...roadmapFile,
+    id: parsed.id,
+    locale: parsed.locale,
+  };
+});
 
-  return Object.values(roadmapFilesMap).map((roadmapFile) => {
-    const parsed = parseRoadmapPath(roadmapFile.file);
-    return {
-      ...roadmapFile,
-      id: parsed.id,
-      locale: parsed.locale,
-    };
-  });
+const roadmapsById = new Map<string, LocalizedRoadmapFile[]>();
+for (const roadmapFile of localizedRoadmapFiles) {
+  const files = roadmapsById.get(roadmapFile.id) || [];
+  files.push(roadmapFile);
+  roadmapsById.set(roadmapFile.id, files);
 }
 
 function selectLocalizedRoadmap(
-  files: LocalizedRoadmapFile[],
+  files: LocalizedRoadmapFile[] | undefined,
   locale: Locale,
 ): LocalizedRoadmapFile | undefined {
+  if (!files?.length) {
+    return undefined;
+  }
+
   return (
     files.find((file) => file.locale === locale) ||
     files.find((file) => file.locale === defaultLocale) ||
@@ -129,22 +137,14 @@ function selectLocalizedRoadmap(
 }
 
 export async function getRoadmapIds() {
-  return [...new Set(getAllRoadmapFiles().map((file) => file.id))];
+  return [...roadmapsById.keys()];
 }
 
 export async function getRoadmapsByTag(
   tag: string,
   locale: Locale = defaultLocale,
 ): Promise<RoadmapFileType[]> {
-  const groupedById = new Map<string, LocalizedRoadmapFile[]>();
-
-  for (const roadmapFile of getAllRoadmapFiles()) {
-    const files = groupedById.get(roadmapFile.id) || [];
-    files.push(roadmapFile);
-    groupedById.set(roadmapFile.id, files);
-  }
-
-  return [...groupedById.values()]
+  return [...roadmapsById.values()]
     .map((files) => selectLocalizedRoadmap(files, locale))
     .filter((file): file is LocalizedRoadmapFile => Boolean(file))
     .filter((file) => file.frontmatter.tags.includes(tag))
@@ -157,14 +157,13 @@ export async function getRoadmapById(
   locale: Locale = defaultLocale,
 ): Promise<RoadmapFileType> {
   const parsedRequest = parseRoadmapPath(`${requestedId}.md`);
+  const hasExplicitLocale = /\.(?:en|es|pt-br)$/i.test(requestedId);
   const canonicalId = parsedRequest.id;
-  const requestedLocale = requestedId.includes('.')
-    ? parsedRequest.locale
-    : locale;
-  const candidates = getAllRoadmapFiles().filter(
-    (roadmapFile) => roadmapFile.id === canonicalId,
+  const requestedLocale = hasExplicitLocale ? parsedRequest.locale : locale;
+  const roadmapFile = selectLocalizedRoadmap(
+    roadmapsById.get(canonicalId),
+    requestedLocale,
   );
-  const roadmapFile = selectLocalizedRoadmap(candidates, requestedLocale);
 
   if (!roadmapFile) {
     throw new Error(`Roadmap with ID ${canonicalId} not found`);
