@@ -5,6 +5,6 @@ SQL significa Linguagem de Consulta Estruturada. É usado para bancos de dados r
 Visite os seguintes recursos para saber mais:
 
 - [@roadmap@Visit Roteiro SQL Dedicado](https://roadmap.sh/sql)
-- [@artigo@O que é SQL? -AWS](https://aws.amazon.com/what-is/sql/)
+- [@article@O que é SQL? -AWS](https://aws.amazon.com/what-is/sql/)
 - [@article@Bancos de dados SQL](https://www.openlogic.com/blog/what-sql-database)
 - [@feed@Explore as principais postagens sobre SQL](https://app.daily.dev/tags/sql?ref=roadmapsh)

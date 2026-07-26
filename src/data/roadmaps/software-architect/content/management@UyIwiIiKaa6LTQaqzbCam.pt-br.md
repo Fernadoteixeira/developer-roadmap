@@ -4,4 +4,4 @@ O gerenciamento em arquitetos de software abrange várias responsabilidades e pr
 
 Visite os seguintes recursos para saber mais:
 
-- [@artigo@Wikipedia](https://en.wikipedia.org/wiki/Management)
+- [@article@Wikipedia](https://en.wikipedia.org/wiki/Management)

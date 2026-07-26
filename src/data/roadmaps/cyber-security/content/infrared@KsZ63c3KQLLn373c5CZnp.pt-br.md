@@ -4,5 +4,5 @@ Infravermelho (IR) é um tipo de tecnologia de comunicação sem fio que utiliza
 
 Saiba mais com os seguintes recursos:
 
-- [@artigo@Definição de infravermelho](https://nordvpn.com/cybersecurity/glossary/infrared/?srsltid=AfmBOop7r5E41gRA5itc1NmwrS9qpjfiFnW6UKBwVLuu_MifaKdLHoTe)
-- [@artigo@Infravermelho](https://www.larksuite.com/en_us/topics/cybersecurity-glossary/infrared)
+- [@article@Definição de infravermelho](https://nordvpn.com/cybersecurity/glossary/infrared/?srsltid=AfmBOop7r5E41gRA5itc1NmwrS9qpjfiFnW6UKBwVLuu_MifaKdLHoTe)
+- [@article@Infravermelho](https://www.larksuite.com/en_us/topics/cybersecurity-glossary/infrared)

@@ -4,6 +4,6 @@ Quando se trata de monitorar a integridade de seus aplicativos, existem diversas
 
 Visite os seguintes recursos para saber mais:
 
-- [@oficial@Monit](https://mmonit.com/monit/)
+- [@official@Monit](https://mmonit.com/monit/)
 - [@official@Monit Documentação](https://mmonit.com/monit/documentation/)
 - [@video@Monit - Monitoramento de servidor de autocorreção de código aberto](https://www.youtube.com/watch?v=3cA5lNje1Ow)

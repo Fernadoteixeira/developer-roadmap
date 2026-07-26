@@ -7,6 +7,6 @@ Ao aproveitar ferramentas como Kubernetes, Docker Swarm e Apache Mesos, as organ
 Visite os seguintes recursos para saber mais:
 
 - [@article@O que é orquestração de contêineres?](https://www.redhat.com/en/topics/containers/what-is-container-orchestration)
-- [@artigo@O que é Kubernetes?](https://kubernetes.io/docs/tutorials/kubernetes-basics/)
-- [@artigo@Docker Swarm](https://docs.docker.com/engine/swarm/)
+- [@article@O que é Kubernetes?](https://kubernetes.io/docs/tutorials/kubernetes-basics/)
+- [@article@Docker Swarm](https://docs.docker.com/engine/swarm/)
 - [@video@Introdução ao Kubernetes](https://www.youtube.com/watch?v=PH-2FfFD2PU)

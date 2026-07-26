@@ -5,4 +5,4 @@ Tendência central refere-se à medida estatística que identifica um único val
 Saiba mais com os seguintes recursos:
 
 - [@article@Medidas de Tendência Central](https://statistics.laerd.com/statistical-guides/measures-central-tendency-mean-mode-median.php)
-- [@artigo@Tendência Central | Compreendendo a média, mediana e moda](https://www.scribbr.co.uk/stats/measures-of-central-tendency/)
+- [@article@Tendência Central | Compreendendo a média, mediana e moda](https://www.scribbr.co.uk/stats/measures-of-central-tendency/)

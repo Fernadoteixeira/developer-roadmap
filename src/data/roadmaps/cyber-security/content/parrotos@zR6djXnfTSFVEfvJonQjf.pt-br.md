@@ -4,6 +4,6 @@ ParrotOS é uma distribuição Linux baseada em Debian projetada para segurança
 
 Visite os seguintes recursos para saber mais:
 
-- [@oficial@ParrotOS](https://parrotsec.org/)
+- [@official@ParrotOS](https://parrotsec.org/)
 - [@official@ParrotOS Documentação](https://parrotsec.org/docs)
-- [@oficial@ParrotOS Downloads](https://parrotsec.org/download)
+- [@official@ParrotOS Downloads](https://parrotsec.org/download)

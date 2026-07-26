@@ -4,6 +4,6 @@ NetBSD é um sistema operacional gratuito e de código aberto semelhante ao Unix
 
 Visite os seguintes recursos para saber mais:
 
-- [@oficial@NetBSD Site](https://netbsd.org/)
+- [@official@NetBSD Site](https://netbsd.org/)
 - [@official@Documentação oficial do NetBSD](https://netbsd.org/docs/)
-- [@oficial@NetBSD Guia](https://netbsd.org/docs/guide/en/index.html)
+- [@official@NetBSD Guia](https://netbsd.org/docs/guide/en/index.html)

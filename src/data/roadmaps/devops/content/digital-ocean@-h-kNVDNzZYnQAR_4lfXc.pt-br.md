@@ -4,7 +4,7 @@ DigitalOcean é um provedor de infraestrutura em nuvem que oferece servidores vi
 
 Visite os seguintes recursos para saber mais:
 
-- [@oficial@DigitalOcean](https://www.digitalocean.com/)
-- [@artigo@DigitalOcean Hacktoberfest](https://hacktoberfest.com/)
+- [@official@DigitalOcean](https://www.digitalocean.com/)
+- [@article@DigitalOcean Hacktoberfest](https://hacktoberfest.com/)
 - [@video@Introdução ao Kubernetes na DigitalOcean](https://www.youtube.com/watch?v=cJKdo-glRD0)
 - [@feed@Explore as principais postagens sobre DigitalOcean](https://app.daily.dev/tags/digitalocean?ref=roadmapsh)

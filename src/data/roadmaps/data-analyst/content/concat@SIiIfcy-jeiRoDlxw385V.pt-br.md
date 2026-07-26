@@ -4,5 +4,5 @@ O termo 'Concat' ou 'Concatenação' refere-se à operação de combinação de 
 
 Saiba mais com os seguintes recursos:
 
-- [@artigo@Função CONCAT](https://support.microsoft.com/en-gb/office/concat-function-9b1a9a3f-94ff-41af-9736-694cbd6b4ca2)
-- [@artigo@Função CONCAT do Excel](https://www.w3schools.com/excel/excel_concat.php)
+- [@article@Função CONCAT](https://support.microsoft.com/en-gb/office/concat-function-9b1a9a3f-94ff-41af-9736-694cbd6b4ca2)
+- [@article@Função CONCAT do Excel](https://www.w3schools.com/excel/excel_concat.php)

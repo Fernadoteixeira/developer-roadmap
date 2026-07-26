@@ -8,5 +8,5 @@ Uma notação CIDR se parece com isto: `192.168.1.0/24`. Aqui, `192.168.1.0` é 
 
 Saiba mais com os seguintes recursos:
 
-- [@artigo@O que é CIDR?](https://aws.amazon.com/what-is/cidr/)
+- [@article@O que é CIDR?](https://aws.amazon.com/what-is/cidr/)
 - [@video@O que é notação CIDR de rede?](https://www.youtube.com/watch?v=tpa9QSiiiUo)

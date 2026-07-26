@@ -4,5 +4,5 @@ SSH (Secure Shell) é um protocolo de rede criptográfico usado para login remot
 
 Saiba mais com os seguintes recursos:
 
-- [@artigo@O que é SSH? | Protocolo Secure Shell (SSH)](https://www.cloudflare.com/en-gb/learning/access-management/what-is-ssh/)
+- [@article@O que é SSH? | Protocolo Secure Shell (SSH)](https://www.cloudflare.com/en-gb/learning/access-management/what-is-ssh/)
 - [@video@Como funciona o SSH](https://www.youtube.com/watch?v=5JvLV2-ngCI)

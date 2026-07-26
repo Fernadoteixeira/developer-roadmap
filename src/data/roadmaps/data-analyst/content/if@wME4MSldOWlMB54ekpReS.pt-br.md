@@ -4,5 +4,5 @@ A função SE no Excel é uma ferramenta crucial para analistas de dados, permit
 
 Saiba mais com os seguintes recursos:
 
-- [@artigo@Função SE](https://support.microsoft.com/en-gb/office/if-function-69aed7c9-4e8a-4755-a9bc-aa8bbff73be2)
-- [@artigo@Função IF do Excel](https://exceljet.net/functions/if-function)
+- [@article@Função SE](https://support.microsoft.com/en-gb/office/if-function-69aed7c9-4e8a-4755-a9bc-aa8bbff73be2)
+- [@article@Função IF do Excel](https://exceljet.net/functions/if-function)

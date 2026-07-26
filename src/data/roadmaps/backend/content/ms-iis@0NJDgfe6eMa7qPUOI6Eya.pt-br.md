@@ -4,7 +4,7 @@ O Microsoft Internet Information Services (IIS) é um servidor web flexível, se
 
 Visite os seguintes recursos para saber mais:
 
-- [@oficial@Microsoft -IIS](https://www.iis.net/)
+- [@official@Microsoft -IIS](https://www.iis.net/)
 - [@video@Aprenda Windows Web Server IIS](https://www.youtube.com/watch?v=1VdxPWwtISA)
 - [@video@O que é IIS?](https://www.youtube.com/watch?v=hPWSqEXOjQY)
 - [@feed@Explore as principais postagens sobre .NET](https://app.daily.dev/tags/.net?ref=roadmapsh)

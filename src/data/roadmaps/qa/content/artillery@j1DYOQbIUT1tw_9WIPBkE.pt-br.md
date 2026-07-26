@@ -16,5 +16,5 @@ A Artilharia prioriza a produtividade e a felicidade do desenvolvedor e segue a 
 
 Visite os seguintes recursos para saber mais:
 
-- [@oficial@Artilharia](https://www.artillery.io/)
+- [@official@Artilharia](https://www.artillery.io/)
 - [@video@Aprenda Artilharia](https://www.youtube.com/playlist?list=PLJ9A48W0kpRJh1_uW2mVNhSIVCMYmNlm7)

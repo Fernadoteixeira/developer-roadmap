@@ -4,6 +4,6 @@ New Relic é uma plataforma de observabilidade que ajuda você a criar softwares
 
 Visite os seguintes recursos para saber mais:
 
-- [@oficial@Nova Relíquia](https://newrelic.com/)
+- [@official@Nova Relíquia](https://newrelic.com/)
 - [@official@Aprenda Nova Relíquia](https://learn.newrelic.com/)
 - [@feed@Explore as principais postagens sobre DevOps](https://app.daily.dev/tags/devops?ref=roadmapsh)

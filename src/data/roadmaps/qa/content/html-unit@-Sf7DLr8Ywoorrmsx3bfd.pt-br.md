@@ -7,5 +7,5 @@ HtmlUnit não é uma estrutura genérica de teste de unidade. É especificamente
 Visite os seguintes recursos para saber mais:
 
 - [@official@HtmlUnit](https://htmlunit.sourceforge.io/)
-- [@artigo@Introdução ao HtmlUnit](https://www.baeldung.com/htmlunit)
+- [@article@Introdução ao HtmlUnit](https://www.baeldung.com/htmlunit)
 - [@feed@Explore as principais postagens sobre HTML](https://app.daily.dev/tags/html?ref=roadmapsh)

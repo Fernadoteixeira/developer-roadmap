@@ -5,6 +5,6 @@ O Model Context Protocol (MCP) é um livro de regras que informa a um agente de 
 Visite os seguintes recursos para saber mais:
 
 - [@opensource@Model Context Protocol](https://github.com/modelcontextprotocol/modelcontextprotocol)
-- [@oficial@Protocolo de contexto do modelo](https://modelcontextprotocol.io/introduction)
+- [@official@Protocolo de contexto do modelo](https://modelcontextprotocol.io/introduction)
 - [@article@Apresentando o Servidor Azure MCP ](https://devblogs.microsoft.com/azure-sdk/introducing-the-azure-mcp-server/)
 - [@article@O guia definitivo para MCP](https://guangzhengli.com/blog/en/model-context-protocol)

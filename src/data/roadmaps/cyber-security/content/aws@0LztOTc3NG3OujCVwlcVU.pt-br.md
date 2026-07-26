@@ -5,7 +5,7 @@ Amazon Web Services (AWS) é uma plataforma líder de computação em nuvem forn
 Saiba mais com os seguintes recursos:
 
 - [@roadmap@Visite o roteiro dedicado da AWS](https://roadmap.sh/aws)
-- [@oficial@AWS](https://aws.amazon.com)
+- [@official@AWS](https://aws.amazon.com)
 - [@article@Como criar uma conta AWS](https://grapplingdev.com/tutorials/how-to-create-aws-account)
 - [@video@Visão geral da AWS](https://www.youtube.com/watch?v=a9__D53WsUs)
 - [@curso@Tutorial completo da AWS](https://www.youtube.com/watch?v=B8i49C8fC3E)

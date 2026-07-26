@@ -7,6 +7,6 @@ CDNs comerciais tradicionais (Amazon CloudFront, Akamai, CloudFlare e Fastly) fo
 Visite os seguintes recursos para saber mais:
 
 - [@article@CloudFlare - O que é um CDN? | Como funcionam os CDNs?](https://www.cloudflare.com/en-ca/learning/cdn/what-is-a-cdn/)
-- [@artigo@AWS - CDN](https://aws.amazon.com/what-is/cdn/)
+- [@article@AWS - CDN](https://aws.amazon.com/what-is/cdn/)
 - [@video@O que é Cloud CDN?](https://www.youtube.com/watch?v=841kyd_mfH0)
 - [@video@O que é um CDN e como funciona?](https://www.youtube.com/watch?v=RI9np1LWzqw)

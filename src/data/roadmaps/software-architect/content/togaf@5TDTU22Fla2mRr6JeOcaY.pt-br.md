@@ -4,5 +4,5 @@ A estrutura de conteúdo TOGAF fornece um modelo detalhado de produtos de trabal
 
 Visite os seguintes recursos para saber mais:
 
-- [@oficial@Togaf](https://www.opengroup.org/togaf)
-- [@artigo@Wikipedia](https://en.wikipedia.org/wiki/The_Open_Group_Architecture_Framework)
+- [@official@Togaf](https://www.opengroup.org/togaf)
+- [@article@Wikipedia](https://en.wikipedia.org/wiki/The_Open_Group_Architecture_Framework)

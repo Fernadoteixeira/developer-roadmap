@@ -15,6 +15,6 @@ Os programadores utilizam o BPEL para definir como um processo de negócio que e
 
 Visite os seguintes recursos para saber mais:
 
-- [@artigo@O que é BPM?](https://www.redhat.com/en/topics/automation/what-is-business-process-management)
-- [@artigo@BPEL descrito](https://www.ibm.com/docs/en/baw/19.x?topic=SS8JB4_19.x/com.ibm.wbpm.wid.main.doc/prodoverview/topics/cbpelproc.html)
+- [@article@O que é BPM?](https://www.redhat.com/en/topics/automation/what-is-business-process-management)
+- [@article@BPEL descrito](https://www.ibm.com/docs/en/baw/19.x?topic=SS8JB4_19.x/com.ibm.wbpm.wid.main.doc/prodoverview/topics/cbpelproc.html)
 - [@video@BPM vs BPEL](https://www.youtube.com/watch?v=V6nr5dnb1JQ)

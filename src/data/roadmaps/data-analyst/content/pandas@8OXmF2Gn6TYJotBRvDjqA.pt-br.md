@@ -4,5 +4,5 @@ Pandas é uma biblioteca de manipulação de dados amplamente reconhecida e alta
 
 Saiba mais com os seguintes recursos:
 
-- [@oficial@Pandas](https://pandas.pydata.org/)
+- [@official@Pandas](https://pandas.pydata.org/)
 - [@video@NumPy vs Pandas](https://www.youtube.com/watch?v=KHoEbRH46Zk)

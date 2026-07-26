@@ -5,5 +5,5 @@ Tracert (traceroute em sistemas baseados em Unix) é uma ferramenta de diagnóst
 Saiba mais com os seguintes recursos:
 
 - [@article@traceroute página de manual](https://linux.die.net/man/8/traceroute)
-- [@artigo@tracert](https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/tracert)
+- [@article@tracert](https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/tracert)
 - [@video@Traceroute (tracert) Explicado](https://www.youtube.com/watch?v=up3bcBLZS74)

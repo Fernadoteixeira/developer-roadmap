@@ -5,6 +5,6 @@ GraphQL é uma linguagem de consulta para APIs e um tempo de execução para exe
 Visite os seguintes recursos para saber mais:
 
 - [@roadmap@Visite o roteiro dedicado do GraphQL](https://roadmap.sh/graphql)
-- [@oficial@GraphQL](https://graphql.org/)
+- [@official@GraphQL](https://graphql.org/)
 - [@video@Tutorial - GraphQL explicado em 100 segundos](https://www.youtube.com/watch?v=eIQh02xuVw4)
 - [@feed@Explore as principais postagens sobre GraphQL](https://app.daily.dev/tags/graphql?ref=roadmapsh)

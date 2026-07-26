@@ -6,5 +6,5 @@
 
 Visite os seguintes recursos para saber mais:
 
-- [@artigo@Site OWASP](https://cheatsheetseries.owasp.org/cheatsheets/Authorization_Cheat_Sheet.html)
+- [@article@Site OWASP](https://cheatsheetseries.owasp.org/cheatsheets/Authorization_Cheat_Sheet.html)
 - [@feed@Explore as principais postagens sobre autenticação](https://app.daily.dev/tags/authentication?ref=roadmapsh)

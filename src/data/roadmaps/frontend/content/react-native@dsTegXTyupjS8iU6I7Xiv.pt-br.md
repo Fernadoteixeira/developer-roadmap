@@ -5,5 +5,5 @@ React Native é uma estrutura de desenvolvimento de aplicativos móveis de códi
 Visite os seguintes recursos para saber mais:
 
 - [@roadmap@Visit Roteiro de reação dedicado](https://roadmap.sh/react-native)
-- [@oficial@React Native Website](https://reactnative.dev/)
+- [@official@React Native Website](https://reactnative.dev/)
 - [@feed@Explore as principais postagens sobre React](https://app.daily.dev/tags/react?ref=roadmapsh)

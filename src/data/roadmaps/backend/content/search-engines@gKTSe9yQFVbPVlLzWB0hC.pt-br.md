@@ -10,4 +10,4 @@ Mecanismos de pesquisa como o Elasticsearch são ferramentas especializadas proj
 
 Visite os seguintes recursos para saber mais:
 
-- [@oficial@Elasticsearch](https://www.elastic.co/elasticsearch/)
+- [@official@Elasticsearch](https://www.elastic.co/elasticsearch/)

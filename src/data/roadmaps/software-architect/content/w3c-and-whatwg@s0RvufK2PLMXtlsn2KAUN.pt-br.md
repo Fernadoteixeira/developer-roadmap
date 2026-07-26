@@ -6,5 +6,5 @@ O Grupo de Trabalho de Tecnologia de Aplicativos de Hipertexto da Web (WHATWG) �
 
 Visite os seguintes recursos para saber mais:
 
-- [@oficial@Padrões W3C](https://www.w3.org/standards/)
+- [@official@Padrões W3C](https://www.w3.org/standards/)
 - [@official@WHATWG Padrões](https://spec.whatwg.org/)

@@ -4,8 +4,8 @@ Pré-processadores CSS são linguagens de script que ampliam os recursos do CSS 
 
 Visite os seguintes recursos para saber mais:
 
-- [@oficial@Site Sass](https://sass-lang.com/)
-- [@oficial@Less Site](https://lesscss.org/)
-- [@oficial@Site da Stylus](https://stylus-lang.com/)
-- [@oficial@PostCSS Site](https://postcss.org/)
+- [@official@Site Sass](https://sass-lang.com/)
+- [@official@Less Site](https://lesscss.org/)
+- [@official@Site da Stylus](https://stylus-lang.com/)
+- [@official@PostCSS Site](https://postcss.org/)
 - [@feed@Explore as principais postagens sobre CSS](https://app.daily.dev/tags/css?ref=roadmapsh)

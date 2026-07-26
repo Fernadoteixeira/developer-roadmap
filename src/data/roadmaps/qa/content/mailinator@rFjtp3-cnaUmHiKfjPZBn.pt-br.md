@@ -4,5 +4,5 @@ Mailinator permite que desenvolvedores e equipes de teste de controle de qualida
 
 Visite os seguintes recursos para saber mais:
 
-- [@oficial@Mailinator](https://www.mailinator.com/)
+- [@official@Mailinator](https://www.mailinator.com/)
 - [@official@Mailinator Documentos Oficiais](https://www.mailinator.com/docs/index.html#mailinator)

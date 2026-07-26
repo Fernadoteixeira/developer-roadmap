@@ -6,7 +6,7 @@ Visite os seguintes recursos para saber mais:
 
 - [@video@MIT 6.858 Computer Systems Security, outono de 2014](https://www.youtube.com/playlist?list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
 - [@article@Por que HTTPS é importante](https://developers.google.com/web/fundamentals/security/encrypt-in-transit/why-https)
-- [@artigo@Wikipedia - OWASP](https://en.wikipedia.org/wiki/OWASP)
+- [@article@Wikipedia - OWASP](https://en.wikipedia.org/wiki/OWASP)
 - [@opensource@OWASP Lista de verificação de testes de segurança de aplicativos da Web](https://github.com/0xRadi/OWASP-Web-Checklist)
 - [@article@OWASP 10 principais riscos de segurança](https://sucuri.net/guides/owasp-top-10-security-vulnerabilities-2021/)
 - [@article@OWASP Cheatsheets](https://cheatsheetseries.owasp.org/cheatsheets/AJAX_Security_Cheat_Sheet.html)

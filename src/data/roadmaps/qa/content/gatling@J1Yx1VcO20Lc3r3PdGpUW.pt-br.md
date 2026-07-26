@@ -6,5 +6,5 @@ A arquitetura do Gatling é assíncrona, desde que o protocolo subjacente, como 
 
 Visite os seguintes recursos para saber mais:
 
-- [@oficial@Gatling](https://gatling.io/)
+- [@official@Gatling](https://gatling.io/)
 - [@video@Aprenda Gatling](https://www.youtube.com/playlist?list=PLJ9A48W0kpRJE6s8I1MjWm-z8BGbUYNCw)

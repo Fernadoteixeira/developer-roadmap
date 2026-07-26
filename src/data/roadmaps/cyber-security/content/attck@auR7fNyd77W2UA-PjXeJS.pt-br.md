@@ -4,6 +4,6 @@ MITRE ATT&CK (Táticas, Técnicas e Conhecimento Comum Adversarial) é uma base 
 
 Saiba mais com os seguintes recursos:
 
-- [@oficial@MITRE ATT&CK®](https://attack.mitre.org/)
+- [@official@MITRE ATT&CK®](https://attack.mitre.org/)
 - [@video@MITRE Estrutura ATT&CK](https://www.youtube.com/watch?v=Yxv1suJYMI8)
 - [@video@Introdução à estrutura MITRE ATT&CK](https://www.youtube.com/watch?v=LCec9K0aAkM)

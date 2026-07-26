@@ -4,5 +4,5 @@
 
 Saiba mais com os seguintes recursos:
 
-- [@oficial@Microsoft OneDrive](https://onedrive.live.com)
+- [@official@Microsoft OneDrive](https://onedrive.live.com)
 - [@vídeo@Tutorial do Microsoft OneDrive](https://www.youtube.com/watch?v=qgw01w0iYjA)

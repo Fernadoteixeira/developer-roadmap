@@ -4,5 +4,5 @@ Autopsy é uma plataforma forense digital versátil e poderosa de código aberto
 
 Saiba mais com os seguintes recursos:
 
-- [@oficial@Autópsia](https://www.autopsy.com/)
+- [@official@Autópsia](https://www.autopsy.com/)
 - [@video@Análise de disco com autópsia](https://www.youtube.com/watch?v=o6boK9dG-Lc&t=236s)

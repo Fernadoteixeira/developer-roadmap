@@ -4,5 +4,5 @@ A limpeza de dados desempenha um papel crucial no pipeline de análise de dados,
 
 Saiba mais com os seguintes recursos:
 
-- [@oficial@dplyr](https://dplyr.tidyverse.org/)
+- [@official@dplyr](https://dplyr.tidyverse.org/)
 - [@video@Dplyr Essentials](https://www.youtube.com/watch?v=Gvhkp-Yw65U)

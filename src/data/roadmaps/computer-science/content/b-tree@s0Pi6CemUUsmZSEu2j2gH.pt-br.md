@@ -6,7 +6,7 @@ Na prática: B-Trees são amplamente utilizadas em bancos de dados. A maioria do
 
 Visite os seguintes recursos para saber mais:
 
-- [@artigo@B-Tree - Wikipédia](https://en.wikipedia.org/wiki/B-tree)
+- [@article@B-Tree - Wikipédia](https://en.wikipedia.org/wiki/B-tree)
 - [@article@Estrutura de dados da árvore B](http://btechsmartclass.com/data_structures/b-trees.html)
 - [@video@Introdução às árvores B](https://www.youtube.com/watch?v=I22wEC1tTGo&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6&index=6)
 - [@video@B-Tree Definição e Inserção](https://www.youtube.com/watch?v=s3bCdZGrgpA&index=7&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6)

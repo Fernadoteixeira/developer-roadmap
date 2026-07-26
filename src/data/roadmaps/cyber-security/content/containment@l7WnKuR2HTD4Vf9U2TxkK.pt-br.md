@@ -5,4 +5,4 @@ A contenção na segurança cibernética refere-se ao processo de limitar o impa
 Saiba mais com os seguintes recursos:
 
 - [@article@Microsoft Gerenciamento de incidentes de segurança: contenção, erradicação e recuperação](https://learn.microsoft.com/en-us/compliance/assurance/assurance-sim-containment-eradication-recovery)
-- [@artigo@Contenção - AWS](https://docs.aws.amazon.com/whitepapers/latest/aws-security-incident-response-guide/containment.html)
+- [@article@Contenção - AWS](https://docs.aws.amazon.com/whitepapers/latest/aws-security-incident-response-guide/containment.html)

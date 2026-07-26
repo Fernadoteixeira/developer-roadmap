@@ -4,6 +4,6 @@ Wireshark é um poderoso analisador de protocolo de rede de código aberto usado
 
 Saiba mais com os seguintes recursos:
 
-- [@oficial@Wireshark](https://www.wireshark.org/)
+- [@official@Wireshark](https://www.wireshark.org/)
 - [@article@Como usar o Wireshark: tutorial abrangente + dicas](https://www.varonis.com/blog/how-to-use-wireshark)
 - [@video@Como usar o Wireshark](https://www.youtube.com/watch?v=zWoHJ3oGRGY)

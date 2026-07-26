@@ -6,5 +6,5 @@ A Pesquisa Vertical (vlookup) é usada para localizar dados em uma tabela classi
 
 Saiba mais com os seguintes recursos:
 
-- [@artigo@Função VLOOKUP](https://support.microsoft.com/en-gb/office/vlookup-function-0bbc8083-26fe-4963-8ab8-93a18ad188a1)
-- [@artigo@Função HLOOKUP](https://support.microsoft.com/en-gb/office/hlookup-function-a3034eec-b719-4ba3-bb65-e1ad662ed95f)
+- [@article@Função VLOOKUP](https://support.microsoft.com/en-gb/office/vlookup-function-0bbc8083-26fe-4963-8ab8-93a18ad188a1)
+- [@article@Função HLOOKUP](https://support.microsoft.com/en-gb/office/hlookup-function-a3034eec-b719-4ba3-bb65-e1ad662ed95f)

@@ -4,7 +4,7 @@ Consul é uma solução de malha de serviço que fornece um plano de controle co
 
 Visite os seguintes recursos para saber mais:
 
-- [@oficial@O que é Cônsul?](https://www.consul.io/docs/intro)
+- [@official@O que é Cônsul?](https://www.consul.io/docs/intro)
 - [@video@Consul Service Mesh Tutorial para iniciantes](https://www.youtube.com/watch?v=s3I1kKKfjtQ)
 - [@opensource@Consul Guias](https://github.com/hashicorp/consul-guides)
 - [@feed@Explore as principais postagens sobre a HashiCorp](https://app.daily.dev/tags/hashicorp?ref=roadmapsh)

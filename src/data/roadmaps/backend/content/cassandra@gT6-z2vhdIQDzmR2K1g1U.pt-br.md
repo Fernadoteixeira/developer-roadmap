@@ -4,7 +4,7 @@ Apache Cassandra é um banco de dados NoSQL distribuído e altamente escalonáve
 
 Visite os seguintes recursos para saber mais:
 
-- [@oficial@Apache Cassandra](https://cassandra.apache.org/_/index.html)
+- [@official@Apache Cassandra](https://cassandra.apache.org/_/index.html)
 - [artigo@Cassandra - Guia rápido](https://www.tutorialspoint.com/cassandra/cassandra_quick_guide.htm)
 - [@video@Apache Cassandra - Curso para Iniciantes](https://www.youtube.com/watch?v=J-cSy5MeMOA)
 - [@feed@Explore as principais postagens sobre desenvolvimento de back-end](https://app.daily.dev/tags/backend?ref=roadmapsh)

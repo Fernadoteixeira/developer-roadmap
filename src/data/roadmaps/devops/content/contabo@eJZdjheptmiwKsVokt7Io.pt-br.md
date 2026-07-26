@@ -4,4 +4,4 @@ Contabo é um provedor alemão de hospedagem na web e servidores dedicados conhe
 
 Acesse o link a seguir para saber mais:
 
-- [@oficial@Contabo](https://contabo.com/)
+- [@official@Contabo](https://contabo.com/)

@@ -4,7 +4,7 @@ Electron é uma estrutura de código aberto desenvolvida pelo GitHub que permite
 
 Visite os seguintes recursos para saber mais:
 
-- [@oficial@Electron Site](https://www.electronjs.org/)
-- [@oficial@Electron Docs](https://www.electronjs.org/docs/latest/)
+- [@official@Electron Site](https://www.electronjs.org/)
+- [@official@Electron Docs](https://www.electronjs.org/docs/latest/)
 - [@video@Crie um aplicativo de desktop com JavaScript e Electron](https://www.youtube.com/watch?v=ML743nrkMHw)
 - [@feed@Explore as principais postagens sobre Electron](https://app.daily.dev/tags/electron?ref=roadmapsh)

@@ -7,7 +7,7 @@ gRPC usa a linguagem de buffer de protocolo para definir a estrutura dos dados q
 
 Visite os seguintes recursos para saber mais:
 
-- [@oficial@gRPC Site](https://grpc.io/)
+- [@official@gRPC Site](https://grpc.io/)
 - [@official@gRPC Introdução](https://grpc.io/docs/what-is-grpc/introduction/)
 - [@official@gRPC Conceitos Básicos](https://grpc.io/docs/what-is-grpc/core-concepts/)
 - [@video@Stephane Maarek - Introdução ao gRPC](https://youtu.be/XRXTsQwyZSU)

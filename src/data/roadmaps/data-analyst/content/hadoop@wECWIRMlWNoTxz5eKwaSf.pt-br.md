@@ -4,5 +4,5 @@ Hadoop é um elemento crítico no domínio das estruturas de processamento de da
 
 Saiba mais com os seguintes recursos:
 
-- [@oficial@Apache Hadoop](https://hadoop.apache.org/)
-- [@artigo@O que é Hadoop?](https://www.databricks.com/glossary/hadoop)
+- [@official@Apache Hadoop](https://hadoop.apache.org/)
+- [@article@O que é Hadoop?](https://www.databricks.com/glossary/hadoop)

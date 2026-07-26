@@ -4,5 +4,5 @@ VMware ESXi é um hipervisor Tipo 1 e o componente central da tecnologia de virt
 
 Saiba mais com os seguintes recursos:
 
-- [@oficial@O que é ESXi?](https://www.vmware.com/products/cloud-infrastructure/esxi-and-esx)
-- [@artigo@O que é VMWare ESXi?](https://www.liquidweb.com/blog/what-is-vmware-esxi/)
+- [@official@O que é ESXi?](https://www.vmware.com/products/cloud-infrastructure/esxi-and-esx)
+- [@article@O que é VMWare ESXi?](https://www.liquidweb.com/blog/what-is-vmware-esxi/)

@@ -4,7 +4,7 @@ esbuild é um empacotador e minificador JavaScript de alto desempenho projetado 
 
 Visite os seguintes recursos para saber mais:
 
-- [@oficial@Esbuild Site](https://esbuild.github.io/)
+- [@official@Esbuild Site](https://esbuild.github.io/)
 - [@curso@Vamos aprender esbuild! (com Sunil Pai) — Aprenda com Jason](https://www.youtube.com/watch?v=KLdF1yu_bmI)
 - [@video@O que é ESBuild?](https://www.youtube.com/watch?v=ZY8Vu8cbWF0)
 - [@feed@Explore as principais postagens sobre Desenvolvimento Web](https://app.daily.dev/tags/webdev?ref=roadmapsh)

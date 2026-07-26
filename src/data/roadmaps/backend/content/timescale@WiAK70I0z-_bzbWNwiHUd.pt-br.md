@@ -4,6 +4,6 @@ TimescaleDB é um banco de dados de série temporal de código aberto construíd
 
 Visite os seguintes recursos para saber mais:
 
-- [@oficial@Timescale Site](https://www.timescale.com/)
+- [@official@Timescale Site](https://www.timescale.com/)
 - [@video@Tutorial - TimeScaleDB explicado em 100 segundos](https://www.youtube.com/watch?v=69Tzh_0lHJ8)
 - [@video@O que são dados de série temporal?](https://www.youtube.com/watch?v=Se5ipte9DMY)

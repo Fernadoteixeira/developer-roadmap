@@ -4,5 +4,5 @@ Smoke Testing é um processo de teste de software que determina se a construçã
 
 Visite os seguintes recursos para saber mais:
 
-- [@artigo@Teste de fumaça | Teste de software](https://www.guru99.com/smoke-testing.html)
+- [@article@Teste de fumaça | Teste de software](https://www.guru99.com/smoke-testing.html)
 - [@feed@Explore as principais postagens sobre testes](https://app.daily.dev/tags/testing?ref=roadmapsh)

@@ -4,7 +4,7 @@ InfluxDB é um banco de dados de série temporal de código aberto e de alto des
 
 Visite os seguintes recursos para saber mais:
 
-- [@oficial@InfluxDB Site](https://www.influxdata.com/)
+- [@official@InfluxDB Site](https://www.influxdata.com/)
 - [@article@Banco de dados de séries temporais](https://www.influxdata.com/time-series-database/)
 - [@video@Noções básicas de dados de séries temporais](https://www.youtube.com/watch?v=wBWTj-1XiRU)
 - [@feed@Explore as principais postagens sobre desenvolvimento de back-end](https://app.daily.dev/tags/backend?ref=roadmapsh)

@@ -4,5 +4,5 @@ A segurança é um campo amplo que abrange várias medidas e práticas destinada
 
 Visite os seguintes recursos para saber mais:
 
-- [@artigo@Segurança - Wikipédia](https://en.wikipedia.org/wiki/Security)
+- [@article@Segurança - Wikipédia](https://en.wikipedia.org/wiki/Security)
 - [@article@Architect Segurança](https://aws.amazon.com/blogs/architecture/lets-architect-security-in-software-architectures/)

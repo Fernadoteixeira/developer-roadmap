@@ -4,6 +4,6 @@ Os aplicativos de desktop normalmente usam estruturas como Electron, NW.js (Node
 
 Visite os seguintes recursos para saber mais:
 
-- [@oficial@Electron Site](https://www.electronjs.org/)
+- [@official@Electron Site](https://www.electronjs.org/)
 - [@official@NW.js Site](https://nwjs.io/)
-- [@oficial@Tauri Site](https://tauri.app/)
+- [@official@Tauri Site](https://tauri.app/)

@@ -4,6 +4,6 @@ Tauri é uma estrutura de código aberto para a construção de aplicativos de d
 
 Visite os seguintes recursos para saber mais:
 
-- [@oficial@Tauri Site](https://tauri.app/)
+- [@official@Tauri Site](https://tauri.app/)
 - [@official@Tauri Docs](https://tauri.app/v1/guides/)
 - [@article@Como Tauri transforma web designs em aplicativos nativos compactos](https://thenewstack.io/how-tauri-turns-web-designs-into-compact-native-apps/)

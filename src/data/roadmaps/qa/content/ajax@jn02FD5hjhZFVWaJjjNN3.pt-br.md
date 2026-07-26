@@ -4,6 +4,6 @@ AJAX significa JavaScript e XML assíncronos. Resumindo, é o uso do objeto XMLH
 
 Visite os seguintes recursos para saber mais:
 
-- [@artigo@O que é AJAX?](https://www.w3schools.com/whatis/whatis_ajax.asp)
+- [@article@O que é AJAX?](https://www.w3schools.com/whatis/whatis_ajax.asp)
 - [@article@Introdução ao AJAX](https://developer.mozilla.org/en-US/docs/Web/Guide/AJAX/Getting_Started)
 - [@video@O que é Ajax?](https://www.youtube.com/watch?v=3l13qGLTgNw)

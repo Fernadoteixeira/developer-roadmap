@@ -4,5 +4,5 @@ Como uma estrutura de processamento de big data, o Apache Spark apresenta imensa
 
 Saiba mais com os seguintes recursos:
 
-- [@oficial@Apache Spark](https://spark.apache.org/)
+- [@official@Apache Spark](https://spark.apache.org/)
 - [@opensource@apache/spark](https://github.com/apache/spark)

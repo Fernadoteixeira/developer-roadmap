@@ -8,5 +8,5 @@ Trello é uma ferramenta de colaboração popular, simples e fácil de usar que 
 
 Visite os seguintes recursos para saber mais:
 
-- [@oficial@Trello](https://trello.com/en)
+- [@official@Trello](https://trello.com/en)
 - [@article@O que é Trello e como usá-lo?](https://www.simplilearn.com/tutorials/project-management-tutorial/what-is-trello)

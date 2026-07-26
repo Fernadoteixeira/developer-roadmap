@@ -4,6 +4,6 @@ Apache JMeter é um projeto Apache que pode ser usado como uma ferramenta de tes
 
 Visite os seguintes recursos para saber mais:
 
-- [@oficial@Apache JMeter](https://jmeter.apache.org/)
+- [@official@Apache JMeter](https://jmeter.apache.org/)
 - [@video@Aprenda JMeter](https://www.youtube.com/playlist?list=PLJ9A48W0kpRIjLkZ32Do9yDZXnnm7_uj_)
 - [@feed@Explore as principais postagens sobre testes](https://app.daily.dev/tags/testing?ref=roadmapsh)

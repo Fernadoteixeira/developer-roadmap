@@ -4,6 +4,6 @@ Dropbox é um serviço de armazenamento em nuvem amplamente utilizado que permit
 
 Saiba mais com os seguintes recursos:
 
-- [@oficial@Dropbox](https://dropbox.com)
+- [@official@Dropbox](https://dropbox.com)
 - [@official@Como usar o Dropbox - um guia para sua conta](https://learn.dropbox.com/self-guided-learning/dropbox-fundamentals-course/how-to-use-dropbox)
 - [@video@Tutorial do Dropbox para iniciantes](https://www.youtube.com/watch?v=b0Nk9muiUcQ)

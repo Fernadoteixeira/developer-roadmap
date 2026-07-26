@@ -5,8 +5,8 @@ Os sistemas de controle de versão (VCS) são ferramentas que rastreiam alteraç
 Visite os seguintes recursos para saber mais:
 
 - [@roadmap@Visite o roteiro dedicado do Git e do GitHub](https://roadmap.sh/git-github)
-- [@oficial@Git](https://git-scm.com/)
-- [@oficial@Mecurial](https://www.mercurial-scm.org/)
-- [@oficial@Subversion](https://subversion.apache.org/)
+- [@official@Git](https://git-scm.com/)
+- [@official@Mecurial](https://www.mercurial-scm.org/)
+- [@official@Subversion](https://subversion.apache.org/)
 - [@article@O que é controle de versão?](https://www.atlassian.com/git/tutorials/what-is-version-control)
 - [@video@Sistema de controle de versão (VCS)](https://www.youtube.com/watch?v=SVkuliabq4g)

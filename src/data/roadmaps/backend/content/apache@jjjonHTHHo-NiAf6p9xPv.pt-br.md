@@ -4,7 +4,7 @@ Apache, oficialmente conhecido como Apache HTTP Server, é um software de servid
 
 Visite os seguintes recursos para saber mais:
 
-- [@oficial@Apache Server](https://httpd.apache.org/)
+- [@official@Apache Server](https://httpd.apache.org/)
 - [@official@Documentação do servidor Apache](https://httpd.apache.org/docs/2.4/)
 - [@video@O que é o servidor Web Apache?](https://www.youtube.com/watch?v=kaaenHXO4t4)
 - [@video@Apache vs NGINX](https://www.youtube.com/watch?v=9nyiY-psbMs)

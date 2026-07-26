@@ -4,6 +4,6 @@ O Sistema de Nomes de Domínio (DNS) é um protocolo fundamental da Internet que
 
 Saiba mais com os seguintes recursos:
 
-- [@artigo@O que é DNS?](https://www.cloudflare.com/en-gb/learning/dns/what-is-dns/)
+- [@article@O que é DNS?](https://www.cloudflare.com/en-gb/learning/dns/what-is-dns/)
 - [@video@DNS explicado em 100 segundos](https://www.youtube.com/watch?v=UVR9lhUGAyU)
 - [@video@O que é DNS?](https://www.youtube.com/watch?v=nyH0nYhMW9M)

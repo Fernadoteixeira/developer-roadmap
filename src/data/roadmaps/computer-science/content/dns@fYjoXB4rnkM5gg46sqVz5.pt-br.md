@@ -4,7 +4,7 @@ O Sistema de Nomes de Domínio (DNS) é a lista telefônica da Internet. Os huma
 
 Visite os seguintes recursos para saber mais:
 
-- [@artigo@O que é DNS?](https://www.cloudflare.com/en-gb/learning/dns/what-is-dns/)
+- [@article@O que é DNS?](https://www.cloudflare.com/en-gb/learning/dns/what-is-dns/)
 - [@article@Como funciona o DNS (quadrinhos)](https://howdns.works/)
 - [@video@DNS e como funciona?](https://www.youtube.com/watch?v=Wj0od2ag5sk)
 - [@video@Registros DNS](https://www.youtube.com/watch?v=7lxgpKh_fRY)

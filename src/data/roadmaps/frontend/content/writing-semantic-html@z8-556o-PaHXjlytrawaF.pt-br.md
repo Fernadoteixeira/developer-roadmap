@@ -6,5 +6,5 @@ Visite os seguintes recursos para saber mais:
 
 - [@article@Guia para escrever HTML semântico](https://cs.fyi/guide/writing-semantic-html)
 - [@article@W3Schools: HTML semântico](https://www.w3schools.com/html/html5_semantic_elements.asp)
-- [@artigo@HTML semântico - web.dev](https://web.dev/learn/html/semantic-html/)
+- [@article@HTML semântico - web.dev](https://web.dev/learn/html/semantic-html/)
 - [@video@Por que e quando usar elementos HTML semânticos em div(s)](https://www.youtube.com/watch?v=bOUhq46fd5g)

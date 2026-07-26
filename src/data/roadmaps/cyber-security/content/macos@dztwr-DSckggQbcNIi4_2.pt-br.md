@@ -4,5 +4,5 @@
 
 Saiba mais com os seguintes recursos:
 
-- [@oficial@macOS](https://www.apple.com/macos/macos-sequoia/)
+- [@official@macOS](https://www.apple.com/macos/macos-sequoia/)
 - [@video@Mac Tutorial para iniciantes 2024](https://www.youtube.com/watch?v=3jeeFc2Vo1U)

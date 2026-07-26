@@ -4,6 +4,6 @@ pnpm (npm de desempenho) é um gerenciador de pacotes rápido e eficiente em ter
 
 Visite os seguintes recursos para saber mais:
 
-- [@oficial@PNPM Site](https://pnpm.io)
+- [@official@PNPM Site](https://pnpm.io)
 - [@article@Meet PNPM: o NPM mais rápido e com melhor desempenho](https://blog.bitsrc.io/pnpm-javascript-package-manager-4b5abd59dc9)
 - [@video@Comece com pnpm](https://www.youtube.com/watch?v=MvbReZDSKHI)

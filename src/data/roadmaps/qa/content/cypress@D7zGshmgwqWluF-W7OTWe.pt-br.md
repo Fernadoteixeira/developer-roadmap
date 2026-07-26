@@ -4,9 +4,9 @@ A estrutura Cypress é uma estrutura de teste ponta a ponta baseada em JavaScrip
 
 Visite os seguintes recursos para saber mais:
 
-- [@oficial@Cypress](https://www.cypress.io/)
+- [@official@Cypress](https://www.cypress.io/)
 - [@official@Cypress Documentação](https://docs.cypress.io/guides/overview/why-cypress#Other)
-- [@oficial@Como funciona](https://www.cypress.io/how-it-works)
+- [@official@Como funciona](https://www.cypress.io/how-it-works)
 - [@video@Cypress teste ponta a ponta](https://www.youtube.com/watch?v=7N63cMKosIE)
 - [@video@Cypress Dicas e Truques](https://www.youtube.com/watch?v=PZ2OsLBts1E&list=PLP9o9QNnQuAYYRpJzDNWpeuOVTwxmIxcI)
 - [@article@Cypress - Estrutura de teste ponta a ponta](https://dev.to/bushraalam/cypress-end-to-end-testing-framework-3naa)

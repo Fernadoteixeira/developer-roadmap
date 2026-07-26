@@ -4,4 +4,4 @@ DDL ou linguagem de definição de dados consiste, na verdade, em comandos SQL q
 
 Visite os seguintes recursos para saber mais:
 
-- [@artigo@DDL](https://en.wikipedia.org/wiki/Data_definition_language)
+- [@article@DDL](https://en.wikipedia.org/wiki/Data_definition_language)

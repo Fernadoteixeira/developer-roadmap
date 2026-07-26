@@ -4,4 +4,4 @@ Alcançar o equilíbrio na arquitetura requer o gerenciamento de compromissos en
 
 Visite os seguintes recursos para saber mais:
 
-- [@artigo@Wikipedia](<https://en.wikipedia.org/wiki/Balance_(architecture)>)
+- [@article@Wikipedia](<https://en.wikipedia.org/wiki/Balance_(architecture)>)

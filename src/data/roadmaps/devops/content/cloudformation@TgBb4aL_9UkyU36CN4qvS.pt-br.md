@@ -4,6 +4,6 @@ AWS CloudFormation é um serviço de infraestrutura como código que permite aos
 
 Visite os seguintes recursos para saber mais:
 
-- [@oficial@AWS CloudFormation](https://aws.amazon.com/cloudformation/)
+- [@official@AWS CloudFormation](https://aws.amazon.com/cloudformation/)
 - [@video@Criar e excluir uma pilha do AWS CloudFormation](https://www.youtube.com/watch?v=fmDG-W5TFp4)
 - [@feed@Explore as principais postagens sobre AWS CloudFormation](https://app.daily.dev/tags/aws-cloudformation?ref=roadmapsh)

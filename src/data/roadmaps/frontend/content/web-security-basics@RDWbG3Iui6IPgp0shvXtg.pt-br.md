@@ -17,7 +17,7 @@ A segurança da Web também envolve a compreensão das vulnerabilidades comuns l
 
 Visite os seguintes recursos para saber mais:
 
-- [@oficial@Site OWASP](https://owasp.org/)
+- [@official@Site OWASP](https://owasp.org/)
 - [@article@OWASP Cheatsheets](https://cheatsheetseries.owasp.org/cheatsheets/AJAX_Security_Cheat_Sheet.html)
 - [@article@Política de Segurança de Conteúdo (CSP)](https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP)
 - [@video@OWASP Tutorial passo a passo do ZAP](https://www.youtube.com/playlist?list=PLH8n_ayg-60J9i3nsLybper-DR3zJw6Z5)

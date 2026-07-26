@@ -4,6 +4,6 @@ Drone é uma plataforma de integração contínua (CI) de código aberto constru
 
 Visite os seguintes recursos para saber mais:
 
-- [@oficial@Drone](https://www.drone.io/)
+- [@official@Drone](https://www.drone.io/)
 - [@official@Documentação do Drone](https://docs.drone.io/)
 - [@video@Drone CI Guia de início rápido](https://www.youtube.com/watch?v=Qf8EHRzAgHQ)

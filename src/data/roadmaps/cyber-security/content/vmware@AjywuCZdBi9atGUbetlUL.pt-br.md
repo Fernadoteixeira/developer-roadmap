@@ -4,5 +4,5 @@ A VMware é fornecedora líder de software de virtualização e computação em 
 
 Saiba mais com os seguintes recursos:
 
-- [@oficial@VMWare](https://www.vmware.com/)
+- [@official@VMWare](https://www.vmware.com/)
 - [@video@O que é VMWare](https://www.youtube.com/watch?v=zPNCp9AV-vA)

@@ -5,7 +5,7 @@ O GitHub se tornou um hub central para projetos de código aberto e é amplament
 Visite os seguintes recursos para saber mais:
 
 - [@roadmap@Visite o roteiro dedicado do Git e do Github](https://roadmap.sh/git-github)
-- [@oficial@GitHub](https://github.com)
+- [@official@GitHub](https://github.com)
 - [@official@GitHub: Início rápido](https://docs.github.com/en/get-started/quickstart/hello-world)
 - [@official@Documentação do GitHub](https://docs.github.com/en/get-started/quickstart)
 - [@official@Aprenda o GitHub fazendo](https://skills.github.com/)

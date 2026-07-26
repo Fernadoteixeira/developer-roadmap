@@ -4,7 +4,7 @@ Nuxt.js é uma estrutura de nível superior construída sobre Vue.js, projetada 
 
 Visite os seguintes recursos para saber mais:
 
-- [@oficial@Nuxt Site](https://nuxtjs.org/)
+- [@official@Nuxt Site](https://nuxtjs.org/)
 - [@article@Introdução ao Nuxt](https://explorers.netlify.com/learn/get-started-with-nuxt)
 - [@course@Nuxt.js Fundamentos](https://vueschool.io/courses/nuxtjs-fundamentals)
 - [@feed@Explore as principais postagens sobre JavaScript](https://app.daily.dev/tags/javascript?ref=roadmapsh)

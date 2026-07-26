@@ -4,4 +4,4 @@ O Google Drive é uma solução de armazenamento baseada em nuvem fornecida pelo
 
 Saiba mais com os seguintes recursos:
 
-- [@oficial@Google Drive](https://drive.google.com)
+- [@official@Google Drive](https://drive.google.com)

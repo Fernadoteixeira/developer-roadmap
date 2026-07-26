@@ -4,5 +4,5 @@ SHA (Secure Hash Algorithm) é uma família de funções hash criptográficas pr
 
 Visite os seguintes recursos para saber mais:
 
-- [@artigo@O que é SHA?](https://www.encryptionconsulting.com/education-center/what-is-sha/)
+- [@article@O que é SHA?](https://www.encryptionconsulting.com/education-center/what-is-sha/)
 - [@video@SHA: Algoritmo de hash seguro](https://www.youtube.com/watch?v=DMtFhACPnTY)

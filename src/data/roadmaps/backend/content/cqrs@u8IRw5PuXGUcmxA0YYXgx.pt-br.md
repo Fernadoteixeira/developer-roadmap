@@ -4,5 +4,5 @@ CQRS (Command Query Responsibility Segregation) é um padrão arquitetônico que
 
 Visite os seguintes recursos para saber mais:
 
-- [@artigo@Padrão CQRS](https://docs.microsoft.com/en-us/azure/architecture/patterns/cqrs)
+- [@article@Padrão CQRS](https://docs.microsoft.com/en-us/azure/architecture/patterns/cqrs)
 - [@video@Aprenda o padrão CQRS em 5 minutos!](https://www.youtube.com/watch?v=eiut3FIY1Cg)

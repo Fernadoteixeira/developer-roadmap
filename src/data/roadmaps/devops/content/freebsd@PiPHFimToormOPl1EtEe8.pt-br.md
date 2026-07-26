@@ -4,8 +4,8 @@ FreeBSD é um sistema operacional gratuito e de código aberto semelhante ao Uni
 
 Visite os seguintes recursos para saber mais:
 
-- [@oficial@FreeBSD](https://www.freebsd.org/)
+- [@official@FreeBSD](https://www.freebsd.org/)
 - [@official@FreeBSD Recursos para Iniciantes](https://www.freebsd.org/projects/newbies/)
 - [@official@Documentação do FreeBSD](https://docs.freebsd.org/en/)
-- [@oficial@Manual do FreeBSD](https://docs.freebsd.org/en/books/handbook/)
+- [@official@Manual do FreeBSD](https://docs.freebsd.org/en/books/handbook/)
 - [@video@FreeBSD em 100 segundos](https://www.youtube.com/watch?v=NKHzcXwTdB4)

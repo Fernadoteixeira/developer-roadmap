@@ -4,6 +4,6 @@ PyTorch, uma biblioteca de aprendizado de máquina de código aberto, ganhou con
 
 Saiba mais com os seguintes recursos:
 
-- [@oficial@PyTorch](https://pytorch.org/)
+- [@official@PyTorch](https://pytorch.org/)
 - [@official@PyTorch Documentação](https://pytorch.org/docs/stable/index.html)
 - [@video@PyTorch em 100 segundos](https://www.youtube.com/watch?v=ORMx45xqWkA)

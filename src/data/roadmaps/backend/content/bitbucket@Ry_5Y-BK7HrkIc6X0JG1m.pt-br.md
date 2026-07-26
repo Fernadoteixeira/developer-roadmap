@@ -4,8 +4,8 @@ Bitbucket é um serviço de hospedagem de repositório de controle de versão ba
 
 Visite os seguintes recursos para saber mais:
 
-- [@oficial@Bitbucket](https://bitbucket.org/product)
-- [@oficial@Visão geral do Bitbucket](https://bitbucket.org/product/guides/getting-started/overview#a-brief-overview-of-bitbucket)
+- [@official@Bitbucket](https://bitbucket.org/product)
+- [@official@Visão geral do Bitbucket](https://bitbucket.org/product/guides/getting-started/overview#a-brief-overview-of-bitbucket)
 - [@article@Usando Git com Bitbucket Cloud](https://www.atlassian.com/git/tutorials/learn-git-with-bitbucket-cloud)
 - [@vídeo@Tutorial do Bitbucket | Como usar o Bitbucket Cloud](https://www.youtube.com/watch?v=M44nEyd_5To)
 - [@feed@Explore as principais postagens sobre o Bitbucket](https://app.daily.dev/tags/bitbucket?ref=roadmapsh)

@@ -5,7 +5,7 @@ PHP (Hypertext Preprocessor) é uma linguagem de script de código aberto amplam
 Visite os seguintes recursos para saber mais:
 
 - [@official@Visit Roteiro PHP Dedicado](https://roadmap.sh/php)
-- [@oficial@PHP](https://php.net/)
+- [@official@PHP](https://php.net/)
 - [@article@Aprenda PHP - W3Schools](https://www.w3schools.com/php/)
 - [@article@PHP - O caminho certo](https://phptherightway.com/)
 - [@video@PHP para iniciantes](https://www.youtube.com/watch?v=zZ6vybT1HQs)

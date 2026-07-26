@@ -5,7 +5,7 @@ Os serviços de hospedagem Repo fornecem plataformas para armazenamento, gerenci
 Visite os seguintes recursos para saber mais:
 
 - [@roadmap@Visite o roteiro dedicado do Git e do Github](https://roadmap.sh/git-github)
-- [@oficial@site GitHub](https://github.com)
-- [@oficial@GitLab Site](https://about.gitlab.com)
-- [@oficial@Codeberg Site](https://codeberg.org/)
-- [@oficial@Site BitBucket](https://bitbucket.com)
+- [@official@site GitHub](https://github.com)
+- [@official@GitLab Site](https://about.gitlab.com)
+- [@official@Codeberg Site](https://codeberg.org/)
+- [@official@Site BitBucket](https://bitbucket.com)

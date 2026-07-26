@@ -4,6 +4,6 @@ Graylog é uma plataforma de gerenciamento de log de código aberto projetada pa
 
 Visite os seguintes recursos para saber mais:
 
-- [@oficial@Graylog Site](https://www.graylog.org/)
-- [@oficial@Vídeos do produto](https://www.graylog.org/resources-videos)
+- [@official@Graylog Site](https://www.graylog.org/)
+- [@official@Vídeos do produto](https://www.graylog.org/resources-videos)
 - [@opensource@Graylog2/graylog2-server](https://github.com/Graylog2/graylog2-server)

@@ -14,6 +14,6 @@ LibreOffice é um pacote de produtividade de escritório gratuito e de código a
 
 Saiba mais com os seguintes recursos:
 
-- [@oficial@Microsoft Office](https://www.office.com/)
-- [@oficial@Google Workspace](https://workspace.google.com)
-- [@oficial@LibreOffice](https://www.libreoffice.org/)
+- [@official@Microsoft Office](https://www.office.com/)
+- [@official@Google Workspace](https://workspace.google.com)
+- [@official@LibreOffice](https://www.libreoffice.org/)

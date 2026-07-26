@@ -5,4 +5,4 @@
 Saiba mais com os seguintes recursos:
 
 - [@article@ipconfig comando](https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/ipconfig)
-- [@artigo@Compreendendo o ipconfig](https://www.whatismyip.com/ipconfig/)
+- [@article@Compreendendo o ipconfig](https://www.whatismyip.com/ipconfig/)

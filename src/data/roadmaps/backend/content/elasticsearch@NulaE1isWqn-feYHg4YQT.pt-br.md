@@ -4,7 +4,7 @@ A pesquisa elástica em sua essência é um mecanismo de pesquisa orientado a do
 
 Visite os seguintes recursos para saber mais:
 
-- [@oficial@Site do Elasticsearch](https://www.elastic.co/elasticsearch/)
+- [@official@Site do Elasticsearch](https://www.elastic.co/elasticsearch/)
 - [@official@Documentação do Elasticsearch](https://www.elastic.co/guide/index.html)
 - [@video@O que é Elasticsearch](https://www.youtube.com/watch?v=ZP0NmfyfsoM)
 - [@feed@Explore as principais postagens sobre ELK](https://app.daily.dev/tags/elk?ref=roadmapsh)

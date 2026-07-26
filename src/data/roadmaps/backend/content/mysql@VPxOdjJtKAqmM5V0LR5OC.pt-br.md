@@ -4,9 +4,9 @@ MySQL é um sistema de gerenciamento de banco de dados relacional (RDBMS) de có
 
 Visite os seguintes recursos para saber mais:
 
-- [@oficial@MySQL](https://www.mysql.com/)
+- [@official@MySQL](https://www.mysql.com/)
 - [@article@W3Schools - Tutorial MySQL](https://www.w3schools.com/mySQl/default.asp)
 - [@article@MySQL para desenvolvedores](https://planetscale.com/courses/mysql-for-developers/introduction/course-introduction)
-- [@artigo@Tutorial MySQL](https://www.mysqltutorial.org/)
+- [@article@Tutorial MySQL](https://www.mysqltutorial.org/)
 - [@video@MySQL Curso Completo](https://www.youtube.com/watch?v=5OdVJbNCSso)
 - [@feed@Explore as principais postagens sobre MySQL](https://app.daily.dev/tags/mysql?ref=roadmapsh)

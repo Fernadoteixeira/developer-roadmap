@@ -4,5 +4,5 @@ A Análise de Correlação é um método quantitativo que os analistas de dados 
 
 Visite os seguintes recursos para saber mais:
 
-- [@artigo@Correlação](https://www.mathsisfun.com/data/correlation.html)
+- [@article@Correlação](https://www.mathsisfun.com/data/correlation.html)
 - [@article@O que é análise de correlação?](https://blog.flexmr.net/correlation-analysis-definition-exploration)

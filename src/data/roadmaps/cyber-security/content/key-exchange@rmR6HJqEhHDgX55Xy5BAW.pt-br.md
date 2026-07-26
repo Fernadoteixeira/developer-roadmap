@@ -4,5 +4,5 @@ A troca de chaves é um processo criptográfico por meio do qual duas partes com
 
 Saiba mais com os seguintes recursos:
 
-- [@artigo@Troca de chaves](https://nordvpn.com/cybersecurity/glossary/key-exchange/?srsltid=AfmBOoocoykou-7M3OHUQq7APIsGDVjOR8P6wIcIvNA2fgOt1620RZwG)
+- [@article@Troca de chaves](https://nordvpn.com/cybersecurity/glossary/key-exchange/?srsltid=AfmBOoocoykou-7M3OHUQq7APIsGDVjOR8P6wIcIvNA2fgOt1620RZwG)
 - [@video@troca de chave secreta](https://www.youtube.com/watch?v=NmM9HA2MQGI)

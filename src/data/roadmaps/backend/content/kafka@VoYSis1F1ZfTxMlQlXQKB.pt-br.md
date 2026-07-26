@@ -4,7 +4,7 @@ Apache Kafka é uma plataforma distribuída de streaming de eventos projetada pa
 
 Visite os seguintes recursos para saber mais:
 
-- [@oficial@Apache Kafka](https://kafka.apache.org/quickstart)
+- [@official@Apache Kafka](https://kafka.apache.org/quickstart)
 - [@video@Apache Kafka Fundamentos](https://www.youtube.com/watch?v=B5j3uNBH8X4)
 - [@video@Kafka em 100 segundos](https://www.youtube.com/watch?v=uvb00oaa3k8)
 - [@feed@Explore as principais postagens sobre Kafka](https://app.daily.dev/tags/kafka?ref=roadmapsh)

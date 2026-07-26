@@ -1,4 +1,4 @@
-# Aprenda um Idioma
+# Aprenda uma Linguagem de Programação
 
 Não importa qual idioma você escolha, mas é importante aprender pelo menos um. Você poderá usar esse idioma para escrever scripts de automação.
 

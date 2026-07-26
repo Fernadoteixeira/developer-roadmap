@@ -4,7 +4,7 @@ Loki é um sistema de agregação de log multilocatário, escalonável horizonta
 
 Visite os seguintes recursos para saber mais:
 
-- [@oficial@Loki](https://grafana.com/oss/loki/)
+- [@official@Loki](https://grafana.com/oss/loki/)
 - [@official@Loki Documentação](https://grafana.com/docs/loki/latest/?pg=oss-loki&plcmt=quick-links)
 - [@video@Conheça Grafana LOKI, um sistema de agregação de log para TUDO](https://www.youtube.com/watch?v=h_GGd7HfKQ8)
 - [@feed@Explore as principais postagens sobre Grafana](https://app.daily.dev/tags/grafana?ref=roadmapsh)

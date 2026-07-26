@@ -5,4 +5,4 @@ Kmeans é um método fundamentalmente importante na análise de dados e se enqua
 Saiba mais com os seguintes recursos:
 
 - [@article@K-Means Clustering](https://en.wikipedia.org/wiki/K-means_clustering)
-- [@artigo@K-Means](https://scikit-learn.org/stable/modules/generated/sklearn.cluster.KMeans.html)
+- [@article@K-Means](https://scikit-learn.org/stable/modules/generated/sklearn.cluster.KMeans.html)

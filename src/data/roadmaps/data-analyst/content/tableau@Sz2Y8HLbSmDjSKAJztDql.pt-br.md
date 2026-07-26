@@ -4,5 +4,5 @@ Tableau é uma poderosa ferramenta de visualização de dados amplamente utiliza
 
 Saiba mais com os seguintes recursos:
 
-- [@oficial@Tableau](https://www.tableau.com/en-gb)
+- [@official@Tableau](https://www.tableau.com/en-gb)
 - [@video@O que é o Tableau?](https://www.youtube.com/watch?v=NLCzpPRCc7U)

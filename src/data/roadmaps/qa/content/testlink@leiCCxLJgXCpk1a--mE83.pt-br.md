@@ -4,4 +4,4 @@ TestLink é a ferramenta de gerenciamento de testes de código aberto baseada na
 
 Visite os seguintes recursos para saber mais:
 
-- [@oficial@TestLink](https://testlink.org/)
+- [@official@TestLink](https://testlink.org/)

@@ -4,8 +4,8 @@ HTTP (Hypertext Transfer Protocol) é um protocolo usado para transmitir hiperte
 
 Visite os seguintes recursos para saber mais:
 
-- [@artigo@O que é HTTP?](https://www.cloudflare.com/en-gb/learning/ddos/glossary/hypertext-transfer-protocol-http/)
-- [@artigo@Visão geral do HTTP](https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview)
+- [@article@O que é HTTP?](https://www.cloudflare.com/en-gb/learning/ddos/glossary/hypertext-transfer-protocol-http/)
+- [@article@Visão geral do HTTP](https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview)
 - [@article@HTTP/3 De A a Z: Conceitos Básicos](https://www.smashingmagazine.com/2021/08/http3-core-concepts-part1/)
 - [@course@Curso completo de rede HTTP](https://www.youtube.com/watch?v=2JYT5f2isg4)
 - [@video@HTTP/1 para HTTP/2 para HTTP/3](https://www.youtube.com/watch?v=a-sBfyiXysI)

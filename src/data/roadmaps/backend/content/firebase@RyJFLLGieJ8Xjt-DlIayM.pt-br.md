@@ -4,7 +4,7 @@ Firebase é uma plataforma abrangente de desenvolvimento de aplicativos móveis 
 
 Saiba mais com os seguintes recursos:
 
-- [@oficial@Firebase](https://firebase.google.com/)
-- [@oficial@Documentação do Firebase](https://firebase.google.com/docs)
+- [@official@Firebase](https://firebase.google.com/)
+- [@official@Documentação do Firebase](https://firebase.google.com/docs)
 - [@video@Firebase em 100 segundos](https://www.youtube.com/watch?v=vAoB4VbhRzM)
 - [@course@O guia definitivo para Firebase](https://fireship.io/lessons/the-ultimate-beginners-guide-to-firebase/)

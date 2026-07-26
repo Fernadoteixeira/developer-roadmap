@@ -4,6 +4,6 @@ Prometheus é um kit de ferramentas de alerta e monitoramento de sistemas de có
 
 Visite os seguintes recursos para saber mais:
 
-- [@oficial@Prometheus Site](https://prometheus.io/)
+- [@official@Prometheus Site](https://prometheus.io/)
 - [@video@Introdução ao Sistema de Monitoramento Prometheus | Principais conceitos e recursos](https://www.youtube.com/watch?v=STVMGrYIlfg)
 - [@feed@Explore as principais postagens sobre o Prometheus](https://app.daily.dev/tags/prometheus?ref=roadmapsh)

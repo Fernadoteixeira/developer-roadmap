@@ -4,4 +4,4 @@ No campo da análise de dados, a limpeza de dados é uma etapa essencial e preli
 
 Visite os seguintes recursos para saber mais:
 
-- [@artigo@Outliers](https://www.mathsisfun.com/data/outliers.html)
+- [@article@Outliers](https://www.mathsisfun.com/data/outliers.html)

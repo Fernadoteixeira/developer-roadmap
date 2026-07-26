@@ -4,6 +4,6 @@ Google Cloud Platform (GCP) é uma coleção de serviços de computação em nuv
 
 Saiba mais com os seguintes recursos:
 
-- [@oficial@Google Cloud Platform](https://cloud.google.com)
+- [@official@Google Cloud Platform](https://cloud.google.com)
 - [@official@Cloud Computing, serviços de hospedagem e APIs](https://cloud.google.com/gcp)
 - [@video@curso em vídeo do Google Cloud Platform](https://www.youtube.com/watch?v=fZOz13joN0o)

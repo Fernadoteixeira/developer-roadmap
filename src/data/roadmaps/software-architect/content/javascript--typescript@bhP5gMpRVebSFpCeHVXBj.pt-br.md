@@ -6,7 +6,7 @@ Visite os seguintes recursos para saber mais:
 
 - [@roadmap@Visit Roteiro JavaScript Dedicado](https://roadmap.sh/javascript)
 - [@roadmap@Visit Roteiro TypedScript Dedicado](https://roadmap.sh/typescript)
-- [@oficial@TypeScript](https://www.typescriptlang.org/)
+- [@official@TypeScript](https://www.typescriptlang.org/)
 - [@official@TypeScript Documentos para mergulhos profundos](https://www.typescriptlang.org/docs/)
 - [@article@O tutorial de JavaScript moderno](https://javascript.info/)
 - [@video@Curso intensivo de JavaScript para iniciantes](https://youtu.be/hdI2bqOjy3c)

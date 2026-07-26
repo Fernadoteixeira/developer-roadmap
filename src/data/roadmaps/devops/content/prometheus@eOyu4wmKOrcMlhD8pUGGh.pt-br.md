@@ -4,7 +4,7 @@ Prometheus é um aplicativo de software gratuito usado para monitoramento e aler
 
 Visite os seguintes recursos para saber mais:
 
-- [@oficial@Prometheus Site](https://prometheus.io/)
+- [@official@Prometheus Site](https://prometheus.io/)
 - [@official@Prometheus Documentação](https://prometheus.io/docs/introduction/overview/)
 - [@official@Introdução ao Prometheus](https://prometheus.io/docs/tutorials/getting_started/)
 - [@feed@Explore as principais postagens sobre Prometheus](https://app.daily.dev/tags/prometheus?ref=roadmapsh)

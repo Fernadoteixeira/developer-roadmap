@@ -4,4 +4,4 @@ Nas redes de computadores, um servidor proxy é um aplicativo de servidor que at
 
 Visite os seguintes recursos para saber mais:
 
-- [@artigo@Servidor Proxy](https://en.wikipedia.org/wiki/Proxy_server)
+- [@article@Servidor Proxy](https://en.wikipedia.org/wiki/Proxy_server)

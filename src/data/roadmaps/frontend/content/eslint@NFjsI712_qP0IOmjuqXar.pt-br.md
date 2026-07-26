@@ -4,7 +4,7 @@ ESLint é uma ferramenta popular de análise de código estático de código abe
 
 Visite os seguintes recursos para saber mais:
 
-- [@oficial@ESLint Site](https://eslint.org/)
+- [@official@ESLint Site](https://eslint.org/)
 - [@article@O que é ESLint e como usar ESLint para detectar e corrigir código para projetos JavaScript](https://2coffee.dev/en/articles/what-is-eslint-and-how-to-use-eslint-to-detect-fix-code-for-javascript-projects)
 - [@video@ESLint Quickstart - encontre erros automaticamente](https://www.youtube.com/watch?v=qhuFviJn-es)
 - [@feed@Explore as principais postagens sobre JavaScript](https://app.daily.dev/tags/javascript?ref=roadmapsh)

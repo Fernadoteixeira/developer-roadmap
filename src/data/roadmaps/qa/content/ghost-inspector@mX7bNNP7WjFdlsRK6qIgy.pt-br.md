@@ -4,5 +4,5 @@ Ghost Inspector é uma ferramenta de teste automatizado sem código que permite 
 
 Visite os seguintes recursos para saber mais:
 
-- [@oficial@Ghost Inspector](https://ghostinspector.com/)
+- [@official@Ghost Inspector](https://ghostinspector.com/)
 - [@article@O que é o Inspetor Fantasma? Visão geral e tour pelos recursos](https://theqalead.com/test-management/what-is-ghost-inspector-overview-tour-of-features/)

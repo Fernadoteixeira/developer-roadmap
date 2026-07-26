@@ -4,5 +4,5 @@ A documentação arquitetônica às vezes é mais e às vezes menos importante. 
 
 Visite os seguintes recursos para saber mais:
 
-- [@artigo@Wikipedia](https://en.wikipedia.org/wiki/Documentation)
+- [@article@Wikipedia](https://en.wikipedia.org/wiki/Documentation)
 - [@article@O guia definitivo para documentação de arquitetura de software](https://www.workingsoftware.dev/software-architecture-documentation-the-ultimate-guide/)

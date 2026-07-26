@@ -4,5 +4,5 @@ Seaborn é uma biblioteca Python robusta e abrangente focada na criação de gr�
 
 Saiba mais com os seguintes recursos:
 
-- [@oficial@Seaborn](https://seaborn.pydata.org/)
+- [@official@Seaborn](https://seaborn.pydata.org/)
 - [@video@Seaborn Tutorial: Curso Completo Seaborn](https://www.youtube.com/watch?v=6GUZXDef2U0)

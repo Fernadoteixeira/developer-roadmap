@@ -6,4 +6,4 @@ Crie monitores simples com dados dinâmicos até mesmo para os casos de uso mais
 
 Visite os seguintes recursos para saber mais:
 
-- [@oficial@Runscope](https://www.runscope.com)
+- [@official@Runscope](https://www.runscope.com)

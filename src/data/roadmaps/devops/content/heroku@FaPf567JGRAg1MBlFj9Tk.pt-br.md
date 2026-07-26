@@ -4,6 +4,6 @@ Heroku é uma plataforma como serviço (PaaS) em nuvem que permite aos desenvolv
 
 Visite os seguintes recursos para saber mais:
 
-- [@oficial@Heroku Site](https://www.heroku.com/)
+- [@official@Heroku Site](https://www.heroku.com/)
 - [@video@O que é Heroku?](https://www.youtube.com/watch?v=IB0V8wWsCsc)
 - [@feed@Explore as principais postagens sobre Heroku](https://app.daily.dev/tags/heroku?ref=roadmapsh)

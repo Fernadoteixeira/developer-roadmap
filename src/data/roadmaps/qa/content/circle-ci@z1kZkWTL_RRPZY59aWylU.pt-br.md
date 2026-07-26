@@ -4,7 +4,7 @@ CircleCI é um serviço CI/CD que pode ser integrado aos repositórios GitHub, B
 
 Visite os seguintes recursos para saber mais:
 
-- [@oficial@CircleCI](https://circleci.com/)
+- [@official@CircleCI](https://circleci.com/)
 - [@official@CircleCI Documentação](https://circleci.com/docs)
 - [@official@Tutorial de configuração](https://circleci.com/docs/config-intro)
 - [@feed@Explore as principais postagens sobre CI/CD](https://app.daily.dev/tags/cicd?ref=roadmapsh)

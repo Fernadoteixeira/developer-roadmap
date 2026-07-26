@@ -4,7 +4,7 @@ O Azure DevOps é desenvolvido pela Microsoft como um serviço completo de geren
 
 Visite os seguintes recursos para saber mais:
 
-- [@oficial@Azure DevOps](https://azure.microsoft.com/en-us/services/devops/#overview)
-- [@oficial@Documentação do Azure](https://docs.microsoft.com/en-us/azure/devops/?view=azure-devops&viewFallbackFrom=vsts)
+- [@official@Azure DevOps](https://azure.microsoft.com/en-us/services/devops/#overview)
+- [@official@Documentação do Azure](https://docs.microsoft.com/en-us/azure/devops/?view=azure-devops&viewFallbackFrom=vsts)
 - [@article@Azure DevOps Guia de primeiros passos](https://docs.microsoft.com/en-us/azure/devops/user-guide/sign-up-invite-teammates?view=azure-devops)
 - [@feed@Explore as principais postagens sobre o Azure](https://app.daily.dev/tags/azure?ref=roadmapsh)

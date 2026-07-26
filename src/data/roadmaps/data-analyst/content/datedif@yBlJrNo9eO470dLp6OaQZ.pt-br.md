@@ -6,5 +6,5 @@ A função `DATEDIF` é uma ferramenta extremamente valiosa para um analista de 
 
 Saiba mais com os seguintes recursos:
 
-- [@artigo@função DATEDIF](https://support.microsoft.com/en-gb/office/datedif-function-25dba1a4-2812-480b-84dd-8b32a451b35c)
+- [@article@função DATEDIF](https://support.microsoft.com/en-gb/office/datedif-function-25dba1a4-2812-480b-84dd-8b32a451b35c)
 - [@article@Como usar DATEDIF no Excel](https://www.excel-easy.com/examples/datedif.html)

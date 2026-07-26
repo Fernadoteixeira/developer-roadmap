@@ -4,7 +4,7 @@ SQLite é um mecanismo de banco de dados SQL leve, sem servidor e independente, 
 
 Visite os seguintes recursos para saber mais:
 
-- [@oficial@SQLite](https://www.sqlite.org/index.html)
+- [@official@SQLite](https://www.sqlite.org/index.html)
 - [@article@SQLite Tutorial](https://www.sqlitetutorial.net/)
 - [@video@SQLite Introdução](https://www.youtube.com/watch?v=8Xyn8R9eKB8)
 - [@feed@Explore as principais postagens sobre SQLite](https://app.daily.dev/tags/sqlite?ref=roadmapsh)

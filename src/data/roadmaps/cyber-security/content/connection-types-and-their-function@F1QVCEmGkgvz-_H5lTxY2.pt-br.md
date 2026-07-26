@@ -14,6 +14,6 @@ Cada tipo de conexão desempenha uma função específica, equilibrando fatores 
 
 Saiba mais com os seguintes recursos:
 
-- [@artigo@O que é Ethernet?](https://www.techtarget.com/searchnetworking/definition/Ethernet)
+- [@article@O que é Ethernet?](https://www.techtarget.com/searchnetworking/definition/Ethernet)
 - [@article@O que é WiFi e como funciona?](https://computer.howstuffworks.com/wireless-network.htm)
 - [@article@Como funciona o bluetooth](https://electronics.howstuffworks.com/bluetooth.htm)

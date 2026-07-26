@@ -6,7 +6,7 @@ Hadoop MapReduce é uma estrutura de software para escrever facilmente aplicativ
 
 Visite os seguintes recursos para saber mais:
 
-- [@oficial@Apache Spark](https://spark.apache.org/)
+- [@official@Apache Spark](https://spark.apache.org/)
 - [@article@Spark vs Hadoop MapReduce](https://www.integrate.io/blog/apache-spark-vs-hadoop-mapreduce)
 - [@video@Hadoop explicado em 5 minutos](https://www.youtube.com/watch?v=aReuLtY0YMI)
 - [@feed@Explore as principais postagens sobre o Apache Spark](https://app.daily.dev/tags/spark?ref=roadmapsh)

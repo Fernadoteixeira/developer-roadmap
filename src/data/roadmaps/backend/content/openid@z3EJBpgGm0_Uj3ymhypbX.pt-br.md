@@ -4,7 +4,7 @@ OpenID é um padrão aberto para autenticação descentralizada que permite aos 
 
 Visite os seguintes recursos para saber mais:
 
-- [@oficial@Site OpenID](https://openid.net/)
+- [@official@Site OpenID](https://openid.net/)
 - [@article@OpenID Connect Protocol](https://auth0.com/docs/authenticate/protocols/openid-connect-protocol)
 - [@video@Um guia ilustrado para OAuth e OpenID Connect](https://www.youtube.com/watch?v=t18YB3xDfXI)
 - [@video@OAuth 2.0 e OpenID Connect (em inglês simples)](https://www.youtube.com/watch?v=996OiexHze0)

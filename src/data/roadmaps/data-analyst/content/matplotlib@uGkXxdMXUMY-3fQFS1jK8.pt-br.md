@@ -4,5 +4,5 @@ Matplotlib é uma biblioteca de visualização de dados fundamental usada extens
 
 Saiba mais com os seguintes recursos:
 
-- [@oficial@Matplotlib](https://matplotlib.org/)
+- [@official@Matplotlib](https://matplotlib.org/)
 - [@video@Aprenda Matplotlib em 6 minutos](https://www.youtube.com/watch?v=nzKy9GY12yo)

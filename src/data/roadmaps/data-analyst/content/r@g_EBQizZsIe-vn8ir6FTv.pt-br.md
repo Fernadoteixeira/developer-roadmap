@@ -4,5 +4,5 @@ R é uma linguagem poderosa profundamente usada por analistas de dados e estatí
 
 Saiba mais com os seguintes recursos:
 
-- [@oficial@R Site](https://www.r-project.org/about.html)
+- [@official@R Site](https://www.r-project.org/about.html)
 - [@video@R vs Python | O que é melhor para análise de dados?](https://www.youtube.com/watch?v=1gdKC5O0Pwc)

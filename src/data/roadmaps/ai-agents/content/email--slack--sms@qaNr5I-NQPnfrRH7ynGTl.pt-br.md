@@ -5,4 +5,4 @@ Email, Slack e SMS são canais de mensagens que um agente de IA pode usar para r
 Visite os seguintes recursos para saber mais:
 
 - [@official@Twilio Messaging API](https://www.twilio.com/docs/usage/api)
-- [@oficial@Agentes de IA do Slack](https://slack.com/ai-agents)
+- [@official@Agentes de IA do Slack](https://slack.com/ai-agents)

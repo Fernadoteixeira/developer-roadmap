@@ -5,5 +5,5 @@ Verificadores de tipo são ferramentas que analisam código para detectar e prev
 Visite os seguintes recursos para saber mais:
 
 - [@official@Flow - Verificador de tipo estático para JavaScript](https://flow.org/)
-- [@oficial@TypeScript](https://www.typescriptlang.org/)
+- [@official@TypeScript](https://www.typescriptlang.org/)
 - [@official@Mypy - Verificador de tipo estático para Python](https://mypy.readthedocs.io/en/stable/)

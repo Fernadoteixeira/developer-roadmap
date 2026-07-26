@@ -5,4 +5,4 @@
 Saiba mais com os seguintes recursos:
 
 - [@video@Network Time Protocol (NTP)](https://www.youtube.com/watch?v=BAo5C2qbLq8)
-- [@artigo@O que é NTP?](https://www.pubnub.com/learn/glossary/ntp-protocol/)
+- [@article@O que é NTP?](https://www.pubnub.com/learn/glossary/ntp-protocol/)

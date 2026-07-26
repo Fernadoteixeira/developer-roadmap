@@ -4,5 +4,5 @@ O gerenciamento de endereços IP (IPAM) é um aspecto crítico da segurança cib
 
 Saiba mais com os seguintes recursos:
 
-- [@artigo@O que é IPAM?](https://www.infoblox.com/glossary/ipam-ip-address-management/)
+- [@article@O que é IPAM?](https://www.infoblox.com/glossary/ipam-ip-address-management/)
 - [@article@Gerenciamento de endereço IP](https://learn.microsoft.com/en-us/windows-server/networking/technologies/ipam/ipam-top)

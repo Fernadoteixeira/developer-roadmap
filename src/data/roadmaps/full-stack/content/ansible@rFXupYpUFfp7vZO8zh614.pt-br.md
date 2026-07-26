@@ -4,8 +4,8 @@ Ansible é uma ferramenta de gerenciamento de configuração, implantação de a
 
 Visite os seguintes recursos para saber mais:
 
-- [@oficial@Ansible](https://www.ansible.com/)
-- [@oficial@Documentação Ansible](https://docs.ansible.com/)
+- [@official@Ansible](https://www.ansible.com/)
+- [@official@Documentação Ansible](https://docs.ansible.com/)
 - [@official@Ansible Guia de primeiros passos](https://www.ansible.com/resources/get-started)
 - [@video@Ansible Curso Completo para Iniciantes](https://www.youtube.com/watch?v=9Ua2b06oAr4)
 - [@feed@Explore as principais postagens sobre Ansible](https://app.daily.dev/tags/ansible?ref=roadmapsh)

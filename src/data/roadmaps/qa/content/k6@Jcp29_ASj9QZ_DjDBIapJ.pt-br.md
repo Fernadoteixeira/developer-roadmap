@@ -6,5 +6,5 @@ Usando o k6, você pode testar a confiabilidade e o desempenho de seus sistemas 
 
 Visite os seguintes recursos para saber mais:
 
-- [@oficial@Grafana k6 Site](https://k6.io/)
+- [@official@Grafana k6 Site](https://k6.io/)
 - [@video@Aprenda k6](https://www.youtube.com/playlist?list=PLJ9A48W0kpRJKmVeurt7ltKfrOdr8ZBdt)

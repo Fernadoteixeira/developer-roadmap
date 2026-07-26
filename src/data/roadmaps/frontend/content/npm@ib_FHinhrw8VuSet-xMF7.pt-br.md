@@ -4,8 +4,8 @@ npm (Node Package Manager) é o gerenciador de pacotes padrão para Node.js, for
 
 Visite os seguintes recursos para saber mais:
 
-- [@oficial@NPM Site](https://www.npmjs.com/)
-- [@oficial@documentação NPM](https://docs.npmjs.com/)
+- [@official@NPM Site](https://www.npmjs.com/)
+- [@official@documentação NPM](https://docs.npmjs.com/)
 - [@article@JavaScript moderno para dinossauros](https://peterxjang.com/blog/modern-javascript-explained-for-dinosaurs.html)
 - [@opensource@Como fazer NPM](https://github.com/workshopper/how-to-npm)
 - [@video@NPM Tutorial para iniciantes](https://www.youtube.com/watch?v=2V1UUhBJ62Y)

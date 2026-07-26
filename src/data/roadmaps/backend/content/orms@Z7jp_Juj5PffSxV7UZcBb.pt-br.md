@@ -5,6 +5,6 @@ Mapeamento Objeto-Relacional (ORM) é uma técnica de programação que permite 
 Visite os seguintes recursos para saber mais:
 
 - [@article@O que é um ORM, como funciona e como devo usá-lo?](https://stackoverflow.com/a/1279678)
-- [@artigo@O que é um ORM](https://www.freecodecamp.org/news/what-is-an-orm-the-meaning-of-object-relational-mapping-database-tools/)
+- [@article@O que é um ORM](https://www.freecodecamp.org/news/what-is-an-orm-the-meaning-of-object-relational-mapping-database-tools/)
 - [@video@Por que usar um ORM?](https://www.youtube.com/watch?v=vHt2LC1EM3Q)
 - [@feed@Explore as principais postagens sobre desenvolvimento de back-end](https://app.daily.dev/tags/backend?ref=roadmapsh)

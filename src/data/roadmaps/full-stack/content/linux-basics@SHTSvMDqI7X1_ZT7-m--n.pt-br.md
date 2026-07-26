@@ -8,5 +8,5 @@ Visite os seguintes recursos para saber mais:
 - [@video@Sistema operacional Linux - Curso intensivo](https://www.youtube.com/watch?v=ROjZy1WbCIA)
 - [@curso@Coursera - Cursos Unix](https://www.coursera.org/courses?query=unix)
 - [@article@Linux Básico](https://dev.to/rudrakshi99/linux-basics-2onj)
-- [@artigo@Tutorial Unix/Linux](https://www.tutorialspoint.com/unix/index.htm)
+- [@article@Tutorial Unix/Linux](https://www.tutorialspoint.com/unix/index.htm)
 - [@feed@Explore as principais postagens sobre Linux](https://app.daily.dev/tags/linux?ref=roadmapsh)

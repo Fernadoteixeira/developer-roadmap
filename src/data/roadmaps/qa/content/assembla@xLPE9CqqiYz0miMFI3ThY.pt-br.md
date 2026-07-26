@@ -4,5 +4,5 @@ Assembla é um amplo conjunto de aplicativos para desenvolvimento de software, p
 
 Visite os seguintes recursos para saber mais:
 
-- [@artigo@Assembla](https://get.assembla.com/projects/)
+- [@article@Assembla](https://get.assembla.com/projects/)
 - [@article@O que é Assembla?](https://www.selecthub.com/project-management-software/assembla)

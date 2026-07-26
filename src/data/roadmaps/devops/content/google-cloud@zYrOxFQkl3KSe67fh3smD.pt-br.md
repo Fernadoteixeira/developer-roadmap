@@ -4,7 +4,7 @@ Google Cloud é a oferta de serviços de computação em nuvem do Google, oferec
 
 Visite os seguintes recursos para saber mais:
 
-- [@oficial@Google Cloud](https://cloud.google.com/)
+- [@official@Google Cloud](https://cloud.google.com/)
 - [@video@Google Cloud Platform Curso completo 2023](https://www.youtube.com/watch?v=fZOz13joN0o)
 - [@article@5 dicas para se tornar um arquiteto profissional certificado pelo Google Cloud](https://thenewstack.io/5-tips-to-become-a-google-cloud-certified-professional-architect/)
 - [@feed@Explore as principais postagens sobre nuvem](https://app.daily.dev/tags/cloud?ref=roadmapsh)

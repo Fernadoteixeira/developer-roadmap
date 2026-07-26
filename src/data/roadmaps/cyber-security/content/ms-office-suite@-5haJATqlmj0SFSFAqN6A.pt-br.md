@@ -4,5 +4,5 @@ O **Microsoft Office Suite** é uma coleção de software de produtividade desen
 
 Saiba mais com os seguintes recursos:
 
-- [@oficial@Diretório do Microsoft Office Suite](https://www.microsoft.com/en-gb/microsoft-365/products-apps-services)
+- [@official@Diretório do Microsoft Office Suite](https://www.microsoft.com/en-gb/microsoft-365/products-apps-services)
 - [@video@Cada aplicativo do Office 365 explicado](https://www.youtube.com/watch?v=2W0T2qGZ9Dc)

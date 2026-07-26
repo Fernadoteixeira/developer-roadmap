@@ -6,8 +6,8 @@ Newman é um Collection Runner de linha de comando para Postman. Ele permite que
 
 Visite os seguintes recursos para saber mais:
 
-- [@oficial@Postman](https://www.postman.com)
+- [@official@Postman](https://www.postman.com)
 - [@article@Aprenda Carteiro](https://learning.postman.com/docs/getting-started/introduction/)
 - [@video@Teste de API com Postman](https://www.youtube.com/watch?v=VywxIQ2ZXw4)
-- [@artigo@Newman CLI](https://learning.postman.com/docs/running-collections/using-newman-cli/command-line-integration-with-newman/)
+- [@article@Newman CLI](https://learning.postman.com/docs/running-collections/using-newman-cli/command-line-integration-with-newman/)
 - [@feed@Explore as principais postagens sobre o Postman](https://app.daily.dev/tags/postman?ref=roadmapsh)

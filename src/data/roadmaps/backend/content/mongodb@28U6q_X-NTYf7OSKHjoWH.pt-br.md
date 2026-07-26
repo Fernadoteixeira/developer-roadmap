@@ -5,7 +5,7 @@ MongoDB é um banco de dados NoSQL de código aberto projetado para armazenar e 
 Visite os seguintes recursos para saber mais:
 
 - [@roadmap@Visit Roteiro dedicado do MongoDB](https://roadmap.sh/mongodb)
-- [@oficial@MongoDB Site](https://www.mongodb.com/)
+- [@official@MongoDB Site](https://www.mongodb.com/)
 - [@official@Caminho de aprendizagem para desenvolvedores MongoDB](https://learn.mongodb.com/catalog)
 - [@article@MongoDB Online Sandbox](https://mongoplayground.net/)
 - [@feed@daily.dev Feed MongoDB](https://app.daily.dev/tags/mongodb)

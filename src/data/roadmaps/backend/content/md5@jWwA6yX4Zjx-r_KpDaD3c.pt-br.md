@@ -4,7 +4,7 @@ MD5 (Message-Digest Algorithm 5) é uma função hash criptográfica amplamente 
 
 Visite os seguintes recursos para saber mais:
 
-- [@artigo@Wikipedia - MD5](https://en.wikipedia.org/wiki/MD5)
-- [@artigo@O que é MD5?](https://www.techtarget.com/searchsecurity/definition/MD5)
+- [@article@Wikipedia - MD5](https://en.wikipedia.org/wiki/MD5)
+- [@article@O que é MD5?](https://www.techtarget.com/searchsecurity/definition/MD5)
 - [@article@Por que o MD5 não é seguro?](https://infosecscout.com/why-md5-is-not-safe/)
 - [@video@Como funciona a função hash MD5](https://www.youtube.com/watch?v=5MiMK45gkTY)

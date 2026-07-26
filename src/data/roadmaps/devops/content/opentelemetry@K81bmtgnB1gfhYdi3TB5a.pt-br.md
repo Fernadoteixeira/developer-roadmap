@@ -4,7 +4,7 @@ OpenTelemetry é uma estrutura de observabilidade de código aberto para softwar
 
 Visite os seguintes recursos para saber mais:
 
-- [@oficial@Site OpenTelemetry](https://opentelemetry.io/)
+- [@official@Site OpenTelemetry](https://opentelemetry.io/)
 - [@official@OpenTelemetry Documentação](https://opentelemetry.io/docs/)
 - [@video@O que é OpenTelemetry?](https://www.youtube.com/watch?v=mUA-uzk94ro)
 - [@video@OpenTelemetry Curso - Entenda o desempenho do software](https://www.youtube.com/watch?v=r8UvWSX3KA8)

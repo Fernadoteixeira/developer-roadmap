@@ -4,5 +4,5 @@ Soma é uma das operações mais fundamentais na análise de dados. Como analist
 
 Saiba mais com os seguintes recursos:
 
-- [@artigo@Função SUM](https://support.microsoft.com/en-gb/office/sum-function-043e1c7d-7726-4e80-8f32-07b23e057f89)
+- [@article@Função SUM](https://support.microsoft.com/en-gb/office/sum-function-043e1c7d-7726-4e80-8f32-07b23e057f89)
 - [@video@Como usar a função SUM no Excel](https://www.youtube.com/watch?v=-u-9f3QrdAQ)

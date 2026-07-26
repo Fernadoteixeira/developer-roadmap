@@ -4,4 +4,4 @@ A Certificação GIAC Security Essentials (GSEC) é uma certificação avançada
 
 Saiba mais com os seguintes recursos:
 
-- [@oficial@GSEC Certificação](https://www.giac.org/certifications/security-essentials-gsec/)
+- [@official@GSEC Certificação](https://www.giac.org/certifications/security-essentials-gsec/)

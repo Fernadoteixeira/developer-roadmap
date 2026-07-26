@@ -5,5 +5,5 @@ JavaScript (frequentemente abreviado como JS) é uma linguagem de programação 
 Saiba mais com os seguintes recursos:
 
 - [@roadmap@Visit Roteiro JavaScript Dedicado](https://roadmap.sh/javascript)
-- [@artigo@O que é JavaScript?](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/What_is_JavaScript)
+- [@article@O que é JavaScript?](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/What_is_JavaScript)
 - [@video@100 conceitos de JavaScript que você precisa conhecer](https://www.youtube.com/watch?v=lkIFF4maKMU)

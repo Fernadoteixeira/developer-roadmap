@@ -4,5 +4,5 @@ Compreender os valores mínimos e máximos em seu conjunto de dados é fundament
 
 Saiba mais com os seguintes recursos:
 
-- [@artigo@MIN Função](https://support.microsoft.com/en-gb/office/min-function-61635d12-920f-4ce2-a70f-96f202dcc152)
+- [@article@MIN Função](https://support.microsoft.com/en-gb/office/min-function-61635d12-920f-4ce2-a70f-96f202dcc152)
 - [@article@MAX Função](https://support.microsoft.com/en-gb/office/max-function-e0012414-9ac8-4b34-9a47-73e662c08098)

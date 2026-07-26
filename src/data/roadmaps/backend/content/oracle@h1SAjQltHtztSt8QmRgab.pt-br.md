@@ -4,7 +4,7 @@ Oracle Database é um sistema de gerenciamento de banco de dados relacional (RDB
 
 Visite os seguintes recursos para saber mais:
 
-- [@oficial@Oracle Site](https://www.oracle.com/database/)
-- [@oficial@Oracle Docs](https://docs.oracle.com/en/database/index.html)
+- [@official@Oracle Site](https://www.oracle.com/database/)
+- [@official@Oracle Docs](https://docs.oracle.com/en/database/index.html)
 - [@video@Tutorial Oracle SQL para iniciantes](https://www.youtube.com/watch?v=ObbNGhcxXJA)
 - [@feed@Explore as principais postagens sobre Oracle](https://app.daily.dev/tags/oracle?ref=roadmapsh)

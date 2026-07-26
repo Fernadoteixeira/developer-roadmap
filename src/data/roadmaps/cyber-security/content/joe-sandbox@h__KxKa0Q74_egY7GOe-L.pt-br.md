@@ -4,5 +4,5 @@ Joe Sandbox é uma plataforma avançada de análise de malware que permite aos p
 
 Saiba mais com os seguintes recursos:
 
-- [@oficial@Joe Sandbox](https://www.joesandbox.com/#windows)
+- [@official@Joe Sandbox](https://www.joesandbox.com/#windows)
 - [@video@Sandbox de segurança cibernética para analistas de segurança](https://www.youtube.com/watch?v=FJGmRzY1igY)

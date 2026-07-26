@@ -4,6 +4,6 @@ Relay é uma estrutura JavaScript desenvolvida pelo Facebook para construir apli
 
 Visite os seguintes recursos para saber mais:
 
-- [@oficial@Relay Site](https://relay.dev/)
+- [@official@Relay Site](https://relay.dev/)
 - [@video@ELI5 - Relé](https://www.youtube.com/watch?v=A4POd93GI_I)
 - [@opensource@facebook/relay](https://github.com/facebook/relay)

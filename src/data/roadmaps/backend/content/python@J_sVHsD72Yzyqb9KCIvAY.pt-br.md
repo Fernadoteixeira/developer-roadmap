@@ -5,7 +5,7 @@ Python é uma linguagem de programação interpretada de alto nível, conhecida 
 Visite os seguintes recursos para saber mais:
 
 - [@roadmap@Visit Roteiro Python Dedicado](https://roadmap.sh/python)
-- [@oficial@Site Python](https://www.python.org/)
+- [@official@Site Python](https://www.python.org/)
 - [@article@Automate as coisas chatas](https://automatetheboringstuff.com/)
 - [@course@Python Curso Completo Gratuito](https://www.youtube.com/watch?v=ix9cRaBkVe0)
 - [@article@Uma introdução ao Python para não programadores](https://thenewstack.io/an-introduction-to-python-for-non-programmers/)

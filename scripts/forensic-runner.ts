@@ -320,6 +320,7 @@ for (const entry of selectedFiles) {
       (match, url) => `](${tokenize(url)})`,
     );
     protectedContent = protectedContent.replace(/!\[.*?\]\(.*?\)/g, tokenize);
+    protectedContent = protectedContent.replace(/@[a-zA-Z0-9_-]+@/g, tokenize);
 
     const protectedHash = hashString(protectedContent);
     const tmpSource = `${sourcePath}.tmp.source.md`;

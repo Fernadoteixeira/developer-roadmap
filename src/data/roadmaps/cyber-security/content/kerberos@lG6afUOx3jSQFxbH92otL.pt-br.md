@@ -5,4 +5,4 @@ Kerberos é um protocolo de autenticação de rede projetado para fornecer auten
 Saiba mais com os seguintes recursos:
 
 - [@video@Kerberos Autenticação Explicada](https://www.youtube.com/watch?v=5N242XcKAsM)
-- [@artigo@O que é Kerberos?](https://www.fortinet.com/resources/cyberglossary/kerberos-authentication)
+- [@article@O que é Kerberos?](https://www.fortinet.com/resources/cyberglossary/kerberos-authentication)

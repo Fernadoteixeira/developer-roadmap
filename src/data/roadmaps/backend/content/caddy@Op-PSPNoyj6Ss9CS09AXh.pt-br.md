@@ -4,6 +4,6 @@ Caddy é um servidor web moderno e de código aberto escrito em Go. É conhecido
 
 Visite os seguintes recursos para saber mais:
 
-- [@oficial@Caddy Server](https://caddyserver.com/)
+- [@official@Caddy Server](https://caddyserver.com/)
 - [@opensource@caddyserver/caddy - Caddy no GitHub](https://github.com/caddyserver/caddy)
 - [@video@Como fazer um site simples do Caddy 2](https://www.youtube.com/watch?v=WgUV_BlHvj0)

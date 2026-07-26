@@ -5,5 +5,5 @@ Smol Depot é um kit de código aberto que permite agrupar todas as partes de um
 Visite os seguintes recursos para saber mais:
 
 - [@official@smol.ai - Plataforma de ajuste fino contínuo para engenheiros de IA](https://smol.candycode.dev/)
-- [@artigo@Tutorial Smol AI de 5 minutos](https://www.ai-jason.com/learning-ai/smol-ai-tutorial)
+- [@article@Tutorial Smol AI de 5 minutos](https://www.ai-jason.com/learning-ai/smol-ai-tutorial)
 - [@video@Smol AI Curso Completo para Iniciantes](https://www.youtube.com/watch?v=d7qFVrpLh34)

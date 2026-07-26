@@ -4,6 +4,6 @@ Azure é a plataforma abrangente de computação em nuvem da Microsoft que ofere
 
 Saiba mais com os seguintes recursos:
 
-- [@oficial@Azure](https://azure.microsoft.com)
+- [@official@Azure](https://azure.microsoft.com)
 - [@video@Azure DevOps Tutorial para iniciantes](https://www.youtube.com/watch?v=4BibQ69MD8c)
 - [@feed@daily.dev Feed do Azure](https://app.daily.dev/tags/azure)

@@ -5,6 +5,6 @@ Caminhos hamiltonianos são caminhos que visitam cada nó de um grafo exatamente
 Visite os seguintes recursos para saber mais:
 
 - [@article@Ciclos Hamiltonianos](https://en.wikipedia.org/wiki/Hamiltonian_cycle)
-- [@artigo@Caminho Hamiltoniano](https://www.hackerearth.com/practice/algorithms/graphs/hamiltonian-path/tutorial/)
+- [@article@Caminho Hamiltoniano](https://www.hackerearth.com/practice/algorithms/graphs/hamiltonian-path/tutorial/)
 - [@article@Caminhos e Ciclos Hamiltonianos](https://medium.com/stamatics-iit-kanpur/hamiltonian-paths-and-cycles-4f233bfbc53a)
 - [@article@Caminhos Hamiltonianos - Aula 7](https://people.csail.mit.edu/virgi/6.s078/lecture17.pdf)

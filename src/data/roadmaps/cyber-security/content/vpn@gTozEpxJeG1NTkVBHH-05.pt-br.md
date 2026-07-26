@@ -4,6 +4,6 @@ Uma Rede Privada Virtual (VPN) é um método de conexão seguro usado para esten
 
 Visite os seguintes recursos para saber mais:
 
-- [@artigo@O que é uma VPN?](https://azure.microsoft.com/en-us/resources/cloud-computing-dictionary/what-is-vpn)
+- [@article@O que é uma VPN?](https://azure.microsoft.com/en-us/resources/cloud-computing-dictionary/what-is-vpn)
 - [@video@VPN (rede privada virtual) explicada](https://www.youtube.com/watch?v=R-JUOpCgTZc)
 - [@video@Redes Privadas Virtuais - Professor Messer](https://www.youtube.com/watch?v=YFyt8aY8PfI)

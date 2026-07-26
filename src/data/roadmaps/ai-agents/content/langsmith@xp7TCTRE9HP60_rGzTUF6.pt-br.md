@@ -4,7 +4,7 @@ LangSmith é uma ferramenta que ajuda você a ver como seus agentes de IA funcio
 
 Visite os seguintes recursos para saber mais:
 
-- [@oficial@LangSmith](https://smith.langchain.com/)
+- [@official@LangSmith](https://smith.langchain.com/)
 - [@official@LangSmith Documentação](https://docs.smith.langchain.com/)
 - [@official@Proteja seu aplicativo com avaliação LangSmith](https://www.langchain.com/evaluation)
 - [@article@O que é LangSmith e por que devo me importar como desenvolvedor?](https://medium.com/around-the-prompt/what-is-langsmith-and-why-should-i-care-as-a-developer-e5921deb54b5)

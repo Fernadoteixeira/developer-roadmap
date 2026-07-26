@@ -4,7 +4,7 @@ O Elastic Stack, anteriormente conhecido como ELK Stack, é um conjunto de ferra
 
 Visite os seguintes recursos para saber mais:
 
-- [@oficial@Pilha Elástica](https://www.elastic.co/elastic-stack/)
+- [@official@Pilha Elástica](https://www.elastic.co/elastic-stack/)
 - [@article@Logstash vs Fluentd](https://logz.io/blog/fluentd-logstash/)
 - [@video@Domine o Elastic Stack: visão geral do Elastic Stack](https://www.youtube.com/watch?v=CfCTWVAwFbQ)
 - [@feed@Explore as principais postagens sobre ELK](https://app.daily.dev/tags/elk?ref=roadmapsh)

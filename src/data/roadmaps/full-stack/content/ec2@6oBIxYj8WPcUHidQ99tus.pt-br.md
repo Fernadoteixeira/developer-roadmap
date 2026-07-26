@@ -4,7 +4,7 @@ Amazon Elastic Compute Cloud (EC2) é um serviço web que fornece capacidade com
 
 Visite os seguintes recursos para saber mais:
 
-- [@oficial@Amazon AWS EC2](https://aws.amazon.com/ec2/)
+- [@official@Amazon AWS EC2](https://aws.amazon.com/ec2/)
 - [@video@Deploy Node App no AWS EC2](https://youtu.be/oHAQ3TzUTro)
 - [@article@Em funcionamento com AWS EC2](https://cs.fyi/guide/up-and-running-with-aws-ec2)
 - [@article@EC2 Essentials](https://cloudcasts.io/course/ec2-essentials)

@@ -4,6 +4,6 @@ ETL (Extrair, Transformar, Carregar) é um processo chave no armazenamento de da
 
 Visite os seguintes recursos para saber mais:
 
-- [@artigo@O que é ETL?](https://www.snowflake.com/guides/what-etl)
+- [@article@O que é ETL?](https://www.snowflake.com/guides/what-etl)
 - [@video@ETL explicado](https://www.youtube.com/watch?v=OW5OgsLpDCQ)
 - [@feed@Explore as principais postagens sobre ETL](https://app.daily.dev/tags/etl?ref=roadmapsh)

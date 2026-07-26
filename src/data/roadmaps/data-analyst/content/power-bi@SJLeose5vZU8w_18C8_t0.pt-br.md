@@ -4,5 +4,5 @@ PowerBI, uma ferramenta interativa de visualização de dados e análise de neg�
 
 Saiba mais com os seguintes recursos:
 
-- [@oficial@Power BI](https://www.microsoft.com/en-us/power-platform/products/power-bi)
+- [@official@Power BI](https://www.microsoft.com/en-us/power-platform/products/power-bi)
 - [@video@Power BI para iniciantes](https://www.youtube.com/watch?v=NNSHu0rkew8)

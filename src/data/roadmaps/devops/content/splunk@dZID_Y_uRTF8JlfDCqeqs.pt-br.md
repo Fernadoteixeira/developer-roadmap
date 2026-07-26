@@ -4,8 +4,8 @@ Splunk é uma plataforma poderosa para pesquisar, monitorar e analisar dados ger
 
 Visite os seguintes recursos para saber mais:
 
-- [@oficial@Site Splunk](https://www.splunk.com/)
-- [@oficial@Documentação do Splunk](https://docs.splunk.com/Documentation)
-- [@oficial@Splunk Vídeos](https://www.splunk.com/en_us/resources/videos.html)
+- [@official@Site Splunk](https://www.splunk.com/)
+- [@official@Documentação do Splunk](https://docs.splunk.com/Documentation)
+- [@official@Splunk Vídeos](https://www.splunk.com/en_us/resources/videos.html)
 - [@video@Splunk Tutorial para iniciantes](https://www.youtube.com/watch?v=3CiRs6WaWaU)
 - [@feed@Explore as principais postagens sobre registro](https://app.daily.dev/tags/logging?ref=roadmapsh)

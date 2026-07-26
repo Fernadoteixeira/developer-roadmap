@@ -4,6 +4,6 @@ VuePress é um gerador de sites estáticos desenvolvido em Vue.js, projetado pri
 
 Visite os seguintes recursos para saber mais:
 
-- [@oficial@Vuepress](https://vuepress.vuejs.org/)
+- [@official@Vuepress](https://vuepress.vuejs.org/)
 - [@video@O que é VuePress?](https://www.youtube.com/watch?v=iRhRdY7SQJg)
 - [@feed@Explore as principais postagens sobre Vue.js](https://app.daily.dev/tags/vuejs?ref=roadmapsh)

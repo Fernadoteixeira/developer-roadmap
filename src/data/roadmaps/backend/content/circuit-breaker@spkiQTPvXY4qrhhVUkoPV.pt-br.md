@@ -4,6 +4,6 @@ O padrão de projeto do disjuntor é uma forma de proteger um sistema contra fal
 
 Visite os seguintes recursos para saber mais:
 
-- [@artigo@Disjuntor - AWS Well-Architected Framework](https://docs.aws.amazon.com/wellarchitected/latest/reliability-pillar/rel_mitigate_interaction_failure_graceful_degradation.html)
+- [@article@Disjuntor - AWS Well-Architected Framework](https://docs.aws.amazon.com/wellarchitected/latest/reliability-pillar/rel_mitigate_interaction_failure_graceful_degradation.html)
 - [@article@O padrão do disjuntor](https://aerospike.com/blog/circuit-breaker-pattern/)
 - [@video@De volta ao básico: estabilidade estática usando um padrão de disjuntor](https://www.youtube.com/watch?v=gy1RITZ7N7s)

@@ -4,6 +4,6 @@ Cloudflare é uma empresa de internet que fornece uma gama de serviços para aju
 
 Visite os seguintes recursos para saber mais:
 
-- [@oficial@Cloudflare](https://cloudflare.com/)
+- [@official@Cloudflare](https://cloudflare.com/)
 - [@video@Introdução ao Cloudflare](https://www.youtube.com/watch?v=24cml1rKGBs)
 - [@feed@Explore as principais postagens sobre Cloudflare](https://app.daily.dev/tags/cloudflare?ref=roadmapsh)

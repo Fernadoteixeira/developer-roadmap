@@ -5,6 +5,6 @@ O cliente MCP é a parte de um agente de IA que se comunica com a API do modelo 
 Visite os seguintes recursos para saber mais:
 
 - [@opensource@Model Context Protocol](https://github.com/modelcontextprotocol/modelcontextprotocol)
-- [@oficial@Protocolo de contexto do modelo](https://modelcontextprotocol.io/introduction)
+- [@official@Protocolo de contexto do modelo](https://modelcontextprotocol.io/introduction)
 - [@official@Referência da API OpenAI](https://platform.openai.com/docs/api-reference)
 - [@official@Anthropic API Documentação](https://docs.anthropic.com/claude/reference)

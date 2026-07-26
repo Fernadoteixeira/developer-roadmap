@@ -5,9 +5,9 @@ Redis é um armazenamento de estrutura de dados na memória de código aberto (l
 Visite os seguintes recursos para saber mais:
 
 - [@roadmap@Visit Roteiro Redis Dedicado](https://roadmap.sh/redis)
-- [@oficial@Redis Site](https://redis.io/)
+- [@official@Redis Site](https://redis.io/)
 - [@documentação@Redis](https://redis.io/docs/latest/)
-- [@oficial@Redis University](https://university.redis.io/academy)
+- [@official@Redis University](https://university.redis.io/academy)
 - [@video@Redis em 100 segundos](https://www.youtube.com/watch?v=G1rOthIU-uo)
 - [@video@Redis Cache em Node.js](https://www.youtube.com/watch?v=oaJq1mQ3dFI)
 - [@feed@Explore as principais postagens sobre Redis](https://app.daily.dev/tags/redis?ref=roadmapsh)

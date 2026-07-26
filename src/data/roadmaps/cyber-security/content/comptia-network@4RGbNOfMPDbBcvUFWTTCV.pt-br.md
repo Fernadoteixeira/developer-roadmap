@@ -4,5 +4,5 @@ A CompTIA Network+ é uma certificação muito procurada por profissionais de TI
 
 Saiba mais com os seguintes recursos:
 
-- [@oficial@CompTIA Network+](https://www.comptia.org/certifications/network)
+- [@official@CompTIA Network+](https://www.comptia.org/certifications/network)
 - [@video@CompTIA Network+ Curso](https://www.youtube.com/watch?v=xmpYfyNmWbw)

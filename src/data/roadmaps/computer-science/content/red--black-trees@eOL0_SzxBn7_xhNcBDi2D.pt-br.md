@@ -8,7 +8,7 @@ Na prática: as árvores rubro-negras oferecem garantias de pior caso para tempo
 
 Visite os seguintes recursos para saber mais:
 
-- [@artigo@Árvore Vermelho-Preto - Wikipedia](https://en.wikipedia.org/wiki/Red%E2%80%93black_tree)
+- [@article@Árvore Vermelho-Preto - Wikipedia](https://en.wikipedia.org/wiki/Red%E2%80%93black_tree)
 - [@article@Uma introdução à pesquisa binária e à árvore vermelha e preta](https://www.topcoder.com/thrive/articles/An%20Introduction%20to%20Binary%20Search%20and%20Red-Black%20Trees)
 - [@video@Red-Black Trees (playlist) em 30 minutos](https://www.youtube.com/playlist?list=PL9xmBV_5YoZNqDI8qfOZgzbqahCUmUEin)
 - [@video@Aduni - Algoritmos - Aula 4 (o link salta para o ponto inicial)](https://youtu.be/1W3x0f_RmUo?list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&t=3871)

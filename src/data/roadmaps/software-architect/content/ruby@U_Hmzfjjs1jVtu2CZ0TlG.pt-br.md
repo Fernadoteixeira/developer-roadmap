@@ -4,6 +4,6 @@ Ruby é uma linguagem de programação interpretada de alto nível que combina P
 
 Visite os seguintes recursos para saber mais:
 
-- [@oficial@Ruby](https://www.ruby-lang.org/en/)
+- [@official@Ruby](https://www.ruby-lang.org/en/)
 - [@official@Aprenda Ruby em 20 minutos](https://www.ruby-lang.org/en/documentation/quickstart/)
 - [@feed@Explore as principais postagens sobre Ruby](https://app.daily.dev/tags/ruby?ref=roadmapsh)

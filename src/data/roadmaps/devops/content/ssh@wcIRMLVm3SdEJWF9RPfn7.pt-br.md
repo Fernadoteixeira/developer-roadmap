@@ -5,7 +5,7 @@ SSH (Secure Shell) é um protocolo de rede criptográfico usado para acessar e g
 Visite os seguintes recursos para saber mais:
 
 - [@article@SSH Introdução](https://www.baeldung.com/cs/ssh-intro)
-- [@oficial@O que é SSH?](https://www.ssh.com/academy/ssh/protocol)
-- [@artigo@SFTP usando SSH](https://www.goanywhere.com/blog/how-sftp-works)
+- [@official@O que é SSH?](https://www.ssh.com/academy/ssh/protocol)
+- [@article@SFTP usando SSH](https://www.goanywhere.com/blog/how-sftp-works)
 - [@video@Como funciona o SSH](https://www.youtube.com/watch?v=5JvLV2-ngCI)
 - [@feed@Explore as principais postagens sobre SSH](https://app.daily.dev/tags/ssh?ref=roadmapsh)

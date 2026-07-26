@@ -4,6 +4,6 @@ Ao usar um modelo de linguagem grande, você geralmente paga pela quantidade de 
 
 Visite os seguintes recursos para saber mais:
 
-- [@oficial@OpenAI Preço](https://openai.com/api/pricing/)
+- [@official@OpenAI Preço](https://openai.com/api/pricing/)
 - [@article@Executive Guide para preços de agentes de IA](https://www.forbes.com/councils/forbesbusinesscouncil/2025/01/28/executive-guide-to-ai-agent-pricing-winning-strategies-and-models-to-drive-growth/)
 - [@article@AI Preços: Quanto custa a inteligência artificial em 2025?](https://www.internetsearchinc.com/ai-pricing-how-much-does-artificial-intelligence-cost/)

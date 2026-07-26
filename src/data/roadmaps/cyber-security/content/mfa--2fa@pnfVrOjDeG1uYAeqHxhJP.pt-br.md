@@ -5,4 +5,4 @@
 Saiba mais com os seguintes recursos:
 
 - [@article@O que é MFA?](https://www.onelogin.com/learn/what-is-mfa)
-- [@artigo@O que é 2FA?](https://www.microsoft.com/en-gb/security/business/security-101/what-is-two-factor-authentication-2fa)
+- [@article@O que é 2FA?](https://www.microsoft.com/en-gb/security/business/security-101/what-is-two-factor-authentication-2fa)

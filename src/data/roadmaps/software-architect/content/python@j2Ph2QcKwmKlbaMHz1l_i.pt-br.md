@@ -5,7 +5,7 @@ Python √© uma linguagem multiparadigma. Por ser uma linguagem interpretada, o c√
 Visite os seguintes recursos para saber mais:
 
 - [@roadmap@Visit Roteiro Python Dedicado](https://roadmap.sh/python)
-- [@oficial@Site Python](https://www.python.org/)
+- [@official@Site Python](https://www.python.org/)
 - [@official@Python Primeiros passos](https://www.python.org/about/gettingstarted/)
 - [@article@Automate as coisas chatas](https://automatetheboringstuff.com/)
 - [@article@W3Schools - Tutorial Python](https://www.w3schools.com/python/)

@@ -4,5 +4,5 @@ Uma infraestrutura de chave pública (PKI) é um conjunto de funções, polític
 
 Visite os seguintes recursos para saber mais:
 
-- [@artigo@PKI - Wikipédia](https://en.wikipedia.org/wiki/Public_key_infrastructure)
+- [@article@PKI - Wikipédia](https://en.wikipedia.org/wiki/Public_key_infrastructure)
 - [@article@PKI - DoD Cyber Exchange](https://public.cyber.mil/pki-pke/)

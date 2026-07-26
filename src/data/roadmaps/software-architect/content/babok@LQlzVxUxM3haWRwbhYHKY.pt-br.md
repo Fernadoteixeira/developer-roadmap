@@ -4,5 +4,5 @@ O guia para o Corpo de Conhecimento de Análise de Negócios (Guia BABOK) é um 
 
 Visite os seguintes recursos para saber mais:
 
-- [@oficial@Babok](https://www.iiba.org/career-resources/a-business-analysis-professionals-foundation-for-success/babok/)
-- [@artigo@Wikipedia](https://en.wikipedia.org/wiki/A_Guide_to_the_Business_Analysis_Body_of_Knowledge)
+- [@official@Babok](https://www.iiba.org/career-resources/a-business-analysis-professionals-foundation-for-success/babok/)
+- [@article@Wikipedia](https://en.wikipedia.org/wiki/A_Guide_to_the_Business_Analysis_Body_of_Knowledge)

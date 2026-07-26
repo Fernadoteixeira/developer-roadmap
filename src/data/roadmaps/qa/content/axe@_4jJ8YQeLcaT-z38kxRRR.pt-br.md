@@ -4,5 +4,5 @@ Axe é uma ferramenta de teste de acessibilidade rápida e leve que verifica tod
 
 Visite os seguintes recursos para saber mais:
 
-- [@oficial@Axe Site](https://www.deque.com/axe/)
+- [@official@Axe Site](https://www.deque.com/axe/)
 - [@article@Teste de acessibilidade usando a biblioteca axe-core](https://www.browserstack.com/docs/automate/selenium/accessibility-testing)

@@ -4,4 +4,4 @@ No mundo digitalizado moderno, Big Data refere-se a conjuntos de dados extremame
 
 Saiba mais com os seguintes recursos:
 
-- [@artigo@Análise de Big Data](https://www.ibm.com/think/topics/big-data-analytics)
+- [@article@Análise de Big Data](https://www.ibm.com/think/topics/big-data-analytics)

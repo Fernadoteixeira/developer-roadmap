@@ -4,6 +4,6 @@ Detox é uma estrutura de teste móvel JavaScript integrada ao aplicativo e a ex
 
 Visite os seguintes recursos para saber mais:
 
-- [@oficial@Detox](https://wix.github.io/Detox/)
+- [@official@Detox](https://wix.github.io/Detox/)
 - [@official@Introdução ao Detox](https://wix.github.io/Detox/docs/introduction/getting-started)
 - [@article@Ferramentas de automação de testes: Detox](https://www.spritecloud.com/test-automation-tools-detox/)

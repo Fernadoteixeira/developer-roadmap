@@ -4,6 +4,6 @@ New Relic é uma plataforma de observabilidade baseada em nuvem que fornece visi
 
 Visite os seguintes recursos para saber mais:
 
-- [@oficial@Nova Relíquia](https://newrelic.com/)
+- [@official@Nova Relíquia](https://newrelic.com/)
 - [@video@Demonstração da plataforma New Relic](https://www.youtube.com/watch?v=8kx7nRGVJRg)
 - [@feed@Explore as principais postagens sobre DevOps](https://app.daily.dev/tags/devops?ref=roadmapsh)

@@ -4,5 +4,5 @@ SFTP (SSH File Transfer Protocol) é um protocolo seguro de transferência de ar
 
 Saiba mais com os seguintes recursos:
 
-- [@artigo@O que é SFTP?](https://www.precisely.com/glossary/sftp)
+- [@article@O que é SFTP?](https://www.precisely.com/glossary/sftp)
 - [@video@Como usar comandos SFTP para copiar arquivos de/para um servidor](https://www.youtube.com/watch?v=22lBJIfO9qQ&t=4s)

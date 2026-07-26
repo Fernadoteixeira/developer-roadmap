@@ -4,7 +4,7 @@ Linkerd é uma malha de serviço de código aberto projetada para ser implantada
 
 Visite os seguintes recursos para saber mais:
 
-- [@oficial@Linkerd Site](https://linkerd.io/)
+- [@official@Linkerd Site](https://linkerd.io/)
 - [@article@O que é Linkerd?](https://www.techtarget.com/searchitoperations/definition/Linkerd)
 - [@video@O que é a malha de serviço Linkerd?](https://www.youtube.com/watch?v=up3fKwXdEgc)
 - [@feed@Explore as principais postagens sobre infraestrutura](https://app.daily.dev/tags/infrastructure?ref=roadmapsh)

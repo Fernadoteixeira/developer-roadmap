@@ -4,8 +4,8 @@ Ubuntu e Debian são distribuições Linux populares, com o Debian servindo como
 
 Visite os seguintes recursos para saber mais:
 
-- [@oficial@Site Debian](https://www.debian.org/)
-- [@oficial@Ubuntu Site](https://ubuntu.com/)
+- [@official@Site Debian](https://www.debian.org/)
+- [@official@Ubuntu Site](https://ubuntu.com/)
 - [@video@Como usar o Ubuntu](https://www.youtube.com/watch?v=lmeDvSgN6zY)
 - [@video@Tutorial Debian 12 para iniciantes](https://www.youtube.com/watch?v=zOZEkzwhThc)
 - [@feed@Explore as principais postagens sobre o Ubuntu](https://app.daily.dev/tags/ubuntu?ref=roadmapsh)

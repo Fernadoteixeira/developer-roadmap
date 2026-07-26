@@ -4,5 +4,5 @@ Wave é um conjunto de ferramentas de avaliação que ajuda os autores a tornar 
 
 Visite os seguintes recursos para saber mais:
 
-- [@oficial@Wave](https://wave.webaim.org/)
+- [@official@Wave](https://wave.webaim.org/)
 - [@article@WAVE Tutorial da ferramenta de teste de acessibilidade](https://www.softwaretestinghelp.com/web-accessibility-testing-tools/)

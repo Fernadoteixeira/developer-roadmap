@@ -6,12 +6,12 @@ Outras ferramentas atendem a necessidades mais específicas. **Statuspage** conc
 
 Visite os seguintes recursos para saber mais:
 
-- [@oficial@Jira Service Desk](https://www.atlassian.com/software/jira/service-management/features/service-desk)
-- [@oficial@Jira Core](https://www.atlassian.com/software/jira/work-management)
-- [@oficial@Confluence](https://www.atlassian.com/wac/software/confluence?)
-- [@oficial@Bitbucket](https://bitbucket.org/product/)
+- [@official@Jira Service Desk](https://www.atlassian.com/software/jira/service-management/features/service-desk)
+- [@official@Jira Core](https://www.atlassian.com/software/jira/work-management)
+- [@official@Confluence](https://www.atlassian.com/wac/software/confluence?)
+- [@official@Bitbucket](https://bitbucket.org/product/)
 - [@official@Statuspage](https://www.atlassian.com/software/statuspage)
-- [@oficial@Opsgenie](https://www.atlassian.com/software/opsgenie)
+- [@official@Opsgenie](https://www.atlassian.com/software/opsgenie)
 - [@official@Roteiros avançados para Jira](https://www.atlassian.com/software/jira/features/roadmaps)
-- [@oficial@Jira Align](https://www.atlassian.com/software/jira/align)
+- [@official@Jira Align](https://www.atlassian.com/software/jira/align)
 - [@feed@Explore as principais postagens sobre a Atlassian](https://app.daily.dev/tags/atlassian?ref=roadmapsh)

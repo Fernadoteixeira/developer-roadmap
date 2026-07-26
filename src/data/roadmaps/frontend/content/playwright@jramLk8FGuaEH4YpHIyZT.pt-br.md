@@ -4,6 +4,6 @@ Playwright é uma estrutura de automação de código aberto desenvolvida pela M
 
 Visite os seguintes recursos para saber mais:
 
-- [@oficial@site do dramaturgo](https://playwright.dev/)
+- [@official@site do dramaturgo](https://playwright.dev/)
 - [@video@Comece com testes completos: Playwright](https://www.youtube.com/playlist?list=PLQ6Buerc008ed-F9OksF7ek37wR3y916p)
 - [@article@Playwright, uma estrutura de testes ponta a ponta que economiza tempo](https://thenewstack.io/playwright-a-time-saving-end-to-end-testing-framework/)

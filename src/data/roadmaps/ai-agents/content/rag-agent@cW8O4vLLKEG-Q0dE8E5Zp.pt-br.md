@@ -4,5 +4,5 @@ Um agente RAG (Retrieval-Augmented Generation) mistura pesquisa com geração de
 
 Visite os seguintes recursos para saber mais:
 
-- [@artigo@O que é RAG? - Explicação da IA de geração aumentada de recuperação](https://aws.amazon.com/what-is/retrieval-augmented-generation/)
+- [@article@O que é RAG? - Explicação da IA de geração aumentada de recuperação](https://aws.amazon.com/what-is/retrieval-augmented-generation/)
 - [@article@O que é geração aumentada de recuperação, também conhecida como RAG?](https://blogs.nvidia.com/blog/what-is-retrieval-augmented-generation/)

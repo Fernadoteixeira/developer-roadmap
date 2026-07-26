@@ -4,7 +4,7 @@ GitLab CI é uma plataforma integrada de integração e entrega contínua dentro
 
 Visite os seguintes recursos para saber mais:
 
-- [@oficial@GitLab Site](https://gitlab.com/)
+- [@official@GitLab Site](https://gitlab.com/)
 - [@official@Documentação do GitLab](https://docs.gitlab.com/)
 - [@video@GitLab Tutorial de pipeline de CI/CD para iniciantes (2024)](https://www.youtube.com/watch?v=z7nLsJvEyMY)
 - [@feed@Explore as principais postagens sobre o GitLab](https://app.daily.dev/tags/gitlab?ref=roadmapsh)

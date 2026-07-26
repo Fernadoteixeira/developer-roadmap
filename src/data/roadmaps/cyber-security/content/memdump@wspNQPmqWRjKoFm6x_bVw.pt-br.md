@@ -4,5 +4,5 @@
 
 Saiba mais com os seguintes recursos:
 
-- [@oficial@memdump](https://www.kali.org/tools/memdump/)
+- [@official@memdump](https://www.kali.org/tools/memdump/)
 - [@opensource@memdump - Github](https://github.com/tchebb/memdump)

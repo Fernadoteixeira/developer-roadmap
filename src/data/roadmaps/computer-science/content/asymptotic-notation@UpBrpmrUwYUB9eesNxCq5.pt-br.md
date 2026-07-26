@@ -14,4 +14,4 @@ Visite os seguintes recursos para saber mais:
 - [@video@Notação Assintótica - CS50](https://www.youtube.com/watch?v=iOq5kSKqeR4)
 - [@video@CS 61B Aula 19: Análise Assintótica](https://archive.org/details/ucberkeley_webcast_VIS4YDpuP98)
 - [@article@Big-O Cheat Sheet](https://www.bigocheatsheet.com/)
-- [@artigo@Notação Big O | Wiki brilhante de matemática e ciências](https://brilliant.org/wiki/big-o-notation/)
+- [@article@Notação Big O | Wiki brilhante de matemática e ciências](https://brilliant.org/wiki/big-o-notation/)

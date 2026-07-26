@@ -4,4 +4,4 @@ O Google Workspace, anteriormente conhecido como G Suite, é uma coleção de fe
 
 Saiba mais com os seguintes recursos:
 
-- [@oficial@Google Workspace](https://workspace.google.com/intl/en_uk/)
+- [@official@Google Workspace](https://workspace.google.com/intl/en_uk/)

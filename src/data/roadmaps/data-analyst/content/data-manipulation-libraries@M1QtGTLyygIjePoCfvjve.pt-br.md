@@ -4,6 +4,6 @@ Bibliotecas de manipulação de dados são ferramentas essenciais em ciência e 
 
 Saiba mais com os seguintes recursos:
 
-- [@artigo@Pandas](https://pandas.pydata.org/)
-- [@artigo@NumPy](https://numpy.org/)
+- [@article@Pandas](https://pandas.pydata.org/)
+- [@article@NumPy](https://numpy.org/)
 - [@article@Principais bibliotecas Python para ciência de dados](https://www.simplilearn.com/top-python-libraries-for-data-science-article)

@@ -4,5 +4,5 @@ No domínio da análise de dados, a limpeza de dados é um processo preliminar c
 
 Saiba mais com os seguintes recursos:
 
-- [@oficial@Pandas](https://pandas.pydata.org/)
+- [@official@Pandas](https://pandas.pydata.org/)
 - [@video@NumPy vs Pandas](https://www.youtube.com/watch?v=KHoEbRH46Zk)

@@ -5,5 +5,5 @@ Git e o terminal são ferramentas essenciais para agentes e desenvolvedores de I
 Visite os seguintes recursos para saber mais:
 
 - [@official@Git Basics](https://git-scm.com/doc)
-- [@oficial@Introdução ao Terminal](https://ubuntu.com/tutorials/command-line-for-beginners#1-overview)
+- [@official@Introdução ao Terminal](https://ubuntu.com/tutorials/command-line-for-beginners#1-overview)
 - [@video@Curso intensivo de noções básicas de Git e Terminal (YouTube)](https://www.youtube.com/watch?v=HVsySz-h9r4)

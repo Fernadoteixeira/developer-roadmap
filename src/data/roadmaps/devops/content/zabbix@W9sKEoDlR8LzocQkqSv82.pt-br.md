@@ -4,6 +4,6 @@ Zabbix é uma solução de monitoramento de código aberto projetada para monito
 
 Visite os seguintes recursos para saber mais:
 
-- [@oficial@Zabbix Site](https://www.zabbix.com/)
+- [@official@Zabbix Site](https://www.zabbix.com/)
 - [@official@Documentação Zabbix](https://www.zabbix.com/manuals)
 - [@video@Como monitorar TUDO no seu HomeLab gratuitamente - Visão geral do Zabbix](https://www.youtube.com/watch?v=R_EQzBkz4sE)

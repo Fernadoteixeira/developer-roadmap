@@ -4,5 +4,5 @@ Por meio de sua plataforma baseada em SaaS, o PagerDuty capacita desenvolvedores
 
 Visite os seguintes recursos para saber mais:
 
-- [@oficial@PagerDuty Site](https://www.pagerduty.com/)
+- [@official@PagerDuty Site](https://www.pagerduty.com/)
 - [@article@Aprenda PagerDuty](https://university.pagerduty.com/)

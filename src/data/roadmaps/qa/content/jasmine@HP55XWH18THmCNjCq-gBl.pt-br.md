@@ -4,6 +4,6 @@ Jasmine é uma estrutura JavaScript BDD (desenvolvimento orientado a comportamen
 
 Visite os seguintes recursos para saber mais:
 
-- [@oficial@Jasmines](https://jasmine.github.io/)
+- [@official@Jasmines](https://jasmine.github.io/)
 - [@article@Exemplo fácil e prático de teste angular com Jasmine](https://semaphoreci.com/community/tutorials/testing-components-in-angular-2-with-jasmine)
 - [@article@Começando com Jasmine do zero](https://www.testim.io/blog/jasmine-js-a-from-scratch-tutorial-to-start-testing)

@@ -6,5 +6,5 @@ Para priorizar o que explorar, recursos estruturados como o Technology Radar da 
 
 Visite os seguintes recursos para saber mais:
 
-- [@artigo@Como codificar](https://www.thoughtworks.com/insights/blog/how-to-code)
+- [@article@Como codificar](https://www.thoughtworks.com/insights/blog/how-to-code)
 - [@article@Radar de tecnologia](https://www.thoughtworks.com/radar)

@@ -4,7 +4,7 @@ LangFuse é uma ferramenta gratuita e de código aberto que permite observar e d
 
 Visite os seguintes recursos para saber mais:
 
-- [@oficial@LangFuse](https://langfuse.com/)
+- [@official@LangFuse](https://langfuse.com/)
 - [@official@LangFuse Documentação](https://langfuse.com/docs)
 - [@opensource@langfuse/langfuse](https://github.com/langfuse/langfuse)
 - [@article@Langfuse: Plataforma de engenharia LLM de código aberto](https://www.ycombinator.com/companies/langfuse)
