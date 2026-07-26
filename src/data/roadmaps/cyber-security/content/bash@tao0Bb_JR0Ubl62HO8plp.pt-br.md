@@ -7,4 +7,4 @@ Saiba mais com os seguintes recursos:
 - [@official@Bash](https://www.gnu.org/software/bash/)
 - [@video@Bash em 100 segundos](https://www.youtube.com/watch?v=I4EWvMFj37g)
 - [@course@Guia para iniciantes do terminal Bash](https://www.youtube.com/watch?v=oxuRxtrO2Ag)
-- [@curso@Comece a aprender](https://linuxhandbook.com/bash/)
+- [@course@Comece a aprender](https://linuxhandbook.com/bash/)

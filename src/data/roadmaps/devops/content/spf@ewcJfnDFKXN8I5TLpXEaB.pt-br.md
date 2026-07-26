@@ -5,4 +5,4 @@ Sender Policy Framework (SPF) é usado para autenticar o remetente de um e-mail.
 Visite os seguintes recursos para saber mais:
 
 - [@article@O que é um registro DNS SPF?](https://www.cloudflare.com/learning/dns/dns-records/dns-spf-record/)
-- [@vídeo@O que é FPS? Estrutura de política do remetente explicada](https://www.youtube.com/watch?v=5HG8xJ2lWuc)
+- [@video@O que é FPS? Estrutura de política do remetente explicada](https://www.youtube.com/watch?v=5HG8xJ2lWuc)

@@ -11,5 +11,5 @@ Visite os seguintes recursos para saber mais:
 - [@official@Introdução ao Bitbucket](https://bitbucket.org/product/guides/basics/bitbucket-interface)
 - [@article@Usando Git com Bitbucket Cloud](https://www.atlassian.com/git/tutorials/learn-git-with-bitbucket-cloud)
 - [@video@Como usar o Bitbucket Cloud](https://www.youtube.com/watch?v=M44nEyd_5To)
-- [@vídeo@Tutorial do Bitbucket | Bitbucket para iniciantes](https://www.youtube.com/watch?v=i5T-DB8tb4A)
+- [@video@Tutorial do Bitbucket | Bitbucket para iniciantes](https://www.youtube.com/watch?v=i5T-DB8tb4A)
 - [@feed@Explore as principais postagens sobre o Bitbucket](https://app.daily.dev/tags/bitbucket?ref=roadmapsh)

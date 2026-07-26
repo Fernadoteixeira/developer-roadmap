@@ -163,16 +163,16 @@
     ]
   },
   "z_N-Y0zGkv8_qHPuVtimL": {
-    "title": "Frequency Penalty",
-    "description": "Frequency penalty is a setting that tells a language model, “Stop repeating yourself.” As the model writes, it keeps track of how many times it has already used each word. A positive frequency-penalty value lowers the chance of picking a word again if it has been seen many times in the current reply. This helps cut down on loops like “very very very” or long blocks that echo the same phrase. A value of 0 turns the rule off, while higher numbers make the model avoid repeats more strongly. If the penalty is too high, the text may miss common words that are still needed, so you often start low (for example 0.2) and adjust. Frequency penalty works together with other controls such as temperature and top-p to shape output that is clear, varied, and not boring.\n\nVisit the following resources to learn more:",
+    "title": "Penalidade de Frequência",
+    "description": "A penalidade de frequência é uma configuração que diz a um modelo de linguagem: \"Pare de se repetir\". Conforme o modelo escreve, ele acompanha quantas vezes já utilizou cada palavra. Um valor positivo de penalidade de frequência reduz a chance de escolher uma palavra novamente se ela já tiver sido vista muitas vezes na resposta atual. Isso ajuda a reduzir repetições excessivas ou blocos longos que ecoam a mesma frase. Um valor 0 desativa a regra, enquanto números mais altos fazem o modelo evitar repetições com mais força. Se a penalidade for muito alta, o texto pode omitir palavras comuns que ainda são necessárias, portanto, você geralmente começa com valores baixos (por exemplo, 0.2) e ajusta conforme necessário. A penalidade de frequência funciona em conjunto com outros controles, como temperatura e top-p, para moldar uma saída clara, variada e fluida.\n\nVisite os seguintes recursos para obter mais informações:",
     "links": [
       {
-        "title": "Frequency Penalty Explanation",
+        "title": "Explicação sobre Penalidade de Frequência",
         "url": "https://docs.aipower.org/docs/ai-engine/openai/frequency-penalty",
         "type": "article"
       },
       {
-        "title": "Understanding Frequency Penalty and Presence Penalty",
+        "title": "Entendendo Penalidade de Frequência e Penalidade de Presença",
         "url": "https://medium.com/@the_tori_report/understanding-frequency-penalty-and-presence-penalty-how-to-fine-tune-ai-generated-text-e5e4f5e779cd",
         "type": "article"
       }

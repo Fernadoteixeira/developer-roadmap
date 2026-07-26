@@ -6,7 +6,7 @@ Saiba mais com os seguintes recursos:
 
 - [@roadmap@Visit Linux Roadmap](https://roadmap.sh/linux)
 - [@article@Linux Commands Cheat Sheet](https://cdn.hostinger.com/tutorials/pdf/Linux-Commands-Cheat-Sheet.pdf)
-- [@curso@Linux do zero - Cisco](https://www.netacad.com/courses/os-it/ndg-linux-unhatched)
+- [@course@Linux do zero - Cisco](https://www.netacad.com/courses/os-it/ndg-linux-unhatched)
 - [@video@Linux em 100 segundos](https://www.youtube.com/watch?v=rrB13utjYV4)
 - [@video@Introdução ao Linux](https://youtu.be/sWbUDq4S6Y8)
 - [@feed@Explore as principais postagens sobre Linux](https://app.daily.dev/tags/linux?ref=roadmapsh)

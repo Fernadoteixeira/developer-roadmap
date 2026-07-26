@@ -6,7 +6,7 @@ Visite os seguintes recursos para saber mais:
 
 - [@roadmap@Visit Roteiro Redis Dedicado](https://roadmap.sh/redis)
 - [@official@Redis Site](https://redis.io/)
-- [@documentação@Redis](https://redis.io/docs/latest/)
+- [@official@Documentação do Redis](https://redis.io/docs/latest/)
 - [@official@Redis University](https://university.redis.io/academy)
 - [@video@Redis em 100 segundos](https://www.youtube.com/watch?v=G1rOthIU-uo)
 - [@video@Redis Cache em Node.js](https://www.youtube.com/watch?v=oaJq1mQ3dFI)

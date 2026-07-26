@@ -26,8 +26,15 @@ for (const roadmapId of allRoadmaps) {
     roadmapId,
     `${roadmapId}.md`,
   );
+  const roadmapPtBrDir = path.join(
+    ROADMAP_CONTENT_DIR,
+    roadmapId,
+    `${roadmapId}.pt-br.md`,
+  );
+
   const exists = await fs.stat(roadmapFrontmatterDir).catch(() => null);
-  if (!exists) continue;
+  const ptBrExists = await fs.stat(roadmapPtBrDir).catch(() => null);
+  if (!exists || !ptBrExists) continue;
 
   const roadmapFrontmatterRaw = await fs.readFile(
     roadmapFrontmatterDir,
@@ -46,6 +53,8 @@ const stats = await fs.stat(publicRoadmapsContentDir).catch(() => null);
 if (!stats || !stats.isDirectory()) {
   await fs.mkdir(publicRoadmapsContentDir, { recursive: true });
 }
+
+let hasErrors = false;
 
 for (const roadmapId of editorRoadmapIds) {
   console.log(`🚀 Compiling PT-BR JSON for ${roadmapId}...`);
@@ -100,13 +109,13 @@ for (const roadmapId of editorRoadmapIds) {
     const ptBrFile = `${nodeDirPatternWithoutExt}.pt-br.md`;
     const enFile = `${nodeDirPatternWithoutExt}.md`;
 
-    const targetFileName = roadmapContentFiles.includes(ptBrFile)
-      ? ptBrFile
-      : roadmapContentFiles.includes(enFile)
-        ? enFile
-        : null;
-
-    if (!targetFileName) {
+    if (!roadmapContentFiles.includes(ptBrFile)) {
+      if (roadmapContentFiles.includes(enFile)) {
+        console.error(
+          `❌ [PT-BR Generator Error] Missing translation file: ${ptBrFile} (found English source ${enFile})`,
+        );
+        hasErrors = true;
+      }
       contentMap[node.id] = {
         title: node?.data?.label as string,
         description: '',
@@ -114,6 +123,8 @@ for (const roadmapId of editorRoadmapIds) {
       };
       continue;
     }
+
+    const targetFileName = ptBrFile;
 
     const content = await fs.readFile(
       path.join(roadmapContentDir, targetFileName),
@@ -190,4 +201,11 @@ for (const roadmapId of editorRoadmapIds) {
     JSON.stringify(contentMap, null, 2),
   );
   console.log(`✅ Generated ${roadmapId}-pt-br.json`);
+}
+
+if (hasErrors) {
+  console.error('\n❌ PT-BR JSON generation failed due to missing translation files.');
+  process.exit(1);
+} else {
+  console.log('\n✅ All PT-BR JSONs compiled successfully with 0 missing translations!');
 }

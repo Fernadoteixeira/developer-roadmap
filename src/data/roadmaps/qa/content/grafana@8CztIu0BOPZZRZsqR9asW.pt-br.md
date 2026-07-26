@@ -5,7 +5,7 @@ Grafana é a plataforma de código aberto para monitoramento e observabilidade. 
 Visite os seguintes recursos para saber mais:
 
 - [@official@Grafana](https://grafana.com/)
-- [@documentação@Grafana](https://grafana.com/docs/)
+- [@official@Documentação do Grafana](https://grafana.com/docs/)
 - [@article@Comunidade Grafana](https://community.grafana.com/)
 - [@official@Grafana Webinars e vídeos](https://grafana.com/videos/)
 - [@feed@Explore as principais postagens sobre Grafana](https://app.daily.dev/tags/grafana?ref=roadmapsh)

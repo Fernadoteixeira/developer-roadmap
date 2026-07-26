@@ -4,6 +4,6 @@ PowerShell é uma estrutura de automação de tarefas e gerenciamento de configu
 
 Saiba mais com os seguintes recursos:
 
-- [@documentação oficial@PowerShell](https://learn.microsoft.com/en-us/powershell/)
+- [@official@Documentação do PowerShell](https://learn.microsoft.com/en-us/powershell/)
 - [@video@Aprenda PowerShell em menos de 2 horas](https://www.youtube.com/watch?v=ZOoCaWyifmI)
 - [@feed@Explore as principais postagens sobre o PowerShell](https://app.daily.dev/tags/powershell?ref=roadmapsh)

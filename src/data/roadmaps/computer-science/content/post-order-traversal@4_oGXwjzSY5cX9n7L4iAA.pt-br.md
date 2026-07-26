@@ -5,4 +5,4 @@ A travessia pós-ordem é um tipo de travessia de árvore que visita a subárvor
 Visite os seguintes recursos para saber mais:
 
 - [@article@Postorder Traversal da árvore binária](https://www.geeksforgeeks.org/postorder-traversal-of-binary-tree/)
-- [@vídeo@Árvore | Estruturas de dados ilustradas](https://www.youtube.com/watch?v=S2W3SXGPVyU)
+- [@video@Árvore | Estruturas de dados ilustradas](https://www.youtube.com/watch?v=S2W3SXGPVyU)

@@ -10,7 +10,7 @@ Visite os seguintes recursos para saber mais:
 
 - [@roadmap@Visite o roteiro Java dedicado](https://roadmap.sh/java)
 - [@official@Scala](https://www.scala-lang.org/)
-- [@documentação@Scala](https://docs.scala-lang.org/)
+- [@official@Documentação do Scala](https://docs.scala-lang.org/)
 - [@official@Kotlin](https://kotlinlang.org/)
 - [@official@Documentação Kotlin](https://kotlinlang.org/docs/home.html)
 - [@official@Java](https://www.java.com/)

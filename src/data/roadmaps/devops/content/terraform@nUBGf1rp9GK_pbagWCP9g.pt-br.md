@@ -8,5 +8,5 @@ Visite os seguintes recursos para saber mais:
 - [@official@Documentação do Terraform](https://www.terraform.io/docs)
 - [@official@Tutoriais do Terraform](https://learn.hashicorp.com/terraform)
 - [@article@Como dimensionar sua infraestrutura Terraform](https://thenewstack.io/how-to-scale-your-terraform-infrastructure/)
-- [@curso@Curso completo do Terraform](https://www.youtube.com/watch?v=7xngnjfIlK4)
+- [@course@Curso completo do Terraform](https://www.youtube.com/watch?v=7xngnjfIlK4)
 - [@feed@Explore as principais postagens sobre o Terraform](https://app.daily.dev/tags/terraform?ref=roadmapsh)

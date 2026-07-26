@@ -7,4 +7,4 @@ Visite os seguintes recursos para saber mais:
 - [@article@Circular Buffer - Wikipédia](https://en.wikipedia.org/wiki/Circular_buffer)
 - [@video@Estrutura de dados da fila | Estruturas de dados ilustradas](https://www.youtube.com/watch?v=mDCi1lXd9hc)
 - [@video@Fila em 3 minutos](https://www.youtube.com/watch?v=D6gu-_tmEpQ)
-- [@curso@Filas - Coursera](https://www.coursera.org/lecture/data-structures/queues-EShpq)
+- [@course@Filas - Coursera](https://www.coursera.org/lecture/data-structures/queues-EShpq)

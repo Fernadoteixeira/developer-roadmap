@@ -5,4 +5,4 @@
 Saiba mais com os seguintes recursos:
 
 - [@official@Microsoft OneDrive](https://onedrive.live.com)
-- [@vídeo@Tutorial do Microsoft OneDrive](https://www.youtube.com/watch?v=qgw01w0iYjA)
+- [@video@Tutorial do Microsoft OneDrive](https://www.youtube.com/watch?v=qgw01w0iYjA)

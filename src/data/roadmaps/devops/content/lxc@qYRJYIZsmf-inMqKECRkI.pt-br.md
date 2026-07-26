@@ -5,6 +5,6 @@ LXC (Linux Containers) é um método de virtualização em nível de sistema ope
 Visite os seguintes recursos para saber mais:
 
 - [@official@LXC Site](https://linuxcontainers.org/)
-- [@documentação@LXC](https://linuxcontainers.org/lxc/documentation/)
+- [@official@Documentação do LXC](https://linuxcontainers.org/lxc/documentation/)
 - [@video@Introdução aos contêineres LXC](https://www.youtube.com/watch?v=CWmkSj_B-wo)
 - [@video@LXC - Guia para construir um laboratório LXC](https://www.youtube.com/watch?v=cqOtksmsxfg)

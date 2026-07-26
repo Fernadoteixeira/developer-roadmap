@@ -5,4 +5,4 @@ Sub-redes é uma técnica usada em redes de computadores para dividir uma grande
 Saiba mais com os seguintes recursos:
 
 - [@article@Noções básicas de rede: O que é sub-rede IPv4?](https://www.cbtnuggets.com/blog/technology/networking/networking-basics-what-is-ipv4-subnetting)
-- [@vídeo@Sub-rede](https://www.youtube.com/playlist?list=PLIhvC56v63IKrRHh3gvZZBAGvsvOhwrRF)
+- [@video@Sub-rede](https://www.youtube.com/playlist?list=PLIhvC56v63IKrRHh3gvZZBAGvsvOhwrRF)

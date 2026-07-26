@@ -8,4 +8,4 @@ Saiba mais com os seguintes recursos:
 - [@official@AWS](https://aws.amazon.com)
 - [@article@Como criar uma conta AWS](https://grapplingdev.com/tutorials/how-to-create-aws-account)
 - [@video@Visão geral da AWS](https://www.youtube.com/watch?v=a9__D53WsUs)
-- [@curso@Tutorial completo da AWS](https://www.youtube.com/watch?v=B8i49C8fC3E)
+- [@course@Tutorial completo da AWS](https://www.youtube.com/watch?v=B8i49C8fC3E)

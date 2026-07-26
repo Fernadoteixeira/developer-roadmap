@@ -4,7 +4,7 @@ Uma árvore de pesquisa binária, também chamada de árvore binária ordenada o
 
 Visite os seguintes recursos para saber mais:
 
-- [@vídeo@Árvore | Estruturas de dados ilustradas](https://www.youtube.com/watch?v=S2W3SXGPVyU)
+- [@video@Árvore | Estruturas de dados ilustradas](https://www.youtube.com/watch?v=S2W3SXGPVyU)
 - [@course@Árvores de pesquisa binária - Coursera](https://www.coursera.org/learn/data-structures/lecture/E7cXP/introduction)
 - [@video@Árvores de pesquisa binária - MIT](https://www.youtube.com/watch?v=76dhtgZt38A)
 - [@video@Implementação de árvore de pesquisa binária em C++](https://www.youtube.com/watch?v=COZK7NATh4k&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=29)

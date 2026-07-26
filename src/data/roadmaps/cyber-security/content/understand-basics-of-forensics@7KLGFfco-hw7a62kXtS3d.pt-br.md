@@ -5,4 +5,4 @@ A perícia digital é o processo de coleta, análise e preservação de evidênc
 Saiba mais com os seguintes recursos:
 
 - [@article@Introdução à perícia digital (TryHackMe)](https://tryhackme.com/room/introdigitalforensics)
-- [@vídeo@Digital Forense](https://www.youtube.com/watch?v=UtDWApdO8Zk)
+- [@video@Digital Forense](https://www.youtube.com/watch?v=UtDWApdO8Zk)

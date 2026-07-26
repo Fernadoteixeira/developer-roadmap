@@ -10,4 +10,4 @@ Knuth morris pratt é um algoritmo de busca de string que usa um array pré-comp
 Visite os seguintes recursos para saber mais:
 
 - [@video@9.1 Algoritmo de correspondência de string Knuth-Morris-Pratt KMP](https://www.youtube.com/watch?v=V5-7GzOfADQ)
-- [@curso@Knuth-Morris Pratt](https://www.coursera.org/learn/algorithms-part2/lecture/TAtDr/knuth-morris-pratt)
+- [@course@Knuth-Morris Pratt](https://www.coursera.org/learn/algorithms-part2/lecture/TAtDr/knuth-morris-pratt)

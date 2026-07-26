@@ -4,4 +4,4 @@ A análise de dados é um componente central da função de um analista de dados
 
 Saiba mais com os seguintes recursos:
 
-- [@curso@Introdução à análise de dados](https://www.coursera.org/learn/introduction-to-data-analytics)
+- [@course@Introdução à análise de dados](https://www.coursera.org/learn/introduction-to-data-analytics)

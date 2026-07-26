@@ -6,4 +6,4 @@ Visite os seguintes recursos para saber mais:
 
 - [@video@A magia do cache LRU (100 dias de desenvolvimento do Google)](https://www.youtube.com/watch?v=R5ON3iwx78M)
 - [@video@Implementando LRU - Udacity](https://www.youtube.com/watch?v=bq6N7Ym81iI)
-- [@vídeo@LeetCode | 146 Cache LRU | C++ | Explicação](https://www.youtube.com/watch?v=8-FZRAjR7qU)
+- [@video@LeetCode | 146 Cache LRU | C++ | Explicação](https://www.youtube.com/watch?v=8-FZRAjR7qU)

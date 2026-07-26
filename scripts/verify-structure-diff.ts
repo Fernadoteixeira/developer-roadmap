@@ -7,9 +7,13 @@ export interface StructuralMetrics {
   numberedCount: number;
   quoteCount: number;
   codeBlockCount: number;
+  codeLanguages: string[];
   inlineCodeCount: number;
   imageUrls: string[];
   linkUrls: string[];
+  linkPrefixes: string[];
+  tableCount: number;
+  htmlTags: string[];
   frontmatterKeys: string[];
 }
 
@@ -20,9 +24,13 @@ export function extractMetrics(content: string): StructuralMetrics {
     numberedCount: 0,
     quoteCount: 0,
     codeBlockCount: 0,
+    codeLanguages: [],
     inlineCodeCount: 0,
     imageUrls: [],
     linkUrls: [],
+    linkPrefixes: [],
+    tableCount: 0,
+    htmlTags: [],
     frontmatterKeys: [],
   };
 
@@ -66,10 +74,14 @@ export function extractMetrics(content: string): StructuralMetrics {
     metrics.quoteCount = quotes.length;
   }
 
-  // 5. Code blocks
-  const codeBlocks = body.match(/```[\s\S]*?```/g);
-  if (codeBlocks) {
-    metrics.codeBlockCount = codeBlocks.length;
+  // 5. Code blocks & languages
+  const codeBlockMatches = body.match(/```[^\r\n]*[\s\S]*?```/g);
+  if (codeBlockMatches) {
+    metrics.codeBlockCount = codeBlockMatches.length;
+    for (const block of codeBlockMatches) {
+      const langMatch = block.match(/^```([a-zA-Z0-9_-]+)/);
+      metrics.codeLanguages.push(langMatch ? langMatch[1] : 'plain');
+    }
   }
 
   // 6. Inline code
@@ -85,13 +97,32 @@ export function extractMetrics(content: string): StructuralMetrics {
     metrics.imageUrls.push(match[1]);
   }
 
-  // 8. Link URLs
-  const linkRegex = /\[.*?\]\((.*?)\)/g;
+  // 8. Link URLs & Link Prefixes (@official@, @article@, etc.)
+  const linkRegex = /\[(.*?)\]\((.*?)\)/g;
   while ((match = linkRegex.exec(body)) !== null) {
-    // Only count standard links (not image tags)
     if (!match.input.substring(match.index - 1, match.index).endsWith('!')) {
-      metrics.linkUrls.push(match[1]);
+      const linkText = match[1];
+      metrics.linkUrls.push(match[2]);
+      const prefixMatch = linkText.match(/@([a-z.]+)@/);
+      if (prefixMatch) {
+        metrics.linkPrefixes.push(prefixMatch[1]);
+      }
     }
+  }
+
+  // 9. Tables
+  const tableRows = body.match(/^\s*\|.*\|\s*$/gm);
+  if (tableRows) {
+    metrics.tableCount = tableRows.length;
+  }
+
+  // 10. HTML/MDX Tags
+  const htmlTagMatches = body.match(/<\/?([a-zA-Z0-9-]+)[^>]*>/g);
+  if (htmlTagMatches) {
+    metrics.htmlTags = htmlTagMatches.map((t) => {
+      const tagMatch = t.match(/<\/?([a-zA-Z0-9-]+)/);
+      return tagMatch ? tagMatch[1].toLowerCase() : 'tag';
+    });
   }
 
   return metrics;
@@ -143,6 +174,12 @@ export function compareFiles(sourcePath: string, targetPath: string) {
     );
   }
 
+  if (sourceMetrics.codeLanguages.join(',') !== targetMetrics.codeLanguages.join(',')) {
+    diffs.push(
+      `Code block languages mismatch: EN [${sourceMetrics.codeLanguages.join(',')}] vs PT [${targetMetrics.codeLanguages.join(',')}]`,
+    );
+  }
+
   if (sourceMetrics.inlineCodeCount !== targetMetrics.inlineCodeCount) {
     diffs.push(
       `Inline code mismatch: EN (${sourceMetrics.inlineCodeCount}) vs PT (${targetMetrics.inlineCodeCount})`,
@@ -155,6 +192,24 @@ export function compareFiles(sourcePath: string, targetPath: string) {
 
   if (sourceMetrics.linkUrls.join(',') !== targetMetrics.linkUrls.join(',')) {
     diffs.push(`Link URLs mismatch`);
+  }
+
+  if (sourceMetrics.linkPrefixes.join(',') !== targetMetrics.linkPrefixes.join(',')) {
+    diffs.push(
+      `Link type prefixes (@official@, @article@, etc.) mismatch: EN [${sourceMetrics.linkPrefixes.join(',')}] vs PT [${targetMetrics.linkPrefixes.join(',')}]`,
+    );
+  }
+
+  if (sourceMetrics.tableCount !== targetMetrics.tableCount) {
+    diffs.push(
+      `Tables mismatch: EN (${sourceMetrics.tableCount}) vs PT (${targetMetrics.tableCount})`,
+    );
+  }
+
+  if (sourceMetrics.htmlTags.join(',') !== targetMetrics.htmlTags.join(',')) {
+    diffs.push(
+      `HTML/MDX tags mismatch: EN [${sourceMetrics.htmlTags.join(',')}] vs PT [${targetMetrics.htmlTags.join(',')}]`,
+    );
   }
 
   if (

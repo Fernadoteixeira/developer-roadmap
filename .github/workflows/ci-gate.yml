@@ -1,0 +1,55 @@
+name: Strict CI Gate
+
+on:
+  push:
+    branches: ['**']
+  pull_request:
+    branches: ['**']
+
+jobs:
+  ci-gate:
+    name: Full Strict Pipeline
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 9
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: 'pnpm'
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Audit All Translations
+        run: npx tsx scripts/audit-all-translations.ts
+
+      - name: Prettier Format Check
+        run: pnpm prettier --check .
+
+      - name: Build Project
+        run: pnpm build
+
+      - name: Install Playwright Browsers
+        run: npx playwright install --with-deps chromium
+
+      - name: List Playwright Tests
+        run: pnpm exec playwright test --list
+
+      - name: Run E2E Tests
+        run: pnpm test:e2e
+
+      - name: Check Git Diff Cleanliness
+        run: git diff --exit-code
+
+      - name: Upload Playwright Artifacts on Failure
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: playwright-failure-report
+          path: |
+            playwright-report/
+            test-results/
+          retention-days: 14

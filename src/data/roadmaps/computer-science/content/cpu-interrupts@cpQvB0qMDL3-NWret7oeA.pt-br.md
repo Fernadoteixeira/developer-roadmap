@@ -5,5 +5,5 @@ As interrupções da CPU são uma forma de a CPU se comunicar com o resto do com
 Visite os seguintes recursos para saber mais:
 
 - [@article@System interrompe 100% da CPU](https://www.wikihow.com/System-Interrupts-100-Cpu)
-- [@vídeo@Interrupções](https://youtu.be/iKlAWIKEyuw)
+- [@video@Interrupções](https://youtu.be/iKlAWIKEyuw)
 - [@feed@Explore as principais postagens sobre computação](https://app.daily.dev/tags/computing?ref=roadmapsh)

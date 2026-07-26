@@ -4,7 +4,7 @@ A matemática é uma habilidade fundamental para a ciência da computação.
 
 Visite os seguintes recursos para saber mais:
 
-- [@vídeo@Lec 1 | MIT 6.042J Matemática para Ciência da Computação, outono de 2010](https://www.youtube.com/watch?v=L3LMbpZIKhQ&list=PLB7540DEDD482705B)
+- [@video@Lec 1 | MIT 6.042J Matemática para Ciência da Computação, outono de 2010](https://www.youtube.com/watch?v=L3LMbpZIKhQ&list=PLB7540DEDD482705B)
 - [@video@Aritmética Inteira, Multiplicação Karatsuba](https://www.youtube.com/watch?v=eCaXlAaN2uE&index=11&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
 - [@video@Teorema do Resto Chinês (usado em criptografia)](https://www.youtube.com/watch?v=ru7mWZJlRQg)
 - [@article@Computer Science 70, 001 - Primavera de 2015 - Matemática Discreta e Teoria das Probabilidades](http://www.infocobuild.com/education/audio-video-courses/computer-science/cs70-spring2015-berkeley.html)

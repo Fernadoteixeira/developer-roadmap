@@ -5,4 +5,4 @@ O algoritmo Boyer Moore é um algoritmo de pesquisa de string usado para encontr
 Visite os seguintes recursos para saber mais:
 
 - [@article@Boyer-Moore String-search Algoritmo](https://en.wikipedia.org/wiki/Boyer%E2%80%93Moore_string-search_algorithm)
-- [@curso@Algoritmo Boyer Moore](https://www.coursera.org/learn/algorithms-part2/lecture/CYxOT/boyer-moore)
+- [@course@Algoritmo Boyer Moore](https://www.coursera.org/learn/algorithms-part2/lecture/CYxOT/boyer-moore)

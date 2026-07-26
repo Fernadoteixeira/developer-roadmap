@@ -534,16 +534,16 @@
     ]
   },
   "_eWqiWUmOj0zUo_Ix3j1O": {
-    "title": "Tree",
-    "description": "A tree is non-linear and a hierarchical data structure consisting of a collection of nodes such that each node of the tree stores a value and a list of references to other nodes (the “children”).\n\nVisit the following resources to learn more:",
+    "title": "Árvore",
+    "description": "Uma árvore é uma estrutura de dados não linear e hierárquica constituída por uma coleção de nós, de forma que cada nó armazena um valor e uma lista de referências para outros nós (os \"filhos\").\n\nVisite os seguintes recursos para obter mais informações:",
     "links": [
       {
-        "title": "Tree Data Structure",
+        "title": "Estrutura de Dados de Árvore",
         "url": "https://www.programiz.com/dsa/trees",
         "type": "article"
       },
       {
-        "title": "Tree | Illustrated Data Structures",
+        "title": "Árvore | Estruturas de Dados Ilustradas",
         "url": "https://www.youtube.com/watch?v=S2W3SXGPVyU",
         "type": "video"
       }
@@ -665,16 +665,16 @@
     ]
   },
   "w4sxmZR1BjX6wlrZmuOlf": {
-    "title": "Unbalanced Tree",
-    "description": "An unbalanced binary tree is one that is not balanced.\n\nVisit the following resources to learn more:",
+    "title": "Árvore Desbalanceada",
+    "description": "Uma árvore binária desbalanceada é aquela em que as alturas das subárvores de qualquer nó diferem significativamente, levando a uma pior eficiência nas operações.\n\nVisite os seguintes recursos para obter mais informações:",
     "links": [
       {
-        "title": "Balanced vs Unbalanced Binary Tree",
+        "title": "Árvore Binária Balanceada vs Desbalanceada",
         "url": "https://stackoverflow.com/questions/59206128/balanced-vs-unbalanced-binary-tree-clarification-needed",
         "type": "article"
       },
       {
-        "title": "Unbalanced Binary Tree",
+        "title": "Árvore Binária Desbalanceada",
         "url": "https://eng.libretexts.org/Bookshelves/Computer_Science/Databases_and_Data_Structures/Open_Data_Structures_-_An_Introduction_(Morin)/06%3A_Binary_Trees/6.02%3A_BinarySearchTree_-_An_Unbalanced_Binary_Search_Treee",
         "type": "article"
       }
@@ -743,11 +743,11 @@
     ]
   },
   "QGx8it2N_85PiPVjpTGK_": {
-    "title": "Undirected Graph",
-    "description": "An undirected graph is graph, i.e., a set of objects (called vertices or nodes) that are connected together, where all the edges are bidirectional. An undirected graph is sometimes called an undirected network. In contrast, a graph where the edges point in a direction is called a directed graph.\n\nVisit the following resources to learn more:",
+    "title": "Grafo Não Dirigido",
+    "description": "Um grafo não dirigido é um grafo (conjunto de vértices ou nós conectados entre si) em que todas as arestas são bidirecionais. Em contraste, um grafo cujas arestas possuem uma direção definida é chamado de grafo dirigido.\n\nVisite os seguintes recursos para obter mais informações:",
     "links": [
       {
-        "title": "Undirected Graph",
+        "title": "Grafo Não Dirigido",
         "url": "https://mathinsight.org/definition/undirected_graph",
         "type": "article"
       }
@@ -2011,15 +2011,15 @@
   },
   "04hpfxI2x958tQI-0clsp": {
     "title": "Unicode",
-    "description": "Unicode is a standard for encoding characters. It is a superset of ASCII, which means that ASCII is a subset of Unicode. Unicode is a 16-bit encoding, which means that it can encode 2^16 = 65536 characters. This is a lot more than ASCII, which can only encode 128 characters.\n\nVisit the following resources to learn more:",
+    "description": "Unicode é um padrão universal para codificação de caracteres. É um superconjunto do ASCII, o que significa que o ASCII é um subconjunto do Unicode. O Unicode permite codificar mais de 140.000 caracteres cobrindo diversos idiomas e símbolos mundiais, superando amplamente os 128 caracteres do ASCII original.\n\nVisite os seguintes recursos para obter mais informações:",
     "links": [
       {
-        "title": "How Unicode Works: What Every Developer Needs to Know About Strings and 🦄",
+        "title": "Como Funciona o Unicode: O que Todo Desenvolvedor Precisa Saber sobre Strings e 🦄",
         "url": "https://deliciousbrains.com/how-unicode-works/",
         "type": "article"
       },
       {
-        "title": "Characters, Symbols and the Unicode Miracle - Computerphile",
+        "title": "Caracteres, Símbolos e o Milagre do Unicode - Computerphile",
         "url": "https://www.youtube.com/watch?v=MijmeoH9LT4",
         "type": "video"
       }
@@ -2074,21 +2074,21 @@
     ]
   },
   "dVvYbrcaxHLpvtX6HbS7g": {
-    "title": "Usecase Diagrams",
-    "description": "Usecase diagrams are a type of diagram that are used to model the interactions between the **actors** and the **usecases** of the system.\n\nAn actor is a person or a system that interacts with the system. Actors are represented by a rectangle with the name of the actor written inside it.\n\nA usecase is a task that the system performs. Usecases are represented by an ellipse with the name of the usecase written inside it.\n\nA usecase diagram is a diagram that shows the actors and the usecases of the system. The diagram is represented by a rectangle that contains the name of the system inside it. The actors are represented by rectangles and the usecases are represented by ellipses.\n\nVisit the following resources to learn more:",
+    "title": "Diagramas de Casos de Uso",
+    "description": "Os diagramas de casos de uso são um tipo de diagrama UML utilzado para modelar as interações entre os **atores** e os **casos de uso** de um sistema.\n\nUm ator é uma pessoa ou um sistema externo que interage com o sistema. Os atores geralmente são representados por figuras de palito ou retângulos com o nome do ator.\n\nUm caso de uso representa uma funcionalidade ou tarefa que o sistema realiza. Os casos de uso são representados por elipses contendo o nome do caso de uso em seu interior.\n\nO diagrama de casos de uso exibe a fronteira do sistema, os atores envolvidos e as relações de uso.\n\nVisite os seguintes recursos para obter mais informações:",
     "links": [
       {
-        "title": "UML Use Case Diagram Tutorial",
+        "title": "Tutorial de Diagramas de Caso de Uso UML",
         "url": "https://www.lucidchart.com/pages/uml-use-case-diagram",
         "type": "article"
       },
       {
-        "title": "What is Use Case Diagram?",
+        "title": "O que é um Diagrama de Caso de Uso?",
         "url": "https://www.visual-paradigm.com/guide/uml-unified-modeling-language/what-is-use-case-diagram/",
         "type": "article"
       },
       {
-        "title": "UML Use Case Diagram Tutorial",
+        "title": "Tutorial de Diagrama de Caso de Uso UML",
         "url": "https://www.youtube.com/watch?v=zid-MVo7M-E",
         "type": "video"
       }
@@ -2233,11 +2233,11 @@
     ]
   },
   "_2Jddpz_cdwyeIgrg5qt_": {
-    "title": "Type Object Pattern",
-    "description": "Type object pattern is a creational design pattern that allows us to create a new object of a type without exposing the object creation logic to the client. It is used when we need to create a new object of a type, but we don't know which type we need to create until runtime. It is like a factory pattern, but instead of returning a new object of a type, it returns a new object of a type that is already created.\n\nVisit the following resources to learn more:",
+    "title": "Padrão Type Object",
+    "description": "O padrão Type Object é um padrão de projeto estrutural/criacional que permite definir novos \"tipos\" de objetos dinamicamente em tempo de execução sem criar novas classes no código-fonte. Ele separa a classe genérica das instâncias que representam tipos específicos de comportamento e atributos.\n\nVisite os seguintes recursos para obter mais informações:",
     "links": [
       {
-        "title": "Type Object Pattern",
+        "title": "Padrão Type Object",
         "url": "https://gameprogrammingpatterns.com/type-object.html",
         "type": "article"
       }
@@ -2628,26 +2628,26 @@
     ]
   },
   "ZG-hWjVoS3p9XfrtBL0sD": {
-    "title": "Travelling Salesman Problem",
-    "description": "The Travelling Salesman Problem (TSP) is a classic problem in computer science. It is a problem that is NP-complete, which means that it is a problem that is hard to solve. It is also a problem that is used to test the efficiency of algorithms.\n\nVisit the following resources to learn more:",
+    "title": "Problema do Cixeiro Viajante",
+    "description": "O Problema do Caxeiro Viajante (TSP - Travelling Salesman Problem) é um problema clássico da ciência da computação e otimização combinatória. É um problema NP-difícil que busca encontrar a rota mais curta possível que visite uma lista de cidades e retorne à cidade de origem.\n\nVisite os seguintes recursos para obter mais informações:",
     "links": [
       {
-        "title": "Traveling Salesman Problem",
+        "title": "Problema do Caxeiro Viajante",
         "url": "https://en.wikipedia.org/wiki/Travelling_salesman_problem",
         "type": "article"
       },
       {
-        "title": "What is the Traveling Salesman Problem?",
+        "title": "O que é o Problema do Caxeiro Viajante?",
         "url": "https://www.youtube.com/watch?v=1pmBjIZ20pE",
         "type": "video"
       },
       {
-        "title": "4.7 Traveling Salesperson Problem - Dynamic Programming",
+        "title": "Problema do Caxeiro Viajante - Programação Dinâmica",
         "url": "https://www.youtube.com/watch?v=XaXsJJh-Q5Y",
         "type": "video"
       },
       {
-        "title": "Traveling Salesman Problem | Dynamic Programming | Graph Theory",
+        "title": "Problema do Caxeiro Viajante | Programação Dinâmica | Teoria dos Grafos",
         "url": "https://www.youtube.com/watch?v=cY4HiiFHO1o",
         "type": "video"
       }
@@ -2686,8 +2686,8 @@
     ]
   },
   "4qUVacMEz3XFiL_dMre6P": {
-    "title": "Tries",
-    "description": "Tries are a data structure that can be used to store strings. The idea is to store the characters of the string in a tree-like structure, where each node of the tree represents a single character. We can use this structure to store strings in a way that allows us to quickly search for strings with a common prefix.\n\nVisit the following resources to learn more:",
+    "title": "Tries (Árvores de Prefixos)",
+    "description": "Tries (ou árvores prefixadas) são uma estrutura de dados de árvore ordenada usada para armazenar e buscar cadeias de caracteres (strings). Cada nó representa um caractere, permitindo busca rápida de prefixos comuns e autocompletar eficiente.\n\nVisite os seguintes recursos para obter mais informações:",
     "links": [
       {
         "title": "0. Tries - Coursera",
@@ -2700,37 +2700,37 @@
         "type": "course"
       },
       {
-        "title": "2. Ternary Search Tries",
+        "title": "2. Tries de Busca Ternária",
         "url": "https://www.coursera.org/learn/algorithms-part2/lecture/yQM8K/ternary-search-tries",
         "type": "course"
       },
       {
-        "title": "3. Character Based Operations",
+        "title": "3. Operações Baseadas em Caracteres",
         "url": "https://www.coursera.org/learn/algorithms-part2/lecture/jwNmV/character-based-operations",
         "type": "course"
       },
       {
-        "title": "Tries - DataStructure Notes",
+        "title": "Tries - Notas de Estruturas de Dados",
         "url": "http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html#Tries",
         "type": "article"
       },
       {
-        "title": "The Trie: A Neglected Data Structure",
+        "title": "A Trie: Uma Estrutura de Dados Negligenciada",
         "url": "https://www.toptal.com/java/the-trie-a-neglected-data-structure",
         "type": "article"
       },
       {
-        "title": "TopCoder - Using Tries",
+        "title": "TopCoder - Usando Tries",
         "url": "https://www.topcoder.com/thrive/articles/Using%20Tries",
         "type": "article"
       },
       {
-        "title": "Stanford Lecture (real world use case)",
+        "title": "Palestra de Stanford (Caso de Uso Real)",
         "url": "https://www.youtube.com/watch?v=TJ8SkcUSdbU",
         "type": "video"
       },
       {
-        "title": "MIT, Advanced Data Structures, Strings (can get pretty obscure about halfway through)",
+        "title": "MIT - Estruturas de Dados Avançadas e Strings",
         "url": "https://www.youtube.com/watch?v=NinWEPPrkDQ&index=16&list=PLUl4u3cNGP61hsJNdULdudlRL493b-XZf",
         "type": "video"
       }
@@ -3198,16 +3198,16 @@
     ]
   },
   "bVjI14VismTHNCyA0mEBP": {
-    "title": "Web Sockets",
-    "description": "Web sockets are a bidirectional communication protocol between a client and a server. They are used for real-time applications like chat, multiplayer games, and live data updates. Web sockets are also used to establish a connection between a server and a client. This connection is then used to send data in both directions.\n\nVisit the following resources to learn more:",
+    "title": "WebSockets",
+    "description": "WebSockets é um protocolo de comunicação bidirecional de ponta a ponta e em tempo real entre um cliente e um servidor através de uma única conexão TCP persistente. É amplamente utilizado em aplicativos de chat, jogos multijogador e atualizações ao vivo.\n\nVisite os seguintes recursos para obter mais informações:",
     "links": [
       {
-        "title": "WebSockets",
+        "title": "WebSockets na Wikipedia",
         "url": "https://en.wikipedia.org/wiki/WebSocket",
         "type": "article"
       },
       {
-        "title": "Web Sockets API",
+        "title": "API de WebSockets no MDN",
         "url": "https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API",
         "type": "article"
       }
@@ -3484,16 +3484,16 @@
     ]
   },
   "lOj_ReWI1kQ3WajJZYOWU": {
-    "title": "Views",
-    "description": "Views in SQL are kind of virtual tables. A view also has rows and columns as they are in a real table in the database. We can create a view by selecting fields from one or more tables present in the database. A View can either have all the rows of a table or specific rows based on certain condition.\n\nVisit the following resources to learn more:",
+    "title": "Views em Banco de Dados",
+    "description": "Views (visões) em SQL são tabelas virtuais baseadas no conjunto de resultados de uma consulta SQL. Elas possuem linhas e colunas como uma tabela real do banco de dados e permitem simplificar consultas complexas, restringir o acesso a dados e apresentar dados agregados.\n\nVisite os seguintes recursos para obter mais informações:",
     "links": [
       {
-        "title": "Database Views",
+        "title": "Views em Banco de Dados",
         "url": "https://www.ibm.com/docs/en/eamfoc/7.6.0?topic=structure-views",
         "type": "article"
       },
       {
-        "title": "SQL Views - Wikipedia",
+        "title": "Views em SQL - Wikipedia",
         "url": "https://en.wikipedia.org/wiki/View_(SQL)",
         "type": "article"
       }
