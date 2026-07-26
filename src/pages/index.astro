@@ -113,7 +113,10 @@ const videos = await getAllVideos();
         guides={guides.slice(0, 7)}
         questions={questionGuides.slice(0, 7)}
       />
-      <FeaturedVideoList heading={t('home.videos')} videos={videos.slice(0, 7)} />
+      <FeaturedVideoList
+        heading={t('home.videos')}
+        videos={videos.slice(0, 7)}
+      />
     </div>
   </div>
   <ChangelogBanner slot='changelog-banner' />
