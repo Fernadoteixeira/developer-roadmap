@@ -28,10 +28,15 @@
     "compress:images": "tsx ./scripts/compress-images.ts",
     "generate:roadmap-content-json": "tsx ./scripts/editor-roadmap-content-json.ts",
     "migrate:editor-roadmaps": "tsx ./scripts/migrate-editor-roadmap.ts",
+    "i18n:check": "node scripts/i18n/check-messages.mjs",
+    "i18n:content": "node scripts/i18n/check-content.mjs",
+    "i18n:coverage": "node scripts/i18n/content-coverage.mjs",
+    "i18n:validate": "pnpm i18n:check && pnpm i18n:content",
     "test:e2e": "playwright test",
     "test:e2e:smoke": "playwright test --grep @smoke",
     "test:e2e:a11y": "playwright test --grep @a11y",
-    "test:e2e:visual": "playwright test --grep @visual"
+    "test:e2e:visual": "playwright test --grep @visual",
+    "test:e2e:i18n": "playwright test tests/i18n.spec.ts"
   },
   "dependencies": {
     "@astrojs/node": "^9.2.1",

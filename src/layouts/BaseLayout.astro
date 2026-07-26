@@ -19,11 +19,17 @@ import { CourseAnnouncement } from '../components/SQLCourse/CourseAnnouncement';
 import { Toaster } from '../components/Toast';
 import { siteConfig } from '../lib/config';
 import type { ResourceType } from '../lib/resource-progress';
+import {
+  defaultLocale,
+  getAlternateLocaleLinks,
+  getLocalizedPath,
+  localeMetadata,
+  stripLocalePrefix,
+} from '../i18n';
 
 export interface Props {
   title: string;
   ogImageUrl?: string;
-  // This isn't used anywhere except for the sponsor event labels
   briefTitle?: string;
   redirectUrl?: string;
   description?: string;
@@ -55,22 +61,31 @@ const {
   hasVarify = false,
 } = Astro.props;
 
-// Remove trailing slashes to consider the page as canonical
-const currentPageAbsoluteUrl = `https://roadmap.sh${permalink}`;
+const locale = Astro.locals.locale || defaultLocale;
+const canonicalPath = stripLocalePrefix(
+  permalink || Astro.locals.canonicalPath || Astro.url.pathname,
+);
+const localizedPermalink = getLocalizedPath(canonicalPath, locale);
+const currentPageAbsoluteUrl = new URL(
+  localizedPermalink,
+  'https://roadmap.sh',
+).toString();
 const canonicalUrl = givenCanonical || currentPageAbsoluteUrl;
+const alternateLinks = getAlternateLocaleLinks(canonicalPath).map((item) => ({
+  ...item,
+  href: new URL(item.href, 'https://roadmap.sh').toString(),
+}));
+const defaultAlternateUrl = new URL(
+  getLocalizedPath(canonicalPath, defaultLocale),
+  'https://roadmap.sh',
+).toString();
 const commitUrl = `https://github.com/kamranahmedse/developer-roadmap/commit/${
   import.meta.env.GITHUB_SHA
 }`;
-
-// e.g. frontend:react or best-practices:frontend-performance
-const gaPageIdentifier = Astro.url.pathname
-  .replace(/^\//, '')
-  .replace(/\/$/, '')
-  .replace(/\//g, ':');
 ---
 
 <!doctype html>
-<html lang='en'>
+<html lang={localeMetadata[locale].htmlLang} dir='ltr' data-locale={locale}>
   <head>
     <meta charset='UTF-8' />
     <meta name='generator' content={Astro.generator} />
@@ -88,7 +103,10 @@ const gaPageIdentifier = Astro.url.pathname
       name='viewport'
       content='width=device-width, user-scalable=yes, initial-scale=1.0, maximum-scale=3.0, minimum-scale=1.0'
     />
-    <meta http-equiv='Content-Language' content='en' />
+    <meta
+      http-equiv='Content-Language'
+      content={localeMetadata[locale].htmlLang}
+    />
 
     <meta name='twitter:card' content='summary_large_image' />
     <meta name='twitter:creator' content='@kamrify' />
@@ -105,8 +123,25 @@ const gaPageIdentifier = Astro.url.pathname
     <meta property='og:description' content={description} />
     <meta property='og:type' content='website' />
     <meta property='og:url' content={currentPageAbsoluteUrl} />
+    <meta property='og:locale' content={localeMetadata[locale].ogLocale} />
+    {
+      alternateLinks
+        .filter((item) => item.locale !== locale)
+        .map((item) => (
+          <meta
+            property='og:locale:alternate'
+            content={localeMetadata[item.locale].ogLocale}
+          />
+        ))
+    }
 
     <link rel='canonical' href={canonicalUrl} />
+    {
+      alternateLinks.map((item) => (
+        <link rel='alternate' hreflang={item.hrefLang} href={item.href} />
+      ))
+    }
+    <link rel='alternate' hreflang='x-default' href={defaultAlternateUrl} />
 
     <meta name='mobile-web-app-capable' content='yes' />
     <meta name='apple-mobile-web-app-capable' content='yes' />
@@ -147,7 +182,6 @@ const gaPageIdentifier = Astro.url.pathname
       href='/manifest/favicon.ico'
       type='image/x-icon'
     />
-
     <link rel='icon' href='/manifest/favicon.ico' type='image/x-icon' />
 
     <link rel='preconnect' href='https://www.google-analytics.com/' />
@@ -163,21 +197,9 @@ const gaPageIdentifier = Astro.url.pathname
         </Fragment>
       )
     }
-    <!-- Google Tag Manager Start -->
-    <script is:inline>
-      (function (w, d, s, l, i) {
-        w[l] = w[l] || [];
-        w[l].push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' });
-        var f = d.getElementsByTagName(s)[0],
-          j = d.createElement(s),
-          dl = l != 'dataLayer' ? '&l=' + l : '';
-        j.async = true;
-        j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
-        f.parentNode.insertBefore(j, f);
-      })(window, document, 'script', 'dataLayer', 'GTM-T66KC7S8');
+    <script is:inline define:vars={{ locale }}>
+      window.__ROADMAP_LOCALE__ = locale;
     </script>
-    <!-- Google Tag Manager End -->
-
     <slot name='after-header' />
     {
       jsonLd.length > 0 && (
@@ -192,7 +214,6 @@ const gaPageIdentifier = Astro.url.pathname
     <Hubspot />
   </head>
   <body class='flex min-h-screen flex-col'>
-    <!-- Google Tag Manager (noscript) -->
     <noscript>
       <iframe
         src='https://www.googletagmanager.com/ns.html?id=GTM-T66KC7S8'
@@ -200,7 +221,6 @@ const gaPageIdentifier = Astro.url.pathname
         width='0'
         style='display:none;visibility:hidden'></iframe>
     </noscript>
-    <!-- End Google Tag Manager (noscript) -->
 
     <slot name='course-announcement'>
       <CourseAnnouncement client:load />

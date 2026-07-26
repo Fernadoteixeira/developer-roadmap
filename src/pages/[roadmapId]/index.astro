@@ -15,42 +15,51 @@ import {
 import { getOpenGraphImageUrl } from '../../lib/open-graph';
 import {
   type RoadmapFrontmatter,
-  getRoadmapIds,
   getRoadmapById,
   getRoadmapFaqsById,
 } from '../../lib/roadmap';
-import RoadmapNote from '../../components/RoadmapNote.astro';
 import { RoadmapTitleQuestion } from '../../components/RoadmapTitleQuestion';
 import ResourceProgressStats from '../../components/ResourceProgressStats.astro';
 import { getProjectsByRoadmapId } from '../../lib/project';
 import { CheckSubscriptionVerification } from '../../components/Billing/CheckSubscriptionVerification';
+import {
+  createTranslator,
+  defaultLocale,
+  getLocalizedPath,
+} from '../../i18n';
 
-export const prerender = true;
-
-export async function getStaticPaths() {
-  const roadmapIds = await getRoadmapIds();
-
-  return roadmapIds.map((roadmapId) => ({
-    params: { roadmapId },
-  }));
-}
+export const prerender = false;
 
 interface Params extends Record<string, string | undefined> {
   roadmapId: string;
 }
 
 const { roadmapId } = Astro.params as Params;
-const roadmapFile = await getRoadmapById(roadmapId);
+const locale = Astro.locals.locale || defaultLocale;
+const t = createTranslator(locale);
+
+let roadmapFile;
+try {
+  roadmapFile = await getRoadmapById(roadmapId, locale);
+} catch {
+  Astro.response.status = 404;
+  return Astro.rewrite('/404');
+}
+
 const roadmapFAQs = await getRoadmapFaqsById(roadmapId);
 const roadmapData = roadmapFile.frontmatter as RoadmapFrontmatter;
-
-let jsonLdSchema = [];
+const localizedRoadmapPath = getLocalizedPath(`/${roadmapId}`, locale);
+const localizedAbsoluteUrl = new URL(
+  localizedRoadmapPath,
+  'https://roadmap.sh',
+).toString();
+const jsonLdSchema: Record<string, unknown>[] = [];
 
 if (roadmapData.schema) {
   const roadmapSchema = roadmapData.schema;
   jsonLdSchema.push(
     generateArticleSchema({
-      url: `https://roadmap.sh/${roadmapId}`,
+      url: localizedAbsoluteUrl,
       headline: roadmapSchema.headline,
       description: roadmapSchema.description,
       datePublished: roadmapSchema.datePublished,
@@ -70,9 +79,7 @@ const ogImageUrl =
     group: 'roadmap',
     resourceId: roadmapId,
   });
-
 const question = roadmapData?.question;
-const note = roadmapData.note;
 const projects = await getProjectsByRoadmapId(roadmapId);
 const courses = roadmapData.courses || [];
 ---
@@ -89,7 +96,6 @@ const courses = roadmapData.courses || [];
   resourceId={roadmapId}
   resourceType='roadmap'
 >
-  <!-- Preload the font being used in the renderer -->
   <link
     rel='preload'
     href='/fonts/balsamiq.woff2'
@@ -131,8 +137,8 @@ const courses = roadmapData.courses || [];
             <RoadmapTitleQuestion
               client:load
               roadmapId={roadmapId}
-              question={question?.title}
-              answer={question?.description}
+              question={question.title}
+              answer={question.description}
             />
           )
         }
@@ -144,7 +150,7 @@ const courses = roadmapData.courses || [];
         resourceId={roadmapId}
         resourceType='roadmap'
         description={roadmapData.briefDescription}
-        pageUrl={`https://roadmap.sh/${roadmapId}`}
+        pageUrl={localizedAbsoluteUrl}
         client:load
       />
 
@@ -158,7 +164,7 @@ const courses = roadmapData.courses || [];
           />
         ) : (
           <FrameRenderer
-            resourceType={'roadmap'}
+            resourceType='roadmap'
             resourceId={roadmapId}
             dimensions={roadmapData.dimensions}
           />
@@ -176,13 +182,12 @@ const courses = roadmapData.courses || [];
     {
       roadmapId === 'docker' && (
         <p class='mb-8 px-5 text-center text-xs text-gray-400 sm:mb-12'>
-          Roadmap owner Insight Partners is an investor in Docker.
+          {t('roadmap.ownerDisclaimer')}
         </p>
       )
     }
 
     <FAQs faqs={roadmapFAQs as unknown as FAQType[]} />
-
     <RelatedRoadmaps roadmap={roadmapData} />
   </div>
 
