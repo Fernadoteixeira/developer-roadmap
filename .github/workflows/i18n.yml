@@ -1,0 +1,78 @@
+name: i18n Quality Gate
+
+on:
+  push:
+    branches: [main, master]
+    paths:
+      - 'src/i18n/**'
+      - 'src/middleware.ts'
+      - 'src/**/*.astro'
+      - 'src/**/*.tsx'
+      - 'src/data/**/*.md'
+      - 'scripts/i18n/**'
+      - 'tests/i18n.spec.ts'
+      - 'package.json'
+      - '.github/workflows/i18n.yml'
+  pull_request:
+    branches: [main, master]
+    paths:
+      - 'src/i18n/**'
+      - 'src/middleware.ts'
+      - 'src/**/*.astro'
+      - 'src/**/*.tsx'
+      - 'src/data/**/*.md'
+      - 'scripts/i18n/**'
+      - 'tests/i18n.spec.ts'
+      - 'package.json'
+      - '.github/workflows/i18n.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    name: Catalog, content, build and E2E
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 11
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: pnpm
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Validate catalogs and localized Markdown
+        run: pnpm i18n:validate
+
+      - name: Generate translation coverage
+        run: pnpm i18n:coverage
+
+      - name: Build production application
+        run: pnpm build
+
+      - name: Install Chromium
+        run: pnpm exec playwright install --with-deps chromium
+
+      - name: Run locale E2E
+        run: pnpm exec playwright test tests/i18n.spec.ts --project=chromium
+
+      - name: Upload coverage and Playwright reports
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: i18n-quality-reports
+          path: |
+            artifacts/i18n-coverage.json
+            playwright-report/
+            test-results/
+          if-no-files-found: ignore
+          retention-days: 14

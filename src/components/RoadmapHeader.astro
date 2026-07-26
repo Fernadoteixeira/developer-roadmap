@@ -14,7 +14,8 @@ import { MarkFavorite } from './FeaturedItems/MarkFavorite';
 import { type RoadmapFrontmatter } from '../lib/roadmap';
 import { ShareRoadmapButton } from './ShareRoadmapButton';
 import { DownloadRoadmapButton } from './DownloadRoadmapButton';
-import { CourseAnnouncement } from './SQLCourse/CourseAnnouncement';
+import { createTranslator, defaultLocale, getLocalizedPath } from '../i18n';
+
 export interface Props {
   title: string;
   description: string;
@@ -40,17 +41,16 @@ const {
   description,
   roadmapId,
   partner,
-  isUpcoming = false,
-  note,
-  hasTopics = false,
   projectCount = 0,
-  question,
   activeTab = 'roadmap',
   coursesCount = 0,
 } = Astro.props;
-
+const locale = Astro.locals.locale || defaultLocale;
+const t = createTranslator(locale);
+const href = (path: string) => getLocalizedPath(path, locale);
 const hasCourses = coursesCount > 0;
 const hasProjects = projectCount > 0;
+const localizedRoadmapPath = href(`/${roadmapId}`);
 ---
 
 <LoginPopup />
@@ -61,7 +61,7 @@ const hasProjects = projectCount > 0;
     partner && (
       <div class='hidden rounded-md border bg-white px-2 py-1.5 sm:block'>
         <p class='py-0.5 text-left text-sm'>
-          <span class='badge mr-1'>Partner</span>
+          <span class='badge mr-1'>{t('roadmap.partner')}</span>
           {partner.description}
           <a href={partner.link} target='_blank' class='font-medium underline'>
             {partner.linkText}
@@ -77,18 +77,18 @@ const hasProjects = projectCount > 0;
     <div class='flex items-start justify-between'>
       <a
         class='inline-flex items-center justify-center rounded-md bg-gray-300 px-2 py-1.5 text-xs font-medium hover:bg-gray-400 sm:hidden sm:text-sm'
-        aria-label='Back to roadmaps'
-        href={'/roadmaps'}
+        aria-label={t('roadmap.back')}
+        href={href('/roadmaps')}
       >
         <ArrowLeftIcon className='h-4 w-4' />
       </a>
 
       <a
-        href='/roadmaps'
+        href={href('/roadmaps')}
         class='hidden rounded-md text-sm font-medium text-gray-500 transition-all hover:text-black focus:outline-0 sm:block'
-        aria-label='Back to All Roadmaps'
+        aria-label={t('roadmap.all')}
       >
-        &larr;&nbsp;<span>&nbsp;All Roadmaps</span>
+        &larr;&nbsp;<span>&nbsp;{t('roadmap.all')}</span>
       </a>
       <div
         class='relative top-0 right-0 flex items-center gap-1 sm:-top-0.5 sm:-right-2'
@@ -108,61 +108,60 @@ const hasProjects = projectCount > 0;
         <DownloadRoadmapButton roadmapId={roadmapId} client:idle />
         <ShareRoadmapButton
           description={description}
-          pageUrl={`https://roadmap.sh/${roadmapId}`}
+          pageUrl={new URL(
+            localizedRoadmapPath,
+            'https://roadmap.sh',
+          ).toString()}
           client:idle
         />
       </div>
     </div>
     <div class:list={['mt-5 mb-5 sm:mt-12 sm:mb-12']}>
-      <h1 class='mb-0.5 text-2xl font-bold sm:mb-3.5 sm:text-5xl'>
-        {title}
-      </h1>
-      <p class='text-sm text-balance text-gray-500 sm:text-lg'>
-        {description}
-      </p>
+      <h1 class='mb-0.5 text-2xl font-bold sm:mb-3.5 sm:text-5xl'>{title}</h1>
+      <p class='text-sm text-balance text-gray-500 sm:text-lg'>{description}</p>
     </div>
 
-    {
-      (
-        <div class='flex justify-between gap-2 sm:gap-0'>
-          <div class='relative top-px flex gap-1 sm:gap-3'>
+    <div class='flex justify-between gap-2 sm:gap-0'>
+      <div class='relative top-px flex gap-1 sm:gap-3'>
+        <TabLink
+          url={localizedRoadmapPath}
+          icon={MapIcon}
+          isActive={activeTab === 'roadmap'}
+          text={t('roadmap.roadmap')}
+        />
+        {
+          hasProjects && (
             <TabLink
-              url={`/${roadmapId}`}
-              icon={MapIcon}
-              isActive={activeTab === 'roadmap'}
-              text='Roadmap'
+              url={href(`/${roadmapId}/projects`)}
+              icon={FolderKanbanIcon}
+              text={t('roadmap.projects')}
+              isActive={activeTab === 'projects'}
+              badgeText={projectCount > 0 ? '' : t('roadmap.soon')}
             />
-            {hasProjects && (
-              <TabLink
-                url={`/${roadmapId}/projects`}
-                icon={FolderKanbanIcon}
-                text='Projects'
-                isActive={activeTab === 'projects'}
-                badgeText={projectCount > 0 ? '' : 'soon'}
-              />
-            )}
-            {hasCourses && (
-              <TabLink
-                url={`/${roadmapId}/courses`}
-                icon={BookOpenIcon}
-                text='Courses'
-                isActive={activeTab === 'courses'}
-                badgeText='New'
-              />
-            )}
-          </div>
+          )
+        }
+        {
+          hasCourses && (
+            <TabLink
+              url={href(`/${roadmapId}/courses`)}
+              icon={BookOpenIcon}
+              text={t('roadmap.courses')}
+              isActive={activeTab === 'courses'}
+              badgeText={t('badge.new')}
+            />
+          )
+        }
+      </div>
 
-          <TabLink
-            url={`https://github.com/kamranahmedse/developer-roadmap/issues/new/choose`}
-            icon={MessageCircle}
-            text='Suggest Changes'
-            isExternal={true}
-            hideTextOnMobile={true}
-            isActive={false}
-            className='hidden sm:flex'
-          />
-        </div>
-      )
-    }
+      <TabLink
+        url='https://github.com/kamranahmedse/developer-roadmap/issues/new/choose'
+        icon={MessageCircle}
+        text={t('roadmap.suggestChanges')}
+        isExternal={true}
+        hideTextOnMobile={true}
+        isActive={false}
+        className='hidden sm:flex'
+      />
+    </div>
   </div>
 </div>

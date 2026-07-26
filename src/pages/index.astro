@@ -10,9 +10,12 @@ import { getAllGuides } from '../lib/guide';
 import { getAllQuestionGroups } from '../lib/question-group';
 import { getRoadmapsByTag } from '../lib/roadmap';
 import { getAllVideos } from '../lib/video';
+import { createTranslator, defaultLocale } from '../i18n';
 
-const roleRoadmaps = await getRoadmapsByTag('role-roadmap');
-const skillRoadmaps = await getRoadmapsByTag('skill-roadmap');
+const locale = Astro.locals.locale || defaultLocale;
+const t = createTranslator(locale);
+const roleRoadmaps = await getRoadmapsByTag('role-roadmap', locale);
+const skillRoadmaps = await getRoadmapsByTag('skill-roadmap', locale);
 const bestPractices = await getAllBestPractices();
 const questionGroups = await getAllQuestionGroups();
 
@@ -39,15 +42,15 @@ const videos = await getAllVideos();
 ---
 
 <BaseLayout
-  title='Developer Roadmaps - roadmap.sh'
-  description={'Community driven roadmaps, articles and guides for developers to grow in their career.'}
-  permalink={'/'}
+  title={t('app.title')}
+  description={t('app.description')}
+  permalink='/'
 >
   <div class='bg-linear-to-b from-slate-900 to-black'>
     <HeroSection />
 
     <FeaturedItems
-      heading='Role-based Roadmaps'
+      heading={t('home.roleBased')}
       featuredItems={roleRoadmaps
         .filter((roadmapItem) => !roadmapItem.frontmatter.isHidden)
         .map((roadmapItem) => ({
@@ -60,13 +63,13 @@ const videos = await getAllVideos();
     />
 
     <FeaturedItems
-      heading='Skill-based Roadmaps'
+      heading={t('home.skillBased')}
       featuredItems={skillRoadmaps
         .filter((roadmapItem) => !roadmapItem.frontmatter.isHidden)
         .map((roadmapItem) => ({
           text:
             roadmapItem.frontmatter.briefTitle === 'Go'
-              ? 'Go Roadmap'
+              ? t('home.goRoadmap')
               : roadmapItem.frontmatter.briefTitle,
           url: `/${roadmapItem.id}`,
           isNew: roadmapItem.frontmatter.isNew,
@@ -76,16 +79,16 @@ const videos = await getAllVideos();
     />
 
     <FeaturedItems
-      heading='Project Ideas'
+      heading={t('home.projectIdeas')}
       allowBookmark={false}
       featuredItems={projectGroups.map((projectGroup) => ({
         text: projectGroup.title,
-        url: `${projectGroup.id}/projects`,
+        url: `/${projectGroup.id}/projects`,
       }))}
     />
 
     <FeaturedItems
-      heading='Best Practices'
+      heading={t('home.bestPractices')}
       featuredItems={bestPractices.map((bestPractice) => ({
         text: bestPractice.frontmatter.briefTitle,
         url: `/best-practices/${bestPractice.id}`,
@@ -95,7 +98,7 @@ const videos = await getAllVideos();
     />
 
     <FeaturedItems
-      heading='Questions'
+      heading={t('home.questions')}
       allowBookmark={false}
       featuredItems={questionGroups.map((questionGroup) => ({
         text: questionGroup.frontmatter.briefTitle,
@@ -106,11 +109,14 @@ const videos = await getAllVideos();
 
     <div class='grid grid-cols-1 gap-7 bg-gray-50 py-7 sm:gap-16 sm:py-16'>
       <FeaturedGuideList
-        heading='Guides'
+        heading={t('home.guides')}
         guides={guides.slice(0, 7)}
         questions={questionGuides.slice(0, 7)}
       />
-      <FeaturedVideoList heading='Videos' videos={videos.slice(0, 7)} />
+      <FeaturedVideoList
+        heading={t('home.videos')}
+        videos={videos.slice(0, 7)}
+      />
     </div>
   </div>
   <ChangelogBanner slot='changelog-banner' />

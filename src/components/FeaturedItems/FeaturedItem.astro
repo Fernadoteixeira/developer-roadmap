@@ -1,6 +1,13 @@
 ---
 import AstroIcon from '../AstroIcon.astro';
 import { MarkFavorite } from './MarkFavorite';
+import {
+  createTranslator,
+  defaultLocale,
+  getLocalizedPath,
+  stripLocalePrefix,
+} from '../../i18n';
+
 export interface FeaturedItemType {
   isUpcoming?: boolean;
   isNew?: boolean;
@@ -18,6 +25,10 @@ const {
   url,
   allowBookmark = true,
 } = Astro.props;
+const locale = Astro.locals.locale || defaultLocale;
+const t = createTranslator(locale);
+const canonicalUrl = stripLocalePrefix(url);
+const localizedUrl = getLocalizedPath(canonicalUrl, locale);
 ---
 
 <a
@@ -27,18 +38,16 @@ const {
       'opacity-50': isUpcoming,
     },
   ]}
-  href={url}
+  href={localizedUrl}
 >
-  <span class='relative z-20 text-slate-400'>
-    {text}
-  </span>
+  <span class='relative z-20 text-slate-400'>{text}</span>
 
   {
     allowBookmark && (
       <MarkFavorite
-        resourceId={url.split('/').pop()!}
+        resourceId={canonicalUrl.split('/').pop()!}
         resourceType={
-          url.includes('best-practices') ? 'best-practice' : 'roadmap'
+          canonicalUrl.includes('best-practices') ? 'best-practice' : 'roadmap'
         }
         client:only='react'
       />
@@ -52,7 +61,7 @@ const {
           <span class='absolute inline-flex h-2 w-2 animate-ping rounded-full bg-purple-400 opacity-75' />
           <span class='relative inline-flex h-2 w-2 rounded-full bg-purple-500' />
         </span>
-        New
+        {t('badge.new')}
       </span>
     )
   }
@@ -64,7 +73,7 @@ const {
           <span class='absolute inline-flex h-2 w-2 animate-ping rounded-full bg-slate-500 opacity-75' />
           <span class='relative inline-flex h-2 w-2 rounded-full bg-slate-600' />
         </span>
-        Upcoming
+        {t('badge.upcoming')}
       </span>
     )
   }

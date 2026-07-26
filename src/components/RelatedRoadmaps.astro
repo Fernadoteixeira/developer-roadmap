@@ -2,16 +2,18 @@
 import { getQuestionGroupsByIds } from '../lib/question-group';
 import { getRoadmapsByIds, type RoadmapFrontmatter } from '../lib/roadmap';
 import { Map, Clipboard } from 'lucide-react';
+import { createTranslator, defaultLocale, getLocalizedPath } from '../i18n';
 
 export interface Props {
   roadmap: RoadmapFrontmatter;
 }
 
 const { roadmap } = Astro.props;
-
+const locale = Astro.locals.locale || defaultLocale;
+const t = createTranslator(locale);
+const href = (path: string) => getLocalizedPath(path, locale);
 const relatedRoadmaps = roadmap.relatedRoadmaps || [];
-const relatedRoadmapDetails = await getRoadmapsByIds(relatedRoadmaps);
-
+const relatedRoadmapDetails = await getRoadmapsByIds(relatedRoadmaps, locale);
 const relatedQuestions = roadmap.relatedQuestions || [];
 const relatedQuestionDetails = await getQuestionGroupsByIds(relatedQuestions);
 ---
@@ -23,21 +25,23 @@ const relatedQuestionDetails = await getQuestionGroupsByIds(relatedQuestions);
         <div class='relative -top-5 flex justify-between'>
           <span class='text-md flex items-center rounded-md border bg-white px-3 py-1 font-medium'>
             <Clipboard className='mr-1.5 text-black' size='17px' />
-            Test your Knowledge
+            {t('related.testKnowledge')}
           </span>
           <a
-            href='/questions'
+            href={href('/questions')}
             class='text-md rounded-md border bg-white px-3 py-1 font-medium hover:bg-gray-50'
           >
-            <span class='hidden sm:inline'>All Quizzes &rarr;</span>
-            <span class='inline sm:hidden'>More &rarr;</span>
+            <span class='hidden sm:inline'>
+              {t('related.allQuizzes')} &rarr;
+            </span>
+            <span class='inline sm:hidden'>{t('related.more')} &rarr;</span>
           </a>
         </div>
 
         <div class='flex flex-col gap-1 pb-8'>
           {relatedQuestionDetails.map((relatedQuestionGroup) => (
             <a
-              href={`/questions/${relatedQuestionGroup.id}`}
+              href={href(`/questions/${relatedQuestionGroup.id}`)}
               class='flex flex-col gap-0.5 rounded-md border bg-white px-3.5 py-2 hover:bg-gray-50 sm:flex-row sm:gap-0'
             >
               <span class='inline-block min-w-[150px] font-medium'>
@@ -55,7 +59,7 @@ const relatedQuestionDetails = await getQuestionGroupsByIds(relatedQuestions);
 }
 
 {
-  relatedRoadmaps.length && (
+  relatedRoadmaps.length > 0 && (
     <div
       class:list={[
         'border-t bg-gray-100',
@@ -68,21 +72,21 @@ const relatedQuestionDetails = await getQuestionGroupsByIds(relatedQuestions);
         <div class='relative -top-5 flex justify-between'>
           <span class='text-md flex items-center rounded-md border bg-white px-3 py-1 font-medium'>
             <Map className='text-black mr-1.5' size='17px' />
-            Related <span class='hidden sm:inline'>Roadmaps</span>
+            {t('related.title')}
           </span>
           <a
-            href='/roadmaps'
+            href={href('/roadmaps')}
             class='text-md rounded-md border bg-white px-3 py-1 font-medium hover:bg-gray-50'
           >
-            <span class='hidden sm:inline'>All Roadmaps &rarr;</span>
-            <span class='inline sm:hidden'>More &rarr;</span>
+            <span class='hidden sm:inline'>{t('roadmap.all')} &rarr;</span>
+            <span class='inline sm:hidden'>{t('related.more')} &rarr;</span>
           </a>
         </div>
 
         <div class='flex flex-col gap-1 pb-8'>
           {relatedRoadmapDetails.map((relatedRoadmap) => (
             <a
-              href={`/${relatedRoadmap.id}`}
+              href={href(`/${relatedRoadmap.id}`)}
               class='flex flex-col gap-0.5 rounded-md border bg-white px-3.5 py-2 hover:bg-gray-50 sm:flex-row sm:gap-0'
             >
               <span class='inline-block min-w-[195px] font-medium'>

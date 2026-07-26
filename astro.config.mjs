@@ -5,10 +5,8 @@ import { defineConfig } from 'astro/config';
 import rehypeExternalLinks from 'rehype-external-links';
 import { serializeSitemap, shouldIndexPage } from './sitemap.mjs';
 import tailwindcss from '@tailwindcss/vite';
-
 import react from '@astrojs/react';
 
-// https://astro.build/config
 export default defineConfig({
   site: 'https://roadmap.sh/',
   redirects: {
@@ -24,6 +22,10 @@ export default defineConfig({
   vite: {
     server: {
       allowedHosts: ['roadmap.sh', 'port3k.kamranahmed.info'],
+    },
+    plugins: [tailwindcss()],
+    ssr: {
+      noExternal: [/^@roadmapsh\/editor.*$/],
     },
   },
   markdown: {
@@ -67,10 +69,4 @@ export default defineConfig({
     }),
     react(),
   ],
-  vite: {
-    plugins: [tailwindcss()],
-    ssr: {
-      noExternal: [/^@roadmapsh\/editor.*$/],
-    },
-  },
 });

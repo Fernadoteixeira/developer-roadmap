@@ -1,0 +1,48 @@
+---
+import {
+  createTranslator,
+  defaultLocale,
+  getLocalizedPath,
+  localeMetadata,
+  stripLocalePrefix,
+  supportedLocales,
+} from '../i18n';
+
+export interface Props {
+  variant?: 'desktop' | 'mobile';
+}
+
+const { variant = 'desktop' } = Astro.props;
+const locale = Astro.locals.locale || defaultLocale;
+const canonicalPath =
+  Astro.locals.canonicalPath || stripLocalePrefix(Astro.url.pathname);
+const t = createTranslator(locale);
+const className =
+  variant === 'mobile'
+    ? 'mt-4 flex items-center justify-center gap-2'
+    : 'hidden items-center gap-1 rounded-full border border-slate-700 p-1 xl:flex';
+---
+
+<nav class={className} aria-label={t('language.label')}>
+  {
+    supportedLocales.map((targetLocale) => (
+      <a
+        href={`${getLocalizedPath(canonicalPath, targetLocale)}${Astro.url.search}`}
+        hreflang={localeMetadata[targetLocale].htmlLang}
+        lang={localeMetadata[targetLocale].htmlLang}
+        aria-current={targetLocale === locale ? 'page' : undefined}
+        title={localeMetadata[targetLocale].label}
+        class:list={[
+          'rounded-full px-2 py-1 text-xs font-medium transition-colors',
+          targetLocale === locale
+            ? 'bg-white text-slate-900'
+            : 'text-slate-400 hover:bg-slate-800 hover:text-white',
+        ]}
+      >
+        {variant === 'mobile'
+          ? localeMetadata[targetLocale].label
+          : localeMetadata[targetLocale].shortLabel}
+      </a>
+    ))
+  }
+</nav>
