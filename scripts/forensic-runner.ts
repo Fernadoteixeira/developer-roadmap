@@ -422,10 +422,14 @@ for (const entry of selectedFiles) {
 
     // Some basic linguistic checks (e.g. check for common translation artifacts or untranslated placeholders)
     if (translatedContent.includes('experiência do utilizador')) {
-      throw new Error('Gate G3/G4 Failed: Encontrou pt-PT "experiência do utilizador" ao invés de "experiência do usuário".');
+      throw new Error(
+        'Gate G3/G4 Failed: Encontrou pt-PT "experiência do utilizador" ao invés de "experiência do usuário".',
+      );
     }
     if (translatedContent.includes('A terminal')) {
-      throw new Error('Gate G3/G4 Failed: Encontrou erro gramatical "A terminal".');
+      throw new Error(
+        'Gate G3/G4 Failed: Encontrou erro gramatical "A terminal".',
+      );
     }
 
     logEvent('validation.passed', fileId, 'INFO', {
@@ -433,7 +437,7 @@ for (const entry of selectedFiles) {
       hasCodeBlocks,
       hasTables,
       hasImages,
-      hasHtml
+      hasHtml,
     });
 
     // Gate G4: Publication Técnica

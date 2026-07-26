@@ -1509,7 +1509,7 @@
   },
   "fr0NChxMXLpJizyMhXcXS": {
     "title": "Arrow Functions",
-    "description": "Arrow Function is a new way of creating functions with the '=>' operator with a shorter syntax.\n\nExample\n-------\n\n    const sayHello = () => {\n        console.log(`Hello from Arrow Function !`);\n    }\n    \n\nVisit the following resources to learn more:",
+    "description": "Arrow Function is a new way of creating functions with the '=>' operator with a shorter syntax.\n\nExample\n-------\n\n    const sayHello = () => {\n      console.log(`Hello from Arrow Function !`);\n    };\n    \n\nVisit the following resources to learn more:",
     "links": [
       {
         "title": "MDN - Arrow Function Expressions",
@@ -1525,7 +1525,7 @@
   },
   "YZlCoPvZuX5MmpLOTj5d4": {
     "title": "IIFEs",
-    "description": "Immediately-Invoked Function Expression is a function that is executed immediately after it is created.\n\nExample\n-------\n\n    // An Async IIFE\n    ( async() => {\n        \n        const x = 1;\n        const y = 9;\n    \n        console.log(`Hello, The Answer is ${x+y}`);\n    \n    })();\n    \n\nVisit the following resources to learn more:",
+    "description": "Immediately-Invoked Function Expression is a function that is executed immediately after it is created.\n\nExample\n-------\n\n    // An Async IIFE\n    (async () => {\n      const x = 1;\n      const y = 9;\n    \n      console.log(`Hello, The Answer is ${x + y}`);\n    })();\n    \n\nVisit the following resources to learn more:",
     "links": [
       {
         "title": "IIFE — MDN Docs",

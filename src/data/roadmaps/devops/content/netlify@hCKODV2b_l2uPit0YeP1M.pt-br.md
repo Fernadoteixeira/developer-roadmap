@@ -1,6 +1,6 @@
 # Netlify
 
-As Funções Netlify são funções serverless que permitem aos desenvolvedores executar código do lado do servidor em um ambiente JAMstack sem gerenciar servidores. Elas são construídas no AWS Lambda e são implantadas automaticamente junto com seu site Netlify. Essas funções podem lidar com tarefas como solicitações de API, submissões de formulários e operações de banco de dados, habilitando a funcionalidade dinâmica em sites estáticos. Suportam várias linguagens, incluindo JavaScript, TypeScript e Go. As Funções Netlify integram-se perfeitamente no pipeline de implantação do Netlify, oferecendo desenvolvimento, teste e implantação na produção fácil.
+As Funções Netlify são funções serverless que permitem aos desenvolvedores executar código do lado do servidor em um ambiente JAMstack sem gerenciar servidores. Elas são construídas no AWS Lambda e são implantadas automaticamente junto com seu site Netlify. Essas funções podem lidar com tarefas como solicitações de API, submissões de formulários e operações de banco de dados, habilitando a funcionalidade dinâmica em sites estáticos. Suportam várias linguagens, incluindo JavaScript, TypeScript e Go. As Funções Netlify integram-se perfeitamente no pipeline de implantação do Netlify, oferecendo desenvolvimento, teste e implantação fácil em produção.
 
 Visite os seguintes recursos para saber mais:
 

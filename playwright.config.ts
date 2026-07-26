@@ -51,14 +51,13 @@ const config: PlaywrightTestConfig = {
     },
   ],
 
-  /* Run local dev server before starting E2E tests
+  /* Run local dev server before starting E2E tests */
   webServer: {
-    command: 'npm run preview -- --port 3000 --host 127.0.0.1',
+    command: 'pnpm preview -- --port 3000 --host 127.0.0.1',
     url: 'http://127.0.0.1:3000',
     reuseExistingServer: !process.env.CI,
     timeout: 120 * 1000,
   },
-  */
 };
 
 export default config;
