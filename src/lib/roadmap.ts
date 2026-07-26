@@ -161,12 +161,17 @@ export async function getRoadmapsByIds(
   return Promise.all(ids.map((id) => getRoadmapById(id)));
 }
 
-export async function getRoadmapFaqsById(roadmapId: string): Promise<string[]> {
-  const { faqs } = await import(
-    `../data/roadmaps/${roadmapId}/faqs.astro`
-  ).catch(() => ({}));
+export async function getRoadmapFaqsById(roadmapId: string): Promise<any[]> {
+  const faqFilesMap: Record<string, { faqs?: any[] }> = import.meta.glob(
+    '/src/data/roadmaps/*/faqs.astro',
+    { eager: true },
+  );
 
-  return faqs || [];
+  const matchingPath = Object.keys(faqFilesMap).find((filePath) =>
+    filePath.includes(`/data/roadmaps/${roadmapId}/faqs.astro`),
+  );
+
+  return (matchingPath && faqFilesMap[matchingPath]?.faqs) || [];
 }
 
 export async function getResourceMeta(

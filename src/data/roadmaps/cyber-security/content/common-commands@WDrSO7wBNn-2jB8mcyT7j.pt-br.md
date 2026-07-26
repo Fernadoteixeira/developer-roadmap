@@ -5,22 +5,22 @@ Comandos comuns do sistema operacional (SO) são essenciais para interagir com o
 1. **Navegando no sistema de arquivos:**
 
 - Unix/Linux: `ls` (listar arquivos), `cd` (alterar diretório), `pwd` (imprimir diretório de trabalho)
-   - Windows: `dir` (listar arquivos), `cd` (alterar diretório), `echo %cd%` (imprimir diretório de trabalho)
+  - Windows: `dir` (listar arquivos), `cd` (alterar diretório), `echo %cd%` (imprimir diretório de trabalho)
 
 2. **Gerenciamento de arquivos e diretórios:**
 
 - Unix/Linux: `cp` (copiar arquivos), `mv` (mover/renomear arquivos), `rm` (remover arquivos), `mkdir` (criar diretório)
-   - Windows: `copy` (copiar arquivos), `move` (mover/renomear arquivos), `del` (excluir arquivos), `mkdir` (criar diretório)
+  - Windows: `copy` (copiar arquivos), `move` (mover/renomear arquivos), `del` (excluir arquivos), `mkdir` (criar diretório)
 
 3. **Informações e Processos do Sistema:**
 
 - Unix/Linux: `top` ou `htop` (ver processos em execução), `ps` (listar processos), `df` (uso do disco), `uname` (informações do sistema)
-   - Windows: `tasklist` (listar processos), `taskkill` (matar processo), `systeminfo` (detalhes do sistema)
+  - Windows: `tasklist` (listar processos), `taskkill` (matar processo), `systeminfo` (detalhes do sistema)
 
 4. **Permissões e propriedade de arquivos:**
 
 - Unix/Linux: `chmod` (alterar permissões de arquivo), `chown` (alterar propriedade de arquivo)
-   - Windows: `icacls` (modificar listas de controle de acesso), `attrib` (alterar atributos de arquivo)
+  - Windows: `icacls` (modificar listas de controle de acesso), `attrib` (alterar atributos de arquivo)
 
 5. **Comandos de rede:**
    - Unix/Linux: `ping` (testar conexão de rede), `ifconfig` ou `ip` (configuração de interface de rede), `netstat` (estatísticas de rede)
