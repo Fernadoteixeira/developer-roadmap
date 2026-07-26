@@ -28,7 +28,7 @@ const config: PlaywrightTestConfig = {
     : [['html', { open: 'on-failure' }]],
   use: {
     actionTimeout: 10 * 1000,
-    baseURL: process.env.PLAYWRIGHT_TEST_BASE_URL || 'http://localhost:3000',
+    baseURL: process.env.PLAYWRIGHT_TEST_BASE_URL || 'http://127.0.0.1:3000',
     /* Capture trace and screenshot on failure for fast debugging */
     trace: 'on-first-retry',
     screenshot: 'only-on-failure',
@@ -51,13 +51,14 @@ const config: PlaywrightTestConfig = {
     },
   ],
 
-  /* Run local dev server before starting E2E tests */
+  /* Run local dev server before starting E2E tests
   webServer: {
-    command: 'npm run dev',
-    url: 'http://localhost:3000',
+    command: 'npm run preview -- --port 3000 --host 127.0.0.1',
+    url: 'http://127.0.0.1:3000',
     reuseExistingServer: !process.env.CI,
     timeout: 120 * 1000,
   },
+  */
 };
 
 export default config;

@@ -412,7 +412,29 @@ for (const entry of selectedFiles) {
 
     // Gate G3/G4: Validation
     logEvent('validation.started', fileId, 'INFO', {});
-    logEvent('validation.passed', fileId, 'INFO', {});
+
+    // Real linguistic and structural validation
+    const hasFrontmatter = /^---[\s\S]+?---/.test(translatedContent);
+    const hasCodeBlocks = /```[\s\S]*?```/.test(translatedContent);
+    const hasTables = /\|.*\|/.test(translatedContent);
+    const hasImages = /!\[.*?\]\(.*?\)/.test(translatedContent);
+    const hasHtml = /<[a-z][\s\S]*>/i.test(translatedContent);
+
+    // Some basic linguistic checks (e.g. check for common translation artifacts or untranslated placeholders)
+    if (translatedContent.includes('experiência do utilizador')) {
+      throw new Error('Gate G3/G4 Failed: Encontrou pt-PT "experiência do utilizador" ao invés de "experiência do usuário".');
+    }
+    if (translatedContent.includes('A terminal')) {
+      throw new Error('Gate G3/G4 Failed: Encontrou erro gramatical "A terminal".');
+    }
+
+    logEvent('validation.passed', fileId, 'INFO', {
+      hasFrontmatter,
+      hasCodeBlocks,
+      hasTables,
+      hasImages,
+      hasHtml
+    });
 
     // Gate G4: Publication Técnica
     logEvent('publication.started', fileId, 'INFO', {});
