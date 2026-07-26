@@ -49,6 +49,22 @@ test.describe('i18n routing and shell @smoke', () => {
     const location = response.headers().location;
 
     expect(response.status()).toBe(301);
-    expect(new URL(location, 'http://localhost:3000').pathname).toBe('/pt-br/qa');
+    expect(new URL(location, 'http://127.0.0.1:3000').pathname).toBe('/pt-br/qa');
+  });
+
+  test('canonical tag reflects current locale for internal routes', async ({ page }) => {
+    await page.goto('/es/courses/sql');
+    await expect(page.locator('html')).toHaveAttribute('lang', 'es');
+    await expect(page.locator('link[rel="canonical"]')).toHaveAttribute(
+      'href',
+      'https://roadmap.sh/es/courses/sql',
+    );
+
+    await page.goto('/pt-br/courses/sql');
+    await expect(page.locator('html')).toHaveAttribute('lang', 'pt-BR');
+    await expect(page.locator('link[rel="canonical"]')).toHaveAttribute(
+      'href',
+      'https://roadmap.sh/pt-br/courses/sql',
+    );
   });
 });
