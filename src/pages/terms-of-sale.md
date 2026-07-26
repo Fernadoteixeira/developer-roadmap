@@ -33,7 +33,7 @@ You authorize roadmap.sh or its third-party providers, to charge your debit or c
 
 ## Refunds and Refund Credits (Courses Only)
 
-If for any reason you wish to cancel your purchase of a course, you may request a refund within thirty (30) days of the original purchase date. You may request a refund by submitting a request to info@roadmap.sh. We will not issue refunds if the request is received after the 30-day time limit. Refunds will be prorated based on the date you provide a valid notice of cancellation to us. For example, if you purchase a course for $100 and provide us notice 15 days after the date of purchase, we will issue a refund of 50% or $50. We will apply your refund to your original payment method.
+If for any reason you wish to cancel your purchase of a course, you may request a refund within thirty (30) days of the original purchase date. You may request a refund by submitting a request to <info@roadmap.sh>. We will not issue refunds if the request is received after the 30-day time limit. Refunds will be prorated based on the date you provide a valid notice of cancellation to us. For example, if you purchase a course for $100 and provide us notice 15 days after the date of purchase, we will issue a refund of 50% or $50. We will apply your refund to your original payment method.
 
 If we determine that you are abusing our refund policy, we reserve the right to deny your refund, restrict your receipt of future refunds, and/or restrict your access to the use of our Services.
 
