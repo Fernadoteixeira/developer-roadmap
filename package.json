@@ -3,7 +3,7 @@
   "type": "module",
   "version": "1.0.0",
   "private": true,
-  "packageManager": "pnpm@11.17.0",
+  "packageManager": "npm@11.16.0",
   "scripts": {
     "dev": "astro dev --port 3000",
     "start": "astro dev",
@@ -34,7 +34,7 @@
     "i18n:check": "node scripts/i18n/check-messages.mjs",
     "i18n:content": "node scripts/i18n/check-content.mjs",
     "i18n:coverage": "node scripts/i18n/content-coverage.mjs",
-    "i18n:validate": "pnpm i18n:check && pnpm i18n:content",
+    "i18n:validate": "npm run i18n:check && npm run i18n:content",
     "test:e2e": "playwright test",
     "test:e2e:smoke": "playwright test --grep @smoke",
     "test:e2e:a11y": "playwright test --grep @a11y",
