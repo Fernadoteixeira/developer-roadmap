@@ -1,12 +1,12 @@
 {
-  "runId": "codegraph-2026-08-08T17-22-50-104Z",
-  "gitCommit": "809de024f289cf73043a1913624981f6b38f4e8b",
+  "runId": "codegraph-2026-08-08T17-24-16-981Z",
+  "gitCommit": "0775f9046cd4dab65ce97e04f78d583208a9f944",
   "tool": "@colbymchenry/codegraph",
   "toolVersion": "1.4.1",
-  "filesDiscovered": 0,
-  "filesIndexed": 0,
-  "failed": 1,
-  "durationMs": 1429,
-  "databaseHash": "",
-  "status": "FAILED"
+  "filesDiscovered": 849,
+  "filesIndexed": 849,
+  "failed": 0,
+  "durationMs": 3243,
+  "databaseHash": "sha256:14dc94bed7ea065fab9b70168a4cdc11c51c04dcb94e7e526c7104390d8a4fee",
+  "status": "PASSED"
 }
