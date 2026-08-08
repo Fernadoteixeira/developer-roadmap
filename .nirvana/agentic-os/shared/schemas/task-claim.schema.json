@@ -16,9 +16,5 @@
       "type": "string"
     }
   },
-  "required": [
-    "claimId",
-    "taskId",
-    "agentId"
-  ]
+  "required": ["claimId", "taskId", "agentId"]
 }

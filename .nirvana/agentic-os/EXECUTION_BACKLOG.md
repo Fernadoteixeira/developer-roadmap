@@ -3,7 +3,7 @@
 Backlog estratégico para a implementação das 6 camadas do "Agentic Development OS" no repositório. O roteamento (Task Routing) será orquestrado pelo Orchestrator (A00).
 
 ## P0: Fundações Estruturais (Camadas 1 e 2)
->
+
 > [!IMPORTANT]
 > Sem as amarras de Governança e Metodologia, escalar o swarm (L4) criaria caos e regressão de código.
 

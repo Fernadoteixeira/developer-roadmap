@@ -11,19 +11,11 @@
     },
     "decision": {
       "type": "string",
-      "enum": [
-        "ALLOW",
-        "DENY",
-        "REQUIRE_APPROVAL"
-      ]
+      "enum": ["ALLOW", "DENY", "REQUIRE_APPROVAL"]
     },
     "reason": {
       "type": "string"
     }
   },
-  "required": [
-    "decisionId",
-    "decision",
-    "reason"
-  ]
+  "required": ["decisionId", "decision", "reason"]
 }

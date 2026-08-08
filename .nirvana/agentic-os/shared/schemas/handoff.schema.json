@@ -19,9 +19,5 @@
       "type": "object"
     }
   },
-  "required": [
-    "handoffId",
-    "fromAgent",
-    "toAgent"
-  ]
+  "required": ["handoffId", "fromAgent", "toAgent"]
 }

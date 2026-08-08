@@ -14,16 +14,8 @@
     },
     "accessLevel": {
       "type": "string",
-      "enum": [
-        "read",
-        "write",
-        "admin"
-      ]
+      "enum": ["read", "write", "admin"]
     }
   },
-  "required": [
-    "pathPattern",
-    "ownerAgentId",
-    "accessLevel"
-  ]
+  "required": ["pathPattern", "ownerAgentId", "accessLevel"]
 }

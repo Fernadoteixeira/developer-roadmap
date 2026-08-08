@@ -41,7 +41,7 @@ export type GuideFileType = MarkdownFileType<GuideFrontmatter> & {
 function guidePathToId(filePath: string): string {
   const fileName = filePath.split('/').pop() || '';
 
-  return fileName.replace('.md', '');
+  return fileName.replace(/\.(pt-br|es|en)\.md$/, '').replace('.md', '');
 }
 
 export async function getGuidesByAuthor(

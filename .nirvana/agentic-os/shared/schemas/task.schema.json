@@ -14,17 +14,8 @@
     },
     "status": {
       "type": "string",
-      "enum": [
-        "pending",
-        "claimed",
-        "completed",
-        "failed"
-      ]
+      "enum": ["pending", "claimed", "completed", "failed"]
     }
   },
-  "required": [
-    "taskId",
-    "description",
-    "status"
-  ]
+  "required": ["taskId", "description", "status"]
 }

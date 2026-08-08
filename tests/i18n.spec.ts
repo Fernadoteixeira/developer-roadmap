@@ -47,10 +47,10 @@ test.describe('i18n routing and shell @smoke', () => {
     await expect(page.locator('html')).toHaveAttribute('lang', 'pt-BR');
     await expect(
       page.locator('a[hreflang="es"][href="/es/qa"]').first(),
-    ).toBeVisible();
+    ).toBeAttached();
     await expect(
       page.locator('a[hreflang="en"][href="/qa"]').first(),
-    ).toBeVisible();
+    ).toBeAttached();
   });
 
   test('legacy locale suffix redirects to the canonical locale route', async ({

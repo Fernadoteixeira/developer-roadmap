@@ -14,17 +14,8 @@
     },
     "severity": {
       "type": "string",
-      "enum": [
-        "low",
-        "medium",
-        "high",
-        "critical"
-      ]
+      "enum": ["low", "medium", "high", "critical"]
     }
   },
-  "required": [
-    "violationId",
-    "ruleBroken",
-    "severity"
-  ]
+  "required": ["violationId", "ruleBroken", "severity"]
 }

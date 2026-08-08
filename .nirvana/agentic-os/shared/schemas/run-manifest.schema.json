@@ -15,15 +15,8 @@
     },
     "status": {
       "type": "string",
-      "enum": [
-        "running",
-        "completed",
-        "failed"
-      ]
+      "enum": ["running", "completed", "failed"]
     }
   },
-  "required": [
-    "runId",
-    "status"
-  ]
+  "required": ["runId", "status"]
 }

@@ -35,7 +35,7 @@ export type BestPracticeFileType = MarkdownFileType<BestPracticeFrontmatter> & {
 function bestPracticePathToId(filePath: string): string {
   const fileName = filePath.split('/').pop() || '';
 
-  return fileName.replace('.md', '');
+  return fileName.replace(/\.(pt-br|es|en)\.md$/, '').replace('.md', '');
 }
 
 /**
@@ -51,7 +51,8 @@ export async function getBestPracticeIds() {
     },
   );
 
-  return Object.keys(bestPracticeFiles).map(bestPracticePathToId);
+  const ids = Object.keys(bestPracticeFiles).map(bestPracticePathToId);
+  return Array.from(new Set(ids));
 }
 
 /**
@@ -67,11 +68,19 @@ export async function getAllBestPractices(): Promise<BestPracticeFileType[]> {
     },
   );
 
-  const bestPracticeFiles = Object.values(bestPracticeFilesMap);
-  const bestPracticeItems = bestPracticeFiles.map((bestPracticeFile) => ({
-    ...bestPracticeFile,
-    id: bestPracticePathToId(bestPracticeFile.file),
-  }));
+  const uniqueMap: Record<string, BestPracticeFileType> = {};
+
+  for (const bestPracticeFile of Object.values(bestPracticeFilesMap)) {
+    const id = bestPracticePathToId(bestPracticeFile.file);
+    if (!uniqueMap[id] || !bestPracticeFile.file.includes('.')) {
+      uniqueMap[id] = {
+        ...bestPracticeFile,
+        id,
+      };
+    }
+  }
+
+  const bestPracticeItems = Object.values(uniqueMap);
 
   return bestPracticeItems.sort(
     (a, b) => a.frontmatter.order - b.frontmatter.order,
@@ -88,6 +97,8 @@ export async function getAllBestPractices(): Promise<BestPracticeFileType[]> {
 export async function getBestPracticeById(
   id: string,
 ): Promise<BestPracticeFileType | null> {
+  const cleanId = id.replace(/\.json$/, '').replace(/\.(pt-br|es|en)$/, '');
+
   const bestPracticeFilesMap = import.meta.glob<BestPracticeFileType>(
     '/src/data/best-practices/*/*.md',
     {
@@ -96,9 +107,11 @@ export async function getBestPracticeById(
   );
 
   const bestPracticeFiles = Object.values(bestPracticeFilesMap);
-  const bestPracticeFile = bestPracticeFiles.find(
-    (bestPracticeFile) => bestPracticePathToId(bestPracticeFile.file) === id,
-  );
+  const bestPracticeFile =
+    bestPracticeFiles.find((f) => f.file.endsWith(`/${cleanId}.md`)) ||
+    bestPracticeFiles.find(
+      (bestPracticeFile) => bestPracticePathToId(bestPracticeFile.file) === cleanId,
+    );
 
   if (!bestPracticeFile) {
     throw new Error(`Best practice with ID ${id} not found`);
@@ -106,6 +119,6 @@ export async function getBestPracticeById(
 
   return {
     ...bestPracticeFile,
-    id: bestPracticePathToId(bestPracticeFile.file),
+    id: cleanId,
   };
 }

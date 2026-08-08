@@ -22,9 +22,5 @@
       }
     }
   },
-  "required": [
-    "evidenceId",
-    "taskId",
-    "result"
-  ]
+  "required": ["evidenceId", "taskId", "result"]
 }

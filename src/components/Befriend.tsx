@@ -13,12 +13,7 @@ import { StopIcon } from './ReactIcons/StopIcon';
 import { ErrorIcon } from './ReactIcons/ErrorIcon';
 
 export type FriendshipStatus =
-  | 'none'
-  | 'sent'
-  | 'received'
-  | 'accepted'
-  | 'rejected'
-  | 'got_rejected';
+  'none' | 'sent' | 'received' | 'accepted' | 'rejected' | 'got_rejected';
 
 type UserResponse = {
   id: string;

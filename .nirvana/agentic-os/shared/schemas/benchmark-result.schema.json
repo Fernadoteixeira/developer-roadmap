@@ -16,8 +16,5 @@
       "type": "object"
     }
   },
-  "required": [
-    "benchmarkId",
-    "score"
-  ]
+  "required": ["benchmarkId", "score"]
 }

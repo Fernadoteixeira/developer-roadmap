@@ -17,15 +17,8 @@
     },
     "transport": {
       "type": "string",
-      "enum": [
-        "stdio",
-        "sse"
-      ]
+      "enum": ["stdio", "sse"]
     }
   },
-  "required": [
-    "serverId",
-    "name",
-    "version"
-  ]
+  "required": ["serverId", "name", "version"]
 }

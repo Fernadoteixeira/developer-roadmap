@@ -24,11 +24,5 @@
       "type": "object"
     }
   },
-  "required": [
-    "eventId",
-    "timestamp",
-    "eventType",
-    "source",
-    "payload"
-  ]
+  "required": ["eventId", "timestamp", "eventType", "source", "payload"]
 }

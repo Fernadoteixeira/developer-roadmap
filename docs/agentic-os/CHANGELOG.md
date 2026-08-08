@@ -32,19 +32,19 @@ A infraestrutura formal para captura e versionamento do "pensamento" (evidence) 
 ## O que foi realizado
 
 1. **Script de Orquestração (`scripts/agent-capture.ps1`)**
-   - Criamos o utilitário nativo em Powershell que faz a ponte entre o *filesystem* temporário local (diretório `brain` dentro da `.gemini`) e o repositório.
+   - Criamos o utilitário nativo em Powershell que faz a ponte entre o _filesystem_ temporário local (diretório `brain` dentro da `.gemini`) e o repositório.
    - O script aceita um argumento obrigatório (`-ConversationId`).
 
 2. **Isolamento e Injeção de Evidências**
    - O script localiza os artefatos vivos (`implementation_plan.md`, `walkthrough.md`, `task.md`) da conversa.
-   - Os arquivos são copiados fisicamente para `docs/agentic-os/evidence/<ConversationId>/`. *(Nota: evitei usar o `.agentic-state` pois ele consta no `.gitignore` para bloquear lixo transiente de runtime, enquanto as "evidências" devem de fato compor a base canônica de documentação da história).*
+   - Os arquivos são copiados fisicamente para `docs/agentic-os/evidence/<ConversationId>/`. _(Nota: evitei usar o `.agentic-state` pois ele consta no `.gitignore` para bloquear lixo transiente de runtime, enquanto as "evidências" devem de fato compor a base canônica de documentação da história)._
 
 3. **Geração Automática do Changelog**
    - O conteúdo do seu `walkthrough.md` é lido e apensado automaticamente ao `docs/agentic-os/CHANGELOG.md` com o respectivo timestamp e link para as evidências completas.
 
 4. **Self-Capture Executado (Dogfooding!)**
    - Rodamos o script atrelado à **conversa atual** (`f34d53a0-ec05-48c2-9c3e-acd9da77ad91`).
-   - O plano de implantação, este walkthrough e as tarefas do "P0 - Migração Canônica" já foram copiados e *commitados* no branch `feat/nirvana-agent-governance`.
+   - O plano de implantação, este walkthrough e as tarefas do "P0 - Migração Canônica" já foram copiados e _commitados_ no branch `feat/nirvana-agent-governance`.
 
 ## Ponto de Checagem
 

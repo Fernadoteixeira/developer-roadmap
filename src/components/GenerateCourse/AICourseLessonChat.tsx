@@ -253,7 +253,7 @@ export function AICourseLessonChat(props: AICourseLessonChatProps) {
         </div>
 
         <div
-          className="scrollbar-thumb-gray-300 scrollbar-track-transparent scrollbar-thin relative grow overflow-y-auto"
+          className="relative grow scrollbar-thin scrollbar-thumb-gray-300 scrollbar-track-transparent overflow-y-auto"
           ref={scrollareaRef}
         >
           <div className="absolute inset-0 flex flex-col">

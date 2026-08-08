@@ -30,7 +30,7 @@ You can also create custom roles tailored to your specific needs.
 Encryption plays a vital role in securing your data both at rest and in transit:
 
 - **Encryption at Rest**: MongoDB Enterprise Edition provides an encryption-at-rest feature using the WiredTiger storage engine. This feature encrypts all data files and logs with algorithms such as AES256-GCM.
-- **Encryption in Transit**: MongoDB supports [Transport Layer Security (TLS)]() and [Secure Socket Layers (SSL)]() to encrypt data during transfer between client and server.
+- **Encryption in Transit**: MongoDB supports [Transport Layer Security (TLS)](<>) and [Secure Socket Layers (SSL)](<>) to encrypt data during transfer between client and server.
 
 ## Auditing
 

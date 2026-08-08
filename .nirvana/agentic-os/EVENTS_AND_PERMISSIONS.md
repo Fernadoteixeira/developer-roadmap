@@ -22,11 +22,11 @@ A malha de eventos emite os seguintes sinais que orquestram a coreografia do sis
 
 ## RBAC / Ownership Permissions
 
-| Camada / Ator | Lê (Read) | Escreve (Write) | Bloqueia (Deny/Pushback) |
-| :--- | :--- | :--- | :--- |
-| **L1-guardrails** | Todo o diff, contexto | Logs de violação | Qualquer execução destrutiva, Overengineering |
-| **L2-method** | Repositório | `spec.md`, `plan.md`, testes | Implementação sem Spec |
-| **L3-harness** | Ambiente, pacotes | Rules, Profiles, Hooks | Instalação perigosa (Scan falho) |
-| **L4-swarm** | Arquivos alocados | Suas Reservas, Memórias | Duplicação de tarefa |
-| **L5-studio** | Design Systems | `.html`, `.pdf`, assets | Geração sem CSP (Sandboxed) |
-| **L6-knowledge** | `.md` no Vault | Arquivos, Canvas, Web extract | Propriedades inválidas ou Links quebra |
+| Camada / Ator     | Lê (Read)             | Escreve (Write)               | Bloqueia (Deny/Pushback)                      |
+| :---------------- | :-------------------- | :---------------------------- | :-------------------------------------------- |
+| **L1-guardrails** | Todo o diff, contexto | Logs de violação              | Qualquer execução destrutiva, Overengineering |
+| **L2-method**     | Repositório           | `spec.md`, `plan.md`, testes  | Implementação sem Spec                        |
+| **L3-harness**    | Ambiente, pacotes     | Rules, Profiles, Hooks        | Instalação perigosa (Scan falho)              |
+| **L4-swarm**      | Arquivos alocados     | Suas Reservas, Memórias       | Duplicação de tarefa                          |
+| **L5-studio**     | Design Systems        | `.html`, `.pdf`, assets       | Geração sem CSP (Sandboxed)                   |
+| **L6-knowledge**  | `.md` no Vault        | Arquivos, Canvas, Web extract | Propriedades inválidas ou Links quebra        |

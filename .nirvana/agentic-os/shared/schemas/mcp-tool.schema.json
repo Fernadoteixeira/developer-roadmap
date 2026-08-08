@@ -16,9 +16,5 @@
       "type": "object"
     }
   },
-  "required": [
-    "name",
-    "description",
-    "inputSchema"
-  ]
+  "required": ["name", "description", "inputSchema"]
 }

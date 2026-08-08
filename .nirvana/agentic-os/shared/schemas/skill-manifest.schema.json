@@ -19,9 +19,5 @@
       "type": "string"
     }
   },
-  "required": [
-    "skillId",
-    "name",
-    "version"
-  ]
+  "required": ["skillId", "name", "version"]
 }

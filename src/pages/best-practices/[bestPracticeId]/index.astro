@@ -13,6 +13,7 @@ import {
   type BestPracticeFileType,
   type BestPracticeFrontmatter,
   getAllBestPractices,
+  getBestPracticeById,
 } from '../../../lib/best-practice';
 import { CheckSubscriptionVerification } from '../../../components/Billing/CheckSubscriptionVerification';
 
@@ -38,8 +39,11 @@ interface Props {
 }
 
 const { bestPracticeId } = Astro.params as Params;
-const { bestPractice } = Astro.props as Props;
-const bestPracticeData = bestPractice.frontmatter as BestPracticeFrontmatter;
+let bestPractice = Astro.props.bestPractice;
+if (!bestPractice && bestPracticeId) {
+  bestPractice = (await getBestPracticeById(bestPracticeId))!;
+}
+const bestPracticeData = bestPractice?.frontmatter as BestPracticeFrontmatter;
 
 let jsonLdSchema = [];
 

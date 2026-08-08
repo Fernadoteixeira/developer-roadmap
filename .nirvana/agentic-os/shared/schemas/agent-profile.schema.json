@@ -17,10 +17,7 @@
     },
     "status": {
       "type": "string",
-      "enum": [
-        "active",
-        "inactive"
-      ]
+      "enum": ["active", "inactive"]
     },
     "capabilities": {
       "type": "array",
@@ -65,10 +62,5 @@
       }
     }
   },
-  "required": [
-    "agentId",
-    "name",
-    "role",
-    "status"
-  ]
+  "required": ["agentId", "name", "role", "status"]
 }

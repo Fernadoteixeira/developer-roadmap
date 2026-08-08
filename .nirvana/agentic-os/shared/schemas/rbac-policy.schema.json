@@ -22,7 +22,5 @@
       }
     }
   },
-  "required": [
-    "policyId"
-  ]
+  "required": ["policyId"]
 }

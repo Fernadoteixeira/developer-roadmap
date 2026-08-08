@@ -8,12 +8,7 @@ import { useCopyText } from '../../hooks/use-copy-text.ts';
 import { cn } from '../../lib/classname.ts';
 
 export type FriendshipStatus =
-  | 'none'
-  | 'sent'
-  | 'received'
-  | 'accepted'
-  | 'rejected'
-  | 'got_rejected';
+  'none' | 'sent' | 'received' | 'accepted' | 'rejected' | 'got_rejected';
 
 type FriendResourceProgress = {
   updatedAt: string;

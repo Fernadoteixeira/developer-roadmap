@@ -20,9 +20,5 @@
       "format": "date-time"
     }
   },
-  "required": [
-    "lockId",
-    "resourcePath",
-    "agentId"
-  ]
+  "required": ["lockId", "resourcePath", "agentId"]
 }
