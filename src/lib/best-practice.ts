@@ -110,7 +110,8 @@ export async function getBestPracticeById(
   const bestPracticeFile =
     bestPracticeFiles.find((f) => f.file.endsWith(`/${cleanId}.md`)) ||
     bestPracticeFiles.find(
-      (bestPracticeFile) => bestPracticePathToId(bestPracticeFile.file) === cleanId,
+      (bestPracticeFile) =>
+        bestPracticePathToId(bestPracticeFile.file) === cleanId,
     );
 
   if (!bestPracticeFile) {

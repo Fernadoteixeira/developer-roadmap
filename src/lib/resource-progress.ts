@@ -7,11 +7,7 @@ import Element = astroHTML.JSX.Element;
 
 export type ResourceType = 'roadmap' | 'best-practice';
 export type ResourceProgressType =
-  | 'done'
-  | 'learning'
-  | 'pending'
-  | 'skipped'
-  | 'removed';
+  'done' | 'learning' | 'pending' | 'skipped' | 'removed';
 
 type TopicMeta = {
   topicId: string;
