@@ -22,7 +22,7 @@ export type AuthorFileType = MarkdownFileType<AuthorFrontmatter> & {
 function authorPathToId(filePath: string): string {
   const fileName = filePath.split('/').pop() || '';
 
-  return fileName.replace('.md', '');
+  return fileName.replace(/\.(pt-br|es|en)\.md$/, '').replace('.md', '');
 }
 
 /**
@@ -38,7 +38,8 @@ export async function getAuthorIds() {
     },
   );
 
-  return Object.keys(authorFiles).map(authorPathToId);
+  const ids = Object.keys(authorFiles).map(authorPathToId);
+  return Array.from(new Set(ids));
 }
 
 export async function getAllAuthors(): Promise<AuthorFileType[]> {
@@ -47,23 +48,35 @@ export async function getAllAuthors(): Promise<AuthorFileType[]> {
       eager: true,
     });
 
-  const authorFiles = Object.values(authorFilesMap);
+  const uniqueAuthorsMap: Record<string, AuthorFileType> = {};
 
-  return authorFiles.map((authorFile) => ({
-    ...authorFile,
-    id: authorPathToId(authorFile.file),
-  }));
+  for (const authorFile of Object.values(authorFilesMap)) {
+    const id = authorPathToId(authorFile.file);
+    if (!uniqueAuthorsMap[id] || !authorFile.file.includes('.')) {
+      uniqueAuthorsMap[id] = {
+        ...authorFile,
+        id,
+      };
+    }
+  }
+
+  return Object.values(uniqueAuthorsMap);
 }
 
 export async function getAuthorById(id: string): Promise<AuthorFileType> {
+  const cleanId = id.replace(/\.json$/, '').replace(/\.(pt-br|es|en)$/, '');
+
   const authorFilesMap: Record<string, AuthorFileType> =
     import.meta.glob<AuthorFileType>('/src/data/authors/*.md', {
       eager: true,
     });
 
-  const authorFile = Object.values(authorFilesMap).find((authorFile) => {
-    return authorPathToId(authorFile.file) === id;
-  });
+  const authorFiles = Object.values(authorFilesMap);
+
+  // Prefer canonical .md over localized variants
+  const authorFile =
+    authorFiles.find((f) => f.file.endsWith(`/${cleanId}.md`)) ||
+    authorFiles.find((f) => authorPathToId(f.file) === cleanId);
 
   if (!authorFile) {
     throw new Error(`Author with ID ${id} not found`);
@@ -71,6 +84,6 @@ export async function getAuthorById(id: string): Promise<AuthorFileType> {
 
   return {
     ...authorFile,
-    id: authorPathToId(authorFile.file),
+    id: cleanId,
   };
 }
