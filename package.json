@@ -104,11 +104,8 @@
   },
   "devDependencies": {
     "@ai-sdk/google": "^1.2.18",
-<<<<<<< HEAD
     "@axe-core/playwright": "^4.12.1",
-=======
     "@colbymchenry/codegraph": "^1.4.1",
->>>>>>> origin/chore/green-status-workflow
     "@playwright/test": "^1.52.0",
     "@tailwindcss/typography": "^0.5.16",
     "@types/dom-to-image": "^2.6.7",
