@@ -11,7 +11,7 @@ function generateReport() {
   let durationMs = 0;
 
   try {
-    stdout = execSync('pnpm exec codegraph index .', { encoding: 'utf-8' });
+    stdout = execSync('npx codegraph index .', { encoding: 'utf-8' });
   } catch (error: any) {
     status = 'FAILED';
     stdout = error.stdout?.toString() || '';

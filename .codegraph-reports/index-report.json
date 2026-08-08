@@ -1,0 +1,12 @@
+{
+  "runId": "codegraph-2026-08-08T17-22-50-104Z",
+  "gitCommit": "809de024f289cf73043a1913624981f6b38f4e8b",
+  "tool": "@colbymchenry/codegraph",
+  "toolVersion": "1.4.1",
+  "filesDiscovered": 0,
+  "filesIndexed": 0,
+  "failed": 1,
+  "durationMs": 1429,
+  "databaseHash": "",
+  "status": "FAILED"
+}
