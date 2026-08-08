@@ -39,7 +39,12 @@
     "test:e2e:smoke": "playwright test --grep @smoke",
     "test:e2e:a11y": "playwright test --grep @a11y",
     "test:e2e:visual": "playwright test --grep @visual",
-    "test:e2e:i18n": "playwright test tests/i18n.spec.ts"
+    "test:e2e:i18n": "playwright test tests/i18n.spec.ts",
+    "typecheck": "tsc --noEmit",
+    "codegraph:init": "codegraph init",
+    "codegraph:index": "tsx scripts/codegraph-index.ts",
+    "codegraph:refresh": "tsx scripts/codegraph-index.ts",
+    "codegraph:check": "codegraph --help"
   },
   "dependencies": {
     "@astrojs/node": "^9.2.1",
@@ -99,7 +104,11 @@
   },
   "devDependencies": {
     "@ai-sdk/google": "^1.2.18",
+<<<<<<< HEAD
     "@axe-core/playwright": "^4.12.1",
+=======
+    "@colbymchenry/codegraph": "^1.4.1",
+>>>>>>> origin/chore/green-status-workflow
     "@playwright/test": "^1.52.0",
     "@tailwindcss/typography": "^0.5.16",
     "@types/dom-to-image": "^2.6.7",
@@ -121,6 +130,7 @@
     "prettier": "^3.5.3",
     "prettier-plugin-astro": "^0.14.1",
     "prettier-plugin-tailwindcss": "^0.6.11",
-    "tsx": "^4.19.4"
+    "tsx": "^4.19.4",
+    "typescript": "^5.8.0"
   }
 }
