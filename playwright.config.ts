@@ -41,7 +41,7 @@ const config: PlaywrightTestConfig = {
     },
   ],
   webServer: {
-    command: 'pnpm preview -- --port 3000 --host 127.0.0.1',
+    command: 'npm run preview -- --port 3000 --host 127.0.0.1',
     url: 'http://127.0.0.1:3000',
     reuseExistingServer: !process.env.CI,
     timeout: 120 * 1000,
